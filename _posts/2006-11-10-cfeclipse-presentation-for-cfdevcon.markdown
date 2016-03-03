@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse Presentation for CFDevCon"
+uid:	"8A98F84E-D3C9-78E8-CF391BBFD3803FBA"
 date:   2006-11-10 11:06 AM +0000
 categories: cfeclipse
 ---

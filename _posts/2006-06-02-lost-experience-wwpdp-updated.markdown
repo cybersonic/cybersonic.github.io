@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lost Experience: WWPdp updated"
+uid:	"8A98A8A9-0672-3CA9-078A58CD62F98960"
 date:   2006-06-02 11:06 AM +0000
 categories: lost
 ---

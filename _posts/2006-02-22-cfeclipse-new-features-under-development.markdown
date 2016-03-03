@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse new features under development"
+uid:	"8A97B4E8-BD21-F56B-9E73AA98C7A15CD9"
 date:   2006-02-22 11:05 AM +0000
 categories: cfeclipse
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lost Experience: Institute for Genomic Advancement"
+uid:	"8A98AE94-C0EB-5732-F1CE1A6AB40F1FC0"
 date:   2006-06-10 11:06 AM +0000
 categories: lost
 ---

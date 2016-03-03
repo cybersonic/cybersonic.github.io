@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "cf_teachers (sung to Daft Punk's Teachers)"
+uid:	"8A988737-CD84-2E20-B1F1561D3A55F79F"
 date:   2006-05-18 11:06 AM +0000
 categories: adobe
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse: Book Recomendation"
+uid:	"8A98CD76-95E6-8065-620BB6B505BE9AF1"
 date:   2006-07-06 11:06 AM +0000
 categories: cfeclipse
 ---

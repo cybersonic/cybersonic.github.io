@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Update: CFEclipse 1.3.1.1 released..."
+uid:	"8A9A617C-0FF2-34B5-F36A454462475EB8"
 date:   2007-03-05 11:08 AM +0000
 categories: coldfusion
 ---

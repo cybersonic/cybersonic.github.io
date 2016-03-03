@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to my Office!"
+uid:	"8A9970E7-E1E0-742B-AC0B02A5E8856D7B"
 date:   2007-01-15 11:07 AM +0000
 categories: personal
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Chaining objects in Reactor, an idea"
+uid:	"8A9C2625-047E-4CA4-5FD9006E1937CF4A"
 date:   2008-08-14 11:10 AM +0000
 categories: reactor
 ---

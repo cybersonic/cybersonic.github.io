@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "MD is BACK, Presenting at the Thames Valley CFUG and What happened to CFEclipse?"
+uid:	"8A98EA16-A50B-E6A7-2BA7019354908A53"
 date:   2006-10-09 11:06 AM +0000
 categories: ukcfug
 ---

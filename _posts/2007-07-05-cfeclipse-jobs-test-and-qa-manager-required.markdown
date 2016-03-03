@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse Jobs: Test and QA Manager Required"
+uid:	"8A9AA970-D6DE-1F74-26BC3533ABDDB167"
 date:   2007-07-05 11:08 AM +0000
 categories: jobs
 ---

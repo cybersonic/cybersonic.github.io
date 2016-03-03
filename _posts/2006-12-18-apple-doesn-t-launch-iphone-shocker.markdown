@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Apple DOESN'T launch iPhone shocker!"
+uid:	"8A995AFE-055B-D7FF-F5BD3DADA7DD5492"
 date:   2006-12-18 03:54 PM +0000
 categories: apple
 ---

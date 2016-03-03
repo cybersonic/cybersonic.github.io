@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "BarCamp London 7 Wrap up"
+uid:	"5F40D477-023A-48F6-A8D16A831F628888"
 date:   2009-10-27 10:36 AM +0000
 categories: barcamp
 ---

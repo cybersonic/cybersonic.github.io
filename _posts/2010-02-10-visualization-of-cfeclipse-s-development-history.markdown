@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Visualization of CFEclipse's development history"
+uid:	"B62E5743-EE87-43C7-98052295D9D168DC"
 date:   2010-02-10 05:12 AM +0000
 categories: cfml
 ---

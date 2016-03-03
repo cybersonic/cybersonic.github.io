@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Re-Visiting the Parser in CFEclipse"
+uid:	"8A9C251C-0B4A-3480-4E4FA34AA09B982A"
 date:   2008-07-21 11:10 AM +0000
 categories: cfeclipse
 ---

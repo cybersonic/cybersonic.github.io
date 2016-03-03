@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hearing yourself on a Podcast"
+uid:	"8A98771A-C092-8539-EBD879C768AA172E"
 date:   2006-04-10 11:05 AM +0000
 categories: blogging
 ---

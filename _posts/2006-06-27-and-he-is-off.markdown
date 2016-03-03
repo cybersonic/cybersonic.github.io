@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "... and he is off!"
+uid:	"8A98B674-0922-E7E2-756D91CB814282FB"
 date:   2006-06-27 11:06 AM +0000
 categories: ukcfug
 ---

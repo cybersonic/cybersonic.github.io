@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Relax with CouchDB: Presentation to the UKCFUG"
+uid:	"F78A3316-366C-40E0-991DF97A278CE12C"
 date:   2010-10-08 06:10 AM +0000
 categories: getrailo
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Killing my iPod"
+uid:	"8A9874C9-F60B-9FB2-AD19B80F63C62956"
 date:   2006-03-31 11:05 AM +0000
 categories: personal
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse 1.3 Released! Be Coldfused no more."
+uid:	"8A99A813-A700-C8B4-8E9C6B36931EFC2D"
 date:   2007-01-26 11:07 AM +0000
 categories: cfeclipse
 ---

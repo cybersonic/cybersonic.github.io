@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Fun with mappings and resources: Part 3 DB Resources"
+uid:	"A797183A-09B0-460F-99C4080C13D43776"
 date:   2009-04-14 08:39 AM +0000
 categories: getrailo
 ---

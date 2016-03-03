@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Blogging from TextMate to BlogCFC"
+uid:	"8A98F06F-BA52-DF11-18264572AB79F5B4"
 date:   2006-10-31 11:06 AM +0000
 categories: blogging
 ---

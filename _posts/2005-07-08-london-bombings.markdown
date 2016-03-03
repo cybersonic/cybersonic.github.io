@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "London Bombings"
+uid:	"8A97948F-B4BD-059B-74A6FE340C41559E"
 date:   2005-07-08 11:05 AM +0000
 categories: personal
 ---

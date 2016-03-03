@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Are Frameworks worth it?"
+uid:	"8A98AF60-0515-FC36-2CCC34791AE1743C"
 date:   2006-06-14 11:06 AM +0000
 categories: coldfusion
 ---

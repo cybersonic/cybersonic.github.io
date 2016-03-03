@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Last night MG saved my life"
+uid:	"8A9883CC-9B5F-0F28-A94DCD624BFEC3BD"
 date:   2006-05-13 11:06 AM +0000
 categories: reactor
 ---

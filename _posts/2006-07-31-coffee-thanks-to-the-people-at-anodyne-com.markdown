@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Coffee: Thanks to the people at Anodyne.com!"
+uid:	"8A98D769-0D8D-00D8-DEDE45C2DAF2ED92"
 date:   2006-07-31 11:06 AM +0000
 categories: blogging
 ---

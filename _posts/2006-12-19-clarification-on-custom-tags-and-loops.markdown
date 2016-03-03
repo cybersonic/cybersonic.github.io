@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Clarification on Custom Tags and loops"
+uid:	"8A995C94-EC98-5100-3AE68F672C862863"
 date:   2006-12-19 11:06 AM +0000
 categories: coldfusion
 ---

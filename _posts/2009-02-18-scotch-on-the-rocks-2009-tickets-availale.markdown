@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Scotch-On-The-Rocks 2009 Tickets availale!"
+uid:	"89C88345-DA01-222E-A1C2E1206DF08F23"
 date:   2009-02-18 09:27 AM +0000
 categories: coldfusion
 ---

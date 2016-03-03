@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Job @ CFEclipse"
+uid:	"8A98EEB9-0318-5559-982AF464EE831D44"
 date:   2006-10-19 11:06 AM +0000
 categories: cfeclipse
 ---

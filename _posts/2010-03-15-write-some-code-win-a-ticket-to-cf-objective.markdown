@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Write some code, Win a ticket to CF.Objective!"
+uid:	"50F4684A-30CA-4529-81317A10FFD457B7"
 date:   2010-03-15 05:03 AM +0000
 categories: cfml
 ---

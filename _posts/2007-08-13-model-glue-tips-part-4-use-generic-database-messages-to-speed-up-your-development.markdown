@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Model Glue Tips Part 4: Use Generic Database Messages to speed up your development"
+uid:	"8A9ACF18-CE75-C600-85F1D8991DA76F17"
 date:   2007-08-13 11:08 AM +0000
 categories: model-glue
 ---

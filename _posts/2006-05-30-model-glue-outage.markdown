@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Model-Glue outage!"
+uid:	"8A988C29-DD25-BA3B-D9BA6887FE5BD815"
 date:   2006-05-30 11:06 AM +0000
 categories: webdev
 ---

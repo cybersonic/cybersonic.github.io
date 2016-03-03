@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Get to know your Xpath"
+uid:	"8A9A6A65-C66E-0BD9-2B31D18E7E1FB064"
 date:   2007-03-14 11:08 AM +0000
 categories: webdev
 ---

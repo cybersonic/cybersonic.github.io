@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Is CFEclipse Dead?"
+uid:	"B8EF126A-E4AE-0143-A199D4182DD47DD5"
 date:   2008-11-20 03:08 AM +0000
 categories: coldfusion
 ---

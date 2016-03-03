@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Get money for going to Scotch on the Rocks!"
+uid:	"8A9A765B-B4FA-8805-858B0E882EA3D422"
 date:   2007-04-20 11:08 AM +0000
 categories: scotch-on-the-rocks
 ---

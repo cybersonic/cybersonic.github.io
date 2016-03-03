@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Conferences! Surprises!"
+uid:	"8A99B31E-A1EA-35FB-26CCC7FA8463D550"
 date:   2007-02-09 11:07 AM +0000
 categories: cfconferences
 ---

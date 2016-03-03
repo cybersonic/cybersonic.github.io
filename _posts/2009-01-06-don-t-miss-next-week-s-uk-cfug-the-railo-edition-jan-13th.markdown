@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Don't miss next week's UK CFUG , the railo edition (Jan 13th)!"
+uid:	"ABB4867C-B379-3817-3C65DF86E379884A"
 date:   2009-01-06 11:39 AM +0000
 categories: ukcfug
 ---

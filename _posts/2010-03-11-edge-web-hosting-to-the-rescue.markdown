@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Edge Web Hosting to the Rescue!"
+uid:	"4303DC9D-E983-4A1D-B7979C5D3E757E48"
 date:   2010-03-11 01:01 PM +0000
 categories: cfml
 ---

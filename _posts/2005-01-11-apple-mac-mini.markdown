@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Apple - Mac mini"
+uid:	"8A978D7B-B58C-2469-BEB00B5B274A2868"
 date:   2005-01-11 11:05 AM +0000
 categories: apple
 ---

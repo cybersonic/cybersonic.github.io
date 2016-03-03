@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "IIS Admin"
+uid:	"8A97A141-EBBC-B3A4-55E9CBD259184444"
 date:   2005-11-27 11:05 AM +0000
 categories: webdev
 ---

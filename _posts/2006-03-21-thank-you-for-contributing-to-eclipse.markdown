@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Thank you for \"Contributing to Eclipse\"!"
+uid:	"8A987025-BC1A-8055-106BD1DDBA06E11A"
 date:   2006-03-21 11:05 AM +0000
 categories: personal
 ---

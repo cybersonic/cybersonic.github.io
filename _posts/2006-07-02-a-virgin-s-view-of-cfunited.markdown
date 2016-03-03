@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A Virgin's view of CFUnited"
+uid:	"8A98B7FB-F9A9-1326-FB4C67660AAC7912"
 date:   2006-07-02 11:06 AM +0000
 categories: cfeclipse
 ---

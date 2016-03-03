@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Back to the smoke, Ben Forta at CFUG, CFEClipse at CFUG in March"
+uid:	"8A9790C6-F98A-4274-D430DD77F38F70FB"
 date:   2005-02-18 11:05 AM +0000
 categories: coldfusion
 ---

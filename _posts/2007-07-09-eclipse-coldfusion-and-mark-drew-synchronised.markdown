@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Eclipse, ColdFusion and Mark Drew, Synchronised?"
+uid:	"8A9AA9DE-A215-9FEA-85C16DB9B7D622E5"
 date:   2007-07-09 11:08 AM +0000
 categories: adobe
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse moves home..."
+uid:	"8A98E052-EA30-CDD9-1E691F905BAF971E"
 date:   2006-08-08 11:06 AM +0000
 categories: cfeclipse
 ---

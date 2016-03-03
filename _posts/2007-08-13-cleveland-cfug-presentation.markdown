@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Cleveland CFUG Presentation"
+uid:	"8A9ACF95-076C-4517-F12FA09512413630"
 date:   2007-08-13 11:08 AM +0000
 categories: cfeclipse
 ---

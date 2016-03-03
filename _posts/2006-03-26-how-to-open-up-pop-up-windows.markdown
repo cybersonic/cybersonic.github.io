@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to open up pop-up windows"
+uid:	"8A9873A0-B680-58D0-C30D523D328BD531"
 date:   2006-03-26 11:05 AM +0000
 categories: webdev
 ---

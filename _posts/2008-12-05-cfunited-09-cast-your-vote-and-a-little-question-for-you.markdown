@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFUnited 09: Cast your vote and a little question for you..."
+uid:	"05FCEE52-FCEA-347F-19A033712C5902B2"
 date:   2008-12-05 02:11 AM +0000
 categories: presentations
 ---

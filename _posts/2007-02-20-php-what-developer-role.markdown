@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PHP (WHAT?!) Developer role"
+uid:	"8A9A5F88-D885-1E9C-A089E2F88E6D7D5E"
 date:   2007-02-20 11:08 AM +0000
 categories: jobs
 ---

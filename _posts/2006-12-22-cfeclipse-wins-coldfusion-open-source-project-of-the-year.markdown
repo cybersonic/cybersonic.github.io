@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse wins ColdFusion Open Source Project Of The Year!"
+uid:	"8A996176-F901-8C85-597F16759428B62E"
 date:   2006-12-22 11:06 AM +0000
 categories: coldfusion
 ---

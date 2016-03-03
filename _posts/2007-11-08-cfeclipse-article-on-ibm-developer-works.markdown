@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse Article on IBM Developer Works!"
+uid:	"8A9AE39A-C3EB-6B27-EF254C21BB51738E"
 date:   2007-11-08 11:08 AM +0000
 categories: coldfusion
 ---

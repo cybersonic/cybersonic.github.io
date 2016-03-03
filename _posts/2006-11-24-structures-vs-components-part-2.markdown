@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Structures vs Components: Part 2"
+uid:	"8A9956E7-FE1C-098B-44A7107070F31D36"
 date:   2006-11-24 11:06 AM +0000
 categories: coldfusion
 ---

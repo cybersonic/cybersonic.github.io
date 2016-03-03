@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lost Experience: site down!"
+uid:	"8A98B1E0-A10C-73BC-4A2CD88AD635862E"
 date:   2006-06-20 11:06 AM +0000
 categories: lost
 ---

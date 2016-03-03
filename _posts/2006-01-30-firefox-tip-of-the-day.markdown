@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Firefox tip of the day"
+uid:	"8A97AB33-ED71-B66B-EF9D0B798F48B2E2"
 date:   2006-01-30 11:05 AM +0000
 categories: personal
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Presenting ColdSpring at cfObjective today!"
+uid:	"8A9BFBEA-C9B3-3FB4-0CF8043F4504E4DF"
 date:   2008-05-03 11:09 AM +0000
 categories: cfconferences
 ---

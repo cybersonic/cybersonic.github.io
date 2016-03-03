@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hello from Bonnie Scotland!"
+uid:	"8A9BFF35-0A49-EEC8-CD6820574ECD55E1"
 date:   2008-06-03 11:09 AM +0000
 categories: scotch-on-the-rocks
 ---

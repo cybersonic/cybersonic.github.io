@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Apple's new keyboard"
+uid:	"8A9AB075-920C-2500-8CBB177609974206"
 date:   2007-08-10 11:08 AM +0000
 categories: apple
 ---

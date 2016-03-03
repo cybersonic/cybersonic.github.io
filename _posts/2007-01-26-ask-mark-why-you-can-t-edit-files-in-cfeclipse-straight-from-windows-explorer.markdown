@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Ask Mark: Why you can't edit files in CFEclipse straight from Windows Explorer"
+uid:	"8A99A96A-F754-3262-E4A6FD44084B394A"
 date:   2007-01-26 11:07 AM +0000
 categories: ask-md
 ---

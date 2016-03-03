@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Keeping CSS under control"
+uid:	"8A97B46B-C28E-0058-60AD4B9D1A361076"
 date:   2006-02-22 11:05 AM +0000
 categories: webdev
 ---

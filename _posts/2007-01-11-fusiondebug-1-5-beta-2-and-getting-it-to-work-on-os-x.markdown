@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "FusionDebug 1.5 Beta 2! (and getting it to work on OS X)"
+uid:	"8A996A40-AEA4-4DB2-C403EB973453A869"
 date:   2007-01-11 11:07 AM +0000
 categories: fusiondebug
 ---

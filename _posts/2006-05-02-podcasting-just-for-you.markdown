@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Podcasting just for you"
+uid:	"8A987DE1-C7A4-3C06-89F9939E7FC6F989"
 date:   2006-05-02 11:06 AM +0000
 categories: podcasting
 ---

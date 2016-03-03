@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse new features: Component Explorer"
+uid:	"8A97B209-DEA5-7C7D-71C101D767494FB7"
 date:   2006-02-19 11:05 AM +0000
 categories: personal
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Off to cfObjective()"
+uid:	"8A9A7755-F7DB-0327-BB29EED6BF56CD22"
 date:   2007-05-02 11:08 AM +0000
 categories: cfconferences
 ---

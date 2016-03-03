@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Using Flash components in Flex"
+uid:	"8A990166-A400-69AA-34AC8ABB8B0F6DD6"
 date:   2006-11-22 11:06 AM +0000
 categories: flex
 ---

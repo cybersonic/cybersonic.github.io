@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Vote for CFEclipse!"
+uid:	"8A99B011-F98F-B9C3-E155A09CD8F963BC"
 date:   2007-02-05 11:07 AM +0000
 categories: cfeclipse
 ---

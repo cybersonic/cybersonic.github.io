@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Vote for CFEclipse at WebDJ and CFDJ!"
+uid:	"8A9962DD-BCD5-C12A-EE5B5D4FC6CAE7C7"
 date:   2007-01-04 11:07 AM +0000
 categories: cfeclipse
 ---

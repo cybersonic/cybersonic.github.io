@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CF8 Syntax Dictionaries for CFEclipse"
+uid:	"8A9A7DDD-9BF2-5B98-B0EC27C7E341E5A6"
 date:   2007-06-07 11:08 AM +0000
 categories: coldfusion
 ---

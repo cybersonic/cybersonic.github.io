@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "EventGuard on Riaforge"
+uid:	"8A9AE724-FADC-0141-6A1BF8284F4025D2"
 date:   2007-11-23 11:08 AM +0000
 categories: coldspring
 ---

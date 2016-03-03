@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Finally! episode 1 of the cf doc's podcast now live!"
+uid:	"857A86F7-BB5C-536A-463FA2AF05A07A41"
 date:   2008-11-10 03:17 AM +0000
 categories: ukcfug
 ---

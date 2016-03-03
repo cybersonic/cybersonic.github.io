@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introducing EventValidation: Form and Event Validation"
+uid:	"8A9AE791-C75F-C7DB-134E89C165594876"
 date:   2007-11-25 11:08 AM +0000
 categories: eventvalidation
 ---

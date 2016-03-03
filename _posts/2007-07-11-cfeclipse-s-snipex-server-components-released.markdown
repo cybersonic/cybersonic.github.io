@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse's SnipEx server components released"
+uid:	"8A9AAAF7-972B-019F-454ED143EE0B6E6B"
 date:   2007-07-11 11:08 AM +0000
 categories: snipex
 ---

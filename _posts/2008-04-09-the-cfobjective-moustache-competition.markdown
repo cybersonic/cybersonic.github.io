@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The cfObjective Moustache Competition"
+uid:	"8A9BF708-C7CE-7EE6-37A2BFD8D5E09E4E"
 date:   2008-04-09 11:09 AM +0000
 categories: cfconferences
 ---

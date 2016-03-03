@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "EventValidation: What are we validating against anyway? And how can we add our own validations?"
+uid:	"8A9AE87C-B571-BBAC-E4818FC864A6E382"
 date:   2007-11-26 11:08 AM +0000
 categories: eventvalidation
 ---

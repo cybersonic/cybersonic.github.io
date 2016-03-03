@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Apache, Virtual Hosts, PHP, CF5 and CFMX (part 2)"
+uid:	"8A97884B-97FE-2906-3CEEA9DE9C341848"
 date:   2004-09-06 11:04 AM +0000
 categories: webdev
 ---

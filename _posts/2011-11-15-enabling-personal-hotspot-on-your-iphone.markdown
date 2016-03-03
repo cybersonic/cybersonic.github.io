@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Enabling Personal Hotspot on your iPhone"
+uid:	"44B36405-F19B-4FA0-89C9CE9D49735DCC"
 date:   2011-11-15 01:57 PM +0000
 categories: apple
 ---

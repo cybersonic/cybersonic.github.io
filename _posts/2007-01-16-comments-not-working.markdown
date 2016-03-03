@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Comments not working"
+uid:	"8A998559-A338-182A-7682990C60022DBA"
 date:   2007-01-16 11:07 AM +0000
 categories: blogging
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "New CFEclipse mailing lists"
+uid:	"8A9AAD77-D75D-5C10-1035D76EBAD4C418"
 date:   2007-07-16 11:08 AM +0000
 categories: coldfusion
 ---

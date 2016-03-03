@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "On CFEclipse.org"
+uid:	"8A99A89F-F204-4059-32A7EB15988412DC"
 date:   2007-01-26 11:07 AM +0000
 categories: cfeclipse
 ---

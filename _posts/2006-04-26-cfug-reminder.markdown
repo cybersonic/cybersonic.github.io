@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFUG Reminder..."
+uid:	"8A987BAE-FD40-7080-B0EEB4F2385C197A"
 date:   2006-04-26 11:06 AM +0000
 categories: coldfusion
 ---

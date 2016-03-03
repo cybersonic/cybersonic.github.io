@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse wants you!"
+uid:	"8A98712F-BEF7-9674-BA15A0D27EE1AEF6"
 date:   2006-03-21 11:05 AM +0000
 categories: model-glue
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFDevCon 2006 Photos"
+uid:	"8A98F7D1-001B-3B59-6A39AA71EA51792F"
 date:   2006-11-10 11:06 AM +0000
 categories: cfconferences
 ---

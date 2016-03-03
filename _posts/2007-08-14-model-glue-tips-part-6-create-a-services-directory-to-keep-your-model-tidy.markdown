@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Model Glue Tips Part 6: Create a services directory to keep your model tidy"
+uid:	"8A9AD08F-A603-EFA6-81FB2D32ABF2A691"
 date:   2007-08-14 11:08 AM +0000
 categories: model-glue
 ---

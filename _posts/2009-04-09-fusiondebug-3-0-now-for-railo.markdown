@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "FusionDebug 3.0: now for Railo!"
+uid:	"0343F64E-BE56-40A8-8056AEA08B93F140"
 date:   2009-04-09 10:24 AM +0000
 categories: fusiondebug
 ---

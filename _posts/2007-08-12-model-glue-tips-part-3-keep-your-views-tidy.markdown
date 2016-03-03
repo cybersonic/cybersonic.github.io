@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Model Glue Tips Part 3: Keep your views tidy"
+uid:	"8A9ACDFF-04B0-ACEF-2821FAB6FBB2712D"
 date:   2007-08-12 11:08 AM +0000
 categories: model-glue
 ---

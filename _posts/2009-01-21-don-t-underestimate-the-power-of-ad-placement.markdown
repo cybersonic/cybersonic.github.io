@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Don't underestimate the power of ad placement!"
+uid:	"FA68C5E7-09B6-75A0-2DC45D71BB65FA91"
 date:   2009-01-21 01:16 PM +0000
 categories: funny
 ---

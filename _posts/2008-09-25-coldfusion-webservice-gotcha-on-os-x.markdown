@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "ColdFusion Webservice gotcha on OS X"
+uid:	"9A31B467-C40A-E6DF-C2D7502839026593"
 date:   2008-09-25 11:49 AM +0000
 categories: coldspring
 ---

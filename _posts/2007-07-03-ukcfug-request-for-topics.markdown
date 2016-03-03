@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "UKCFUG: Request for topics"
+uid:	"8A9AA7F9-FFD6-64C7-91E2DA29360F30B0"
 date:   2007-07-03 11:08 AM +0000
 categories: ukcfug
 ---

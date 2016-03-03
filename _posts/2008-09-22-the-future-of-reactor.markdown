@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The future of Reactor"
+uid:	"8A9C271F-A2CF-8918-F095C8694DAB15DE"
 date:   2008-09-22 11:44 AM +0000
 categories: reactor
 ---

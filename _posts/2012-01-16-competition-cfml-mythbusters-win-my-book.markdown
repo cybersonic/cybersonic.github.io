@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Competition: CFML Mythbusters! Win my book!"
+uid:	"48AD1568-7129-4F46-A2090C9F8340446A"
 date:   2012-01-16 04:57 PM +0000
 categories: railo
 ---

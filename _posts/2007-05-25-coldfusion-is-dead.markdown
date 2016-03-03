@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "ColdFusion is Dead"
+uid:	"8A9A7BAA-FB4D-5046-B7D837CCEBCCEA82"
 date:   2007-05-25 11:08 AM +0000
 categories: coldfusion
 ---

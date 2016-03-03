@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Getting started with the CFEclipse code"
+uid:	"8A98F5DD-0F45-76FB-487FB77FFBABEC78"
 date:   2006-11-07 11:06 AM +0000
 categories: reference
 ---

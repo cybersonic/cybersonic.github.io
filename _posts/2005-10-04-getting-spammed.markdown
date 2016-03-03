@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Getting Spammed"
+uid:	"8A979886-D9B7-9ADF-B9BE5E48EB830926"
 date:   2005-10-04 11:05 AM +0000
 categories: personal
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Presenting MongoDB at the UCFUG"
+uid:	"55758F7D-F529-49AE-83AEC580DDD28E80"
 date:   2013-11-08 05:31 AM +0000
 categories: nosql
 ---

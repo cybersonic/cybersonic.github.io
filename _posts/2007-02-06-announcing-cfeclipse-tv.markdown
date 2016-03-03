@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Announcing: CFEclipse TV!"
+uid:	"8A99B10B-BAD2-3E7D-B02215FE88DF8F2B"
 date:   2007-02-06 11:07 AM +0000
 categories: cfeclipse
 ---

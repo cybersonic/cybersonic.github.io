@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Advanced CFEclipse Presentation: What do you want to know?"
+uid:	"8A9B1A97-A855-D340-F44674DDB740547F"
 date:   2008-01-15 11:08 AM +0000
 categories: cfeclipse
 ---

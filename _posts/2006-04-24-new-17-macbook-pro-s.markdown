@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "New 17\" MacBook Pro's"
+uid:	"8A987B22-F5D0-77CB-D0B287E034152BA3"
 date:   2006-04-24 11:06 AM +0000
 categories: apple
 ---

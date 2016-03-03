@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Learn you HTTP Status Codes"
+uid:	"8A9AAFE8-BDAD-A7EA-D8B7DF9F8B06F332"
 date:   2007-08-10 11:08 AM +0000
 categories: funny
 ---

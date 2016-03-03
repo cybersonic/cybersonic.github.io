@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Adding event variables to ModelGlue.xml"
+uid:	"8A996639-EB54-DE0F-5E958A50CDFC59D7"
 date:   2007-01-08 11:07 AM +0000
 categories: coldfusion
 ---

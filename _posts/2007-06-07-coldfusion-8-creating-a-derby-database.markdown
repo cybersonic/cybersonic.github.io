@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Coldfusion 8: Creating a Derby database"
+uid:	"8A9AA0B6-ABE4-5895-FB214153FBD7F334"
 date:   2007-06-07 11:08 AM +0000
 categories: webdev
 ---

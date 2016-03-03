@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "My CFUNITED 2008 Meme"
+uid:	"8A9C033D-0057-9C44-58B3A3F211615C81"
 date:   2008-06-12 11:09 AM +0000
 categories: cfconferences
 ---

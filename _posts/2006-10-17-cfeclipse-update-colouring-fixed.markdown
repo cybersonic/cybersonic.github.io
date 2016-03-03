@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse Update: Colouring Fixed"
+uid:	"8A98ECD5-948C-AB6C-3B5F7F65B7BC56C7"
 date:   2006-10-17 11:06 AM +0000
 categories: cfeclipse
 ---

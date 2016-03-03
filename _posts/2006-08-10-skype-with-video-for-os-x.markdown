@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Skype with Video for OS X!"
+uid:	"8A98E2D2-EC00-217C-2250375EE1EB2BFF"
 date:   2006-08-10 11:06 AM +0000
 categories: apple
 ---

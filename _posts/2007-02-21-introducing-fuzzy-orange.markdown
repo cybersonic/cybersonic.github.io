@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introducing Fuzzy Orange!"
+uid:	"8A9A5FF5-A67E-EBBE-6E1CCE2167C5DAA7"
 date:   2007-02-21 11:08 AM +0000
 categories: coldfusion
 ---

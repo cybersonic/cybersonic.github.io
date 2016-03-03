@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Make those links nice and small!"
+uid:	"8A978107-FE71-6E39-B215F2F6733768FE"
 date:   2004-06-07 11:04 AM +0000
 categories: webdev
 ---

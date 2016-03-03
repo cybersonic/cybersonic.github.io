@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "With CFDJ Dead, is there a need for a replacement?"
+uid:	"8A9ADD41-923B-8978-4B51B6EFB429F3D7"
 date:   2007-09-19 11:08 AM +0000
 categories: coldfusion
 ---

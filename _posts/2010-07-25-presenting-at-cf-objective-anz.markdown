@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Presenting at cf.Objective (ANZ)"
+uid:	"0815446F-5058-40F0-BD79EDF9EFCF46C2"
 date:   2010-07-25 07:07 AM +0000
 categories: getrailo
 ---

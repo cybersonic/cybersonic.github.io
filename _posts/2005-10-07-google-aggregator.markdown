@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Google Aggregator"
+uid:	"8A979913-0D65-AB46-06E564604D61EF23"
 date:   2005-10-07 11:05 AM +0000
 categories: google
 ---

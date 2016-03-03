@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Model Glue Tips: Splitting out ColdSpring"
+uid:	"8A9AE0CB-E25C-8C5B-9F5CF153DA830A70"
 date:   2007-10-27 11:08 AM +0000
 categories: coldspring
 ---

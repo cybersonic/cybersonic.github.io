@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Great flash video, about ... flash"
+uid:	"8A97A23B-0E8B-C57E-6C6C876267A36B10"
 date:   2005-11-29 11:05 AM +0000
 categories: webdev
 ---

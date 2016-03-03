@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse wants you!"
+uid:	"8A97B739-E7FF-67D9-9E88A04BD7B22B03"
 date:   2006-03-11 11:05 AM +0000
 categories: cfeclipse
 ---

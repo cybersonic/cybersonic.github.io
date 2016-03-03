@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Comparing Component speed on different CFML engines"
+uid:	"8A99581F-AA08-8A3E-73F34781E38C41FF"
 date:   2006-11-27 11:06 AM +0000
 categories: coldfusion
 ---

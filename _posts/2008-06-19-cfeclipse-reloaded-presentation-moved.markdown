@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse Reloaded presentation moved"
+uid:	"8A9C224D-B619-8704-73BAA890D74F487C"
 date:   2008-06-19 11:10 AM +0000
 categories: cfeclipse
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CF_Drinks Reminder (Tue. 13th of March)"
+uid:	"8A9A6506-E561-C219-3E204AC8B93872C7"
 date:   2007-03-09 11:08 AM +0000
 categories: ukcfug
 ---

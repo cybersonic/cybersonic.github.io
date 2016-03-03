@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Google Calendar"
+uid:	"8A9879CA-E502-FC8D-C4214A1E8B155459"
 date:   2006-04-13 11:06 AM +0000
 categories: google
 ---

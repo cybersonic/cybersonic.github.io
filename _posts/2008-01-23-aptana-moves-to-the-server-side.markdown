@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Aptana moves to the server side"
+uid:	"8A9B1C9A-A9C7-B783-900EE7C9FC45F865"
 date:   2008-01-23 11:08 AM +0000
 categories: ajax
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Update: CFEclipse 1.3.1.2 released for SFTP users"
+uid:	"8A9A63AE-A3A9-4C8B-04DF0CCE830106FE"
 date:   2007-03-07 11:08 AM +0000
 categories: coldfusion
 ---

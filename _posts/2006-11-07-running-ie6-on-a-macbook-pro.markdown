@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Running IE6 on a MacBook Pro"
+uid:	"8A98F4A5-ABED-DFE7-18C4C809A50F9620"
 date:   2006-11-07 11:06 AM +0000
 categories: apple
 ---

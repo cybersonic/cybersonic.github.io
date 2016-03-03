@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Model Glue Tips Part 5: Maximize your re-usability with message arguments"
+uid:	"8A9AD002-9E59-BE72-79FB22AAC925842E"
 date:   2007-08-13 04:01 AM +0000
 categories: model-glue
 ---

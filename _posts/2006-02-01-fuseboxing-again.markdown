@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Fuseboxing Again"
+uid:	"8A97ACBA-BD8B-8BB5-E17E3855E632948E"
 date:   2006-02-01 05:39 AM +0000
 categories: fusebox
 ---

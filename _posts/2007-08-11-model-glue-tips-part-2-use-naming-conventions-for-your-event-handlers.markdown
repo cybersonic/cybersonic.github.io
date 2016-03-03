@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Model Glue Tips Part 2: Use Naming conventions for your Event Handlers."
+uid:	"8A9ACD14-A182-BC87-A614B65A5C8835CD"
 date:   2007-08-11 11:08 AM +0000
 categories: model-glue
 ---

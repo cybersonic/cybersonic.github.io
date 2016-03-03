@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Running ColdFusion 8 on Leopard"
+uid:	"8A9AE02F-9A35-9301-0CC2E3638F12C060"
 date:   2007-10-27 11:08 AM +0000
 categories: coldfusion
 ---

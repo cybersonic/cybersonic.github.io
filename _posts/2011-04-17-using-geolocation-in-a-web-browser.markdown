@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Using GeoLocation in a Web Browser"
+uid:	"0448E433-3BD5-4FF3-951B70C61CC33FC6"
 date:   2011-04-17 08:10 AM +0000
 categories: mobile
 ---

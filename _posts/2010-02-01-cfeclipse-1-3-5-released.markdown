@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse 1.3.5 Released!"
+uid:	"F709B335-4495-4779-8391D56ED38B3EA8"
 date:   2010-02-01 07:45 AM +0000
 categories: cfeclipse
 ---

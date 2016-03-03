@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Happy Birthday ColdFusion!"
+uid:	"8A9AAA5B-A5BD-6AD9-42D944DCF1E85F81"
 date:   2007-07-10 11:08 AM +0000
 categories: coldfusion
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Off to Scotch..."
+uid:	"8A9A7C56-DCE2-832A-A8B772EAB956C8DA"
 date:   2007-05-30 11:08 AM +0000
 categories: cfconferences
 ---

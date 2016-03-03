@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "I QUIT!"
+uid:	"8A9961D4-E91F-7AA9-A938FA2302F15F2F"
 date:   2007-01-02 11:06 AM +0000
 categories: personal
 ---

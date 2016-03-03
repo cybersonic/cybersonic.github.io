@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "All Quiet on the Western Front"
+uid:	"8A98E8FC-EEC6-71A9-631CB47912FE7744"
 date:   2006-08-30 11:06 AM +0000
 categories: personal
 ---

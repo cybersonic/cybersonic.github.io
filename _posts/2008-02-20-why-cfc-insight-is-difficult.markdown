@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why CFC insight is difficult"
+uid:	"8A9B1DF2-0E53-8E0C-96B07E7E0214A8B2"
 date:   2008-02-20 11:08 AM +0000
 categories: coldfusion
 ---

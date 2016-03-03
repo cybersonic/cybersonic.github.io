@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "ASK MD"
+uid:	"8A988E2C-D8C9-BCF0-74438B0093A481D8"
 date:   2006-05-31 11:06 AM +0000
 categories: blogging
 ---

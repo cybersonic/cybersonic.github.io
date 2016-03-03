@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Ask Mark: CFEclipse's lost help..."
+uid:	"8A99A9E7-FF7A-22DE-2777D6372028E3C8"
 date:   2007-01-28 11:07 AM +0000
 categories: ask-md
 ---

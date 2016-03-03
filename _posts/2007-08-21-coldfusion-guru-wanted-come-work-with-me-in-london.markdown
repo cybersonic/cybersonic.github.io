@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "ColdFusion Guru Wanted! Come work with me in London!"
+uid:	"8A9AD1E7-95F0-5AEC-B627EFE1C4AB5696"
 date:   2007-08-21 11:08 AM +0000
 categories: jobs
 ---

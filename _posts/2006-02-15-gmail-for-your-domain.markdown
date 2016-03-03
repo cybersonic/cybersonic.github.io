@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "GMail for your Domain"
+uid:	"8A97B015-A3DC-B569-7DF9D2BF2930A6FD"
 date:   2006-02-15 11:05 AM +0000
 categories: ajax
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Scotch on the Road and CFObjective Presentations"
+uid:	"FE4D445A-1293-4DA4-AAE0CCE4496A0D19"
 date:   2009-06-10 05:52 PM +0000
 categories: presentations
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Installing Coldfusion (and JRun) on a MacBook Pro"
+uid:	"8A9877B7-C532-8792-FBDB2B417289A188"
 date:   2006-04-12 11:05 AM +0000
 categories: reference
 ---

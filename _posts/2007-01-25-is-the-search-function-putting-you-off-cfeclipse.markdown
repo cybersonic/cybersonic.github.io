@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Is the Search function putting you off CFEclipse?"
+uid:	"8A99A776-AD08-A8C7-6A66B8831DA8EC7B"
 date:   2007-01-25 11:07 AM +0000
 categories: cfeclipse
 ---

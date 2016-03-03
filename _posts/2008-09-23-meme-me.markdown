@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Meme(me)"
+uid:	"8DFE8CF0-A4D9-7E63-37F1BB4185462C0D"
 date:   2008-09-23 07:22 AM +0000
 categories: funny
 ---

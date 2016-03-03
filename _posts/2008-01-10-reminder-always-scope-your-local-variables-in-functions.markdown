@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Reminder: Always scope your local variables in functions!"
+uid:	"8A9B198D-945D-2438-44140FA032D1213D"
 date:   2008-01-10 11:08 AM +0000
 categories: coldfusion
 ---

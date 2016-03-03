@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The Most Evil of Cons"
+uid:	"8A9BF840-0434-3FE5-EC0AEB166CEF4AA9"
 date:   2008-04-17 11:09 AM +0000
 categories: spam
 ---

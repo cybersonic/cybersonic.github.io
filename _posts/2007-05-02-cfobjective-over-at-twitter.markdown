@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "cfObjective over at Twitter"
+uid:	"8A9A77D2-C36C-64CB-A650E87EA53AD5F6"
 date:   2007-05-02 11:08 AM +0000
 categories: cfconferences
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "My WebDU 2011 review and all that jazz!"
+uid:	"9520A385-F759-4DB8-A5CC9CCBE18BA73F"
 date:   2011-04-18 07:13 AM +0000
 categories: couchdb
 ---

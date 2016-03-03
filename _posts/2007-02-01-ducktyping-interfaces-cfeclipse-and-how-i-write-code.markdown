@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "DuckTyping, Interfaces, CFEclipse,  and how I write code"
+uid:	"8A99ADC0-F62B-5033-7752B6F5EEC6AA84"
 date:   2007-02-01 11:07 AM +0000
 categories: coldfusion
 ---

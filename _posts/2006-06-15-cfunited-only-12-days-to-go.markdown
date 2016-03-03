@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFUnited: only 12 days to go!"
+uid:	"8A98B173-DE32-6343-9F0976F8B0D12760"
 date:   2006-06-15 11:06 AM +0000
 categories: ukcfug
 ---

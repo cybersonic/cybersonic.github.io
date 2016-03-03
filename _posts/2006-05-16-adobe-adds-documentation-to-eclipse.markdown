@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Adobe adds documentation to Eclipse"
+uid:	"8A988468-BF3E-6011-E86DDBEDFE2ADDE6"
 date:   2006-05-16 11:06 AM +0000
 categories: adobe
 ---

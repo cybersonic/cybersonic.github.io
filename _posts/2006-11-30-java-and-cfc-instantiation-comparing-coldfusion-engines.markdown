@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Java and CFC instantiation, comparing ColdFusion engines"
+uid:	"8A995996-B9DD-279F-02E069A2339C5151"
 date:   2006-11-30 11:06 AM +0000
 categories: coldfusion
 ---

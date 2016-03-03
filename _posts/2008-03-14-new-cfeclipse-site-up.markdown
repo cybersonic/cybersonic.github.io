@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "New CFEclipse Site up!"
+uid:	"8A9BF66C-A5E0-970B-DABDB214EC4DBBC7"
 date:   2008-03-14 11:09 AM +0000
 categories: coldfusion
 ---

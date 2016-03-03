@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Expanding the partition of a Parallels Virtual Machine"
+uid:	"8A99A062-D670-AA63-327B26B6160495BB"
 date:   2007-01-17 11:07 AM +0000
 categories: apple
 ---

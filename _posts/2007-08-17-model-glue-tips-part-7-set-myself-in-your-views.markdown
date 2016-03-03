@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Model Glue Tips Part 7: Set myself in your views"
+uid:	"8A9AD0FC-989A-C6D0-DDE9D8C21D24E31A"
 date:   2007-08-17 11:08 AM +0000
 categories: model-glue
 ---

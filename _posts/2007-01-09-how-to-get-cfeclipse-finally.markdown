@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to get CFEclipse (finally!)"
+uid:	"8A996936-A4DE-6E14-DADDC730E01E4D17"
 date:   2007-01-09 11:07 AM +0000
 categories: cfeclipse
 ---

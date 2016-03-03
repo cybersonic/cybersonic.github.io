@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse: Getting the code via CVS"
+uid:	"8A98ACDF-A6C9-9BEE-F312028FE5D37F34"
 date:   2006-06-06 11:06 AM +0000
 categories: cfeclipse
 ---

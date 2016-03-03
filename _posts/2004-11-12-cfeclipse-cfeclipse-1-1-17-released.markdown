@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "cfeclipse: CFEclipse 1.1.17 released"
+uid:	"8A978A7D-0C85-067A-AE3F9AFB23A0FA02"
 date:   2004-11-12 11:04 AM +0000
 categories: cfeclipse
 ---

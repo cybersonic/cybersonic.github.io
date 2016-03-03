@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse All-in-One beta download"
+uid:	"8A9A6592-09A6-CB4D-F5D0EAEAB9D96D21"
 date:   2007-03-09 11:08 AM +0000
 categories: coldfusion
 ---

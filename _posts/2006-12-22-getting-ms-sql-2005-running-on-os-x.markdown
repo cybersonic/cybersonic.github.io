@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Getting MS SQL 2005 running on OS X"
+uid:	"8A99605D-D06E-B4EC-CC5800AD7D727148"
 date:   2006-12-22 11:06 AM +0000
 categories: microsoft
 ---

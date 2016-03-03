@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Model Glue 2 Unity Beta Released!"
+uid:	"8A98AFEC-A9BE-D394-58DECF9DF88D1AB4"
 date:   2006-06-15 11:06 AM +0000
 categories: ukcfug
 ---

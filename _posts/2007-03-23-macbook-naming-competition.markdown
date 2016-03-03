@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "MacBook naming competition"
+uid:	"8A9A6D53-E154-2D36-9B2464DF963DC0E0"
 date:   2007-03-23 11:08 AM +0000
 categories: apple
 ---

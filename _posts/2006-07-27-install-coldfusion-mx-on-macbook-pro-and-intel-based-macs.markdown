@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Install ColdFusion MX on MacBook (Pro) and Intel based Macs"
+uid:	"8A98D6CD-DCA1-AFA7-0848A7B16E90F657"
 date:   2006-07-27 11:06 AM +0000
 categories: reference
 ---

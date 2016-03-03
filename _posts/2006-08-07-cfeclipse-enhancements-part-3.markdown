@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse: enhancements Part 3"
+uid:	"8A98DFC5-ED75-8B5F-3062F78C6B9CDF77"
 date:   2006-08-07 11:06 AM +0000
 categories: coldfusion
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "New Atlanta sponsors CFEclipse"
+uid:	"8A987D64-D6B0-E249-3E9C4955EB736449"
 date:   2006-05-01 11:06 AM +0000
 categories: open-bluedragon
 ---

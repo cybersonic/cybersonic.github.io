@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Mr Pink Says: Thank you!"
+uid:	"8A9AA385-E700-7CA3-B182F6DA9796CCB7"
 date:   2007-06-13 11:08 AM +0000
 categories: coldfusion
 ---

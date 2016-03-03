@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "...and finally, the Merger!"
+uid:	"8A97A40F-D310-D502-5B7258CFAF12A6E8"
 date:   2005-12-02 11:05 AM +0000
 categories: webdev
 ---

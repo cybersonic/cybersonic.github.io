@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Announcing codeShare!"
+uid:	"8A99AB9D-CBA2-AFAA-EA53A78E06934DA2"
 date:   2007-01-31 11:07 AM +0000
 categories: webdev
 ---

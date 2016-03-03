@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Mark Drew: UKCFUG Co-Manager!"
+uid:	"8A9882E2-BC26-20F2-04450B67EAB518F0"
 date:   2006-05-10 11:06 AM +0000
 categories: podcasting
 ---

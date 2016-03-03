@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse Update, and where has Mark been?"
+uid:	"8A98E979-0DBA-6ABC-9BEC44094BF57A43"
 date:   2006-09-24 11:06 AM +0000
 categories: cfeclipse
 ---

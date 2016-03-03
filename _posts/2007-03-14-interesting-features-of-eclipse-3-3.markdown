@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Interesting features of Eclipse 3.3"
+uid:	"8A9A68FD-C428-0455-B75245081D239372"
 date:   2007-03-14 11:08 AM +0000
 categories: eclipse
 ---

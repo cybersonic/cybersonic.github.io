@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The oddest CF error/strangeness I have spotted"
+uid:	"2DB03852-DC71-9A91-B079CE0DEDF9A6A1"
 date:   2008-10-24 03:12 AM +0000
 categories: coldfusion
 ---

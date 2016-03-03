@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse, taking a break"
+uid:	"8A9AAEB0-B14F-33F5-AB80192E23CAD2E0"
 date:   2007-07-27 11:08 AM +0000
 categories: coldfusion
 ---

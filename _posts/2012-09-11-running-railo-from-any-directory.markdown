@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Running Railo from any directory"
+uid:	"BB788D63-7964-42D3-B1ED489C1328F284"
 date:   2012-09-11 01:45 PM +0000
 categories: railo
 ---

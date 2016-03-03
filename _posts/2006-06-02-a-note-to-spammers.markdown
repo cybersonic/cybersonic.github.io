@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A NOTE TO SPAMMERS"
+uid:	"8A988F55-B7F4-CACC-8526B6D15136E6E5"
 date:   2006-06-02 11:06 AM +0000
 categories: spam
 ---

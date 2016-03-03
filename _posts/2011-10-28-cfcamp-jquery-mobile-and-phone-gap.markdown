@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFCamp: JQuery Mobile and Phone Gap"
+uid:	"F890F162-9C93-4D22-882FEA9CEAD02649"
 date:   2011-10-28 04:53 PM +0000
 categories: cfconferences
 ---

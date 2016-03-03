@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse costs how much?!?!"
+uid:	"8A9AA1EE-A6CD-84B2-30EDC63E02388424"
 date:   2007-06-12 11:08 AM +0000
 categories: coldfusion
 ---

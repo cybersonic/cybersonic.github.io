@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFUnited roundup at the Coldfusion Podcast"
+uid:	"8A98D0C2-C4AD-09FA-B6BDDA2702AAA430"
 date:   2006-07-13 11:06 AM +0000
 categories: podcasting
 ---

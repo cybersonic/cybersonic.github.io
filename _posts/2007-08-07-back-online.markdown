@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Back online!"
+uid:	"8A9AAF6B-B532-1A67-28DA3F3432866776"
 date:   2007-08-07 11:08 AM +0000
 categories: personal
 ---

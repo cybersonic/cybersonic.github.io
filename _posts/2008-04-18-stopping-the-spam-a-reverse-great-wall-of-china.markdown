@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Stopping the spam? a reverse  great wall of China"
+uid:	"8A9BF91B-94C1-4A18-614395F9A86F2173"
 date:   2008-04-18 11:09 AM +0000
 categories: spam
 ---

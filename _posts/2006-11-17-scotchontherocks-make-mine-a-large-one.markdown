@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "ScotchOnTheRocks: Make mine a large one!"
+uid:	"8A98FDFB-ED6C-C166-374DD5586BDDBA19"
 date:   2006-11-17 11:06 AM +0000
 categories: cfconferences
 ---

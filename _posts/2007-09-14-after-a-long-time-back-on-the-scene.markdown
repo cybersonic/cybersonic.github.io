@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "After a long time... Back on the scene!"
+uid:	"8A9AD2D1-F611-372C-F5414B8A09533C48"
 date:   2007-09-14 11:08 AM +0000
 categories: cfconferences
 ---

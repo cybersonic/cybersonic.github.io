@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lost Experience Update"
+uid:	"8A98864D-B0C4-6C9A-64BD284C4987652D"
 date:   2006-05-17 11:06 AM +0000
 categories: lost
 ---

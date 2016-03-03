@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Railo for Beginners: My First Book!"
+uid:	"21AE05B5-A242-4D7D-8E6DC777AECAE82F"
 date:   2011-07-26 01:26 PM +0000
 categories: railo
 ---

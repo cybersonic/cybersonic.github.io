@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lost Experience: WWPdp password?"
+uid:	"8A98AB49-051C-EF19-0D9367A22CAD5153"
 date:   2006-06-03 11:06 AM +0000
 categories: lost
 ---

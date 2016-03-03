@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "MacBook Pro on its way!"
+uid:	"8A986FA8-B8A0-9087-FFD442494F8CDB5E"
 date:   2006-03-17 11:05 AM +0000
 categories: apple
 ---

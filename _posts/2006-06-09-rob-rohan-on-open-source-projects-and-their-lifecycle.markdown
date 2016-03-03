@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Rob Rohan on Open Source Projects and their Lifecycle"
+uid:	"8A98AE08-EDCE-F889-F54B76AC8CD5726E"
 date:   2006-06-09 11:06 AM +0000
 categories: blogging
 ---

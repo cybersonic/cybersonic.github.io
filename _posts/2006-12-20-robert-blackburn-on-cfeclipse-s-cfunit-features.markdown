@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Robert Blackburn on CFEclipse's CFUnit features"
+uid:	"8A995D11-AF63-5C00-D9DCDD5306798690"
 date:   2006-12-20 11:06 AM +0000
 categories: cfeclipse
 ---

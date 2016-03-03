@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Complete List of Web2.0 Products"
+uid:	"8A97AF1B-D6E7-909E-39D8690D474BDE2F"
 date:   2006-02-12 11:05 AM +0000
 categories: ajax
 ---

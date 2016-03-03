@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Railo ORM and Magic Functions"
+uid:	"FDC5D481-EB9C-4C93-811A61A4603F2BF4"
 date:   2010-08-06 12:09 PM +0000
 categories: getrailo
 ---

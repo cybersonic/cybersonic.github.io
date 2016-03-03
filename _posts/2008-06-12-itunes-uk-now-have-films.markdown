@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "iTunes UK now have films!"
+uid:	"8A9C21C1-B125-C9BD-B8281B83D45978EE"
 date:   2008-06-12 11:10 AM +0000
 categories: apple
 ---

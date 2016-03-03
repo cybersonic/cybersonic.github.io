@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "See you at CeBit! "
+uid:	"FBE14A44-569B-4D00-B6B28A5022764D66"
 date:   2010-02-17 02:08 PM +0000
 categories: getrailo
 ---

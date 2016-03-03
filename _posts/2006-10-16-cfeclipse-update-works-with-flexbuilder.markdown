@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse Update: Works with FlexBuilder"
+uid:	"8A98EBCB-DD44-641F-D85579F31EFBF1EF"
 date:   2006-10-16 11:06 AM +0000
 categories: cfeclipse
 ---

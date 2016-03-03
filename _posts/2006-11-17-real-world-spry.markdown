@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Real World SPRY"
+uid:	"8A98FEF5-D35C-BEED-821795E2FFB53CE4"
 date:   2006-11-17 11:06 AM +0000
 categories: coldfusion
 ---

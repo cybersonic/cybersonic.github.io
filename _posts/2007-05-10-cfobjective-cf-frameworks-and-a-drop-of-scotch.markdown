@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "cfObjective, CF Frameworks and a Drop of Scotch"
+uid:	"8A9A7997-CB44-714F-679596E5E88FD5CF"
 date:   2007-05-10 11:08 AM +0000
 categories: cfconferences
 ---

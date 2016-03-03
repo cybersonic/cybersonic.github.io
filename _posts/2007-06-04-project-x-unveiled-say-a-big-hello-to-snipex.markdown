@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Project X unveiled: Say a big hello to SnipEx"
+uid:	"8A9A7D50-93CC-050B-FA07A9DA7B9AB939"
 date:   2007-06-04 11:08 AM +0000
 categories: snipex
 ---

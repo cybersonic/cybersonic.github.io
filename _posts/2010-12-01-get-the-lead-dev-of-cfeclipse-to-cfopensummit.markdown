@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Get the Lead Dev of CFEclipse to CFOpenSummit!"
+uid:	"16E3D489-8A6A-4B9C-BD02BECD1413BD86"
 date:   2010-12-01 09:48 AM +0000
 categories: getrailo
 ---

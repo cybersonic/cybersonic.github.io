@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Ask the audience: how to select a branch in a CFTREE"
+uid:	"8A99AB10-EAF9-49DF-6D839CE2926B5CA3"
 date:   2007-01-29 11:07 AM +0000
 categories: coldfusion
 ---

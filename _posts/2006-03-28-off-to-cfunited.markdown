@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Off to CFUNITED!"
+uid:	"8A98741D-927A-44AF-C8D3211E019E58B3"
 date:   2006-03-28 11:05 AM +0000
 categories: adobe
 ---

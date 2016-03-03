@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Railo over at PacktPub"
+uid:	"C496DD12-41FB-4625-8CED7685A2395578"
 date:   2010-03-11 12:47 PM +0000
 categories: getrailo
 ---

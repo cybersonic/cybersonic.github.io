@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Getting to know you! How analytics lets me know who you are."
+uid:	"8A9AA2D9-F7BF-C3CC-07BE4C8D08D6E119"
 date:   2007-06-12 11:08 AM +0000
 categories: blogging
 ---

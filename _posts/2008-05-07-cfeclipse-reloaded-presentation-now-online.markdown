@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse Reloaded presentation now online"
+uid:	"8A9BFCE4-9C46-30E8-43A2206BEFDB3B5D"
 date:   2008-05-07 11:09 AM +0000
 categories: presentations
 ---

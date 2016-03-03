@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Creating your own framework (and why you should do it)"
+uid:	"8A98FF62-0E6D-B3F0-88276D919DEE8A89"
 date:   2006-11-20 11:06 AM +0000
 categories: coldfusion
 ---

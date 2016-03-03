@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "MacBook Pro, BootCamp and headphones"
+uid:	"8A98E0EE-0637-9389-756C8039EA0EA8DB"
 date:   2006-08-08 11:06 AM +0000
 categories: apple
 ---

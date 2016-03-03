@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Strange things are landing in London"
+uid:	"8A987F67-C83C-490C-60BE21532B86CE2B"
 date:   2006-05-04 11:06 AM +0000
 categories: personal
 ---

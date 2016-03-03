@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Support MG Joe (and Dale)"
+uid:	"DFD9C2C6-03E5-A0B1-E85ABAA557EA7080"
 date:   2009-01-16 09:30 AM +0000
 categories: coldfusion
 ---

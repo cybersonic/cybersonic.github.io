@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The magic of Instantiations"
+uid:	"8A99AEAA-E55E-507F-88FF75FEF2E502DD"
 date:   2007-02-02 11:07 AM +0000
 categories: donations
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse: BETA 1.3 Released!"
+uid:	"8A98B4ED-B6AB-1918-7D9B2E20526D7C09"
 date:   2006-06-24 07:44 AM +0000
 categories: cfeclipse
 ---

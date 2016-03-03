@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "cf_lunch?"
+uid:	"8A98FE78-9363-DDB5-6102D45848DFED25"
 date:   2006-11-17 11:06 AM +0000
 categories: ukcfug
 ---

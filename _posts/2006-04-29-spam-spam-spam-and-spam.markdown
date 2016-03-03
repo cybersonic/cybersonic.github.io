@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Spam, Spam, Spam.... and Spam"
+uid:	"8A987CD7-E90F-83DA-AFEABEBA1EE78CBC"
 date:   2006-04-29 11:06 AM +0000
 categories: blogging
 ---

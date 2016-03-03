@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lost Experience: Mathematical Forecasting Initiative"
+uid:	"8A988CF4-C3F5-7F31-64B834211A5C22DF"
 date:   2006-05-30 11:06 AM +0000
 categories: lost
 ---

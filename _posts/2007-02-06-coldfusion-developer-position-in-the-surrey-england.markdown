@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "ColdFusion developer position in the Surrey, England"
+uid:	"8A99B08E-0B1A-CADD-CEDDEE888D8EFF38"
 date:   2007-02-06 11:07 AM +0000
 categories: jobs
 ---

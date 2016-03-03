@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFUNITED and the World Cup"
+uid:	"8A98B5F7-BFD6-71BC-15898F594E15DB65"
 date:   2006-06-26 11:06 AM +0000
 categories: personal
 ---

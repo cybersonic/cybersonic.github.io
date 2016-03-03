@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CF Docs Podcast Episode 2 released Today!"
+uid:	"B66E0058-E624-A1A7-54F227DB4453EF98"
 date:   2009-01-08 08:28 AM +0000
 categories: podcasting
 ---

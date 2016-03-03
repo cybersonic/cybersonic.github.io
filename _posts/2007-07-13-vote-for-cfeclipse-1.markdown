@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Vote for CFEclipse!"
+uid:	"8A9AAC9D-B03D-2CC4-E17B41C8F893F5D3"
 date:   2007-07-13 11:08 AM +0000
 categories: coldfusion
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Mark Drew as a Simpsons character"
+uid:	"8A9AA8F3-BBDC-56AC-F8F71115B4E095C2"
 date:   2007-07-05 11:08 AM +0000
 categories: personal
 ---

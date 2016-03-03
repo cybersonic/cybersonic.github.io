@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Fusebox 3 Plugin for CFEclipse"
+uid:	"8A978C90-EC6E-36CA-7CBF0878918FC324"
 date:   2004-12-24 11:04 AM +0000
 categories: webdev
 ---

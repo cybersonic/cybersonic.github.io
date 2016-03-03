@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "New UKCFUG Mailing List"
+uid:	"8A9A6861-F546-B1D1-B4D37484B273253E"
 date:   2007-03-13 11:08 AM +0000
 categories: ukcfug
 ---

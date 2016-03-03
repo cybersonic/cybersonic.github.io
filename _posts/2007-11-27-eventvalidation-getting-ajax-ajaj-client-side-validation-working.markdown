@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "EventValidation: Getting Ajax (AJAJ) client side validation working"
+uid:	"8A9AE8F9-C940-3EFE-6666C2337AF27EEF"
 date:   2007-11-27 11:08 AM +0000
 categories: eventvalidation
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Oliver Tupman Interview"
+uid:	"8A9788D7-DED0-AF9A-8CBAD761B6EEADF7"
 date:   2004-09-10 11:04 AM +0000
 categories: cfeclipse
 ---

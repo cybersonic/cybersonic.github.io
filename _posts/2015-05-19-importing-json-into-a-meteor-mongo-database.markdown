@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Importing JSON into a Meteor Mongo Database"
+uid:	"3AFA2740-A485-405E-868BD859A24830C6"
 date:   2015-05-19 12:55 PM +0000
 categories: mongodb
 ---

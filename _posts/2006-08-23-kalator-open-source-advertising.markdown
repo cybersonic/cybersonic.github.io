@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Kalator: Open Source Advertising"
+uid:	"8A98E87F-B300-CFF7-44E87373F21F82C3"
 date:   2006-08-23 11:06 AM +0000
 categories: coldfusion
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Fusebox 3 and 4 plugin for CFEclipse"
+uid:	"8A978E46-EF11-49F9-49472DB5737B3EEC"
 date:   2005-01-15 11:05 AM +0000
 categories: coldfusion
 ---

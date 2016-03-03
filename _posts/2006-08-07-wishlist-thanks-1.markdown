@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Wishlist thanks!"
+uid:	"8A98DEFA-06DF-9601-F40AB888FFD98F94"
 date:   2006-08-07 11:06 AM +0000
 categories: blogging
 ---

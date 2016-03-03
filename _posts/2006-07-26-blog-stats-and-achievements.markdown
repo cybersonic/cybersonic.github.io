@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Blog Stats and Achievements"
+uid:	"8A98D47B-9EB5-8D38-9D103F5CB5DD1770"
 date:   2006-07-26 11:06 AM +0000
 categories: blogging
 ---

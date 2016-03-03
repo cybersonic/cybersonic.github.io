@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CFEclipse development chat with Steve Nelson"
+uid:	"8A979412-FF24-9564-704D4CD0AEA941FF"
 date:   2005-07-08 11:05 AM +0000
 categories: cfeclipse
 ---

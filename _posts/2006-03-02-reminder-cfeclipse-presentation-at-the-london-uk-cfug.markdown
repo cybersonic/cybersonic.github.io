@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Reminder: CFEclipse presentation at the London UK CFUG"
+uid:	"8A97B5D2-C3EA-4B49-DD5D793BD03869FE"
 date:   2006-03-02 11:05 AM +0000
 categories: adobe
 ---

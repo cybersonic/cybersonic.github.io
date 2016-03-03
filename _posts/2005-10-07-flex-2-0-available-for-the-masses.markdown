@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Flex 2.0 available for the Masses!!!"
+uid:	"8A979AC9-E86F-9D6A-4AA76610606C1AE9"
 date:   2005-10-07 11:05 AM +0000
 categories: flex
 ---

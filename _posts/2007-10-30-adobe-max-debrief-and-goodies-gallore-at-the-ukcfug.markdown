@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Adobe MAX Debrief and Goodies gallore at the UKCFUG"
+uid:	"8A9AE148-DB3E-2473-CD3BA8494A7EA0BD"
 date:   2007-10-30 11:08 AM +0000
 categories: cfconferences
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Adam Lehman is unwell, but getting better"
+uid:	"AEA23806-CB48-053F-72911BFE3986C336"
 date:   2008-09-29 12:33 PM +0000
 categories: adobe
 ---

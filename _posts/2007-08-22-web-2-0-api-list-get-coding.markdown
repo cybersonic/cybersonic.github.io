@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Web 2.0 Api List, get coding!"
+uid:	"8A9AD264-B15F-47AA-091350D38CD46956"
 date:   2007-08-22 11:08 AM +0000
 categories: coldfusion
 ---

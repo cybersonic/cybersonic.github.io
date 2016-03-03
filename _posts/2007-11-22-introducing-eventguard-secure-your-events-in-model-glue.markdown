@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introducing EventGuard: Secure your events in Model-Glue"
+uid:	"8A9AE60B-AA34-D5E6-5C58AE0D3A44F149"
 date:   2007-11-22 11:08 AM +0000
 categories: coldspring
 ---

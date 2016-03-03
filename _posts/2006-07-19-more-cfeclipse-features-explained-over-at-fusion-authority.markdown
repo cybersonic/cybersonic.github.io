@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "More CFEclipse Features explained over at Fusion Authority"
+uid:	"8A98D2B6-9CE9-2CAF-E16E8AF01D7894CF"
 date:   2006-07-19 11:06 AM +0000
 categories: cfeclipse
 ---

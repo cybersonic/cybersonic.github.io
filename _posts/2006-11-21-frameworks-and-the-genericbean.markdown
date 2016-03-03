@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Frameworks and the GenericBean"
+uid:	"8A98FFDF-D86A-2915-B69533C3A5B71444"
 date:   2006-11-21 11:06 AM +0000
 categories: coldfusion
 ---

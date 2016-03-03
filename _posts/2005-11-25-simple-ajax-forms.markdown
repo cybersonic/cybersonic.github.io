@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Simple Ajax Forms"
+uid:	"8A97A0C4-E8F7-230D-BD0DCE88C4DF8BB5"
 date:   2005-11-25 11:05 AM +0000
 categories: ajax
 ---

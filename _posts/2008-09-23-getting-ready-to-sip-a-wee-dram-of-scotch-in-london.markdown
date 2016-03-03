@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Getting ready to sip a Wee Dram of Scotch in London"
+uid:	"8EF18273-E83C-0ECB-26D8DAFF7060AFD5"
 date:   2008-09-23 07:21 AM +0000
 categories: cfconferences
 ---

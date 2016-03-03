@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Help Fix CFEclipse"
+uid:	"8A98EC48-DFDE-DC62-F9219399A694ADA1"
 date:   2006-10-17 11:06 AM +0000
 categories: cfeclipse
 ---

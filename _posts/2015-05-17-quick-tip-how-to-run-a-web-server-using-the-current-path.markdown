@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Quick tip: How to run a web server using the current path"
+uid:	"36708DDF-882F-4212-A62B78D156B008A6"
 date:   2015-05-17 10:17 AM +0000
 categories: npm
 ---

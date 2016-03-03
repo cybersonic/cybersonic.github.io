@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "UKCFUG meetup tomorrow, Send us your questions!"
+uid:	"166C7C24-A41D-720C-C240DF59BCEE0B78"
 date:   2008-12-08 06:50 AM +0000
 categories: ukcfug
 ---

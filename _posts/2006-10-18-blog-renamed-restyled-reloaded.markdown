@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Blog: Renamed, Restyled, Reloaded"
+uid:	"8A98ED52-C43E-313A-0037D812B8BD95B0"
 date:   2006-10-18 11:06 AM +0000
 categories: blogging
 ---

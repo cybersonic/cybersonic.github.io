@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Come work with me... ColdFusion Developer wanted"
+uid:	"8A9A6DEF-E364-3361-021BD785F09D918E"
 date:   2007-03-28 11:08 AM +0000
 categories: jobs
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "cf_drinks reminder!"
+uid:	"8A9A72C1-C589-2AD3-E12E22B5E3852398"
 date:   2007-04-03 11:08 AM +0000
 categories: ukcfug
 ---

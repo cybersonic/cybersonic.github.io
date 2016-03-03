@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Finally in Rockville!"
+uid:	"8A98B6F1-BBBB-E2A9-18FAE48B660136E8"
 date:   2006-06-28 11:06 AM +0000
 categories: ukcfug
 ---

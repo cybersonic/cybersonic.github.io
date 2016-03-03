@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Damn Apple keyboard!"
+uid:	"8A995B8A-9213-4A78-CDF54BE58E455D31"
 date:   2006-12-18 11:06 AM +0000
 categories: apple
 ---
