@@ -1,4 +1,2 @@
-cybersonic.github.io
-====================
-
-Mark Drew's Github.io site. 
+This is the blog of Mark Drew
+Built on Jekyll. Nice. 

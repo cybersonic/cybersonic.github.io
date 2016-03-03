@@ -1,0 +1,20 @@
+# Site settings
+title: Mark Drew on code
+header-img: img/home-bg.jpg
+email: mark.drew@gmail.com
+copyright_name: Mark Drew
+description: "a compendium of cfml and web technology topics"
+baseurl: ""
+url: "http://markdrew.io"
+twitter_username: markdrew
+github_username:  cybersonic
+email_username:  mark.drew@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]

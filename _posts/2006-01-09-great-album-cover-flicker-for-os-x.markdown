@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Great Album cover flicker for OS X"
+date:   2006-01-09 11:05 AM +0000
+categories: apple
+---
+I stumbled across <a href="http://www.steelskies.com/coverflow/" target="_blank">CoverFlow</a> today, its a great way for you to "thumb" across your music collection albums in a visual way... its pretty damn neat! It gets your album covers if it can from various sources (if none present)
+
+It has missed a few of my items, but I am going to give it another bash later to see if it gets them all!
