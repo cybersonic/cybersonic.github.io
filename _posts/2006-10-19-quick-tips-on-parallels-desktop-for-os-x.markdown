@@ -4,6 +4,7 @@ title:  "Quick tips on Parallels Desktop for OS X"
 uid:	"8A98EE2C-0E73-664E-956074A66BFFFA67"
 date:   2006-10-19 11:06 AM +0000
 categories: apple
+permalink: quick-tips-on-parallels-desktop-for-os-x
 ---
 I know this is a bit off-topic for this blog, but I found, counter-intuitively enough, that if you are using Parallels Desktop to run Windows under OS X, and you set the memory above 412Mb it doesnt in-fact speed up, but actually slow down (the whole machine!)Also, if you have installed a copy of windows and each time you start it, you get a "Hardware not found" message with relation to your Video card, you can get round this by installing the VMTools that come with Parallels.
 

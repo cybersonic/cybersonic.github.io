@@ -4,6 +4,7 @@ title:  "Apache, Virtual Hosts, PHP, CF5 and CFMX (part 2)"
 uid:	"8A97884B-97FE-2906-3CEEA9DE9C341848"
 date:   2004-09-06 11:04 AM +0000
 categories: webdev
+permalink: apache-virtual-hosts-php-cf5-and-cfmx-part-2
 ---
 Continued from <a href="http://cybersonic.blogspot.com/2004/06/apache-virtual-hosts-php-cf5-and-cfmx.html">Part 1</a>...
 

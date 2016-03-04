@@ -4,6 +4,7 @@ title:  "Apple - Mac mini"
 uid:	"8A978D7B-B58C-2469-BEB00B5B274A2868"
 date:   2005-01-11 11:05 AM +0000
 categories: apple
+permalink: apple-mac-mini
 ---
 Imagine a PC smaller than a Shuttle mini. the Apple Mac mini is something that Apple had to do. Its a replacement for your old (or hell! new!) PC that integrates with all the peripherals (yes including your old monitor). So. a new mac machine.. whats so good about it? its 2 inches high by  6.5 inches wide and deep. That is small but it just looks sooo lovely! Great to go with your IPod
 

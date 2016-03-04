@@ -4,6 +4,7 @@ title:  "Running Railo from any directory"
 uid:	"BB788D63-7964-42D3-B1ED489C1328F284"
 date:   2012-09-11 01:45 PM +0000
 categories: railo
+permalink: running-railo-from-any-directory
 ---
 <p>Today on the Railo mailing list someone asked if there was a way to start railo from any directory and use that directory as the web root. A fair enough question and it got me intrigued.</p>
 <p>So after a bit of research I come up with the following, of course this works for OS X, change the relevant bits to suit your OS (hey, send me how to do it and I shall update the post)</p>

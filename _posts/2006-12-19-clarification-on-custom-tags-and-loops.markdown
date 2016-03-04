@@ -4,6 +4,7 @@ title:  "Clarification on Custom Tags and loops"
 uid:	"8A995C94-EC98-5100-3AE68F672C862863"
 date:   2006-12-19 11:06 AM +0000
 categories: coldfusion
+permalink: clarification-on-custom-tags-and-loops
 ---
 Yesterday I posted a question on how to loop through the results of a custom tag, maybe I should have been a bit more precice in the overall requirement, and in fact how I solved it (not nicely hence the post).
 

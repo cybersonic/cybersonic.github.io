@@ -4,6 +4,7 @@ title:  "Introducing my new company: CMD "
 uid:	"9DE224E4-A211-41E5-B44F10917A322463"
 date:   2014-04-01 03:27 AM +0000
 categories: personal
+permalink: cmd
 ---
 <p class="p1">Hello Internet!&nbsp;It gives me great pleasure to announce the start of my new company: <a href="http://charliemikedelta.com"><abbr title="Charlie Mike Delta">CMD</abbr></a></p>
 

@@ -4,6 +4,7 @@ title:  "CouchDB Cache Extension (Beta) for Railo "
 uid:	"FC538DF1-0956-465C-B8BE8E8A87A4D6D0"
 date:   2010-09-30 05:08 AM +0000
 categories: getrailo
+permalink: couchdb-cache-extension-beta-for-railo
 ---
 <p>
 <img src="http://preview.getrailo.org/logos/couchdb-logo.png" alt="" align="left" /> I have spent a while working on this extension and after a hiatus of client work I managed to get it all uploaded and documented onto the <a title="Railo CFML Documentation Wiki - extensions:couchdb" href="http://wiki.getrailo.com/wiki/extensions:couchdb">Railo Wiki</a>. 

@@ -4,6 +4,7 @@ title:  "Random Tunes"
 uid:	"8A978ED2-A6B3-67AF-FDB27C81399FBCE5"
 date:   2005-01-20 11:05 AM +0000
 categories: personal
+permalink: random-tunes
 ---
 From <a href="http://pmcelhaney.blogspot.com/2005/01/playlist-meme.html">Patrick's Meme Proliferator : The Playlist Meme</a> I got the idea of randomly playing 10 songs from my iTunes library (I must say this is a limited library on my PC, my iMac contains a lot more) to give a feel for the stuff I listen to, so without much ado, here it is!
 

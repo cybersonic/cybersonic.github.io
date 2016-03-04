@@ -4,6 +4,7 @@ title:  "London stands still for 2 minutes silence"
 uid:	"8A979589-B9B9-0B83-2FDE17777451EA1F"
 date:   2005-07-14 11:05 AM +0000
 categories: personal
+permalink: london-stands-still-for-2-minutes-silence
 ---
 <a onblur="try \{parent.deselectBloggerImageGracefully();} catch(e) \{}" href="http://photos1.blogger.com/blogger/400/255/1600/Image003.jpg"><img style="float:right; margin:0 0 10px 10px;cursor:pointer; cursor:hand;" src="http://photos1.blogger.com/blogger/400/255/200/Image003.jpg" border="0" alt="" /></a>I have just come back from Aldgate East Station, one of the many places where Londoners have congregated to observe 2 minutes silence in remembrance and support for last weeks bombings. 
 

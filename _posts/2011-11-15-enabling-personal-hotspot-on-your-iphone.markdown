@@ -4,6 +4,7 @@ title:  "Enabling Personal Hotspot on your iPhone"
 uid:	"44B36405-F19B-4FA0-89C9CE9D49735DCC"
 date:   2011-11-15 01:57 PM +0000
 categories: apple
+permalink: enabling-personal-hotspot-on-your-iphone
 ---
 <p>If you have been having problems finding your Personal Hotspot Wifi from your iPhone after the slew of updates recently, here is how I managed to fix it. </p>
 <p>Ok, so let's be clear, this is not about finding how to enable it, or if your cellular carrier allows you to use it, but rather, that you used to be able to find your phone in the list of Wifi hotspots, and now when you switch it on, you can't find it. </p>

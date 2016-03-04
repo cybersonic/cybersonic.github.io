@@ -4,6 +4,7 @@ title:  "Blogging from TextMate to BlogCFC"
 uid:	"8A98F06F-BA52-DF11-18264572AB79F5B4"
 date:   2006-10-31 11:06 AM +0000
 categories: blogging
+permalink: blogging-from-textmate-to-blogcfc
 ---
 Blogging is great, but the problem as many people that travel with laptops know is that you tend to write your blog post in a text document, save it to your desktop (or wherever) and then when you are online you can then open it, copy and paste it, paste the title etc etc into your own blog.
 

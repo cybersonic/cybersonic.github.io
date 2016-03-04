@@ -4,6 +4,7 @@ title:  "ColdFusion is Dead"
 uid:	"8A9A7BAA-FB4D-5046-B7D837CCEBCCEA82"
 date:   2007-05-25 11:08 AM +0000
 categories: coldfusion
+permalink: coldfusion-is-dead
 ---
 ... apparently, at least according to <a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9020942&pageNumber=2" target="_blank">this article</a>
 

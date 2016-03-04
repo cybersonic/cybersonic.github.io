@@ -4,6 +4,7 @@ title:  "Lost Experience: Institute for Genomic Advancement"
 uid:	"8A98AE94-C0EB-5732-F1CE1A6AB40F1FC0"
 date:   2006-06-10 11:06 AM +0000
 categories: lost
+permalink: lost-experience-institute-for-genomic-advancement
 ---
 Thanks to a post that gave me a hint, If you go to the Institute of Genomic Advancement you will notice that the top right hand corner has that eery shaking that you get when there is a clue alert on the site, if you mouse over some of the cells that are depicted as "Comparing Normal Cell and Mutant Cell" you can see some words displayed on the X-ray:
 "Retrievers of Truth", if you google this term you will find the

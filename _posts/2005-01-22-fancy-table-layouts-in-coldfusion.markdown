@@ -4,6 +4,7 @@ title:  "Fancy Table Layouts in Coldfusion"
 uid:	"8A978FCC-AA67-9082-F2143B869A6C238E"
 date:   2005-01-22 11:05 AM +0000
 categories: coldfusion
+permalink: fancy-table-layouts-in-coldfusion
 ---
 Am interesting question come up in the cf-talk mailing list:
 <i>I have a query with x number of records. I want to dynamically create a table on my display that displays five records per row, ie (qf = queryfield):

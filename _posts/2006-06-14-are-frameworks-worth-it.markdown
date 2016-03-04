@@ -4,6 +4,7 @@ title:  "Are Frameworks worth it?"
 uid:	"8A98AF60-0515-FC36-2CCC34791AE1743C"
 date:   2006-06-14 11:06 AM +0000
 categories: coldfusion
+permalink: are-frameworks-worth-it
 ---
 I didnt manage to get in on the comments of the "<a href="http://www.techfeed.net/blog/index.cfm/2006/6/6/ColdFusion-Frameworks-Exclusively-Have-Maintainable-Code">ColdFusion Frameworks Exclusively Have Maintainable Code?</a>" over at YacoBlog. But there seems to be a big bru-ha-ha about whether using a framework makes you maintain code bettter.
 

@@ -4,6 +4,7 @@ title:  "Music I tend to listen to"
 uid:	"8A97922E-C9BB-26A5-268DDFF54E39021D"
 date:   2005-06-09 11:05 AM +0000
 categories: personal
+permalink: music-i-tend-to-listen-to
 ---
 I got a spam email from Spike. Not really surprising really... but I thought I would FINALLY update this as it has been a while since I blogged!
 

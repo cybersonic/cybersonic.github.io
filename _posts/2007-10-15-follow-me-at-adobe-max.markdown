@@ -4,6 +4,7 @@ title:  "Follow me at Adobe MAX"
 uid:	"8A9ADEB8-AE35-7EBA-EF781CCBECCAAB4C"
 date:   2007-10-15 11:08 AM +0000
 categories: max
+permalink: follow-me-at-adobe-max
 ---
 Its 6:50 am before the first day of Adobe Max and I am sitting in my hotel room, without internet connection (they say that it will be fixed in the hotel today, pah!) and just getting ready to head to the Barcelona Inernational Conference Center.
 

@@ -4,6 +4,7 @@ title:  "Using keyword substitution in Subversion"
 uid:	"8A9B1A0A-E308-A193-1CAC337B5011856A"
 date:   2008-01-11 11:08 AM +0000
 categories: eclipse
+permalink: using-keyword-substitution-in-subversion
 ---
 When I previously used CVS, I was able to put in my code some keywords that I wanted to substitue, such as the checkin date, who had checked it in, which version it was etc. 
 

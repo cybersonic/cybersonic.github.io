@@ -4,6 +4,7 @@ title:  "Model Glue Tips Part 3: Keep your views tidy"
 uid:	"8A9ACDFF-04B0-ACEF-2821FAB6FBB2712D"
 date:   2007-08-12 11:08 AM +0000
 categories: model-glue
+permalink: model-glue-tips-part-3-keep-your-views-tidy
 ---
 When you develop model-glue apps, you start adding your view files in the /views directory, this all fine as a demo or in a small application, but it can get very full of items. 
 

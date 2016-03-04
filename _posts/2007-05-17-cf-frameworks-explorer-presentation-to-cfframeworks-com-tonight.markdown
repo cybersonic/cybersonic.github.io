@@ -4,6 +4,7 @@ title:  "CF Frameworks Explorer presentation to cfframeworks.com Tonight!"
 uid:	"8A9A7AB0-9F37-9667-F32B9BB9B5D37E8F"
 date:   2007-05-17 11:08 AM +0000
 categories: presentations
+permalink: cf-frameworks-explorer-presentation-to-cfframeworks-com-tonight
 ---
 How is that for a mouthful of a title? I shall be speaking tonight at 7pm GMT (2pm EST) with Nick Tong from <a href="http://www.cfframeworks.com">cfframeworks.com</a> about the newly released CF Frameworks Explorer for CFEclipse.
 

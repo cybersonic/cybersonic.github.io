@@ -4,6 +4,7 @@ title:  "Code donation to CFEclipse and works in progress"
 uid:	"8A995A13-D49C-F260-4D154473AD26A034"
 date:   2006-12-07 11:06 AM +0000
 categories: cfeclipse
+permalink: code-donation-to-cfeclipse-and-works-in-progress
 ---
 I thought I would update people on what has been happening in the world of CFEclipse:
 <ul>

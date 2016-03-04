@@ -4,6 +4,7 @@ title:  "Real World SPRY"
 uid:	"8A98FEF5-D35C-BEED-821795E2FFB53CE4"
 date:   2006-11-17 11:06 AM +0000
 categories: coldfusion
+permalink: real-world-spry
 ---
 I just finished watching <a href="http://ray.camdenfamily.com/index.cfm/2006/11/16/Spry-Presentation-Recording" target="_blank">Ray Camden's fantastic Spry</a> presentation and I realised, I keep forgetting to blog about the stuff I am doing with ColdFusion, <a href="http://labs.adobe.com/technologies/spry/">Spry</a> and other technologies (what can I say, CFEclipse is what I like talking about!).
 

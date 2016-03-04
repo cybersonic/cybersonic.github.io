@@ -4,6 +4,7 @@ title:  "Model Glue Tips Part 5: Maximize your re-usability with message argumen
 uid:	"8A9AD002-9E59-BE72-79FB22AAC925842E"
 date:   2007-08-13 04:01 AM +0000
 categories: model-glue
+permalink: model-glue-tips-part-5-maximize-your-re-usability-with-message-arguments
 ---
 As shown in the previous post, there is the ability to pass messages back to a message-listener with added information in the form of arguments. This can come in quite handy and allows you to make your controllers a bit more dynamic and re-usable so that they are useful under different situations.
 

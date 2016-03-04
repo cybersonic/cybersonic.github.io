@@ -4,6 +4,7 @@ title:  "Experiments with CFEclipse, DLTK and Aptana"
 uid:	"8A9BF8AE-D7CE-2368-812FB37A5F056C51"
 date:   2008-04-17 11:09 AM +0000
 categories: coldfusion
+permalink: experiments-with-cfeclipse-dltk-and-aptana
 ---
 I have been having a bit of a play with <a href="http://www.eclipse.org/dltk/" title="Dynamic Languages Toolkit">Eclipse's DLTK</a> and <a href="http://www.aptana.com/" title="Aptana">Aptana</a> to build two versions of CFEclipse, or rather a CFML editor. They are not complete yet (in fact, the editor doesn't work yet in either). And I thought I would put them up for people to see what I have done, contribute, play etc.
 

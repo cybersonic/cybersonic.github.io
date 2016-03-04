@@ -4,6 +4,7 @@ title:  "CFEclipse and Eclipse 3.3"
 uid:	"8A9AA6E0-D39C-FBEC-59FB64572BF26E71"
 date:   2007-07-03 11:08 AM +0000
 categories: presentations
+permalink: cfeclipse-and-eclipse-3-3
 ---
 At <a href="http://cfunited.com/">CFUnited 2007</a>, I did a couple of presentations showing <a href="http://www.cfeclipse.org/">CFEclipse</a>, which at the end of the presentation I mentioned was actually running on <a href="http://www.eclipse.org/europa/">Eclipse 3.3</a>. Not bad going considering that Eclipse 3.3 was released on the day of my first presentation huh?
 

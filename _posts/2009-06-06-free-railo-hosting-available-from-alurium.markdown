@@ -4,6 +4,7 @@ title:  "Free Railo hosting available from Alurium"
 uid:	"866F62CA-AB09-44F8-8D31D288EE4372BC"
 date:   2009-06-06 12:12 PM +0000
 categories: getrailo
+permalink: free-railo-hosting-available-from-alurium
 ---
 <p>
 In case you didn't already know, <a title="Web hosting provider - Alurium.com - railo hosting - domain hosting - PHP Hosting - cheap web hosting - E-Commerce Web Hosting Alurium" href="http://www.alurium.com/">alurium.com</a> are providing a 60 day free trial of Railo hosting. 

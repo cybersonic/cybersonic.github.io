@@ -4,6 +4,7 @@ title:  "CFEclipse Beta download stats"
 uid:	"8A98CCEA-E5ED-EFAC-BDCBD936617C49C8"
 date:   2006-07-02 11:06 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-beta-download-stats
 ---
 I thought I would give you a quick look at some of the registered downloads of CFEclipse 1.3 beta.
 

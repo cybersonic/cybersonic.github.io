@@ -4,6 +4,7 @@ title:  "How to annoy customers"
 uid:	"8A97A2A8-C510-3F8C-85E8B779FF4CAA8A"
 date:   2005-11-29 11:05 AM +0000
 categories: ajax
+permalink: how-to-annoy-customers
 ---
 So, I took the plunge and decided to get cable tv. I know, I know.. I should already be hooked into this but hell, I watch movies mainly rather than mainstream TV but I thought, I am going to have a few weeks off and it will be nice to have some good TV to watch (ok, debatable) but also the fact that I get terrible reception through the aerial, so much so that most of the time I think I am drunk.
 

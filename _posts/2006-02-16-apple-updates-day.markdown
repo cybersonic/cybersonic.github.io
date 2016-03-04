@@ -4,6 +4,7 @@ title:  "Apple Updates Day!"
 uid:	"8A97B092-E359-B7FD-180B881041FD9498"
 date:   2006-02-16 11:05 AM +0000
 categories: apple
+permalink: apple-updates-day
 ---
 Looks like Apple have decided to bombard us with updates today, check out the whole raft of updates that you can get through Software Update.
 

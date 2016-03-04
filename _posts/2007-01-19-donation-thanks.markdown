@@ -4,6 +4,7 @@ title:  "Donation thanks!"
 uid:	"8A99A1F8-A0C7-AF73-970D2F6AF8A34A8E"
 date:   2007-01-19 11:07 AM +0000
 categories: cfeclipse
+permalink: donation-thanks
 ---
 A bit late on the posting but I wanted to give a big thanks to Charlie Griefer and Florence Bowden for their very kind and generous donations!
 

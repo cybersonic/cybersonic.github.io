@@ -4,6 +4,7 @@ title:  "Interesting features of Eclipse 3.3"
 uid:	"8A9A68FD-C428-0455-B75245081D239372"
 date:   2007-03-14 11:08 AM +0000
 categories: eclipse
+permalink: interesting-features-of-eclipse-3-3
 ---
 I know Eclipse 3.3 hasn't been released, yet, but I was looking at the <a href="http://download.eclipse.org/eclipse/downloads/drops/S-3.3M5eh-200702220951/index.php">latest stream build's</a> notes on what is <a href="http://download.eclipse.org/eclipse/downloads/drops/S-3.3M5-200702091006/eclipse-news-M5.html">new and noteworthy</a> and I found a few things that might be of interest to people that use CFEclipse and have had some bugs or issues with it.
 

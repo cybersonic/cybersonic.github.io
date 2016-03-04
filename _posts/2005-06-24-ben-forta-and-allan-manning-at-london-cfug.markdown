@@ -4,6 +4,7 @@ title:  "Ben Forta and Allan Manning at London CFUG"
 uid:	"8A9792AB-B1FA-AF78-58C037A392F4BC28"
 date:   2005-06-24 11:05 AM +0000
 categories: coldfusion
+permalink: ben-forta-and-allan-manning-at-london-cfug
 ---
 The other evening Ben Forta and Allen Manning presented some interesting things at the London CFUG. 
 

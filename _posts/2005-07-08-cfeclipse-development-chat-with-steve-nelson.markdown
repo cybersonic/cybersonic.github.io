@@ -4,6 +4,7 @@ title:  "CFEclipse development chat with Steve Nelson"
 uid:	"8A979412-FF24-9564-704D4CD0AEA941FF"
 date:   2005-07-08 11:05 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-development-chat-with-steve-nelson
 ---
 Yesterday I had a long chat with <a href="http://steve.secretagents.com">Steve Nelson</a> over IM about a sample project that has content assistants that <a href="http://www.spike.org.uk/blog/index.cfm?mode=entry&#38;entry=EAC56B1B-D565-E33F-352CFAE205B36528">Spike</a> had posted for the developers out there.
 

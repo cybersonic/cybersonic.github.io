@@ -4,6 +4,7 @@ title:  "CF Docs Podcast Episode 2 released Today!"
 uid:	"B66E0058-E624-A1A7-54F227DB4453EF98"
 date:   2009-01-08 08:28 AM +0000
 categories: podcasting
+permalink: cf-docs-podcast-episode-2-released-today
 ---
 <p>
 So finally, after the whole being ill and Christmas holidays hiatus, I finally managed to edit the<a title="UKCFUG | The UK ColdFusion User Group" href="http://www.ukcfug.org/archives.cfm/category/podcast"> CFDocs podcast from December</a> (Follow the link above to get more details on the episode). 

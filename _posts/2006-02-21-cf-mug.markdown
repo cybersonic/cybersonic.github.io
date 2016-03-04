@@ -4,5 +4,6 @@ title:  "cf_mug"
 uid:	"8A97B286-9922-BCFC-6B0BACB36DD2FAAF"
 date:   2006-02-21 11:05 AM +0000
 categories: coldfusion
+permalink: cf-mug
 ---
 Not Macromedia User Group, but an actual mug! Thanks to Will Tomlinson from <a href="http://www.coldfusiongear.com">www.coldfusiongear.com</a> for sending me a couple of CF Mugs! One for me and one I shall be giving away at the <a href="http://www.ukcfug.org/index.cfm?objectid=4F39C57C-F1FF-921E-1E8846DB6D44FE3E">UK CFUG on the 2nd of March.</a><br /><br />I shall be presenting some new features in CFEclipse, the RDS plugin by Adobe and (hopefully!) the new Fusebox plugin for CFEclipse. <br /><br /><a href="/UserFiles/Image/cfmug.jpg"><img width="100" height="75" border="0" src="/UserFiles/Image/cfmug_thumb.jpg" alt="" /></a>

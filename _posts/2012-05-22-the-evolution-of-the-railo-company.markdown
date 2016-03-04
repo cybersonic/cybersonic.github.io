@@ -4,6 +4,7 @@ title:  "The Evolution of the Railo Company"
 uid:	"86A0624E-3952-4640-915BABD24ACE84C0"
 date:   2012-05-22 06:59 AM +0000
 categories: railo
+permalink: the-evolution-of-the-railo-company
 ---
 <p>Today I shared some important news about the Railo company and how we are setting up the future. </p>
 <p>You can read the post over in the Railo blog: <a href="http://blog.getrailo.com/post.cfm/railo-at-cf-objective-the-evolution-of-railo">http://blog.getrailo.com/post.cfm/railo-at-cf-objective-the-evolution-of-railo</a></p>

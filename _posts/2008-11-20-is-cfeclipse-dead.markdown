@@ -4,6 +4,7 @@ title:  "Is CFEclipse Dead?"
 uid:	"B8EF126A-E4AE-0143-A199D4182DD47DD5"
 date:   2008-11-20 03:08 AM +0000
 categories: coldfusion
+permalink: is-cfeclipse-dead
 ---
 <p> </p>
 <p>This question has started to raise its head amongst various forums and I have been asked (and misquoted) that the CFEclipse Project will be discontinued now that "Bolt" has been announced. </p>

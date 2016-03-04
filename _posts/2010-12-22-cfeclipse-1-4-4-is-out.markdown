@@ -4,6 +4,7 @@ title:  "CFEclipse 1.4.4 is out!"
 uid:	"50AE1D15-E11F-466E-94128D4782D54B72"
 date:   2010-12-22 07:17 AM +0000
 categories: cfml
+permalink: cfeclipse-1-4-4-is-out
 ---
 <p>
 The CFEclipse Team, lead by the awesome Den have managed to get another release of CFEclipse out!

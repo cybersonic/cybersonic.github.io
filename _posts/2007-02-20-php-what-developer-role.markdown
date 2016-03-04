@@ -4,6 +4,7 @@ title:  "PHP (WHAT?!) Developer role"
 uid:	"8A9A5F88-D885-1E9C-A089E2F88E6D7D5E"
 date:   2007-02-20 11:08 AM +0000
 categories: jobs
+permalink: php-what-developer-role
 ---
 An old friend contacted me today, and he is seeking a contract PHP developer. I know, I tried to convert him to the "one true way", and this might happen  but for this phase of a project he is seeking someone with PHP skills.
 

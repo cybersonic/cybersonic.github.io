@@ -4,6 +4,7 @@ title:  "CFEclipse toolbar, call for your opinions"
 uid:	"8A98F9D5-FFC3-5C59-CDB57D6BB15C12AB"
 date:   2006-11-11 11:06 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-toolbar-call-for-your-opinions
 ---
 I have been looking at the Toolbar in CFEclipse, I don't like it. There are a number of reasons for this (it was added to help HomeSite users get used to CFEclipse) and also that we provide so much support that I don't know what an icon can do to help you, but then again, that is just my opinion.
 

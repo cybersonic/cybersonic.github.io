@@ -4,6 +4,7 @@ title:  "CFEclipse All-in-One (BETA) updated"
 uid:	"8A9A6748-97E4-4439-A26123FDF1ED9A5B"
 date:   2007-03-12 11:08 AM +0000
 categories: coldfusion
+permalink: cfeclipse-all-in-one-beta-updated
 ---
 This weekend I spent some time updating the install and checking that it worked for the CFEclipse 1.3.1.3 All-in-One Beta installer.
 

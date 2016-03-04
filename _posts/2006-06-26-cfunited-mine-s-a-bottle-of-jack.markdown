@@ -4,6 +4,7 @@ title:  "CFUnited, mine's a bottle of Jack!"
 uid:	"8A98B58A-0D10-6125-ED0ED471A79E5BE0"
 date:   2006-06-26 11:06 AM +0000
 categories: coldfusion
+permalink: cfunited-mine-s-a-bottle-of-jack
 ---
 Hooray, well, one last working day and then I am heading out to CFUnited tomorrow (arriving at 3pm at Ray-Gun Intl airport) and then heading to the Ramada Inn which will be my temporary abode during the conference, and then on monday I head out to San Francisco for another week staying at... The Ramada Inn (downtown aparently!)
 

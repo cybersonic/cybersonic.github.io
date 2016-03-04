@@ -4,6 +4,7 @@ title:  "Jobs @ CFEclipse: Update site testers needed!"
 uid:	"8A98FB7A-C1AF-47A7-E36DB04A18353054"
 date:   2006-11-14 11:06 AM +0000
 categories: cfeclipse
+permalink: jobs-cfeclipse-update-site-testers-needed
 ---
 Well, as the title said, I have managed to get the update site working and I need some testers to check the new versions of CFEclipse 1.2 and CFEclipse 1.3 Beta RC1.
 

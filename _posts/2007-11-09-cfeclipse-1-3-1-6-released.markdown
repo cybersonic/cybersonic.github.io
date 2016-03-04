@@ -4,6 +4,7 @@ title:  "CFEclipse 1.3.1.6 Released"
 uid:	"8A9AE436-0DF9-8DFC-835E358FE00CD5AD"
 date:   2007-11-09 11:08 AM +0000
 categories: coldfusion
+permalink: cfeclipse-1-3-1-6-released
 ---
 I just wanted to post a note that this morning I did a release of CFEclipse 1.3.1.6. This is a bug-fix release, and has no extra features and is geared at some specific bugs:
 

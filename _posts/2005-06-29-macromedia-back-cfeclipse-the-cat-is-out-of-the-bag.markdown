@@ -4,6 +4,7 @@ title:  "Macromedia Back CFEclipse: The cat is out of the bag"
 uid:	"8A979395-033A-56B1-A824F689BA25E746"
 date:   2005-06-29 11:05 AM +0000
 categories: cfeclipse
+permalink: macromedia-back-cfeclipse-the-cat-is-out-of-the-bag
 ---
 Well, the cat is out of the bag and I can finally tell friends and relatives what I was doing in Newton, Ma  a couple of weeks ago. I was visiting with the Coldfusion Team, including Tim Buntel and Ben Forta with Spike, Simeon Bateman and Rob Rohan to have a couple of good meetings with Macromedia to talk about how they will help us make CFEclipse a better product.
 

@@ -4,6 +4,7 @@ title:  "Stopping Spam with AKistmet"
 uid:	"8A98DE5E-EB09-7076-37CFD97AD28E7A78"
 date:   2006-08-06 11:06 AM +0000
 categories: blogging
+permalink: stopping-spam-with-akistmet
 ---
 Brandon Harper over at <a href="http://devnulled.com/">devnulled</a> has released <a href="http://devnulled.com/cfakismet">CFAkismet</a>, a CFC that you can integrate into your own blog to stop comment spam. 
 

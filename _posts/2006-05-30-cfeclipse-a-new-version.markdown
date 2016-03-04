@@ -4,6 +4,7 @@ title:  "CFEclipse: A new version?"
 uid:	"8A988B8C-025D-BFC4-9F46716B04321643"
 date:   2006-05-30 11:06 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-a-new-version
 ---
 I have been thinking about doing a major release of CFEclipse but there is a problem. I have mainly been developing the current incarnatino of CFEclipse based on the 3.2 Release Candidate of the Eclipse platform. I know that as soon as I release it there will be problems since people running 3.1 will get some errors (specifically around the editing remote files through the File Explorer view).
 

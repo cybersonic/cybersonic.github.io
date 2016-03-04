@@ -4,6 +4,7 @@ title:  "How I got started in ColdFusion"
 uid:	"5C21C4FA-5919-4203-83A324D9A9E926F8"
 date:   2011-08-01 08:23 AM +0000
 categories: coldfusion
+permalink: how-i-got-started-in-coldfusion
 ---
 <p>Steve Bryant came up with the excellent idea of August 1st being designated <a href="http://www.bryantwebconsulting.com/blog/index.cfm/2011/7/20/August-1-2011-is-How-I-Started-ColdFusion-Day" title="Steve Bryant: August 1, 2011 is "How I Get Started in ColdFusion" Day">How I Got Started In ColdFusion Day</a>, for which ColdFusion users tell their origin story, So here goes mine!
 </p>

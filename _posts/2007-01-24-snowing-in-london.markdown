@@ -4,6 +4,7 @@ title:  "Snowing in London"
 uid:	"8A99A5D1-AA77-6021-AF78B8DF9A97E5DC"
 date:   2007-01-24 11:07 AM +0000
 categories: personal
+permalink: snowing-in-london
 ---
 I thought I would share the fact, that even though it isn't christmas, and nearly february, it snowed relatively heavily last night. Maybe I didnt keep up with the weather man, but I woke up to find the streets covered in snow!
 

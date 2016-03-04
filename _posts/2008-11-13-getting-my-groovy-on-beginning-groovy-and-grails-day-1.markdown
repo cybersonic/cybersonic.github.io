@@ -4,6 +4,7 @@ title:  "Getting my Groovy on. Beginning Groovy and Grails: Day 1"
 uid:	"94E0D965-EBA1-548B-762E7338268456D3"
 date:   2008-11-13 03:04 AM +0000
 categories: frameworks
+permalink: getting-my-groovy-on-beginning-groovy-and-grails-day-1
 ---
 <p>I decided that since it's now hit winter, and the nights close in so early, that I should spend one hour each evening learning about something. Since <a title="ArgumentCollection - Broadchoice Engineering: Plain Text and HTML Emails via Spring" href="http://blog.broadchoice.com/index.cfm/2008/11/10/Plain-Text-and-HTML-Emails-via-Spring">Ray seems to be getting into Groovy</a> I thought to myself that I might be good with CF and ok with Java, I really needed to learn some other technologies. This helps me get my thinking hat on even when I am coding in CF. Revitalize the old noodle so to speak.
 </p>

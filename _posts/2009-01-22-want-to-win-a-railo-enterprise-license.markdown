@@ -4,6 +4,7 @@ title:  "Want to win a Railo Enterprise License? "
 uid:	"FE0799BA-ECDE-382E-A660D87CA3138260"
 date:   2009-01-22 06:09 AM +0000
 categories: ukcfug
+permalink: want-to-win-a-railo-enterprise-license
 ---
 <p>
 Would you like to own a <a href="http://www.railo-technologies.com/en/index.cfm?treeID=151" title="Railo 3.0: Railo enterprise"> Railo 3.0 Enterprise</a> license all of your own? I am sure you would! 

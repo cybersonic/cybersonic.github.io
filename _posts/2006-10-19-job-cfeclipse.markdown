@@ -4,6 +4,7 @@ title:  "Job @ CFEclipse"
 uid:	"8A98EEB9-0318-5559-982AF464EE831D44"
 date:   2006-10-19 11:06 AM +0000
 categories: cfeclipse
+permalink: job-cfeclipse
 ---
 This isnt a great job, the pay sucks (its non-existent) but you will get lots of kudos (not least from me!). If you would like to help the CFEclipse team, I have a job that needs doing, its pure CF. You wont even break a sweat, you might not even have to DO anything! How is that for an amazing job?
 

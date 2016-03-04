@@ -4,6 +4,7 @@ title:  "Seeking ColdFusion and CFML UK based contractors"
 uid:	"86230477-28DA-4AF8-BA6F1D6880DA4ECA"
 date:   2010-02-10 11:59 AM +0000
 categories: getrailo
+permalink: seeking-coldfusion-and-cfml-uk-based-contractors
 ---
 <p>So this is a bit of a fishing post (at least I am being honest!)</p>
 <p>In the next few months Railo Technologies will be working on a number of projects and we are  looking to build up a good list of contractors that can work on these projects with us. </p>

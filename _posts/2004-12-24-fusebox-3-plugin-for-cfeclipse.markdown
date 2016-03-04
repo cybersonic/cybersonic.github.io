@@ -4,6 +4,7 @@ title:  "Fusebox 3 Plugin for CFEclipse"
 uid:	"8A978C90-EC6E-36CA-7CBF0878918FC324"
 date:   2004-12-24 11:04 AM +0000
 categories: webdev
+permalink: fusebox-3-plugin-for-cfeclipse
 ---
 <a href="http://cfopen.org/projects/fusebox3cfe/">Fusebox 3 Plugin for CFEclipse</a>: "This is a plugin for the CFEclipse project that extends the capabilities of CFEclipse to develop fusebox 3 applications. It provides views and functions in line with good practices for fusebox development"
 

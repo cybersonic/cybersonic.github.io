@@ -4,6 +4,7 @@ title:  " Quick Tip on Railo Email Send Queues"
 uid:	"13163767-0D48-447A-AFBA9097188B4F53"
 date:   2010-07-22 09:54 AM +0000
 categories: getrailo
+permalink: quick-tip-on-railo-email-send-queues
 ---
 <p> </p>
 <p>When you send an email from the &lt;cfmail&gt; tag in Railo, there are times that for whatever reason the email won't be sent. Rather than digging through a bunch of folders to see what hasn't been sent, you can do a couple of things.</p>

@@ -4,6 +4,7 @@ title:  "Firefox tip of the day"
 uid:	"8A97AB33-ED71-B66B-EF9D0B798F48B2E2"
 date:   2006-01-30 11:05 AM +0000
 categories: personal
+permalink: firefox-tip-of-the-day
 ---
 I was playing around with firefox today, you know the deal, edit code, alt+tab, Ctrl+r to reload the changes. I then needed to see something in the source, so alt+tab, ctrl+r , ctrl+u then ctrl + r to go back to CFEclipse.
 

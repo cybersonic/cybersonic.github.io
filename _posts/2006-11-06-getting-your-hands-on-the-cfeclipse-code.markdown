@@ -4,6 +4,7 @@ title:  "Getting your hands on the CFEclipse code"
 uid:	"8A98F36C-E5EA-DAD4-2E089737EB180E30"
 date:   2006-11-06 11:06 AM +0000
 categories: reference
+permalink: getting-your-hands-on-the-cfeclipse-code
 ---
 I have just been looking at the documentation on the current <a href="http://www.cfeclipse.org">cfeclipse.org</a> site, and its very out of date, we have moved our code base from using CVS to using <a href="http://svn.cfeclipse.org">SVN</a> so we could host it ourselves and use <a href="http://trac.cfeclipse.org">Trac</a> rather than depending on Tigris.
 

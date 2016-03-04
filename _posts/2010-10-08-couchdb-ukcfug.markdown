@@ -4,6 +4,7 @@ title:  "Relax with CouchDB: Presentation to the UKCFUG"
 uid:	"F78A3316-366C-40E0-991DF97A278CE12C"
 date:   2010-10-08 06:10 AM +0000
 categories: getrailo
+permalink: couchdb-ukcfug
 ---
 <p>
 <img src="http://preview.getrailo.org/logos/couchdb-logo.png" alt="" align="left" /> Yesterday, I presented the NoSQL and CouchDB to the UK CFUG. I think it went down well and there were lots of questions and interest in the subject of Not Only SQL and how they can be used with your applications. 

@@ -4,6 +4,7 @@ title:  "CFCUnit Assertions"
 uid:	"8A98D5D3-EA6D-7B04-0BAC616164F5900A"
 date:   2006-07-26 11:06 AM +0000
 categories: coldfusion
+permalink: cfcunit-assertions
 ---
 I am doing a big application that has a number of CFCs that connect to another application and also writing modifications to that application. You can imagine that things get a bit complicated after a while. 
 

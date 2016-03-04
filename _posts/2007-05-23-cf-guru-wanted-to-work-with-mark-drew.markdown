@@ -4,6 +4,7 @@ title:  "CF Guru wanted to work with Mark Drew"
 uid:	"8A9A7B2D-BEE4-59D7-923BB6A5887C242B"
 date:   2007-05-23 11:08 AM +0000
 categories: jobs
+permalink: cf-guru-wanted-to-work-with-mark-drew
 ---
 Yep, I am looking for a talented ColdFusion developer to come and work for/with me at <a href="http://www.designuk.com/">Design UK's</a> offices in the centre of <a href="http://www.designuk.com/index.cfm?channel=1079&amp;fwd=15">London</a>.
 

@@ -4,6 +4,7 @@ title:  "FusionDebug 3.0: now for Railo!"
 uid:	"0343F64E-BE56-40A8-8056AEA08B93F140"
 date:   2009-04-09 10:24 AM +0000
 categories: fusiondebug
+permalink: fusiondebug-3-0-now-for-railo
 ---
 <p>The great guys at Integral have released yet another great product, <a title="FusionDebug 3.0 BETA 1" href="http://www.fusion-reactor.com/labs/fd_railo.cfm">FusionDebug 3.0 beta 1 for Railo</a>! </p>
 <p>It has all the features you expect from FusionDebug, but one of the most important things is that is FAST!</p>

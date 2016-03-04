@@ -4,6 +4,7 @@ title:  "Problems with the iPod Touch's January Software Update"
 uid:	"8A9B1BFE-9B35-3AC1-7B744F4B0C0D1C09"
 date:   2008-01-15 11:08 AM +0000
 categories: apple
+permalink: problems-with-the-ipod-touch-s-january-software-update
 ---
 So, after watching today's slightly <a href="http://www.macrumors.com/">disappointing Keynote from  MacWorld Conference and Expo</a>, I decided to buy, through iTunes, the iPod Touch January Software Update ($19.99 or £12.99).
 

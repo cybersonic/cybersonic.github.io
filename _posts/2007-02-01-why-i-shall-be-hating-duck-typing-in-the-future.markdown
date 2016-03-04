@@ -4,6 +4,7 @@ title:  "Why I shall be hating Duck Typing in the future"
 uid:	"8A99AD52-0510-1DDC-F807C3C22C679227"
 date:   2007-02-01 11:07 AM +0000
 categories: coldfusion
+permalink: why-i-shall-be-hating-duck-typing-in-the-future
 ---
 At <a href="http://www.cfunited.com/">CFUnited 2006</a> there was a lot of talk of DuckTyping* and when I finally <a href="http://blog.cutterscrossing.com/index.cfm/2006/6/30/Day-3">got it</a>, I  adopted it somewhat (only to a level) for some simplicity's sake when writing my own code.
 

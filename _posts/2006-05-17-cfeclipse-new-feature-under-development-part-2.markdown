@@ -4,6 +4,7 @@ title:  "CFEclipse new feature under development part 2"
 uid:	"8A9885D0-D7FD-CC2E-BD96A21D3E238478"
 date:   2006-05-17 11:06 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-new-feature-under-development-part-2
 ---
 I have just checked in some new functionality to CFEclipse, again this is not complete, but it works for some things. I mentioned I had added Component insight <a href="http://www.markdrew.co.uk/blog/index.cfm/2006/5/7/Coming-Soon-Getting-CFEclipse-to-do-Component-Insight">previously</a>, well, that has been removed now, but just for the moment since I am adding generic variable insight.<br /><br />The variable insight is a way of parsing variables that you set in your document and giving you completion for those variables. It is a work in progress and so far I have added&nbsp; completion for:<br /><br />
 <ul>

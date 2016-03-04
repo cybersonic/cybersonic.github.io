@@ -4,6 +4,7 @@ title:  "Scotch on the Rocks: Ticket prices announced"
 uid:	"8A9AE290-F535-7A61-C87FE2005CB4AD6A"
 date:   2007-11-02 11:08 AM +0000
 categories: cfconferences
+permalink: scotch-on-the-rocks-ticket-prices-announced
 ---
 Just updated on the <a href="http://www.scotch-on-the-rocks.co.uk/blog/" title="Scotch on the Rocks Blog">SOTR Blog</a> is the ticket pricing for next year's conference.
 

@@ -4,6 +4,7 @@ title:  "Getting Spammed"
 uid:	"8A979886-D9B7-9ADF-B9BE5E48EB830926"
 date:   2005-10-04 11:05 AM +0000
 categories: personal
+permalink: getting-spammed
 ---
 I seem to be getting comment spam on this blog of late. Very interesting comments of course but all linking to something. A bit daft since the whole point of doing that is to get higher search engine rankings... but they wont get that since each post that has a link gets a nofollow attribute and thus not doing anything for the page ranking!
 

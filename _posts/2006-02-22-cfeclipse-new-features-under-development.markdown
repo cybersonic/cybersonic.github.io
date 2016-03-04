@@ -4,6 +4,7 @@ title:  "CFEclipse new features under development"
 uid:	"8A97B4E8-BD21-F56B-9E73AA98C7A15CD9"
 date:   2006-02-22 11:05 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-new-features-under-development
 ---
 Ok, so these features arent finished, you cant see them. They arent written yet! But these are the things that I am planning to add to the proiject:<br /><br />
 <ul>

@@ -4,6 +4,7 @@ title:  "BlogCFC Redesign, Keeping it Red"
 uid:	"8A9ADCB4-0DD3-703F-2B303747790CA9B2"
 date:   2007-09-18 11:08 AM +0000
 categories: coldfusion
+permalink: blogcfc-redesign-keeping-it-red
 ---
 Welcome to my blog, my re-designed blog! So, finally I get rid of that *mustard* colour, and back to my usual angry red, but fear not, I have added some rounded corners so you dont feel so angry when reading the post (clever eh? a red padded room)
 

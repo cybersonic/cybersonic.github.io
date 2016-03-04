@@ -4,6 +4,7 @@ title:  "Competition: CFML Mythbusters! Win my book!"
 uid:	"48AD1568-7129-4F46-A2090C9F8340446A"
 date:   2012-01-16 04:57 PM +0000
 categories: railo
+permalink: competition-cfml-mythbusters-win-my-book
 ---
 <img src="http://www.markdrew.co.uk/blog/enclosures/mythbusters_busted..png" width="100" align="left" vspace="10" hspace="10">
 <p>I shall be presenting the topic "CFML Mythbusters" at a couple of conferences this year so far (<a href="http://www.cfobjective.com/" title="cf.Objective() 2012: The Only Enterprise ColdFusion Conference... - cf.Objective()">cf.Objective</a> and <a href="http://opencfsummit.org/" title="Home - OpenCF Summit">OpenCF Summit</a>)! 

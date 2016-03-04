@@ -4,6 +4,7 @@ title:  "FusionDebug 1.5 Beta 2! (and getting it to work on OS X)"
 uid:	"8A996A40-AEA4-4DB2-C403EB973453A869"
 date:   2007-01-11 11:07 AM +0000
 categories: fusiondebug
+permalink: fusiondebug-1-5-beta-2-and-getting-it-to-work-on-os-x
 ---
 I just managed to get the <a href="http://www.fusion-reactor.com/fusiondebug/openBetaSignup.html">new beta of FusionDebug 1.5</a> downloaded and installed. There certainly has been a lot of work making this product a lot nicer to install ,it has one installer for both the plugin/standalone version and the server side settings. 
 

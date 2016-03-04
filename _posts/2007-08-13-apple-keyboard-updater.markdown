@@ -4,6 +4,7 @@ title:  "Apple Keyboard Updater"
 uid:	"8A9ACE8B-FBA5-D92F-2F3A6AD0F6D69EEC"
 date:   2007-08-13 11:08 AM +0000
 categories: apple
+permalink: apple-keyboard-updater
 ---
 I am not sure if anybody out there has bought the new apple keyboard, but it has some new features and has changed the location of a number of keys. 
 

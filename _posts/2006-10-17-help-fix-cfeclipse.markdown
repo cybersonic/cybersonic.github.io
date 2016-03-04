@@ -4,6 +4,7 @@ title:  "Help Fix CFEclipse"
 uid:	"8A98EC48-DFDE-DC62-F9219399A694ADA1"
 date:   2006-10-17 11:06 AM +0000
 categories: cfeclipse
+permalink: help-fix-cfeclipse
 ---
 Yep, I have been asked many times how people that dont have any Java experience can help with the development of CFEclipse.
 

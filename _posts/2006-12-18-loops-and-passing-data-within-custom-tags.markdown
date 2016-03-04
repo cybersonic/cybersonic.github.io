@@ -4,6 +4,7 @@ title:  "Loops and passing data within custom tags"
 uid:	"8A995C17-D3BB-4B72-F65A953E7BA771F4"
 date:   2006-12-18 11:06 AM +0000
 categories: coldfusion
+permalink: loops-and-passing-data-within-custom-tags
 ---
 I have been doing some little mental exercises for a project that I might do in a few months, but something has me a little stumped. From the outset I should say that I haven't done custom tags for a while (and when I was doing them it was using Spectra custom tags) so I am a bit rusty in this.
 

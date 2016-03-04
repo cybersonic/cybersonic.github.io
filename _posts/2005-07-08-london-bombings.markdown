@@ -4,6 +4,7 @@ title:  "London Bombings"
 uid:	"8A97948F-B4BD-059B-74A6FE340C41559E"
 date:   2005-07-08 11:05 AM +0000
 categories: personal
+permalink: london-bombings
 ---
 I have to comment on the bombings in London yesterday. Just to put it in a personal perspective, Aldgate East, one of the stations that was hit is my stop for work. I went to work yesterday and everything was closed. I didnt see much and was late enough to miss any action.
 

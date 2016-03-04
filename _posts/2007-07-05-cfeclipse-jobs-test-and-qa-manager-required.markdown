@@ -4,6 +4,7 @@ title:  "CFEclipse Jobs: Test and QA Manager Required"
 uid:	"8A9AA970-D6DE-1F74-26BC3533ABDDB167"
 date:   2007-07-05 11:08 AM +0000
 categories: jobs
+permalink: cfeclipse-jobs-test-and-qa-manager-required
 ---
 As the CFEclipse project grows, both in terms of features and number of users, I would like to "hire" someone that will be in charge of the testing and QA group. This role would not take a lot of your time, maybe a couple of hours a week, maybe more if a lot of features are going in.
 

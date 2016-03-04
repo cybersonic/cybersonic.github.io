@@ -4,6 +4,7 @@ title:  "Eclipse, ColdFusion and Mark Drew, Synchronised?"
 uid:	"8A9AA9DE-A215-9FEA-85C16DB9B7D622E5"
 date:   2007-07-09 11:08 AM +0000
 categories: adobe
+permalink: eclipse-coldfusion-and-mark-drew-synchronised
 ---
 A little <a href="http://twitter.com/bigmadkev/statuses/140149722" title="Twitter / Kev McCabe: @markdrew  mmmmm eclipse 3....">twitter message</a> from <a href="http://inner-rhythm.co.uk/blog/" title="Inner-Rhythm.co.uk">Kev</a> got me thinking about something totally unrelated really, but it might explain a few things. 
 

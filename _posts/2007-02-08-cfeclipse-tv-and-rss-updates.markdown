@@ -4,6 +4,7 @@ title:  "CFEclipse TV and RSS Updates"
 uid:	"8A99B205-A18D-D072-75681008FBAEBF5A"
 date:   2007-02-08 11:07 AM +0000
 categories: coldfusion
+permalink: cfeclipse-tv-and-rss-updates
 ---
 We have added a new video to the <a href="http://www.cfeclipse.org/">cfeclipse.org</a> site, How to work with Local History. This is a great way to manage versions of a file without hooking up to a Version Control system (of course its not a replacement but it can get you out of trouble)
 

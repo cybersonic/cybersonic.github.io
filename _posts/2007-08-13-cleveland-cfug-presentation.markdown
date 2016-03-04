@@ -4,6 +4,7 @@ title:  "Cleveland CFUG Presentation"
 uid:	"8A9ACF95-076C-4517-F12FA09512413630"
 date:   2007-08-13 11:08 AM +0000
 categories: cfeclipse
+permalink: cleveland-cfug-presentation
 ---
 Last week I was delighted to be invited to do a presentation to the <a href="http://www.clevelandmmug.org/?group=cfug">Cleveland CFUG</a>. 
 

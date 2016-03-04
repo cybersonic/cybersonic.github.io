@@ -4,6 +4,7 @@ title:  "CFEclipse: BETA 1.3 Released!"
 uid:	"8A98B4ED-B6AB-1918-7D9B2E20526D7C09"
 date:   2006-06-24 07:44 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-beta-1-3-released
 ---
 I have just put an area for you to download CFEclipse 1.3 Beta for testing. I thought I would get it all ready for CFUnited (did I mention I am finally going?)
 

@@ -4,6 +4,7 @@ title:  "Follow the events at cfObjective"
 uid:	"8A9BFAFF-F14D-B60B-07EAFABBE6B0B57D"
 date:   2008-04-29 11:09 AM +0000
 categories: cfconferences
+permalink: follow-the-events-at-cfobjective
 ---
 Its time again for the fantastic cfObjective in Minneapolis!
 

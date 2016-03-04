@@ -4,6 +4,7 @@ title:  "Model Glue Tips Part 7: Set myself in your views"
 uid:	"8A9AD0FC-989A-C6D0-DDE9D8C21D24E31A"
 date:   2007-08-17 11:08 AM +0000
 categories: model-glue
+permalink: model-glue-tips-part-7-set-myself-in-your-views
 ---
 This is a quick tip for today. In all views you will probably be linking to other events, now of course you could write something like:
 

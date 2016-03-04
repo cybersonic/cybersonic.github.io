@@ -4,6 +4,7 @@ title:  "Horses heads and un-refusable offers"
 uid:	"8A98D3DF-C6F3-4ADA-1B443B3D85F225DC"
 date:   2006-07-26 11:06 AM +0000
 categories: personal
+permalink: horses-heads-and-un-refusable-offers
 ---
 Ahh, padrino, I see you have made it to my blog... you show me proper respect, si?
 

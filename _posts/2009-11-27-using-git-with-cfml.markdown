@@ -4,6 +4,7 @@ title:  "Using Git with CFML"
 uid:	"B37D5DAF-A381-49D4-AF6295F033E4C642"
 date:   2009-11-27 01:08 AM +0000
 categories: cfml
+permalink: using-git-with-cfml
 ---
 <p>Today I was writing a little app that helps me keep up with my Todo list, since I wanted to have a web interface for some reporting into my tasks.</p>
 <p>The issue is that my todo list is just a text file (and before you go saying there are various apps, I am happy with my text file ok? for various reasons which are not part of this post), so I built a nice web interface to it, but the problem is that since I can modify it, and whilst I was developing it I wanted a way to back this file up. I mean, whist I am coding this app, I might make mistakes and want to roll back. </p>

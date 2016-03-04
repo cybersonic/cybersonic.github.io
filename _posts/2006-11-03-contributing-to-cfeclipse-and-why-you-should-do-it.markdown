@@ -4,6 +4,7 @@ title:  "Contributing to CFEclipse, and why YOU should do it"
 uid:	"8A98F2EF-DCB2-A981-41A7B3CF17A83BEA"
 date:   2006-11-03 11:06 AM +0000
 categories: personal
+permalink: contributing-to-cfeclipse-and-why-you-should-do-it
 ---
 &lt;rant&gt;
 

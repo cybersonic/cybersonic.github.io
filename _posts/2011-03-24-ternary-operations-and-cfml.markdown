@@ -4,6 +4,7 @@ title:  "Ternary Operations and CFML"
 uid:	"53D9FC97-4540-42A2-9A01446166958F46"
 date:   2011-03-24 06:25 AM +0000
 categories: cfml
+permalink: ternary-operations-and-cfml
 ---
 <p>
 I have been doing a lot of JavaScript development recently and finally got my head round Ternary operations. Something that Railo Server has had for a while and I think was introduced to Adobe <del>CF8</del> CF9 a while ago too. I just never got round to making it part of my standard coding practices, so I thought I would share. 

@@ -4,6 +4,7 @@ title:  "Upcoming features in CFEclipse"
 uid:	"8A97A6CE-D489-9790-9F331735CB12F0F7"
 date:   2005-12-08 11:05 AM +0000
 categories: cfeclipse
+permalink: upcoming-features-in-cfeclipse
 ---
 I have been spending some time adding new features to CFEclipse and I thought I would let you have a bit of a preview of what is coming up.
 

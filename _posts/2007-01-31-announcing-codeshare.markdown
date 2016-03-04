@@ -4,6 +4,7 @@ title:  "Announcing codeShare!"
 uid:	"8A99AB9D-CBA2-AFAA-EA53A78E06934DA2"
 date:   2007-01-31 11:07 AM +0000
 categories: webdev
+permalink: announcing-codeshare
 ---
 Have you ever been in the position that you had some code that wouldn't do something? You wanted to show it to someone, so you cut and paste the code (bye bye formatting) and email it... great... but what if you could do this straight from your editor?
 

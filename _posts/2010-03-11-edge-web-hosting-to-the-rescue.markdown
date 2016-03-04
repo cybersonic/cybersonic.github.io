@@ -4,6 +4,7 @@ title:  "Edge Web Hosting to the Rescue!"
 uid:	"4303DC9D-E983-4A1D-B7979C5D3E757E48"
 date:   2010-03-11 01:01 PM +0000
 categories: cfml
+permalink: edge-web-hosting-to-the-rescue
 ---
 <p><a href="http://www.edgewebhosting.net"><img src="http://www.edgewebhosting.net/images/logolast.gif" border="0" alt="" width="200" height="82" align="left" /></a>I am not sure if people know this (and yes, I shall get round to putting up a banner) but the guys at <a href="http://www.edgewebhosting.net">EdgeWebHosting</a> have been hosting my site on a dedicated server that allows me to both maintain this blog as well as a bunch of small projects that I have for quite a while now. I have always got on with Vlad at all the conferences and the choice seemed good. </p>
 <p>So far the service has been stellar, no downtime etc. But normally, that is what you expect right? A true test really comes when things go wrong. </p>

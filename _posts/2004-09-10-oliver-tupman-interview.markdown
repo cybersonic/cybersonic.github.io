@@ -4,6 +4,7 @@ title:  "Oliver Tupman Interview"
 uid:	"8A9788D7-DED0-AF9A-8CBAD761B6EEADF7"
 date:   2004-09-10 11:04 AM +0000
 categories: cfeclipse
+permalink: oliver-tupman-interview
 ---
 Last night a special event happened... CFEclipse version 1.1.16 was released including a number of bug fixes and more importantly new features.
 You can use your ecplipse update feature or download it from: <a href="http://www.spike.org.uk/downloads/cfeclipse1.1.16.zip">http://www.spike.org.uk/downloads/cfeclipse1.1.16.zip</a>

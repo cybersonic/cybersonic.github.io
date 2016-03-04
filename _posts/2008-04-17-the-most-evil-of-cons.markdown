@@ -4,6 +4,7 @@ title:  "The Most Evil of Cons"
 uid:	"8A9BF840-0434-3FE5-EC0AEB166CEF4AA9"
 date:   2008-04-17 11:09 AM +0000
 categories: spam
+permalink: the-most-evil-of-cons
 ---
 Today I got a letter, which in itself isn't odd, but the addressing was. It was addressed to me but using an initial that I don't use in day to day transactions. It was also posted from Madrid, Spain. Which is odd since I haven't lived there since I was three, and the last time I lived in Spain, I lived in Valencia so even then. It was odd.
 

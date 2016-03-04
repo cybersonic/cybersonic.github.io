@@ -4,6 +4,7 @@ title:  "CFCamp 2011! Be there or be a Pretzel!"
 uid:	"DF505619-6FCF-4B53-85BF77FA50A777B6"
 date:   2011-09-26 10:40 AM +0000
 categories: getrailo
+permalink: cfcamp-2011-be-there-or-be-a-pretzel
 ---
 <p> </p>
 <p>Munich! City of Oktober fest and Pretzels! The big soft ones with butter inside. What could be more delicious than that? I tell you what is... CFCAMP 2011 is! </p>

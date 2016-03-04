@@ -4,6 +4,7 @@ title:  "Coldfusion handling Java  null's"
 uid:	"8A98CFF7-FA3E-ECBD-2AE5F349812FEEFC"
 date:   2006-07-12 11:06 AM +0000
 categories: reference
+permalink: coldfusion-handling-java-null-s
 ---
 I have been reading a number of posts how to handle nulls in Coldfusion. Coldfusion doesnt naturally handle a "null" object returned from Java (as far as I can see, I have read a few posts and still no definate answer, so here goes for a couple of tips, just to keep myself sane and to remind myself.
 

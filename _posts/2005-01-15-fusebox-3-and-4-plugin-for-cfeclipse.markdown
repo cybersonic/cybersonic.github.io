@@ -4,6 +4,7 @@ title:  "Fusebox 3 and 4 plugin for CFEclipse"
 uid:	"8A978E46-EF11-49F9-49472DB5737B3EEC"
 date:   2005-01-15 11:05 AM +0000
 categories: coldfusion
+permalink: fusebox-3-and-4-plugin-for-cfeclipse
 ---
 <a href="http://cfopen.org/projects/fusebox3cfe/"><img style="border: 1px solid rgb(0, 0, 0); margin: 2px;" src="http://photos1.blogger.com/img/21/1061/320/fuseboxLogoMine.jpg" align="left" border="0" /></a>
 With the help of Simeon Bateman and Sean Corfield I have included support (maybe minor) to view fusebox 4 applications.

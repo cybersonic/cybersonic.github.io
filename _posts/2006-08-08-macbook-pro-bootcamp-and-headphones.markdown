@@ -4,6 +4,7 @@ title:  "MacBook Pro, BootCamp and headphones"
 uid:	"8A98E0EE-0637-9389-756C8039EA0EA8DB"
 date:   2006-08-08 11:06 AM +0000
 categories: apple
+permalink: macbook-pro-bootcamp-and-headphones
 ---
 I am sure a few of you out there have bought a MacBook Pro by now (and if you havent? WHY NOT?!) and installed the BootCamp beta. I have been running my version of Windows XP using BootCamp for a while now, and nearly everything has been sweet. There are a couple of things that nag though, the fact that I cant use my iSight camera (I can live without it to be honest) and the fact that I cant just plug my headphones in. This is a real killer for me since I work in a pretty noisy office, especially now in the summer with all the Aircon units going off. I finally found a solution to make the headphone jack work (without the speakers going off at the same time)
 

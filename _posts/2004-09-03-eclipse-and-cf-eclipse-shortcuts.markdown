@@ -4,6 +4,7 @@ title:  "Eclipse and CF Eclipse Shortcuts"
 uid:	"8A978702-D73B-BF3C-99BA09D9F8249D1F"
 date:   2004-09-03 11:04 AM +0000
 categories: cfeclipse
+permalink: eclipse-and-cf-eclipse-shortcuts
 ---
 Welcome back after the bank holiday (if you had one!) I thought I would post a few handy shortcuts for CFEclipse. If you have any others that you want to send me, please do so.
 

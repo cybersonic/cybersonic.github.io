@@ -4,6 +4,7 @@ title:  "Hello from Bonnie Scotland!"
 uid:	"8A9BFF35-0A49-EEC8-CD6820574ECD55E1"
 date:   2008-06-03 11:09 AM +0000
 categories: scotch-on-the-rocks
+permalink: hello-from-bonnie-scotland
 ---
 I finally made it to <a href="http://www.scotch-on-the-rocks.co.uk/" title="Scotch on the Rocks 2008 - The European ColdFusion Conference">Scotch on the Rocks</a> in Edinburgh. Next time, I take the train.
 

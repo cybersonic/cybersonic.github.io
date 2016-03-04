@@ -4,6 +4,7 @@ title:  "Missed CFEclipse at MAX?"
 uid:	"8A9ADFA2-C200-04D1-F24DA0879D343380"
 date:   2007-10-20 11:08 AM +0000
 categories: cfconferences
+permalink: missed-cfeclipse-at-max
 ---
 If you missed my CFEclipse presentation at Adobe MAX Barcelona,  João Fernandes has been kind enough to post up a video of my whole presentation!
 

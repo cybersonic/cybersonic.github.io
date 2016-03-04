@@ -4,6 +4,7 @@ title:  "cf_lunch?"
 uid:	"8A98FE78-9363-DDB5-6102D45848DFED25"
 date:   2006-11-17 11:06 AM +0000
 categories: ukcfug
+permalink: cf-lunch
 ---
 I was talking to Teddy Payne today, and he mentioned he was off to a ColdFusion lunch. And I thought, why dont we set some of those up round London (I know, sorry guys if you are not in London). You know... something like we meet once a month and discuss shop, or do 1/2 presentations or topics?
 

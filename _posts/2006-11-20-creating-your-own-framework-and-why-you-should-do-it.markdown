@@ -4,6 +4,7 @@ title:  "Creating your own framework (and why you should do it)"
 uid:	"8A98FF62-0E6D-B3F0-88276D919DEE8A89"
 date:   2006-11-20 11:06 AM +0000
 categories: coldfusion
+permalink: creating-your-own-framework-and-why-you-should-do-it
 ---
 I just spotted a couple of posts that are going along with my own work, Peter Bell has released <a href="http://www.pbell.com/index.cfm/2006/11/19/LightWire-Version-001-released">LightWire Version 0.01 </a>and another post over at WebApper by Steve Nelson with regards to running<a href="http://www.webapper.net/index.cfm/2006/11/17/CFCOnly-Version-of-Fusebox"> Fusebox using CFC's</a> (rather than the massive XML file).
 

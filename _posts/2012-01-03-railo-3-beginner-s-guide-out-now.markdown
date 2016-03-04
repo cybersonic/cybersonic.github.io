@@ -4,6 +4,7 @@ title:  "Railo 3: Beginner's Guide out now!"
 uid:	"BDFFFF9D-881A-4462-AC984467688F00AB"
 date:   2012-01-03 06:36 AM +0000
 categories: coldfusion
+permalink: railo-3-beginner-s-guide-out-now
 ---
 <p>
 <a href="http://bit.ly/RailoBook"><img style="float: left; margin-left: 10px; margin-right: 10px;" src="/blog/assets/content/railo_book_230.jpg" alt="" width="200" align="left" /></a>Happy New Year dear readers of my little blog! Just before the break for the holidays I was informed by the awesome guys and gals at Packt Publishing that my book "Railo 3: Beginner's Guide" was finally out! 

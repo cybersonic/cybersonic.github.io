@@ -4,6 +4,7 @@ title:  "Strange expandPath bug in ColdFusion 8"
 uid:	"04821AFF-C797-ED0B-62543B59B2AD74EE"
 date:   2009-01-23 12:22 PM +0000
 categories: coldfusion
+permalink: strange-expandpath-bug-in-coldfusion-8
 ---
 <p>
 I found something that I am not sure if it is a bug or a "feature" whilst developing some functionality in our CMS.

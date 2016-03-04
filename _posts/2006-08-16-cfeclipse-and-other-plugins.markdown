@@ -4,6 +4,7 @@ title:  "CFEclipse and other  plugins"
 uid:	"8A98E7F3-A1FB-1730-07546A3C3B585B2C"
 date:   2006-08-16 11:06 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-and-other-plugins
 ---
 A comment on my blog the other day from someone that is moving to Eclipse from Dreamweaver reminded me that (unlike me) there are other people in the community that have to do things like editing CSS and JS files as part of their job (oh those heady days, I am just doing CFC's and Java now for my sins) so I thought I would put some pointers for people out there with the options.
 

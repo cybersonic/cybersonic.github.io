@@ -4,6 +4,7 @@ title:  "Watchmen: The Movie?!"
 uid:	"8A9A6B6E-00C5-DE00-92A4954E510A2E4C"
 date:   2007-03-21 11:08 AM +0000
 categories: eclipse
+permalink: watchmen-the-movie
 ---
 <iframe src="http://rcm-uk.amazon.co.uk/e/cm?t=mardrescfetc-21&o=2&p=8&l=as1&asins=1852860243&fc1=000000&IS2=1&lt1=_blank&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="5" marginheight="5" frameborder="0" align="left"></iframe>
 If anyone knows me, they will know I am into my Graphic Novels, I am a big fan of Garth Ennis' Preacher (loved that series!), Hell Blazer (ok ok, Constantine you Hollywoodized Harlots!) Frank Miller (going to see the 300 this weekend, and no Spartan can stop me!) and the truly awesome Alan Moore. 

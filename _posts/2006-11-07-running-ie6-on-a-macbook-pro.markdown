@@ -4,6 +4,7 @@ title:  "Running IE6 on a MacBook Pro"
 uid:	"8A98F4A5-ABED-DFE7-18C4C809A50F9620"
 date:   2006-11-07 11:06 AM +0000
 categories: apple
+permalink: running-ie6-on-a-macbook-pro
 ---
 Tired of having to dual boot with <a href="http://www.apple.com/macosx/bootcamp/">BootCamp</a>? Just need to do something on one of those incompatible sites, but cant wait for <a href="http://www.parallels.com/en/products/desktop/">Parallels</a> to start up a WHOLE windows session? Well, why not try <a href="http://www.codeweavers.com/products/cxmac/">CrossOver</a>?I have installed it for the sole purpose of running IE6 on my Mac but you can also install a number of supported applications including Microsoft Project, Microsoft Office and Visio.
 

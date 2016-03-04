@@ -4,6 +4,7 @@ title:  "Finally Moved"
 uid:	"8A979EDF-A8ED-0AB9-373B7046415F24E7"
 date:   2005-10-27 11:05 AM +0000
 categories: blogging
+permalink: finally-moved
 ---
 Finally I have moved over from Blogger to my own site using Ray Camdens's BlogCFC.
 

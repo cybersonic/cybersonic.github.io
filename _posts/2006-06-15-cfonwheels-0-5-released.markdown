@@ -4,6 +4,7 @@ title:  "CFonWheels 0.5 Released"
 uid:	"8A98B069-FC2E-36A2-A1FD280D87AADA5B"
 date:   2006-06-15 11:06 AM +0000
 categories: ask-md
+permalink: cfonwheels-0-5-released
 ---
 What a day for framework releases!! <a href="http://www.cfwheels.com/weblog/entry/15">ColdfFusion on Wheels</a> has just reached 0.5 status and it comes with a great new set of features such as scaffolding, better render() methods, IIS support and finders. 
 

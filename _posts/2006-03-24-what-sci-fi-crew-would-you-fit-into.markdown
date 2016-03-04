@@ -4,6 +4,7 @@ title:  "What sci-fi crew would you fit into?"
 uid:	"8A987313-0FD4-3349-6E714E9008769E79"
 date:   2006-03-24 11:05 AM +0000
 categories: personal
+permalink: what-sci-fi-crew-would-you-fit-into
 ---
 <img src="http://images.quizfarm.com/1133420721Nebuchadnezzar.jpg" alt="" /><br />
 <table cellspacing="0" cellpadding="5" border="0">

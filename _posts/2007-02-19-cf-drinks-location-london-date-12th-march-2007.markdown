@@ -4,6 +4,7 @@ title:  "cf_drinks location=\"London\" date=\"12th March 2007\""
 uid:	"8A9A5EFB-C4D7-FAC1-A8B4B9F3305CBB01"
 date:   2007-02-19 11:08 AM +0000
 categories: ukcfug
+permalink: cf-drinks-location-london-date-12th-march-2007
 ---
 Once again we have managed (not) to come up with an excuse to have a drink, this time, we didn't even bother coming up with an new excuse and used an old one instead: Andy Allan is back down in London which means its time for another CF_DRINKS!
 

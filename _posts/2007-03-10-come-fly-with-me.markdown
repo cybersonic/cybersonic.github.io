@@ -4,6 +4,7 @@ title:  "Come Fly with me"
 uid:	"8A9A663E-0EE9-9FB5-438EE0274EC9BC57"
 date:   2007-03-10 11:08 AM +0000
 categories: personal
+permalink: come-fly-with-me
 ---
 I just got back from my first flying lesson, I am over the moon (even though I didn't fly that high)! Nadia (my Significant Other as Sean Corfield says) got me a flying lesson for Xmas which I finally redeemed today.
 

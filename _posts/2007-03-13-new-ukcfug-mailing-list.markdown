@@ -4,6 +4,7 @@ title:  "New UKCFUG Mailing List"
 uid:	"8A9A6861-F546-B1D1-B4D37484B273253E"
 date:   2007-03-13 11:08 AM +0000
 categories: ukcfug
+permalink: new-ukcfug-mailing-list
 ---
 The UK ColdFusion User Group has setup a mailing list over at <a href="http://groups.google.com/group/ukcfug">Google Groups</a> so that UK based CF Developers can keep in touch and participate more in ideas about meetings and resources (such as training, jobs etc) 
 

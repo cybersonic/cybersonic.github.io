@@ -4,6 +4,7 @@ title:  "Giving thanks on ThanksGiving, and Zombies."
 uid:	"8A9955ED-C50F-71CE-C9DC788BB6544F14"
 date:   2006-11-23 11:06 AM +0000
 categories: cfeclipse
+permalink: giving-thanks-on-thanksgiving-and-zombies
 ---
 I just wanted to say a big thanks to Joe FitzGerald, after a bit of problems with Amazon claiming I refused a delivery (ME? REFUSE?!), he managed to get me an Amazon Gift-Voucher. This gift voucher has been put to a very good use!
 

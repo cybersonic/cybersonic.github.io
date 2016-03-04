@@ -4,6 +4,7 @@ title:  "Flights ready for Scotch!"
 uid:	"8A9A7A33-FB88-873F-8FBCE4B39E8A20C0"
 date:   2007-05-13 11:08 AM +0000
 categories: cfconferences
+permalink: flights-ready-for-scotch
 ---
 I have just booked my flights (is it really worth it to go from London to Edinburgh?) to Scotch! 
 

@@ -4,6 +4,7 @@ title:  "CFEclipse 1.3 Released! Be Coldfused no more."
 uid:	"8A99A813-A700-C8B4-8E9C6B36931EFC2D"
 date:   2007-01-26 11:07 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-1-3-released-be-coldfused-no-more
 ---
 After a year of development, countless bugs fixed, a number of features added, CFEclipse 1.3 has finally been unleashed!
 

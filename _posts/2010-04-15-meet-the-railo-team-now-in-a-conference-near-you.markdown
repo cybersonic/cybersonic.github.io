@@ -4,6 +4,7 @@ title:  "Meet the Railo Team: Now in a conference near you!"
 uid:	"5CA6DF4B-D160-42CD-ACFA0808C0B85F2E"
 date:   2010-04-15 07:21 AM +0000
 categories: getrailo
+permalink: meet-the-railo-team-now-in-a-conference-near-you
 ---
 <p>With the upcoming conferences you have the great opportunity to meet the guys from Railo at a conference near you!</p>
 <p>So who is going to be where?</p>

@@ -4,6 +4,7 @@ title:  "ColdFusion Webservice gotcha on OS X"
 uid:	"9A31B467-C40A-E6DF-C2D7502839026593"
 date:   2008-09-25 11:49 AM +0000
 categories: coldspring
+permalink: coldfusion-webservice-gotcha-on-os-x
 ---
 <p>As I was getting my presentation on ColdSpring ready for A Wee Dram of Scotch, I come across the following problem, that none of my webservices would work! 
 I started getting the following  error:</p>

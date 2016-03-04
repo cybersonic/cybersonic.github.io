@@ -4,6 +4,7 @@ title:  "Building an Extension for Railo: Part 1"
 uid:	"CC591F3D-9197-48DE-BC8F77B42174F8CA"
 date:   2010-07-02 09:12 AM +0000
 categories: getrailo
+permalink: building-an-extension-for-railo-part-1
 ---
 <p>My role at Railo Technologies has so far been much more of a consultant so far. We consult and develop a number of projects on ACF and Railo and as I am a happy CFML user this has worked out great so far.<br /><br />One of the things that I wanted to get much more into was the engine itself, and adding features to it. One feature that I am currently working on is creating a <a title="Apache CouchDB: The CouchDB Project" href="http://couchdb.apache.org/">CouchDB</a> Cache Extension.<br /><br />Why CouchDB? Will firstly because it has a really simple API, secondly because you can make it replicate as needed and this makes for a great document based object store.</p>
 <p>What I have been doing is:</p>

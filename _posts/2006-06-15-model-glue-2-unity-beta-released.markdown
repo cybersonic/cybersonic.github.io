@@ -4,6 +4,7 @@ title:  "Model Glue 2 Unity Beta Released!"
 uid:	"8A98AFEC-A9BE-D394-58DECF9DF88D1AB4"
 date:   2006-06-15 11:06 AM +0000
 categories: ukcfug
+permalink: model-glue-2-unity-beta-released
 ---
 An exciting bit of news! Joe Rinehart has finally released <a href="http://www.model-glue.com/index.cfm?mode=entry&entry=D5815F2A-3048-55C9-432B8F55F7D81A87">Model Glue 2: Unity</a> as a beta. This version of MG is very exciting for a few of reasons, 
 1) it uses coldspring for its configuration which means you now only need one file to configure Model Glue and Reactor

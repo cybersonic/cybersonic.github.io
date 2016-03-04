@@ -4,6 +4,7 @@ title:  "CFML Mythbusters competition: Choosing the winners"
 uid:	"B5399A2B-D0A4-4D38-8FFC34B5A23B46A8"
 date:   2012-02-02 11:09 AM +0000
 categories: railo
+permalink: cfml-mythbusters-competition-choosing-the-winners
 ---
 <p>A couple of weeks ago, I posted about running a competition to be in my <a href="http://www.markdrew.co.uk/blog/post.cfm/competition-cfml-mythbusters-win-my-book" title="Competition: CFML Mythbusters! Win my book! &#8212; Mark Drew (Redux)- cf_etc...">CFML Mythbusters competition</a>, well the competition is now over and it's time to choose the winners</p>
 

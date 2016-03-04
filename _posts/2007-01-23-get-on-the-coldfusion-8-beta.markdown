@@ -4,6 +4,7 @@ title:  "Get on the ColdFusion 8 beta!"
 uid:	"8A99A45A-9EDF-95FC-5FE9B9870993B838"
 date:   2007-01-23 11:07 AM +0000
 categories: coldfusion
+permalink: get-on-the-coldfusion-8-beta
 ---
 Posted over at <a href="http://www.forta.com/blog/index.cfm/2007/1/22/Anyone-Want-To-Beta-Test-Scorpio">Ben Forta's blog</a>, you, yes YOU, can finally get onto the <a href="https://prerelease.adobe.com/callout/apply.html?callid=\{E9F64ADB-DADA-485E-BFFE-60E0D783EBEF}">ColdFusion 8 Beta</a> program!
 

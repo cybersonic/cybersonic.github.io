@@ -4,6 +4,7 @@ title:  "KeyBindings in Eclipse"
 uid:	"8A97A567-E112-8884-89B21B5FA888DBE6"
 date:   2005-12-04 11:05 AM +0000
 categories: cfeclipse
+permalink: keybindings-in-eclipse
 ---
 Keybindings have changed in Eclipse 3.1, so currently the way we are doing keyboard shortcuts is a bit depricated. 
 

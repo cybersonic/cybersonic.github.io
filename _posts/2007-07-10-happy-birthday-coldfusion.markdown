@@ -4,6 +4,7 @@ title:  "Happy Birthday ColdFusion!"
 uid:	"8A9AAA5B-A5BD-6AD9-42D944DCF1E85F81"
 date:   2007-07-10 11:08 AM +0000
 categories: coldfusion
+permalink: happy-birthday-coldfusion
 ---
 Look at you! How you've grown! You are able to play with the big boys now, in the J2EE world, you can do AJAX very skillfully, and can even connect to Bill's Exchange server.
 

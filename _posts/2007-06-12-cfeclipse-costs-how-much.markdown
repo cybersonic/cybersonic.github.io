@@ -4,6 +4,7 @@ title:  "CFEclipse costs how much?!?!"
 uid:	"8A9AA1EE-A6CD-84B2-30EDC63E02388424"
 date:   2007-06-12 11:08 AM +0000
 categories: coldfusion
+permalink: cfeclipse-costs-how-much
 ---
 I just joined a site called <a href="http://www.ohloh.net/">OHLOH</a> and added the <a href="">CFEclipse project</a> to its listing which does some code checking and finds usernames etc and says how much work they do on the porject (I presume by commits etc)
 

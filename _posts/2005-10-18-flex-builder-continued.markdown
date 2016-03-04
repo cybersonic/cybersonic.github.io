@@ -4,6 +4,7 @@ title:  "Flex Builder Continued...."
 uid:	"8A979CFB-F796-6890-84841441CDA13513"
 date:   2005-10-18 11:05 AM +0000
 categories: flex
+permalink: flex-builder-continued
 ---
 Yesterday, and the thrust of this morning's post was that I ws having problems getting data from a cf script from the flex swf's I was creating. The solution was to add a crossdomain.xml file to the root of my local server. This crossdomain file defines what hosts we will accept flash requests from.
 Check this page out for more details <a href="http://www.macromedia.com/cfusion/knowledgebase/index.cfm?id=tn_14213">Macromedia Knowledge Base</a>

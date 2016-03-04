@@ -4,6 +4,7 @@ title:  "Another big thanks going out!"
 uid:	"8A995DDC-E634-65E1-2B9C1CB6A1D76F8B"
 date:   2006-12-20 11:06 AM +0000
 categories: cfeclipse
+permalink: another-big-thanks-going-out
 ---
 Within minutes of Kev donating towards the fix of my keyboard, the lovely people at <a href="http://www.capcomms.net/">CAP Communications</a> also gave a donation!
 

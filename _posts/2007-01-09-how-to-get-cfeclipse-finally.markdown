@@ -4,6 +4,7 @@ title:  "How to get CFEclipse (finally!)"
 uid:	"8A996936-A4DE-6E14-DADDC730E01E4D17"
 date:   2007-01-09 11:07 AM +0000
 categories: cfeclipse
+permalink: how-to-get-cfeclipse-finally
 ---
 There has been some confusion (which both myself and the CFEclipse site haven't really help clarify) recently about where to get both the stable and latest versions of CFEclipse. This has been for a number of admin reasons as well as some technical ones.
 

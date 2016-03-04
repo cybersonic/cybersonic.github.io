@@ -4,6 +4,7 @@ title:  "CFEclipse Beta update site"
 uid:	"8A98F10B-BDA0-220B-8C05E5191801B918"
 date:   2006-11-01 11:06 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-beta-update-site
 ---
 I have just put up an update site to test whether I can deploy both CFEclipse 1.2 and CFEclipse 1.3 Beta via the update site. I have been getting some strange results and I wonder if people out there could test the update site?
 

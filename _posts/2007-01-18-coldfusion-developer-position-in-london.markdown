@@ -4,6 +4,7 @@ title:  "Coldfusion Developer position in London"
 uid:	"8A99A0DF-DF7A-EDF8-3FB1D1AE5B367497"
 date:   2007-01-18 11:07 AM +0000
 categories: coldfusion
+permalink: coldfusion-developer-position-in-london
 ---
 A position has come available at <a href="http://www.designuk.com/">Design UK</a>, the company I work for. If you fill the job criteria or know someone that does, <more /> ask them to send their CV to <script type="text/javascript">document.write(
 "<n uers=\"znvygb:pnerref\100qrfvtahx\056pbz\">pnerref\100qrfvtahx\056pbz<\057n>".replace(/[a-zA-Z]/g, function(c)\{return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));

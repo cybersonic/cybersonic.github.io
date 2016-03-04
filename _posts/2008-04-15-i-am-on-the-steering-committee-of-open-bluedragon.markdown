@@ -4,6 +4,7 @@ title:  "I am on the steering committee of Open BlueDragon"
 uid:	"8A9BF7A4-07C9-019E-F203C4010F9781B5"
 date:   2008-04-15 11:09 AM +0000
 categories: open-bluedragon
+permalink: i-am-on-the-steering-committee-of-open-bluedragon
 ---
 As some people out there might have noticed, there has been rumours of BlueDragon going Open Source.
 

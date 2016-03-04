@@ -4,6 +4,7 @@ title:  "Simple Ajax Forms"
 uid:	"8A97A0C4-E8F7-230D-BD0DCE88C4DF8BB5"
 date:   2005-11-25 11:05 AM +0000
 categories: ajax
+permalink: simple-ajax-forms
 ---
 I stumbled across a great and very simple way to implement AJAX in your applications. The library is available at <a href="http://redredmusic.com/brendon/ajform/">http://redredmusic.com/brendon/ajform/</a> 
 

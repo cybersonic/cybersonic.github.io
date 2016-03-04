@@ -4,6 +4,7 @@ title:  "Want to know more about Elastic Computing and Virtualistaion?"
 uid:	"F00D61B1-0C1B-F111-162526555C4317E5"
 date:   2009-01-19 01:00 PM +0000
 categories: ukcfug
+permalink: want-to-know-more-about-elastic-computing-and-virtualistaion
 ---
 <p>
 Why don't you head over to the <a href="http://www.ukcfug.org/post.cfm/next-cfdocs-podcast-topic-little-fluffy-clouds" title="UKCFUG | The UK ColdFusion User Group">UKCFUG</a> site and submit your questions about these topics?

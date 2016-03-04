@@ -4,6 +4,7 @@ title:  "ColdSpring: Better living through configuration presentation"
 uid:	"8A9C00DB-E53F-F0D3-77E38E3F5CD4789E"
 date:   2008-06-08 11:09 AM +0000
 categories: presentations
+permalink: coldspring-better-living-through-configuration-presentation
 ---
 As promised, I wanted to share my "ColdSpring: Better Living through Configuration" presentation materials. 
 

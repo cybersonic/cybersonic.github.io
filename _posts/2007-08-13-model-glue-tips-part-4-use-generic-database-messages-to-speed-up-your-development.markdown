@@ -4,6 +4,7 @@ title:  "Model Glue Tips Part 4: Use Generic Database Messages to speed up your 
 uid:	"8A9ACF18-CE75-C600-85F1D8991DA76F17"
 date:   2007-08-13 11:08 AM +0000
 categories: model-glue
+permalink: model-glue-tips-part-4-use-generic-database-messages-to-speed-up-your-development
 ---
 A lot of the time that you are developing an application, depending on how you have set up your database etc, you will want to do a "<em>select * from sometable</em>", for example to get the types of pages you have, or a full list of user roles or simply to get the current user. This is all fine if you are sticking to the semi rigid pattern of having services for your whole architecture, but in the heat of battle, you might be tempted to do a <em>cfquery</em> in your view. DONT!
 

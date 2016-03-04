@@ -4,6 +4,7 @@ title:  "Fun with mappings and resources: Part 1 ZIP and FTP"
 uid:	"948F3BAA-5F67-4925-A4CC9B0A10D022B0"
 date:   2009-04-02 11:52 AM +0000
 categories: railo
+permalink: fun-with-mappings-and-resources-part-1-zip-and-ftp
 ---
 <p>One of the many features that I find fantastic in Railo, and has been the topic of many a "after-work-down-the-pub" conversations, has been that of mappings.<br /><br />How I have normally used mappings in the past has just been been to be able to access frameworks such as ModelGlue, Reactor and ColdSpring without having to put them in the webroot.<br /><br />You can still do this with Railo of course, and even set that resource as trusted, but what I wanted to show was some of the really neat features of other types of mappings. <br /><br />Railo supports the ability to create a mapping to other types of resources, such as FTP, HTTP, SFTP, Amazon's S3, ram and ZIP (and TAR and TGZ) filesystems.<br /><br />A quick example of where this might be used is to move old logfiles to a zip file. this happens to everyone's server once in a while, you have a bunch of log files that need moving to zip, all you have to do is create a mapping to the zip file: <br />Virtual: /archive <br />Resource: zip:///Users/markdrew/wwwroot/mapping_examples/archive.zip<br /><br />And then you have one line of code to move that log file to the archive:</p>
 <p>    &lt;cffile action="move" source="biglog.log" destination="/archive/biglog.log"&gt;</p>

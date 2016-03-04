@@ -4,6 +4,7 @@ title:  "A big Integral thanks to the FusionRactor and FusionDebug Teams!"
 uid:	"8A995FD0-D316-3412-AA2816152B6B4AB9"
 date:   2006-12-21 11:06 AM +0000
 categories: personal
+permalink: a-big-integral-thanks-to-the-fusionractor-and-fusiondebug-teams
 ---
 I know my recent posts have all been thanks for the donations to repair my laptop, but I got an email today from the guys at Integral, more commonly know as the developers of <a href="http://www.fusion-reactor.com/fusiondebug/index.html">FusionDebug</a> and <a href="http://www.fusion-reactor.com/home.html">FusionReactor</a>.
 

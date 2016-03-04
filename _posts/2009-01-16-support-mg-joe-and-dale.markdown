@@ -4,6 +4,7 @@ title:  "Support MG Joe (and Dale)"
 uid:	"DFD9C2C6-03E5-A0B1-E85ABAA557EA7080"
 date:   2009-01-16 09:30 AM +0000
 categories: coldfusion
+permalink: support-mg-joe-and-dale
 ---
 This is a bit of a personal posting, but Joe Rinehart's wife Dale was diagnosed with Multiple Sclerosis (MS) just after Christmas. You may have heard about it and if not, you can read more about it on <a href="http://firemoss.com/post.cfm/my-wife-dale-rinehart-has-ms-and-a-great-attitude" title="My wife, Dale Rinehart, has MS (and a great attitude!) | Joe Rinehart on ColdFusion, Flex, and Java">his blog</a>.
 

@@ -4,6 +4,7 @@ title:  "Running Railo in CloudBees"
 uid:	"489DBB39-772F-4D09-9C57E3B8D6F5F916"
 date:   2011-03-30 07:43 AM +0000
 categories: cloudbees
+permalink: running-railo-in-cloudbees
 ---
 <p>
 <img src="http://www.markdrew.co.uk/blog/enclosures/CloudBees.png" align="left" hspace="10">A while ago I was playing with the Stax.net deployment system, since then they have been bought by <a href="http://cloudbees.com/" title="CloudBees: Cloud Platform as a Service for Java Web Apps, Supported Jenkins/Hudson and Jenkins/Hudson in the Cloud">CloudBees</a>, a Platform as a Service for Java Web Apps and I wanted to see how easy it was to run Railo on it. 

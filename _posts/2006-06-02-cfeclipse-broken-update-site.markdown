@@ -4,6 +4,7 @@ title:  "CFEclipse: Broken update site"
 uid:	"8A98A9A3-9F27-112B-F7E339DD88661127"
 date:   2006-06-02 11:06 AM +0000
 categories: ask-md
+permalink: cfeclipse-broken-update-site
 ---
 I am afraid that the update site is a bit broken at the moment, I dont know why, but I am re-doing the update site so the nightly is also there as a BER release so you can get you updates from one place.
 

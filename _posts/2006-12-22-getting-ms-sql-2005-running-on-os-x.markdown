@@ -4,6 +4,7 @@ title:  "Getting MS SQL 2005 running on OS X"
 uid:	"8A99605D-D06E-B4EC-CC5800AD7D727148"
 date:   2006-12-22 11:06 AM +0000
 categories: microsoft
+permalink: getting-ms-sql-2005-running-on-os-x
 ---
 Ok, the title is a bit misleading, but if you are using Parallels it isnt. I come across a problem of connecting ColdFusion server (running under OS X) to a newly installed version of Microsoft SQL Server 2005 running under Parallels.
 

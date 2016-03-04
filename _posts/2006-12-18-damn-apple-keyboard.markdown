@@ -4,6 +4,7 @@ title:  "Damn Apple keyboard!"
 uid:	"8A995B8A-9213-4A78-CDF54BE58E455D31"
 date:   2006-12-18 11:06 AM +0000
 categories: apple
+permalink: damn-apple-keyboard
 ---
 So, right before Xmas, when everything is closed et-cetera. My laptop keyboard and mouse for my MacBook Pro has bust. It doesn't work. If it was just the mouse it would be ok since I recently got a <a href="http://store.apple.com/Apple/WebObjects/ukstore.woa/6664042/wa/PSLID?mco=1643B8F8&amp;nplm=MA272&amp;wosid=nY50AQSxThN42foE2FOWb68HUW0">Wireless Mighty Mouse</a> which is damned neat. But no, its also the keyboard. So, I am carrying my <a href="http://store.apple.com/Apple/WebObjects/ukstore.woa/6664042/wa/PSLID?mco=164015FE&amp;nplm=M9270&amp;wosid=nY50AQSxThN42foE2FOWb68HUW0">Bluetooth Keyboard</a> from work home and back every day.
 

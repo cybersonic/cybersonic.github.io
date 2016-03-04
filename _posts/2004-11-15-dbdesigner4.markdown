@@ -4,6 +4,7 @@ title:  "dbdesigner4"
 uid:	"8A978AFA-D69D-AE20-5500A2CF5692AF6C"
 date:   2004-11-15 11:04 AM +0000
 categories: webdev
+permalink: dbdesigner4
 ---
 <a href="http://photos1.blogger.com/img/21/1061/640/DBDesigner%204.jpg"><img style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; MARGIN: 2px; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid" src="http://photos1.blogger.com/img/21/1061/320/DBDesigner%204.jpg" border="0" /></a>
 I have been looking for a way to emulate Microsoft SQL Server's Enterprise Manager when using a mySQL database. Basically I wanted to be able to design the tables in a db as you would do in EM and add relationships etc (this is the way I think so its nice to have a tool that behaves acordingly).

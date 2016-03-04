@@ -4,6 +4,7 @@ title:  "Front End Developer Job"
 uid:	"8A9BF998-A560-0479-A49B0C58927379EF"
 date:   2008-04-22 11:09 AM +0000
 categories: jobs
+permalink: front-end-developer-job
 ---
 A friend of mine asked me if I knew anyone that would like to apply for the following job:
 

@@ -4,6 +4,7 @@ title:  "UK CFUG Presentation!"
 uid:	"8A97ADD3-B27F-E8E3-2E8C798CFF8D6AB3"
 date:   2006-02-09 11:05 AM +0000
 categories: fusebox
+permalink: uk-cfug-presentation
 ---
 It has just been confirmed that I shall be presenting CFEclipse at the <a href="http://www.ukcfug.org/index.cfm?objectid=4F39C57C-F1FF-921E-1E8846DB6D44FE3E">UK CFUG in London</a> on the 2nd of March.
 

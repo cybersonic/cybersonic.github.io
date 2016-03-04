@@ -4,6 +4,7 @@ title:  "Rob Rohan Interview"
 uid:	"8A978964-0C39-0C3D-110C47347E99316D"
 date:   2004-09-22 11:04 AM +0000
 categories: webdev
+permalink: rob-rohan-interview
 ---
 <p>Since my last <a href="http://cybersonic.blogspot.com/2004/09/oliver-tupman-interview.html">post</a> with regards to the release of CFEclipse V 1.1.16
 I thought I would post an interview with the main guy behind the project Rob Rohan.</p><p><strong>Mark Drew: What is CFEclipse? </strong>

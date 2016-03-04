@@ -4,6 +4,7 @@ title:  "CFUnited 08: Searching for lost photos"
 uid:	"8A9C23B4-B7DF-A819-915E3F4E4B94023D"
 date:   2008-06-24 11:10 AM +0000
 categories: cfconferences
+permalink: cfunited-08-searching-for-lost-photos
 ---
 What a blast was CFUnited this year! 
 

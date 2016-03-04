@@ -4,6 +4,7 @@ title:  "Performance testing the onMissingHandler method"
 uid:	"8A9AA47F-D363-E115-C4D164A1A4F95766"
 date:   2007-06-18 11:08 AM +0000
 categories: webdev
+permalink: performance-testing-the-onmissinghandler-method
 ---
 I was having a conversation with another developer at work about using the new CF8 onMissingHandler method for components. The issue we were debating was that in Java, using the try/catch or basically error trapping should be slighly more expensive than without it and if in-fact the onMissingMethod was trapping missing method errors, then there should be a big overhead, so it would mean that depending on it would't be a good thing.
 

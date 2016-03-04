@@ -4,6 +4,7 @@ title:  "Re-Visiting the Parser in CFEclipse"
 uid:	"8A9C251C-0B4A-3480-4E4FA34AA09B982A"
 date:   2008-07-21 11:10 AM +0000
 categories: cfeclipse
+permalink: re-visiting-the-parser-in-cfeclipse
 ---
 As some people that have been using CFEclipse for a while might have realised, there is a parser that figures out the content in a CFML file.
 

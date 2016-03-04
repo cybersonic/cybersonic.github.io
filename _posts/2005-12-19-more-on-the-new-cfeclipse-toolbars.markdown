@@ -4,6 +4,7 @@ title:  "More on the new CFEclipse Toolbars"
 uid:	"8A97A74B-0315-5CD3-5432FEC60458D382"
 date:   2005-12-19 11:05 AM +0000
 categories: cfeclipse
+permalink: more-on-the-new-cfeclipse-toolbars
 ---
 <p>I have been working on the new editor toolbar for CFEclipse over the last few 
   days, so I thought I would post up some images so you can see how things are 

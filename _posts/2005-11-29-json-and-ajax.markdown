@@ -4,6 +4,7 @@ title:  "JSON and Ajax"
 uid:	"8A97A325-C265-26E9-2BDC00C028925B8F"
 date:   2005-11-29 11:05 AM +0000
 categories: ajax
+permalink: json-and-ajax
 ---
 When you are doing AJAX applications, you pass data back to the calling page, some of the examples I have seen are in XML and you then do some parsing of that XML in JavaScript.
 

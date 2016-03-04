@@ -4,6 +4,7 @@ title:  "Introducing EventValidation: Form and Event Validation"
 uid:	"8A9AE791-C75F-C7DB-134E89C165594876"
 date:   2007-11-25 11:08 AM +0000
 categories: eventvalidation
+permalink: introducing-eventvalidation-form-and-event-validation
 ---
 <a href="http://eventvalidation.riaforge.org/">EventValidation</a> is another Action Pack for <a href="http://www.model-glue.com/" title="The Model-Glue Framework">Model-Glue</a> designed towards the validation of forms, but can be used to validate any value within a Model-Glue event.
 

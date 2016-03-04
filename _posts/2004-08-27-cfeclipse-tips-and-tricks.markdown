@@ -4,6 +4,7 @@ title:  "CFEclipse tips and tricks"
 uid:	"8A978434-DC71-A29A-7B773A6D613F9FC6"
 date:   2004-08-27 11:04 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-tips-and-tricks
 ---
 <div style="CLEAR: both"></div>
 I have been using cfeclipse now for a couple of months, in case you dont know what CFEclipse is you should check out <a href="http://cfeclipse.tigris.org/">http://cfeclipse.tigris.org/</a>, it is basically a plugin to <a href="http://www.eclipse.org">Eclipse</a> (java editor extraordinaire) that allows you and helps you in most wonderful ways to do your ColdFusion coding! I have switched to it and sometimes even try to contribute to its development a little and now find it really hard to go back to Homesite, CFStudio or Dreamweaver (Textpad will always be there like my lucky pair of underpants tho!). I thought I would add some hints and tips on how to get using it even more efficiently <strong>Snippets</strong> WE all have snippets in different environments, these are bits of code we re-use, such as creating a 2 column table or the header of an html file for example. CFEclipse has snippets on steroids. They are the real killer addition to this IDE. I shall use an example that I use every day to show how powerful they are, that is of adding fusedocs to my documents. Switch on the Snip Tree View (Window-&gt; Show View -&gt; Snip Tree View) and add a new snippet by clicking on the blue cross. You will be prompted with a dialog, enter the following:

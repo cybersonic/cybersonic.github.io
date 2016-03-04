@@ -4,6 +4,7 @@ title:  "Lost Experience: Mathematical Forecasting Initiative"
 uid:	"8A988CF4-C3F5-7F31-64B834211A5C22DF"
 date:   2006-05-30 11:06 AM +0000
 categories: lost
+permalink: lost-experience-mathematical-forecasting-initiative
 ---
 I just checked my RSS feeds as I got home and I noticed that the Hanso Foundation released three new newsitems! Now, two of them I think are a bit of a red-herring, one details their re-design, the other says they have had disruptions (which I think is a repeat, although I am not sure) and the last is the following:
 <more>

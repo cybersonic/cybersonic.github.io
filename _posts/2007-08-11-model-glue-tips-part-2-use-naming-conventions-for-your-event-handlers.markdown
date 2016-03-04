@@ -4,6 +4,7 @@ title:  "Model Glue Tips Part 2: Use Naming conventions for your Event Handlers.
 uid:	"8A9ACD14-A182-BC87-A614B65A5C8835CD"
 date:   2007-08-11 11:08 AM +0000
 categories: model-glue
+permalink: model-glue-tips-part-2-use-naming-conventions-for-your-event-handlers
 ---
 Continuing from the <a href="http://www.markdrew.co.uk/blog/index.cfm/2007/8/10/Model-Glue-Tips-Part-1-Separate-out-your-ModelGlue-file" title="Mark Drew (Redux)- cf_etc...: Model Glue Tips Part 1: Separate out your Model-Glue file">previous post</a>, I wanted to talk about naming conventions, I am sure everyone has a way of doing this and  will argue (a bit like IDE or OS wars) till they are blue in the face. This is the way I try and do it, maybe because I started out using fusebox, but it makes sense to me.
 

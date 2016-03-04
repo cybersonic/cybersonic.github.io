@@ -4,6 +4,7 @@ title:  "Aptana moves into the shared hosting field"
 uid:	"8A9BFA05-F113-1AE8-773A82F2FD316481"
 date:   2008-04-29 11:09 AM +0000
 categories: webdev
+permalink: aptana-moves-into-the-shared-hosting-field
 ---
 Aptana, the people behind the <a href="http://www.aptana.com/studio" title="Aptana Studio | Aptana">Aptana IDE</a> and <a href="http://www.aptana.com/jaxer" title="Aptana Jaxer | Aptana">Jaxer</a>, have announced <a href="http://www.aptana.com/cloud" title="Aptana Cloud | Aptana">Aptana Cloud</a> which describes itself as:
 

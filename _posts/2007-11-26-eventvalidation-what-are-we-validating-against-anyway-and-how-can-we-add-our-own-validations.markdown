@@ -4,6 +4,7 @@ title:  "EventValidation: What are we validating against anyway? And how can we 
 uid:	"8A9AE87C-B571-BBAC-E4818FC864A6E382"
 date:   2007-11-26 11:08 AM +0000
 categories: eventvalidation
+permalink: eventvalidation-what-are-we-validating-against-anyway-and-how-can-we-add-our-own-validations
 ---
 One thing that I think I forgot to mention is WHAT you can validate against with the EventValidation Action Pack. I thought I would write up a little guide about what you can validate against and even better, how you can extend the validation object to validate against something that is custom.
 

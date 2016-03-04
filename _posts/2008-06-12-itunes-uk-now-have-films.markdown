@@ -4,6 +4,7 @@ title:  "iTunes UK now have films!"
 uid:	"8A9C21C1-B125-C9BD-B8281B83D45978EE"
 date:   2008-06-12 11:10 AM +0000
 categories: apple
+permalink: itunes-uk-now-have-films
 ---
 Oh yes! Thank you Apple, now iTunes UK has a bunch of films for you to buy or rent! This means I am now going to have to a) Buy more storage b) Get a second job to afford all the films I am going to buy!
 

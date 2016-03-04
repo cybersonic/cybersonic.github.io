@@ -4,6 +4,7 @@ title:  "My cfObjective schedule (maybe stranger than you think)"
 uid:	"8A9A786E-B691-690F-70D5737357AB0D52"
 date:   2007-05-02 11:08 AM +0000
 categories: coldfusion
+permalink: my-cfobjective-schedule-maybe-stranger-than-you-think
 ---
 Here is my schedule for cfObjective for which I am nearly ready!
 

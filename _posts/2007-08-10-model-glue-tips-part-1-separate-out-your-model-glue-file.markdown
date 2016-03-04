@@ -4,6 +4,7 @@ title:  "Model Glue Tips Part 1: Separate out your Model-Glue file"
 uid:	"8A9ACC88-B9D5-8E9E-4B2155FD4B794A6B"
 date:   2007-08-10 11:08 AM +0000
 categories: model-glue
+permalink: model-glue-tips-part-1-separate-out-your-model-glue-file
 ---
 I have been developing a number of Model Glue applications over the last year and a half. Its a great framework and it has actually saved my neck on a project with incredible tight deadlines. I thought I would share some of the tips I have learned along the way by doing a series of posts with tips over the next couple of weeks.
 

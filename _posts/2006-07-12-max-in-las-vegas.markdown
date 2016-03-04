@@ -4,6 +4,7 @@ title:  "MAX in Las Vegas!"
 uid:	"8A98CEFD-A9CC-098D-B12CEDC34D431648"
 date:   2006-07-12 11:06 AM +0000
 categories: max
+permalink: max-in-las-vegas
 ---
 I know this must be late, but I am just getting back into the swing of things after my holiday in San Francisco (great city! photos coming soon!) but I see that they have finally put up info on the <a href="http://www.adobe.com/events/max/">MAX conference in Las Vegas</a> over at the Adobe site.
 

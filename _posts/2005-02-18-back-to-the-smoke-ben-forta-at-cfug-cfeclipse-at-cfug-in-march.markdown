@@ -4,6 +4,7 @@ title:  "Back to the smoke, Ben Forta at CFUG, CFEClipse at CFUG in March"
 uid:	"8A9790C6-F98A-4274-D430DD77F38F70FB"
 date:   2005-02-18 11:05 AM +0000
 categories: coldfusion
+permalink: back-to-the-smoke-ben-forta-at-cfug-cfeclipse-at-cfug-in-march
 ---
 Well, I have been back in London for nearly three weeks and I am still waiting for my furniture to arrive from Spain.
 I am still thinking of innovative ways to create temporary furniture, including bean bags (confy, fall asleep easly, end up on the floor) and coffee tables (great for coffee, not so good for coding on!)

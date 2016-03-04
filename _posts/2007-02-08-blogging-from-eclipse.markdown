@@ -4,6 +4,7 @@ title:  "Blogging from Eclipse"
 uid:	"8A99B282-0FB5-2958-89649659194A2C1D"
 date:   2007-02-08 11:07 AM +0000
 categories: coldfusion
+permalink: blogging-from-eclipse
 ---
 <a href="http://robrohan.com/2007/02/07/blogging-from-within-eclipse-metaweblog-plugin/">Rob Rohan</a> has done an amazing plugin for Eclipse, which allows you to make blog posts straight from your favourite IDE
 

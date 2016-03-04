@@ -4,6 +4,7 @@ title:  "Common Development Patterns: Settings per Environment"
 uid:	"C3A9BEBB-CF4A-499B-BB74EDEBEDCCEC77"
 date:   2010-09-30 12:27 PM +0000
 categories: coldspring
+permalink: common-development-patterns-settings-per-environment
 ---
 <p>I am thinking of doing a range of blog posts related to common development patterns that I have seen implemented. These are not exactly Design Patterns, but practices that I see and have implemented myself.</p>
 

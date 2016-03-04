@@ -4,6 +4,7 @@ title:  "Sending complex objects through webservices using ColdFusion"
 uid:	"8A9AE4D2-FE50-B8A9-B8366361AEE70323"
 date:   2007-11-18 11:08 AM +0000
 categories: eclipse
+permalink: sending-complex-objects-through-webservices-using-coldfusion
 ---
 Title: Sending complex objects through webservices using ColdFusion
 

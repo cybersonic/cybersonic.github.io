@@ -4,6 +4,7 @@ title:  "Using GeoLocation in a Web Browser"
 uid:	"0448E433-3BD5-4FF3-951B70C61CC33FC6"
 date:   2011-04-17 08:10 AM +0000
 categories: mobile
+permalink: using-geolocation-in-a-web-browser
 ---
 <p>
 Having had an awesome time at WebDU, a couple of sessions had information about <a href="http://docs.phonegap.com/" title="PhoneGap API Documentation">PhoneGap</a>, <a href="http://jquerymobile.com/" title="jQuery Mobile | jQuery Mobile">JQuery Mobile</a> and more importantly geolocation available in HTML 5 applications. 

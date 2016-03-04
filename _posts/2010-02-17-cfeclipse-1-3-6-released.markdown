@@ -4,6 +4,7 @@ title:  "CFEclipse 1.3.6 Released!"
 uid:	"AA93FB08-DA4B-41DF-8C691559B40515C5"
 date:   2010-02-17 04:45 AM +0000
 categories: coldfusion
+permalink: cfeclipse-1-3-6-released
 ---
 <p>Hot on the heels of the previous 1.3.5 release, the CFEclipse team have released a maintenance release. </p>
 <p>You might wonder why so many releases nowadays? Well, the team have a new release schedule, which like all nighttime coders, is based on the cycles of the moon. So what has been fixed you ask? Checkout the<a href="http://www.cfeclipse.org/update/web/doc/intro/doc/new.html"> full listing </a>but a summary is here:</p>

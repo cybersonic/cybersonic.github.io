@@ -4,6 +4,7 @@ title:  "BlogCFC:Unity"
 uid:	"8A98DD93-95EF-FD32-30006219F053C7F6"
 date:   2006-08-04 11:06 AM +0000
 categories: coldfusion
+permalink: blogcfc-unity
 ---
 Rob Rohan put a post a couple of days ago that I forgot to mention. He has been "porting" <a href="http://ray.camdenfamily.com/projects/blogcfc/">blogCFC</a> to <a href="http://www.model-glue.com/">ModelGlue:Unity</a> which is an awesome thing as you could then add a blog to your main MG site as an Action Pack!
 

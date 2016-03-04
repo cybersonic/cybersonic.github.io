@@ -4,6 +4,7 @@ title:  "Delicious Library"
 uid:	"8A9789E1-FF7B-08B8-E7C227FE6C3D5272"
 date:   2004-11-08 11:04 AM +0000
 categories: apple
+permalink: delicious-library
 ---
 <a href="http://www.delicious-monster.com/">Delicious Library</a> Is a product from the tastily named Delicious Monster. It allows you to scan the barcodes of your DVDs, CDs, books and games to add them to a library. You can then feel free to lend them out to your friends and know that you can chase the thieveing rascals up when they dont fess up with the goods in time.
 

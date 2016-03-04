@@ -4,6 +4,7 @@ title:  "My WebDU 2011 review and all that jazz!"
 uid:	"9520A385-F759-4DB8-A5CC9CCBE18BA73F"
 date:   2011-04-18 07:13 AM +0000
 categories: couchdb
+permalink: my-webdu-2011-review-and-all-that-jazz
 ---
 <p>
 It has been my pleasure to be attending the <a href="http://www.webdu.com.au/" title="webdu: webDU the web technology conference">WebDU</a> Conference in Sydney this week. And what an awesome week it was!  

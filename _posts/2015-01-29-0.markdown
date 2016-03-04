@@ -4,6 +4,7 @@ title:  "... 0 ..."
 uid:	"4B85BFC5-7090-4C08-BBCE75DFBC26230C"
 date:   2015-01-29 06:56 AM +0000
 categories: cfml
+permalink: zero
 ---
 <p>So soon! You can almost hear it.</p>
 

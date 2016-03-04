@@ -4,6 +4,7 @@ title:  "Getting all Scotch'd up this week!"
 uid:	"8A9BFE7A-A293-D003-2D35F5E49F93A69A"
 date:   2008-06-02 11:09 AM +0000
 categories: air
+permalink: getting-all-scotch-d-up-this-week
 ---
 Tomorrow I shall be heading to Edinburgh for the fantastic <a href="http://www.scotch-on-the-rocks.co.uk/" title="Scotch on the Rocks 2008 - The European ColdFusion Conference">Scotch on the Rocks</a> conference.
 

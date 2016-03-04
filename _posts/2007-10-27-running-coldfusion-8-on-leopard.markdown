@@ -4,6 +4,7 @@ title:  "Running ColdFusion 8 on Leopard"
 uid:	"8A9AE02F-9A35-9301-0CC2E3638F12C060"
 date:   2007-10-27 11:08 AM +0000
 categories: coldfusion
+permalink: running-coldfusion-8-on-leopard
 ---
 I have had a few people ping me on IM telling me that they had some problems running ColdFusion 8 on Leopard. Well, I havent had any problems but then again, I might have a slightly different setup than most (or maybe not!) 
 

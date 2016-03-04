@@ -4,6 +4,7 @@ title:  "CFEclipse Podcasts"
 uid:	"8A98E766-FA8B-401C-6D9ACBF226C76A8E"
 date:   2006-08-12 11:06 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-podcasts
 ---
 I am making all these videos on CFEclipse available as a podcast, which you can subscribe to via iTunes -> Advanced -> Subscribe to Podcast -> and entering <a href="http://markdrew.libsyn.com/rss">http://markdrew.libsyn.com/rss</a>
 

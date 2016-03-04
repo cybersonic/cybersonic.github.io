@@ -4,6 +4,7 @@ title:  "CF Frameworks"
 uid:	"8A97ABC0-E116-B769-1681490F88172D6B"
 date:   2006-02-01 11:05 AM +0000
 categories: blogging
+permalink: cf-frameworks
 ---
 I have been looking into frameworks for a project recently, and have had a number of conversations and basically I think it comes down to preference really.
 

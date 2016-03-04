@@ -4,6 +4,7 @@ title:  "Top Secret Job @ CFEclipse"
 uid:	"8A98F522-ECE6-36B6-55EA2816C9B1951B"
 date:   2006-11-07 11:06 AM +0000
 categories: cfeclipse
+permalink: top-secret-job-cfeclipse
 ---
 We have a little job that needs doing for CFEclipse, I can't post too many details as I don't want the idea to get out yet, but its a pretty neat idea even if I say so myself.
 

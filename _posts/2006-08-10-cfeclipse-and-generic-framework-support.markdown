@@ -4,6 +4,7 @@ title:  "CFEclipse and Generic Framework support"
 uid:	"8A98E236-C898-6048-4CFEE4BEE152A2D2"
 date:   2006-08-10 11:06 AM +0000
 categories: fusebox
+permalink: cfeclipse-and-generic-framework-support
 ---
 I have been thinking on how to implement "generic" framework support in CFEclipse. I apologise if this post seems a bit rambling but its to get some opinions from people out there and to formalise my thinking a little before I go off and develop something.
 

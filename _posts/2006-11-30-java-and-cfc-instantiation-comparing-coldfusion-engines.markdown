@@ -4,6 +4,7 @@ title:  "Java and CFC instantiation, comparing ColdFusion engines"
 uid:	"8A995996-B9DD-279F-02E069A2339C5151"
 date:   2006-11-30 11:06 AM +0000
 categories: coldfusion
+permalink: java-and-cfc-instantiation-comparing-coldfusion-engines
 ---
 Yesterday I posted my comparative tests between creating a CFC and a Java object, Andy Jarett mentioned in a post that I should try out the different engines: Adobe ColdFusion, BlueDragon and Railo and see how they stacked up against each other. So I run the *SAME* code on each of the engines, of course I had to put my Generic.jar file into the classpath for each engine to have access to it.
 

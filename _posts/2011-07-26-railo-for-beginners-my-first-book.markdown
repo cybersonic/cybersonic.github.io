@@ -4,6 +4,7 @@ title:  "Railo for Beginners: My First Book!"
 uid:	"21AE05B5-A242-4D7D-8E6DC777AECAE82F"
 date:   2011-07-26 01:26 PM +0000
 categories: railo
+permalink: railo-for-beginners-my-first-book
 ---
 <p><img style="float: left; margin: 10px;" src="/blog/assets/content/3401os_mockupcover_bg.jpg" alt="Railo for Beginneers RAW Version" width="250" height="309" /></p>
 <p>I got got confirmation from <a title="Packt Publishing Technical &amp; IT Book and eBook Store" href="http://www.packtpub.com/">Packt Publishing</a> that the RAW (read as it's written) version of the Railo for Beginners book has been released! </p>

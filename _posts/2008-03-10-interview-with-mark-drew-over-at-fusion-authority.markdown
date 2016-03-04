@@ -4,6 +4,7 @@ title:  "Interview with Mark Drew over at Fusion Authority!"
 uid:	"8A9B1EDC-E484-4D18-124CD3F9D2CDA340"
 date:   2008-03-10 11:08 AM +0000
 categories: cfconferences
+permalink: interview-with-mark-drew-over-at-fusion-authority
 ---
 I was interviewed this week by Paul Vernon just before <a href="http://europe.cfunited.com/">CFUnited Europe</a> that starts this week here in London.
 

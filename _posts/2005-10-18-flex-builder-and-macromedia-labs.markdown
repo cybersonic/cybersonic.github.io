@@ -4,6 +4,7 @@ title:  "Flex Builder and Macromedia Labs"
 uid:	"8A979D78-9E8A-CA89-AE959B3A0DE695D8"
 date:   2005-10-18 11:05 AM +0000
 categories: flex
+permalink: flex-builder-and-macromedia-labs
 ---
 Just in time for the MAX conference (where every other developer seems to be but me!) Macromedia release a new section on their site (like Google) with <a href="http://labs.macromedia.com/">labs.macromedia.com</a>, as a showcase of their up-coming products.
 

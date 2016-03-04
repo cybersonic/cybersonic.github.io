@@ -4,6 +4,7 @@ title:  "Comparing Component speed on different CFML engines"
 uid:	"8A99581F-AA08-8A3E-73F34781E38C41FF"
 date:   2006-11-27 11:06 AM +0000
 categories: coldfusion
+permalink: comparing-component-speed-on-different-cfml-engines
 ---
 After my previous couple of posts of comparing different speeds for instantiating structures vs components, I thought I would measure the same process on different Coldfusion engines.
 

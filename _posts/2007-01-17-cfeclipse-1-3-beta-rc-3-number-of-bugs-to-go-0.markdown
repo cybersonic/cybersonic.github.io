@@ -4,6 +4,7 @@ title:  "CFEclipse 1.3 Beta RC 3: Number of bugs to go: 0"
 uid:	"8A999FC6-AA99-97C8-7F1D43E731C35FBA"
 date:   2007-01-17 11:07 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-1-3-beta-rc-3-number-of-bugs-to-go-0
 ---
 I am delighted to say that looking at the current roadmap for <a href="http://trac.cfeclipse.org/cfeclipse/roadmap">CFEclipse 1.3</a> the current version's active bugs have finally reached ZERO!
 

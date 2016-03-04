@@ -4,6 +4,7 @@ title:  "Introducing EventGuard: Secure your events in Model-Glue"
 uid:	"8A9AE60B-AA34-D5E6-5C58AE0D3A44F149"
 date:   2007-11-22 11:08 AM +0000
 categories: coldspring
+permalink: introducing-eventguard-secure-your-events-in-model-glue
 ---
 EventGuard is an Action Pack for the <a href="http://www.model-glue.com/" title="The Model-Glue Framework">Model-Glue</a> framework that allows you to secure your events based whether a user is logged in or using a user's assigned roles.
 

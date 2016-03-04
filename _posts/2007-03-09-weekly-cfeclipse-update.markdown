@@ -4,6 +4,7 @@ title:  "Weekly CFEclipse update"
 uid:	"8A9A644A-EB32-DD7D-8810DCDE944FB7B3"
 date:   2007-03-09 11:08 AM +0000
 categories: coldfusion
+permalink: weekly-cfeclipse-update
 ---
 This week has been a crazy busy week for CFEclipse Updates. Today I released <a href="http://www.cfeclipse.org/update/">CFEclipse 1.3.1.3</a>, which includes a number of fixes including the <a href="http://trac.cfeclipse.org/cfeclipse/ticket/248">missing shortcuts</a> and other issues [<a href="http://trac.cfeclipse.org/cfeclipse/ticket/107">107</a>, <a href="http://trac.cfeclipse.org/cfeclipse/ticket/145">145</a>, <a href="http://trac.cfeclipse.org/cfeclipse/ticket/186">186</a>]. 
 

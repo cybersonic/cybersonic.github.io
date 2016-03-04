@@ -4,6 +4,7 @@ title:  "Model View Controller Song.."
 uid:	"8A9AE55F-0F2F-CA1F-262F5904C3D2B716"
 date:   2007-11-18 11:08 AM +0000
 categories: frameworks
+permalink: model-view-controller-song
 ---
 Posted on the <a href="http://groups.google.com/group/cfcdev?hl=en">CFDEV</a> list this fantastic song about MVC
 

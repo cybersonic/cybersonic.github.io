@@ -4,6 +4,7 @@ title:  "CFEclipse: Getting the code via CVS"
 uid:	"8A98ACDF-A6C9-9BEE-F312028FE5D37F34"
 date:   2006-06-06 11:06 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-getting-the-code-via-cvs
 ---
 Some people have mentioned that they want to know how to get their hands on the code of <a href="http://www.cfeclipse.org">CFEclipse</a>. You can find a nice guide on how to do it over <a href="http://cfeclipse.org/go/documentation/developer-docs/checking-out">here</a>
 

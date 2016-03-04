@@ -4,6 +4,7 @@ title:  "Model Glue Tips: Splitting out ColdSpring"
 uid:	"8A9AE0CB-E25C-8C5B-9F5CF153DA830A70"
 date:   2007-10-27 11:08 AM +0000
 categories: coldspring
+permalink: model-glue-tips-splitting-out-coldspring
 ---
 A comment posted in my entry about  <a href="http://www.markdrew.co.uk/blog/index.cfm?mode=entry&amp;entry=51E0DBB6-C4CE-D185-3D7BF85674ADC07E">Model Glue Tips Part 1: Separate out your Model-Glue file</a>  reminded me that I should continue with some of those postings.
 

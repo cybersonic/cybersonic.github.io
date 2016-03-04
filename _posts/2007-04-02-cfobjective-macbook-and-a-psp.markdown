@@ -4,6 +4,7 @@ title:  "cfObjective, MacBook and a PSP!"
 uid:	"8A9A716A-9112-FB35-A9093033B6BAB4A0"
 date:   2007-04-02 11:08 AM +0000
 categories: cfconferences
+permalink: cfobjective-macbook-and-a-psp
 ---
 So, some news in sequence, I have booked my hotel for <a href="http://www.cfobjective.com/">cfObjective</a> as well as the flight! So a big thank you to all that have donated, the money has been well spent on the conference "tour" of the summer.
 

@@ -4,6 +4,7 @@ title:  "Lost Experience: Careers not what they seem?"
 uid:	"8A988B0F-CD91-EBE6-3378AEBB49325109"
 date:   2006-05-26 11:06 AM +0000
 categories: lost
+permalink: lost-experience-careers-not-what-they-seem
 ---
 I was just looking at the careers and I spotted that some letters are lighter in the text than others. I checked this out and I noticed that each job posting has two or three letters that are lighter than the others, I have put them down here but I cant spot a pattern yet. Anyone?
 

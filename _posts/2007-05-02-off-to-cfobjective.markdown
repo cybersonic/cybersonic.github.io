@@ -4,6 +4,7 @@ title:  "Off to cfObjective()"
 uid:	"8A9A7755-F7DB-0327-BB29EED6BF56CD22"
 date:   2007-05-02 11:08 AM +0000
 categories: cfconferences
+permalink: off-to-cfobjective
 ---
 Well, not quite, but I shall be heading out tomorrow morning. I wanted to know if any other people are arriving at the Minneapolis/St Pauls airport around 15:30 (or 3:30 pm, whichever is easiest) and we can share a taxi (or shuttle bus if I phone *NOW*)?
 

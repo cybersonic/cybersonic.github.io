@@ -4,6 +4,7 @@ title:  "On CFEclipse.org"
 uid:	"8A99A89F-F204-4059-32A7EB15988412DC"
 date:   2007-01-26 11:07 AM +0000
 categories: cfeclipse
+permalink: on-cfeclipse-org
 ---
 Apart from releasing a new version of the <a href="http://www.cfeclipse.org/">CFEclipse</a> ColdFusion plugin for <a href="http://www.eclipse.org/">Eclipse</a>, we have also been working on the brand new <a href="http://www.cfeclipse.org/">site</a>. 
 

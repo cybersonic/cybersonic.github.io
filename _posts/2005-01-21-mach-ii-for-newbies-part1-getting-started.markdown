@@ -4,6 +4,7 @@ title:  "Mach-ii for newbies - part1 Getting started)"
 uid:	"8A978F4F-EC14-8B04-D63FDE686A1625A0"
 date:   2005-01-21 11:05 AM +0000
 categories: coldfusion
+permalink: mach-ii-for-newbies-part1-getting-started
 ---
 I know I talk a lot about Coldfusion  and <a href="http://www.cfeclipse.org/">CFEclipse </a>etc, but one of the frameworks that I havent been exposed to has been Mach II. Not a great bane of my life or anything but I simply havent been exposed to it to really know whats "good" about it and what it gives me as a developer.
 

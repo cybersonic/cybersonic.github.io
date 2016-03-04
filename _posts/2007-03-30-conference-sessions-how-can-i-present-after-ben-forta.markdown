@@ -4,6 +4,7 @@ title:  "Conference sessions, how can I present after Ben Forta?"
 uid:	"8A9A70DD-C050-C656-63E9D2BB5711C764"
 date:   2007-03-30 11:08 AM +0000
 categories: cfconferences
+permalink: conference-sessions-how-can-i-present-after-ben-forta
 ---
 Finally the sessions are up for all the conferences, which for me, gives me an idea of when I shall be presenting, and more importantly who I shall be following onto the stage, which having looked at this years conferences, is a very scary proposition! 
 

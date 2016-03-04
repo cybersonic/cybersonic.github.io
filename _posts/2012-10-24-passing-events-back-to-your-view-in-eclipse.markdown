@@ -4,6 +4,7 @@ title:  "Passing events back to your view in Eclipse"
 uid:	"DF392B5B-3150-4493-870E993596FB1F40"
 date:   2012-10-24 12:48 PM +0000
 categories: eclipse
+permalink: passing-events-back-to-your-view-in-eclipse
 ---
 <p>This is going to be a bit of a technical post, and it's to do with views in Eclipse.  I tried to find this all over the place but in the end it was bits and pieces from different posts that actually gave me the answer, which is kinda odd. </p>
 

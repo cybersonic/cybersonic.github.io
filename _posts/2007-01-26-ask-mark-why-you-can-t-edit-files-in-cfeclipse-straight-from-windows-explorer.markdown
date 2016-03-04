@@ -4,6 +4,7 @@ title:  "Ask Mark: Why you can't edit files in CFEclipse straight from Windows E
 uid:	"8A99A96A-F754-3262-E4A6FD44084B394A"
 date:   2007-01-26 11:07 AM +0000
 categories: ask-md
+permalink: ask-mark-why-you-can-t-edit-files-in-cfeclipse-straight-from-windows-explorer
 ---
 I just got a question sent to me and its something I would like to clear up (and show where the responsibilities lie really). The question is:
 

@@ -4,6 +4,7 @@ title:  "Introducing...me."
 uid:	"8A99A6EA-EE79-597A-DE8F9015F40C3736"
 date:   2007-01-25 11:07 AM +0000
 categories: coldfusion
+permalink: introducing-me
 ---
 Ahh, <a href="http://www.buntel.com/blog/">Tim Buntel</a> wants to find out more about us developers eh? I don't think he knows the madness he is getting himself into! But in the spirit of the "Getting to know you" meme here goes:
 

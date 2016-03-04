@@ -4,6 +4,7 @@ title:  "CFObjective, CodeWars and Velociraptors"
 uid:	"1FFD113B-014B-40EE-BC5E6F3958A978BF"
 date:   2010-11-17 10:17 PM +0000
 categories: codewar
+permalink: velociraptor-code-war
 ---
 <p>
 Last night at <a href="http://www.cfobjective.com.au/" title="cfObjective(ANZ): The Enterprise ColdFusion Conference comes to Melbourne, Australia - 18-19 November, 2010">CFObjective ANZ</a>, Gert Franz and I were invited to the <a href="http://www.rocketboots.com/site/index.cfm/page/codewar" title="RocketBoots">CodeWar</a> hosted by <a href="http://twitter.com/#!/robinhilliard" title="">Robin</a> from RocketBoots. I have to say it was a great event at the European Beer Cafe in Melbourne, and the Railo "Flower Power" team managed, somehow, even with jetlag and lots of beers, to win (pure luck I have to say!). 

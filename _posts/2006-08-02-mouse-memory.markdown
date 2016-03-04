@@ -4,6 +4,7 @@ title:  "Mouse Memory"
 uid:	"8A98D94D-F78E-C49D-335F0A396F4D916B"
 date:   2006-08-02 11:06 AM +0000
 categories: apple
+permalink: mouse-memory
 ---
 I was just talking with <a href="http://www.edomgroup.com/blog">Mike Kelp</a> about some stuff, and somehow we come up with an idea, or rather a question. I need a new USB drive (to hand out <a href-"http://www.cfeclipse.org">CFEclipse</a> to passing strangers, that sort of thing) and I was thinking, why dont USB mice have built in USB drives? why would I need to plug two things into my computer, since I dont think a USB drive would mind being moved about and clicked on much.
 

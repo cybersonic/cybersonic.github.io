@@ -4,6 +4,7 @@ title:  "Dreamweaver Snippets in CFEclipse"
 uid:	"8A97AAB6-CAE1-D617-FF861274074AAA08"
 date:   2006-01-20 11:05 AM +0000
 categories: cfeclipse
+permalink: dreamweaver-snippets-in-cfeclipse
 ---
 A question was asked today in the cf-talk list that I had to find a solution to and thought I would share it with you all:
 <blockquote>

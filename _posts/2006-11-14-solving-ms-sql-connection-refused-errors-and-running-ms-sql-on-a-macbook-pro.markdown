@@ -4,6 +4,7 @@ title:  "Solving MS SQL \"connection refused\" Errors and running MS SQL on a Ma
 uid:	"8A98FA52-95CB-311E-B7E222C0187AF59F"
 date:   2006-11-14 11:06 AM +0000
 categories: microsoft
+permalink: solving-ms-sql-connection-refused-errors-and-running-ms-sql-on-a-macbook-pro
 ---
 I did a fresh install of Windows with ColdFusion 7.02 and MS SQL 2000 (SP2?) under Parallels on my MacBook Pro the other day. After I had installed everything I tried to set up a DSN in ColdFusion but I kept getting "connection refused" errors, no matter what I did. I did a lot of googling to find a solution and found lots of work arounds including setting up a ODBC data-source. None of these were satisfying, I mean, you SHOULD be able to connect to a database right? That's the whole point!
 

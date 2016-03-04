@@ -4,6 +4,7 @@ title:  "I resign the dragon..."
 uid:	"8A9BFFC2-FED6-C689-06F8C22E446A1D2E"
 date:   2008-06-06 11:09 AM +0000
 categories: open-bluedragon
+permalink: i-resign-the-dragon
 ---
 I am not sure if this news has spread through the CFML community, but a couple of weeks ago I stepped down from the OpenBD steering committee.
 

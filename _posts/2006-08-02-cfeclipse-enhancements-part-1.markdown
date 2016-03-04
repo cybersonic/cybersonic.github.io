@@ -4,6 +4,7 @@ title:  "CFEclipse: enhancements Part 1"
 uid:	"8A98DB41-ED45-9110-5EB02B808C13CEDC"
 date:   2006-08-02 11:06 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-enhancements-part-1
 ---
 In response to the features that the community has been suggesting over at Damon Cooper's blog post on IDE's I thought I would comment on some of the features and the obstacles and issues surrounding them as well as the status of some of the features.
 

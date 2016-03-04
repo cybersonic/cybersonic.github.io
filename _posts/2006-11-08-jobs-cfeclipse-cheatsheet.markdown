@@ -4,6 +4,7 @@ title:  "Jobs @ CFEclipse: CheatSheet"
 uid:	"8A98F744-BE5D-7CC5-FF21B88E4D229F69"
 date:   2006-11-08 11:06 AM +0000
 categories: cfeclipse
+permalink: jobs-cfeclipse-cheatsheet
 ---
 Another job that has come up if anyone wants to take it has very little CF and is mainly a design/html job. Shouldn't take too long. Basically its to create an A4 cheat sheet of shortcuts, snippet codes etc that people can print out and use.
 

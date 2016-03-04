@@ -4,6 +4,7 @@ title:  "Finally in Rockville!"
 uid:	"8A98B6F1-BBBB-E2A9-18FAE48B660136E8"
 date:   2006-06-28 11:06 AM +0000
 categories: ukcfug
+permalink: finally-in-rockville
 ---
 We am finally here in wet, wet Rockville. Checked into the Ramada Inn (room 202 if you ask, but not here for long)
 

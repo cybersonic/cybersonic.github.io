@@ -4,6 +4,7 @@ title:  "Generic Beans: Coldfusion VS Java"
 uid:	"8A9958FA-FF09-326D-60DF7699BA63260F"
 date:   2006-11-29 11:06 AM +0000
 categories: coldfusion
+permalink: generic-beans-coldfusion-vs-java
 ---
 In my previous tests I wanted to see how fast I could get the creation of components. I decided to re-write a Generic Bean in Java and see if the speed changed at all. I had done this with a defined bean (a Person with a name and an age), but what about a Generic Bean?
 

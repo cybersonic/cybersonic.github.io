@@ -4,6 +4,7 @@ title:  "Stopping the spam? a reverse  great wall of China"
 uid:	"8A9BF91B-94C1-4A18-614395F9A86F2173"
 date:   2008-04-18 11:09 AM +0000
 categories: spam
+permalink: stopping-the-spam-a-reverse-great-wall-of-china
 ---
 As some of you might have noticed, if you have ever posted a comment on this blog, I have been having a number of spam comments being submitted.
 

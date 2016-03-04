@@ -4,6 +4,7 @@ title:  "cfeclipse: CFEclipse 1.1.17 released"
 uid:	"8A978A7D-0C85-067A-AE3F9AFB23A0FA02"
 date:   2004-11-12 11:04 AM +0000
 categories: cfeclipse
+permalink: cfeclipse-cfeclipse-1-1-17-released
 ---
 <a href="http://cfeclipse.tigris.org/releases/announce_1.1.17.html">cfeclipse: CFEclipse 1.1.17 released</a> At long last, althought it must be said that  the releases are coming in fast and furious! Like evolution, it takes a time to build a base onto which you can then start adding great features... once the foundation is laid, a  lot of new features can be added and I forsee this happening a more and more with CFEclipse.
 

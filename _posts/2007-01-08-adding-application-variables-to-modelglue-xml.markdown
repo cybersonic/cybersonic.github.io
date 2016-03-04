@@ -4,6 +4,7 @@ title:  "Adding application variables to ModelGlue.xml"
 uid:	"8A99681D-B786-9B5A-001D4DA3B3AEB4A3"
 date:   2007-01-08 11:07 AM +0000
 categories: coldfusion
+permalink: adding-application-variables-to-modelglue-xml
 ---
 Continuing from my <a href="http://www.markdrew.co.uk/blog/index.cfm/2007/1/8/Adding-event-variables-to-ModelGluexml">previous post</a>, you might also want to add some application variables that you can access in your views easily.
 

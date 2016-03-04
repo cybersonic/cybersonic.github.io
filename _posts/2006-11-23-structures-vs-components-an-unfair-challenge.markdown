@@ -4,6 +4,7 @@ title:  "Structures vs Components, an unfair challenge?"
 uid:	"8A99566A-93EC-D300-310CFB4902307DB9"
 date:   2006-11-23 11:06 AM +0000
 categories: coldfusion
+permalink: structures-vs-components-an-unfair-challenge
 ---
 A post over in the cf-talk list mentioned that using CreateObject was a lot slower than native datatypes in Coldfusion, well of course it is I thought, but I wanted to see HOW slow they compare, and what the difference would be between them.
 
