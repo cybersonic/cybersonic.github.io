@@ -1,6 +1,6 @@
 # Site settings
 title: Mark Drew on code
-header-img: img/home-bg.jpg
+header-img: img/header-home.jpg
 email: mark.drew@gmail.com
 copyright_name: Mark Drew
 description: "a compendium of cfml and web technology topics"
@@ -9,7 +9,6 @@ url: "http://markdrew.io"
 twitter_username: markdrew
 github_username:  cybersonic
 email_username:  mark.drew@gmail.com
-
 # Build settings
 markdown: kramdown
 highlighter: rouge
