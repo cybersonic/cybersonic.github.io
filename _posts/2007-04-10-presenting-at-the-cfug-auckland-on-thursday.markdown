@@ -3,7 +3,7 @@ layout: post
 title:  "Presenting at the CFUG Auckland on Thursday"
 uid:	"8A9A733E-9B43-5849-23B084B8ED642CCF"
 date:   2007-04-10 11:08 AM +0000
-categories: presentations
+categories: cfeclipse,coldfusion,ukcfug,presentations
 permalink: presenting-at-the-cfug-auckland-on-thursday
 ---
 I am doing a presentation for the <a href="http://www.cfug.co.nz/">Auckland (that's New Zealand!) CFUG</a> on Thursday this week about <a href="http://cfeclipse.org">CFEclipse</a>. If you are interested in getting started using the CFEclipse plugin for Eclipse, this is the presentation for you!

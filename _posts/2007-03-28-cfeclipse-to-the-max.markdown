@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse to the MAX?"
 uid:	"8A9A6ECA-A08C-0AFB-C25BA6E4131247AA"
 date:   2007-03-28 11:08 AM +0000
-categories: cfconferences
+categories: cfobjective,cfeclipse,coldfusion,max,adobe,cfconferences
 permalink: cfeclipse-to-the-max
 ---
 Did you know you can suggest topics for this years <a href="http://www.adobemax2007.com/topics/information/">Adobe Max</a>?

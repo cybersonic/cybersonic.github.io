@@ -3,7 +3,7 @@ layout: post
 title:  "Want to know more about Elastic Computing and Virtualistaion?"
 uid:	"F00D61B1-0C1B-F111-162526555C4317E5"
 date:   2009-01-19 01:00 PM +0000
-categories: ukcfug
+categories: podcast,coldfusion,ukcfug
 permalink: want-to-know-more-about-elastic-computing-and-virtualistaion
 ---
 <p>

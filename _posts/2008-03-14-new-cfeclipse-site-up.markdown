@@ -3,7 +3,7 @@ layout: post
 title:  "New CFEclipse Site up!"
 uid:	"8A9BF66C-A5E0-970B-DABDB214EC4DBBC7"
 date:   2008-03-14 11:09 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: new-cfeclipse-site-up
 ---
 Thanks to a lot of hard work by <a href="http://www.thecrumb.com/">Jim Priest </a> over the last few weeks, <a href="http://www.cfeclipse.org">http://www.cfeclipse.org</a> has been given a thorough making over! 

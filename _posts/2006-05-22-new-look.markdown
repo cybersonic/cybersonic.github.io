@@ -3,7 +3,7 @@ layout: post
 title:  "New look"
 uid:	"8A9888AE-946D-577F-8F677007F35B3CCD"
 date:   2006-05-22 11:06 AM +0000
-categories: open-bluedragon
+categories: coldfusion,open-bluedragon
 permalink: new-look
 ---
 If you are reading this blog via RSS you wouldnt have noticed but over the weekend I upgraded my blog to Ray Camden's BlogCFC 5. I had been scraping my heels all this time, but its nice to upgrade right?

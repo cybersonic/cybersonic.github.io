@@ -3,7 +3,7 @@ layout: post
 title:  "New CFEclipse mailing lists"
 uid:	"8A9AAD77-D75D-5C10-1035D76EBAD4C418"
 date:   2007-07-16 11:08 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: new-cfeclipse-mailing-lists
 ---
 Following Charlie Arehart's great list of CFEclipse <a href="http://carehart.org/blog/client/index.cfm/2007/7/10/come_read_70_CFEclipse_bloggers" title="Come read over 70 CFEclipse bloggers - Part 1 - Charlie Arehart's Blog">blogs</a> and resources, I thought I would mention to the world at large the new (and old) mailing lists that are available for CFEclipsers.

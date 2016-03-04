@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse: enhancements Part 3"
 uid:	"8A98DFC5-ED75-8B5F-3062F78C6B9CDF77"
 date:   2006-08-07 11:06 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: cfeclipse-enhancements-part-3
 ---
 In the <a href="/blog/index.cfm/2006/8/3/CFEclipse-enhancements-Part-2">continuing list of features</a> that people want for CFEclipse, I tackle the rest of the list (so far!) and see if people comment on the <a href="/blog/index.cfm/2006/8/3/CFEclipse-enhancements-Part-2">last</a> couple of <a href="/blog/index.cfm/2006/8/2/CFEclipse-enhancements">posts</a>

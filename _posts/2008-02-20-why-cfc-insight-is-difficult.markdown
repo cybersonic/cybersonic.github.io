@@ -3,7 +3,7 @@ layout: post
 title:  "Why CFC insight is difficult"
 uid:	"8A9B1DF2-0E53-8E0C-96B07E7E0214A8B2"
 date:   2008-02-20 11:08 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: why-cfc-insight-is-difficult
 ---
 One of the most requested features in CFEclipse is to have insight into CFC's to have method completion. I thought I would detail some of the problems that are involved in this task from an editor. I am putting this together so that when people ask me why not, I can point them to this, and of course, if they come up with some good answers, they can post them here!

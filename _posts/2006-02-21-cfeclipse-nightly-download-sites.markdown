@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse Nightly download sites"
 uid:	"8A97B371-C35F-38F9-4D4BA4EBDB35852D"
 date:   2006-02-21 11:05 AM +0000
-categories: blogging
+categories: cfeclipse,personal,coldfusion,blogging
 permalink: cfeclipse-nightly-download-sites
 ---
 <p>I have added a new pod to my blog to give you all the nightly download sites for the CFEclipse project. </p>

@@ -3,7 +3,7 @@ layout: post
 title:  "Free Railo hosting available from Alurium"
 uid:	"866F62CA-AB09-44F8-8D31D288EE4372BC"
 date:   2009-06-06 12:12 PM +0000
-categories: getrailo
+categories: railo,getrailo
 permalink: free-railo-hosting-available-from-alurium
 ---
 <p>

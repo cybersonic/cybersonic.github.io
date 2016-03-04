@@ -3,7 +3,7 @@ layout: post
 title:  "Competition: CFML Mythbusters! Win my book!"
 uid:	"48AD1568-7129-4F46-A2090C9F8340446A"
 date:   2012-01-16 04:57 PM +0000
-categories: railo
+categories: book,railo
 permalink: competition-cfml-mythbusters-win-my-book
 ---
 <img src="http://www.markdrew.co.uk/blog/enclosures/mythbusters_busted..png" width="100" align="left" vspace="10" hspace="10">

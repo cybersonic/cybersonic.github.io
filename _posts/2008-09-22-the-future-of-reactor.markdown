@@ -3,7 +3,7 @@ layout: post
 title:  "The future of Reactor"
 uid:	"8A9C271F-A2CF-8918-F095C8694DAB15DE"
 date:   2008-09-22 11:44 AM +0000
-categories: reactor
+categories: coldfusion,reactor
 permalink: the-future-of-reactor
 ---
 <p>I am not sure many people would have heard this as we did a little bit of a "soft" announcement, but I shall be taking over the <a title="Reactor Framework - Trac" href="http://trac.reactorframework.org/">Reactor Project</a> from Doug Hughes! 

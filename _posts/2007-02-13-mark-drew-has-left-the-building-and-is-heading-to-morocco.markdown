@@ -3,7 +3,7 @@ layout: post
 title:  "Mark Drew has left the building... and is heading to Morocco!"
 uid:	"8A99B3BB-9829-F4B2-2B840D50EE3E9C57"
 date:   2007-02-13 11:07 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: mark-drew-has-left-the-building-and-is-heading-to-morocco
 ---
 I am heading off to Marrakech tomorrow for a few days holiday with my significant other. She has suffered enough with my constant coding and I think its time I took her somewhere nice. So for Valentine's we are heading to Morocco for a few days.

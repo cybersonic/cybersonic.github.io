@@ -3,7 +3,7 @@ layout: post
 title:  "Getting started with the CFEclipse code"
 uid:	"8A98F5DD-0F45-76FB-487FB77FFBABEC78"
 date:   2006-11-07 11:06 AM +0000
-categories: reference
+categories: cfeclipse,reference
 permalink: getting-started-with-the-cfeclipse-code
 ---
 I just got an email from Robert Munn, he managed to check out the branch code for CFEclipse (you can have a look at it <a href="http://trac.cfeclipse.org/cfeclipse/browser/branches/1.3-dev">here</a> ) and he asked where does one start? There is a lot of code and a few folders etc... so I thought I would start doing some posts describing how the code is organised and what goes where.

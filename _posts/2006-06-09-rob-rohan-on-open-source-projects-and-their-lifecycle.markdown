@@ -3,7 +3,7 @@ layout: post
 title:  "Rob Rohan on Open Source Projects and their Lifecycle"
 uid:	"8A98AE08-EDCE-F889-F54B76AC8CD5726E"
 date:   2006-06-09 11:06 AM +0000
-categories: blogging
+categories: cfeclipse,blogging
 permalink: rob-rohan-on-open-source-projects-and-their-lifecycle
 ---
 Rob started the CFEclipse project a while back and he has done  an awesome job. He has since left the CFEclipse project but I still tap him for info and a chat nearly every day and apart from coming up with good ideas he is a pretty dammed cool guy.

@@ -3,7 +3,7 @@ layout: post
 title:  "Mark to the MAX!"
 uid:	"8A9ADE3B-09F8-03D1-5F468581A5605213"
 date:   2007-10-12 11:08 AM +0000
-categories: cfconferences
+categories: cfeclipse,coldfusion,max,presentations,adobe,ajax,cfconferences
 permalink: mark-to-the-max
 ---
 It has been a while since I blogged, basically I have been so busy I forget to breathe sometimes. Anyway, the good news is that I am heading to Adobe MAX Europe in Barcelona on Sunday!

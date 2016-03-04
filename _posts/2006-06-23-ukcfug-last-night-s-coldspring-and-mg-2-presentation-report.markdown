@@ -3,7 +3,7 @@ layout: post
 title:  "UKCFUG: Last night's Coldspring and MG 2 Presentation report"
 uid:	"8A98B2F9-07C3-C10B-99FD9C1DE4B1D7FF"
 date:   2006-06-23 11:06 AM +0000
-categories: ukcfug
+categories: model-glue,reactor,ukcfug
 permalink: ukcfug-last-night-s-coldspring-and-mg-2-presentation-report
 ---
 Even thought I was late, and the room we had booked had no air-con  I actually enjoyed last night's presentation on ColdSpring and Model Glue 2.0: Unity. There wasnt a major turn out (about 12 people) but considering we had to re-schedule it twice it was pretty good!

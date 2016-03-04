@@ -3,7 +3,7 @@ layout: post
 title:  "cfObjective - here I come!"
 uid:	"8A9A6CB6-FAE8-D189-D8159D35E8B807C1"
 date:   2007-03-23 11:08 AM +0000
-categories: coldfusion
+categories: cfobjective,frameworks,cfeclipse,coldfusion
 permalink: cfobjective-here-i-come
 ---
 I have just booked my flight to cfObjective in May. I am both full of trepidation as this will be my first time speaking at a US conference but overly excited at unveiling the results of the top secret, Project:U. 

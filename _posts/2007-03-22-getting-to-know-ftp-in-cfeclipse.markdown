@@ -3,7 +3,7 @@ layout: post
 title:  "Getting to know FTP in CFEclipse"
 uid:	"8A9A6C0B-E2F8-DD10-AF48990E61DDBE27"
 date:   2007-03-22 11:08 AM +0000
-categories: eclipse
+categories: coldfusion,eclipse
 permalink: getting-to-know-ftp-in-cfeclipse
 ---
 Scott Stroz has posted a little write up on how to use FTP/SFTP in CFEclipse, I know I should have done this before, but alas time is tight!

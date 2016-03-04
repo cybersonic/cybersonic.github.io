@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse 1.3.6 Released!"
 uid:	"AA93FB08-DA4B-41DF-8C691559B40515C5"
 date:   2010-02-17 04:45 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: cfeclipse-1-3-6-released
 ---
 <p>Hot on the heels of the previous 1.3.5 release, the CFEclipse team have released a maintenance release. </p>

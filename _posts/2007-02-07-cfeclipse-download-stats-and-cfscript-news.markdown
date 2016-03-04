@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse Download Stats and cfscript news"
 uid:	"8A99B188-A868-9147-F9E2AC67C7179B05"
 date:   2007-02-07 11:07 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: cfeclipse-download-stats-and-cfscript-news
 ---
 Just a quick post to let you know that I finally got round to look at the download stats of the <a href="http://www.cfeclipse.org/index.cfm?event=page&amp;page=download">CFEclipse plug-in</a> and I am proud to announce the following stats:

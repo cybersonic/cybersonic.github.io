@@ -3,7 +3,7 @@ layout: post
 title:  "ColdFusion Guru Wanted! Come work with me in London!"
 uid:	"8A9AD1E7-95F0-5AEC-B627EFE1C4AB5696"
 date:   2007-08-21 11:08 AM +0000
-categories: jobs
+categories: coldfusion,jobs
 permalink: coldfusion-guru-wanted-come-work-with-me-in-london
 ---
 Another ColdFusion developer position has become available at <a href="http://www.designuk.com/">Design UK</a>, the company I work for here in the center of London.

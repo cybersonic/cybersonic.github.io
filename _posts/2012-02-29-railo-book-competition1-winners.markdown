@@ -3,7 +3,7 @@ layout: post
 title:  "Railo Book Competition: The Winners!"
 uid:	"E9DADA9F-E432-44DB-990EA272B6D0FC6A"
 date:   2012-02-29 04:12 AM +0000
-categories: getrailo
+categories: book,railo,cfobjective,cfconferences,getrailo
 permalink: railo-book-competition1-winners
 ---
 <p>A couple of weeks ago I run a competition to win my <a href="http://bit.ly/RailoBook" target="_blank">Railo 3 Beginner's Guide book</a>. So now is the time to announce the winners! </p>

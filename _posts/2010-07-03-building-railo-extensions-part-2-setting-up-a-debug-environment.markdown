@@ -3,7 +3,7 @@ layout: post
 title:  "Building Railo Extensions Part 2: Setting up a debug environment"
 uid:	"BC714A33-8E1D-4A71-879B3CC8B398F188"
 date:   2010-07-03 09:12 AM +0000
-categories: getrailo
+categories: extensions,railo,getrailo
 permalink: building-railo-extensions-part-2-setting-up-a-debug-environment
 ---
 <p>In the <a href="/blog/post.cfm/building-an-extension-for-railo-part-1">first part</a> of this series I looked at creating an extension and an extension provider which suited my needs. </p>

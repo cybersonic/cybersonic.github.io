@@ -3,7 +3,7 @@ layout: post
 title:  "Top 10 Must-buy OS X Applications"
 uid:	"8A9AA5E6-E2E5-E8A3-B7534D72E68E07EE"
 date:   2007-06-22 11:08 AM +0000
-categories: adobe
+categories: personal,apple,webdev,ask-md,adobe
 permalink: top-10-must-buy-os-x-applications
 ---
 I wanted to put down (for the help of new Switchers and myself) a list of applications I consider a top 10 of commercial (have to pay) applications for OS X. There are so many applications that are free on the Mac, that cover nearly everything you want to do, but for this post I wanted to cover some of the paid for applications.

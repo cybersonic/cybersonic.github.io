@@ -3,7 +3,7 @@ layout: post
 title:  "Eclipse quick tip: Linking the current file to the Navigator"
 uid:	"8A9A6F95-0471-BA85-702C935508BBECA3"
 date:   2007-03-29 11:08 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: eclipse-quick-tip-linking-the-current-file-to-the-navigator
 ---
 <img src="http://www.markdrew.co.uk/blog/images/link_with_editor.png" align="left">

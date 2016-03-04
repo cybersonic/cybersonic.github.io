@@ -3,7 +3,7 @@ layout: post
 title:  "Coffee: Thanks to the people at Anodyne.com!"
 uid:	"8A98D769-0D8D-00D8-DEDE45C2DAF2ED92"
 date:   2006-07-31 11:06 AM +0000
-categories: blogging
+categories: cfeclipse,blogging
 permalink: coffee-thanks-to-the-people-at-anodyne-com
 ---
 I mentioned <a href="http://www.markdrew.co.uk/blog/index.cfm/2006/7/26/Horses-heads-and-unrefusable-offers">before</a> that I had to pick up something from the post office that was too big to fit through my letterbox last week, well, I picked up another item from my wish list this morning, a Bodum cafetiere!

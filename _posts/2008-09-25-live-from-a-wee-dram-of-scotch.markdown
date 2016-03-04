@@ -3,7 +3,7 @@ layout: post
 title:  "Live from A Wee Dram of Scotch"
 uid:	"99503CDC-DB95-A5E3-645D8EF63DAAD8CF"
 date:   2008-09-25 07:48 AM +0000
-categories: cfconferences
+categories: scotch-on-the-rocks,coldfusion,coldspring,presentations,cfconferences
 permalink: live-from-a-wee-dram-of-scotch
 ---
 <p>I just finished presenting my "Better living through configuration" presentation at A Wee Dram of Scotch in London. Its a great presentation so far with Adam Lehman and Claude from Adobe kicking off the proceedings and showing the (possible) Hibernate features in Centaur (or the "Eagerly Awaited next version of ColdFusion"). </p>

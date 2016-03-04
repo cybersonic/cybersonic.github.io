@@ -3,7 +3,7 @@ layout: post
 title:  "The UKCFUG is Back!"
 uid:	"51CE40A6-06A6-9C91-482744B762E45F5B"
 date:   2008-10-31 12:17 PM +0000
-categories: podcasting
+categories: coldfusion,max,ukcfug,podcasting
 permalink: the-ukcfug-is-back
 ---
 <p>After the summer hiatus which is essentially the conference season, the <a title="UKCFUG | The UK ColdFusion User Group" href="http://www.ukcfug.org/">UKCFUG is back</a>! And its better than ever! 

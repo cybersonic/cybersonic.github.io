@@ -3,7 +3,7 @@ layout: post
 title:  "What would you pay for? Should CFEclipse still be free?"
 uid:	"8A9A7551-00AF-08F2-4287E22C7B139C7E"
 date:   2007-04-13 11:08 AM +0000
-categories: donations
+categories: cfeclipse,coldfusion,eclipse,donations
 permalink: what-would-you-pay-for-should-cfeclipse-still-be-free
 ---
 Before I start, don't worry, I am not going to charge for CFEclipse, but I have been thinking about the costs involved in making CFEclipse and trying to see how I can at least raise a small percentage of those. 

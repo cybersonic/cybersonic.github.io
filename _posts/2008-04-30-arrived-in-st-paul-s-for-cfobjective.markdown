@@ -3,7 +3,7 @@ layout: post
 title:  "Arrived in St Paul's for cfObjective"
 uid:	"8A9BFB7C-C296-A631-03C3F531A99C620D"
 date:   2008-04-30 11:09 AM +0000
-categories: cfconferences
+categories: cfobjective,coldfusion,cfconferences
 permalink: arrived-in-st-paul-s-for-cfobjective
 ---
 I finally made it to St Paul's for cfObjective 2008! 

@@ -3,7 +3,7 @@ layout: post
 title:  "Running Railo in CloudBees"
 uid:	"489DBB39-772F-4D09-9C57E3B8D6F5F916"
 date:   2011-03-30 07:43 AM +0000
-categories: cloudbees
+categories: railo,getrailo,cloudbees
 permalink: running-railo-in-cloudbees
 ---
 <p>

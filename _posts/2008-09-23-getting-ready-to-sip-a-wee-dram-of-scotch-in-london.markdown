@@ -3,7 +3,7 @@ layout: post
 title:  "Getting ready to sip a Wee Dram of Scotch in London"
 uid:	"8EF18273-E83C-0ECB-26D8DAFF7060AFD5"
 date:   2008-09-23 07:21 AM +0000
-categories: cfconferences
+categories: scotch-on-the-rocks,frameworks,coldfusion,coldspring,cfconferences
 permalink: getting-ready-to-sip-a-wee-dram-of-scotch-in-london
 ---
 <p>Coming up this Thursday 25th of September, the "<a href="http://www.aweedram.com/ofScotch/">a Wee Dram of Scotch</a>" one day conference is taking place in London.</p>

@@ -3,7 +3,7 @@ layout: post
 title:  "Why CFMX wont run nicely on my MacBook ... yet"
 uid:	"8A98791E-A0CA-A3BD-3AA66461AD5DD841"
 date:   2006-04-13 11:06 AM +0000
-categories: adobe
+categories: coldfusion,apple,adobe
 permalink: why-cfmx-wont-run-nicely-on-my-macbook-yet
 ---
 Ok, so its a bit of an alarmist headline, but I went through a whole procedure of installing CFMX to run on JRun and THAT runs (see my <a href="http://www.markdrew.co.uk/blog/index.cfm/2006/4/12/Installing-Coldfusion-and-JRun-on-a-MacBook-Pro">previous post</a>) which is fair enough, but I dont like the following:<br />

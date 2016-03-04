@@ -3,7 +3,7 @@ layout: post
 title:  "32, 11 and update"
 uid:	"8A98CE8F-C866-E1CB-3C17265B6B29CF1E"
 date:   2006-07-11 11:06 AM +0000
-categories: coldfusion
+categories: cfunited,cfeclipse,personal,coldfusion
 permalink: 32-11-and-update
 ---
 Just thought I would let people know that I am back in the UK again, I had a fantastic trip in the US, first at CFunited in Rockville, Maryland and then a great week in San Francisco (all the usual you know? Golden Gate Bridge, Cable Cars, Tea Rooms etc). I just got back home to Greenwich and due to some problems on the freeway we managed to miss our flight so we got another day in San Francisco. So, tired and jet-lagged I am celebrating my 32nd birthday! Yep! I made it to 32, only 10 more years until I get to the magic number of 42!

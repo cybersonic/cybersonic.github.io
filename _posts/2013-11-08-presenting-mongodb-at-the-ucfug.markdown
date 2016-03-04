@@ -3,7 +3,7 @@ layout: post
 title:  "Presenting MongoDB at the UCFUG"
 uid:	"55758F7D-F529-49AE-83AEC580DDD28E80"
 date:   2013-11-08 05:31 AM +0000
-categories: nosql
+categories: ukcfug,nosql
 permalink: presenting-mongodb-at-the-ucfug
 ---
 <p>It was my pleasure to be able to present to the largest turnout at the <a href="http://ukcfug.org/">UKCFUG</a> that we have had for a long time last night! </p>

@@ -3,7 +3,7 @@ layout: post
 title:  "URGENT!: Seeking RegEx guru"
 uid:	"8A9A76E8-0C95-2DBE-FBB6A46541022A25"
 date:   2007-04-25 11:08 AM +0000
-categories: webdev
+categories: cfeclipse,coldfusion,webdev
 permalink: urgent-seeking-regex-guru
 ---
 No, not for a job, I just need to find a reg ex expression to find the values of the following expression:

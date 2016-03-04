@@ -3,7 +3,7 @@ layout: post
 title:  "Scotch on the Road and CFObjective Presentations"
 uid:	"FE4D445A-1293-4DA4-AAE0CCE4496A0D19"
 date:   2009-06-10 05:52 PM +0000
-categories: presentations
+categories: railo,cfobjective,scotch-on-the-rocks,model-glue,webdev,reactor,presentations
 permalink: scotch-on-the-road-and-cfobjective-presentations
 ---
 <p>A few people have asked me to post my presentations, and I should have done so anyway straight after the conferences, but of course, since I did three presentations + a Mystery Theatre at <a title="cf.Objective()" href="http://www.cfobjective.com/">cfobjective</a> and four presentations at <a title="Scotch on the Road 2009 - Europe's Longest Running ColdFusion Conference" href="http://www.scotch-on-the-rocks.co.uk/">Scotch on the Road</a> I have been falling behind normal work and blog postings.</p>

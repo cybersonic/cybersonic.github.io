@@ -3,7 +3,7 @@ layout: post
 title:  "Coldfusion 8: Creating a Derby database"
 uid:	"8A9AA0B6-ABE4-5895-FB214153FBD7F334"
 date:   2007-06-07 11:08 AM +0000
-categories: webdev
+categories: coldfusion,webdev
 permalink: coldfusion-8-creating-a-derby-database
 ---
 I am not sure how many people noticed but ColdFusion 8 now comes with an in-built database called <a href="http://db.apache.org/derby/">Apache Derby</a>. This is great for people needing to deploy applications that need a little database that might be highly performant but without the need for complex queries etc.  (read SnipEx here).

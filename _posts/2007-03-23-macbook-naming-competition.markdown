@@ -3,7 +3,7 @@ layout: post
 title:  "MacBook naming competition"
 uid:	"8A9A6D53-E154-2D36-9B2464DF963DC0E0"
 date:   2007-03-23 11:08 AM +0000
-categories: apple
+categories: cfeclipse,coldfusion,apple
 permalink: macbook-naming-competition
 ---
 Next week I shall (Hopefully!) be receiving my new black MacBook. This laptop has the following specs as its designed as a presentation laptop rather than a main production machine:

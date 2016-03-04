@@ -3,7 +3,7 @@ layout: post
 title:  "CFUnited Preview: Mark Drew, \"CFEclipse Plus!\""
 uid:	"8A9AA4EC-A6EF-574D-66E548B369F9975A"
 date:   2007-06-20 11:08 AM +0000
-categories: cfconferences
+categories: cfunited,cfeclipse,coldfusion,presentations,cfconferences
 permalink: cfunited-preview-mark-drew-cfeclipse-plus
 ---
 With CFUnited looming (only a week to go!), the Online ColdFusion Meetup Group have asked me to do a quick (20 mins) preview presentation on my forthcoming CFEclipse session for CFUnited.

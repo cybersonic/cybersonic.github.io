@@ -3,7 +3,7 @@ layout: post
 title:  "Event Validation: Showing errors in your page"
 uid:	"8A9AE7FF-0D78-C7D4-78B3AB24C56B8B11"
 date:   2007-11-26 11:08 AM +0000
-categories: eventvalidation
+categories: coldfusion,coldspring,eventvalidation
 permalink: event-validation-showing-errors-in-your-page
 ---
 In the <a href="http://www.markdrew.co.uk/blog/index.cfm/2007/11/25/Introducing-EventValidation-Form-and-Event-Validation" title="Mark Drew (Redux)- cf_etc...: Introducing EventValidation: Form and Event Validation">previous post</a> I introduced <a href="http://eventvalidation.riaforge.org/" title="EventValidation">Event Validation</a>, which on a simple level validates the input from forms in a Model-Glue request against a set of rules that you define in a ColdSpring tag.

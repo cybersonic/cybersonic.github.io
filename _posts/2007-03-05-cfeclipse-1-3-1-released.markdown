@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse 1.3.1 Released"
 uid:	"8A9A60FF-B3C9-5C00-F6D85CF3D504FBD1"
 date:   2007-03-05 11:08 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: cfeclipse-1-3-1-released
 ---
 About three days late, from my milestones, but I finally released CFEclipse 1.3.1, you can get this from the usual update site (instructions available <a href="http://www.cfeclipse.org/index.cfm?event=page&amp;page=download">here</a>). I have put loads of effort into this and there is more to come, so if your bug hasn't been covered in this release, don't worry, I shall get to it soon!

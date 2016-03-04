@@ -3,7 +3,7 @@ layout: post
 title:  "cfObjective, CF Frameworks and a Drop of Scotch"
 uid:	"8A9A7997-CB44-714F-679596E5E88FD5CF"
 date:   2007-05-10 11:08 AM +0000
-categories: cfconferences
+categories: cfobjective,scotch-on-the-rocks,frameworks,cfeclipse,cfconferences
 permalink: cfobjective-cf-frameworks-and-a-drop-of-scotch
 ---
 I have been back from the cfObjective conference in Minnesota for a few days and it has allowed me to reflect a bit on how awesome a conference it was. Everything was spot on, the speakers, the venue, the food, the Jack Daniels (thanks to the <a href="http://www.coldfusionweekly.com/">ColdFusion Weekly </a>guys for the bottle of Gentleman Jack!)! 

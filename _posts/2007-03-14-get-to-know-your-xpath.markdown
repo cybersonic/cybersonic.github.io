@@ -3,7 +3,7 @@ layout: post
 title:  "Get to know your Xpath"
 uid:	"8A9A6A65-C66E-0BD9-2B31D18E7E1FB064"
 date:   2007-03-14 11:08 AM +0000
-categories: webdev
+categories: coldfusion,webdev
 permalink: get-to-know-your-xpath
 ---
 Working with XML in ColdFusion can be fun or can be daunting sometimes. One of the things that is a gotcha for me all the time is doing XPath, even after a few minutes of googling for "Xpath Tutorial" or whatever I get bored, find the solution and then that's it.

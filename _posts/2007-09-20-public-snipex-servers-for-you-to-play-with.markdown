@@ -3,7 +3,7 @@ layout: post
 title:  "Public SnipEx Servers for you to play with!"
 uid:	"8A9ADDBE-CB37-FD59-AF59B4EA4CFF143F"
 date:   2007-09-20 11:08 AM +0000
-categories: snipex
+categories: cfeclipse,coldfusion,snipex
 permalink: public-snipex-servers-for-you-to-play-with
 ---
 I just wanted to note down some public SnipEx server addresses that are out there just to remind myself as well as hopefully helping others:<ul>

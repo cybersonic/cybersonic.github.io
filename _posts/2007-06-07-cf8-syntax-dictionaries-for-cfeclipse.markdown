@@ -3,7 +3,7 @@ layout: post
 title:  "CF8 Syntax Dictionaries for CFEclipse"
 uid:	"8A9A7DDD-9BF2-5B98-B0EC27C7E341E5A6"
 date:   2007-06-07 11:08 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: cf8-syntax-dictionaries-for-cfeclipse
 ---
 I have seen a lot of posts on various lists about this, and rather than making everyone hold out for the next release of CFEclipse (I am a bit behind due to having a flu since I got back from Scotch on the Rocks) I thought I would post up the dictionary file for ColdFusion 8 beta so you can install it yourselves.

@@ -3,7 +3,7 @@ layout: post
 title:  "When are frameworks appropriate?"
 uid:	"8A979B65-E10C-31CB-B20C992D5C3A6C69"
 date:   2005-10-07 11:05 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: when-are-frameworks-appropriate
 ---
 I have started on a small project and thought it was a good time to get into Fusebox 4. There has been some discussions around the community and especially by <a href="http://www.horwith.com/index.cfm?mode=entry&entry=AD4FCCF6-E081-0478-4797DCE14EA2A058">Simon Horowith</a>.

@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse, taking a break"
 uid:	"8A9AAEB0-B14F-33F5-AB80192E23CAD2E0"
 date:   2007-07-27 11:08 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: cfeclipse-taking-a-break
 ---
 I just thought I would post this before people started getting worried about advances in CFEclipse over the next month or so. I have decided to do the Spanish thing and take August off. 

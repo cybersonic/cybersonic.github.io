@@ -3,7 +3,7 @@ layout: post
 title:  "Just for fun: What if your IDE had Achievements?"
 uid:	"4741CD63-1FE6-4E2E-936814498E26AC75"
 date:   2012-01-19 09:30 AM +0000
-categories: cfml
+categories: cfeclipse,coldfusion,cfml
 permalink: just-for-fun-what-if-your-ide-had-achievements
 ---
 <p>Following on from a post that <a href="http://blog.whiletrue.com/2012/01/visual-studio-achievements-now-a-reality/" target="_blank">Visual Studio has an Achievements Plugin</a> (very funny if you play on the XBox, Steam or PS3) I was just thinking what Achievements  could we unlock if we had a plugin for CFEclipse (or CFBuilder) whilst coding CFML?</p>

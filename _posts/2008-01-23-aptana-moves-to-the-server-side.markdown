@@ -3,7 +3,7 @@ layout: post
 title:  "Aptana moves to the server side"
 uid:	"8A9B1C9A-A9C7-B783-900EE7C9FC45F865"
 date:   2008-01-23 11:08 AM +0000
-categories: ajax
+categories: apple,webdev,eclipse,ajax
 permalink: aptana-moves-to-the-server-side
 ---
 Those clever folks at <a href="http://www.aptana.com/">Aptana</a> famous for their IDE and Eclipse plugins for JavaScript/Ajax, HTML and CSS have released <a href="http://www.aptana.com/jaxer/">Jaxer</a>, The Ajax Server: 

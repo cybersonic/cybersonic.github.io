@@ -3,7 +3,7 @@ layout: post
 title:  "UKCFUG: Coldpsring and Model Glue 2 Presentation tonight!"
 uid:	"8A98B25D-9BBD-5905-F6EAC4B3F0D765A7"
 date:   2006-06-22 11:06 AM +0000
-categories: ukcfug
+categories: model-glue,cfeclipse,reactor,ukcfug
 permalink: ukcfug-coldpsring-and-model-glue-2-presentation-tonight
 ---
 I shall finally be presenting ColdSpring and Model Glue 2.0: Unity tonight at the UK CFUG after two (!) re-shedulings, one because I wasnt feeling well that week (oh, the headaches!) and then because of the England game last week (2-0 against Trinidad and Tobago! En-Ger-Laaand!), so its nice to finally do it.

@@ -3,7 +3,7 @@ layout: post
 title:  "Alagad is Hiring!"
 uid:	"8A9A62F3-D27B-7915-07719161C9019531"
 date:   2007-03-06 11:08 AM +0000
-categories: jobs
+categories: coldfusion,reactor,jobs
 permalink: alagad-is-hiring
 ---
 Thats right! You could be the one to get a great job at Alagad, Doug Hughes's company. 

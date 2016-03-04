@@ -3,7 +3,7 @@ layout: post
 title:  "BlueDragon goes Open Source"
 uid:	"8A9B1F59-EB67-BAF6-9C65983B343F1295"
 date:   2008-03-10 11:08 AM +0000
-categories: open-bluedragon
+categories: coldfusion,open-bluedragon
 permalink: bluedragon-goes-open-source
 ---
 I just read over a Vince Bonfanti's blog that BlueDragon/J2EE is going Open Source!

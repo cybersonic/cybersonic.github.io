@@ -3,7 +3,7 @@ layout: post
 title:  "cf.Objective and Conferences in general"
 uid:	"8A98EB2F-C0E6-CE3F-B31D8A1B9C52C862"
 date:   2006-10-11 11:06 AM +0000
-categories: ukcfug
+categories: cfunited,cfeclipse,coldfusion,ukcfug
 permalink: cf-objective-and-conferences-in-general
 ---
 Well, looks like MAX will be happening soon, and Jared has just announced that <a href="http://www.cfobjective.com/">cf.Objective 2007</a> is a go! All very exciting!!! I would have loved to make it to MAX but I live in London, and Vegas is a tad far away (two trips to the US in one year is far to expensive!) but I am really looking forward to next year, hopefully I shall be able to make it to a couple of conferences out there. 

@@ -3,7 +3,7 @@ layout: post
 title:  "The magic of Instantiations"
 uid:	"8A99AEAA-E55E-507F-88FF75FEF2E502DD"
 date:   2007-02-02 11:07 AM +0000
-categories: donations
+categories: cfeclipse,donations
 permalink: the-magic-of-instantiations
 ---
 The wonderful guys and gals at <a href="http://www.instantiations.com/index.html">Instantiations</a>, the makers of a fantastic development tools for Eclipse plugin developers, have donated a copy of <a href="http://www.windowbuilderpro.com/">Windowbuilder Pro</a> to the <a href="http://www.cfeclipse.org">CFeclipse Project</a>

@@ -3,7 +3,7 @@ layout: post
 title:  "Quick tip: How to run a web server using the current path"
 uid:	"36708DDF-882F-4212-A62B78D156B008A6"
 date:   2015-05-17 10:17 AM +0000
-categories: npm
+categories: webdev,npm
 permalink: quick-tip-how-to-run-a-web-server-using-the-current-path
 ---
 <p>A lot of times you want to run a simple web server from the current path. Whether it be to see how javascript behaves or if you have linked things right in an html file. A quick tip is to install an npm package called <a href="https://www.npmjs.com/package/http-server">http-server</a> (the clue is in the name!)&nbsp;</p>

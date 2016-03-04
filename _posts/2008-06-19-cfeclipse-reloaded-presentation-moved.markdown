@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse Reloaded presentation moved"
 uid:	"8A9C224D-B619-8704-73BAA890D74F487C"
 date:   2008-06-19 11:10 AM +0000
-categories: cfeclipse
+categories: cfunited,cfeclipse
 permalink: cfeclipse-reloaded-presentation-moved
 ---
 If you are planning to come to my CFEclipse:Reloaded presentation at CFUnited on Saturday morning, I have good news for you, I have moved it to the afternoon, basically swapped it with Sandy Clark. 

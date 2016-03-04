@@ -3,7 +3,7 @@ layout: post
 title:  "MSN for OS X updated"
 uid:	"8A98F938-CE36-60AB-DB0BB580B5EA5DF1"
 date:   2006-11-10 11:06 AM +0000
-categories: microsoft
+categories: apple,microsoft
 permalink: msn-for-os-x-updated
 ---
 I just spotted that Microsoft have updated MSN for OS X, haven't spotted much of a change yet, but it is finally a Universal Application rather than the old PPC, so it should run a bit faster.

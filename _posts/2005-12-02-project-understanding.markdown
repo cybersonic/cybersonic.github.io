@@ -3,7 +3,7 @@ layout: post
 title:  "Project Understanding"
 uid:	"8A97A4EA-E642-63B1-DF8B953456DF1AC3"
 date:   2005-12-02 11:05 AM +0000
-categories: webdev
+categories: personal,webdev
 permalink: project-understanding
 ---
 A great image of how a project is understood by different poeople has been posted in the CF-Talk mailing list. I thought I would share with you. It is something that is posted up in our kitchen here (no, we dont have cubicles) but its nice to finally see it online!

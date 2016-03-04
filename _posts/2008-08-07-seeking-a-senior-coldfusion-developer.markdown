@@ -3,7 +3,7 @@ layout: post
 title:  "Seeking a Senior Coldfusion Developer"
 uid:	"8A9C2599-FB17-7F80-00EAE2A1B7891A8A"
 date:   2008-08-07 11:10 AM +0000
-categories: jobs
+categories: coldfusion,jobs
 permalink: seeking-a-senior-coldfusion-developer
 ---
 A job has come up at my company <a href="http://www.designuk.com/" title="Design UK - Web design agency London">Design UK</a> for a Senior Coldfusion developer. Don't worry, you wont be working under me (well, kinda, you would be situated on the floor below!). 

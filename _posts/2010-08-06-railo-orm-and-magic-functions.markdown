@@ -3,7 +3,7 @@ layout: post
 title:  "Railo ORM and Magic Functions"
 uid:	"FDC5D481-EB9C-4C93-811A61A4603F2BF4"
 date:   2010-08-06 12:09 PM +0000
-categories: getrailo
+categories: railo,getrailo
 permalink: railo-orm-and-magic-functions
 ---
 <p>Background: I am writing a little app to help us here at Railo with some of our contacts, nothing over the top or anything and wanted to take Sean Corfield's FW/1 for a spin. <br /><br />As I am developing, I went the most direct route, I just did some queries in the service layer so my code looks like:</p>

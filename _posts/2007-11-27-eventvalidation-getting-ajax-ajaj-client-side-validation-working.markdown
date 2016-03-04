@@ -3,7 +3,7 @@ layout: post
 title:  "EventValidation: Getting Ajax (AJAJ) client side validation working"
 uid:	"8A9AE8F9-C940-3EFE-6666C2337AF27EEF"
 date:   2007-11-27 11:08 AM +0000
-categories: eventvalidation
+categories: coldfusion,coldspring,eventvalidation
 permalink: eventvalidation-getting-ajax-ajaj-client-side-validation-working
 ---
 One of the downfalls of the current cfform implementation of validation is that it only does it on the client side (as far as I have used it, it might have changed). So, you design your form, add some client side validation, then realise that people without javascript enabled are sending junk and you have to re-implement the validation server side.

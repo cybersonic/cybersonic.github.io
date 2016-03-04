@@ -3,7 +3,7 @@ layout: post
 title:  "Patterns Everywhere"
 uid:	"8A97A1BE-9A61-6366-527D51FF69709834"
 date:   2005-11-27 11:05 AM +0000
-categories: ajax
+categories: webdev,ajax
 permalink: patterns-everywhere
 ---
 Thought I would recommend a site, that I stumbled upon linked from ajform website that I blogged about a couple of days ago, <a href="http://www.ajaxpatterns.org/">AJAX Patterns</a> seems like a great site (well a Wiki) to get all your AJAX related patterns to help you develop your dynamic applications better.

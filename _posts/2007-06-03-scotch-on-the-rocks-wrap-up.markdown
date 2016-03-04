@@ -3,7 +3,7 @@ layout: post
 title:  "Scotch on the Rocks Wrap up"
 uid:	"8A9A7CD3-A231-2658-DA71E883D4E2E692"
 date:   2007-06-03 11:08 AM +0000
-categories: cfconferences
+categories: scotch-on-the-rocks,cfeclipse,coldfusion,coldspring,cfconferences
 permalink: scotch-on-the-rocks-wrap-up
 ---
 So its the saturday after the conference and I am sitting here in Starbucks in the Haymarket in Edinburgh mulling over what an excellent conference this was (and nursing a cold. Now I know why I lost my voice on the last day!).

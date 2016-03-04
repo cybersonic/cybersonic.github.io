@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse's SnipEx server components released"
 uid:	"8A9AAAF7-972B-019F-454ED143EE0B6E6B"
 date:   2007-07-11 11:08 AM +0000
-categories: snipex
+categories: cfeclipse,coldfusion,snipex
 permalink: cfeclipse-s-snipex-server-components-released
 ---
 After a busy few months in conferences I can finally get back to tidying stuff off my desk. So to start the ball rolling, I have released to <a href="http://snipex.riaforge.org/" title="SnipEx">RiaForge</a> the server components for the SnipEx functionality in CFEclipse.

@@ -3,7 +3,7 @@ layout: post
 title:  "Adding event variables to ModelGlue.xml"
 uid:	"8A996639-EB54-DE0F-5E958A50CDFC59D7"
 date:   2007-01-08 11:07 AM +0000
-categories: coldfusion
+categories: model-glue,coldfusion
 permalink: adding-event-variables-to-modelglue-xml
 ---
 When using Joe Rinehart's Model-Glue framework, I noticed a few people that come from using fusebox based apps were a bit confused at how you would set either application wide variables, or fuse-action (i.e. event) specific variables (such as xfa's). In the definition of MG itself there isn't something blatantly obvious, so how would you set, for example, the section variable that each of the event-handlers belongs to (for the title for example)?

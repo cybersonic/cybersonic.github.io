@@ -3,7 +3,7 @@ layout: post
 title:  "New Blog"
 uid:	"8A98DA57-C52B-577E-6F826BC9F280B273"
 date:   2006-08-02 11:06 AM +0000
-categories: blogging
+categories: personal,coldfusion,blogging
 permalink: new-blog
 ---
 I am thinking of re-branding my blog and in the process re-styling it of course, I have come up with a shortlist of designs and in the spirit of community am asking you to choose which one I shall use! I have got a great new domain that I shall be using for this, but I shall keep that as a surprise for the moment (hey, not only <a href="http://www.dcooper.org/blog/client/index.cfm?mode=entry&entry=CA4B686A-4E22-1671-58F4E17F09832C78">Damon Cooper</a> can get away with leaving people in suspense!)

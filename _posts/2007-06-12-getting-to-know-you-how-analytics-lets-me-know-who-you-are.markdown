@@ -3,7 +3,7 @@ layout: post
 title:  "Getting to know you! How analytics lets me know who you are."
 uid:	"8A9AA2D9-F7BF-C3CC-07BE4C8D08D6E119"
 date:   2007-06-12 11:08 AM +0000
-categories: blogging
+categories: webdev,coldspring,blogging
 permalink: getting-to-know-you-how-analytics-lets-me-know-who-you-are
 ---
 I am sure lots of people use google analytics on their site to track usage. Its very good for conversion funnels and what have you but it doesn't really have the immediate effect of reporting that I like for blog posts. 

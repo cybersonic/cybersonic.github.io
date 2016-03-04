@@ -3,7 +3,7 @@ layout: post
 title:  "The oddest CF error/strangeness I have spotted"
 uid:	"2DB03852-DC71-9A91-B079CE0DEDF9A6A1"
 date:   2008-10-24 03:12 AM +0000
-categories: coldfusion
+categories: model-glue,coldfusion
 permalink: the-oddest-cf-error-strangeness-i-have-spotted
 ---
 <p>I recently have been working on adding a <a title="Stake Five   ::  Memory-sensitive Caching for CF" href="http://blogs.sanmathi.org/ashwin/2006/07/01/memory-sensitive-caching-for-cf/">couple</a> of <a title="Exception" href="http://www.infoaccelerator.net/index.cfm?event=showEntry&amp;entryId=5F0448E1-FF30-C9A3-AD26173857DBC0E1">different</a> cache providers for <a title="The Model-Glue Framework" href="http://www.model-glue.com/coldfusion.cfm">Model-Glue 3

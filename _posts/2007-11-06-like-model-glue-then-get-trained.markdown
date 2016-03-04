@@ -3,7 +3,7 @@ layout: post
 title:  "Like Model-Glue? Then get trained!"
 uid:	"8A9AE31D-0AB6-8005-0B7E987BC01D5923"
 date:   2007-11-06 11:08 AM +0000
-categories: coldspring
+categories: frameworks,model-glue,coldfusion,reactor,coldspring
 permalink: like-model-glue-then-get-trained
 ---
 As you may know from my previous posts, I am a bit into <a href="http://www.model-glue.com/" title="The Model-Glue Framework">Model-Glue</a>. Besides giving tips on using it I have talked at a couple of ColdFusion User Groups about the framework and try and pass on any knowledge I can, since I think its a nice brief framework that in conjunction with <a href="http://www.coldspringframework.org/" title="ColdSpring Framework: Welcome">ColdSpring</a> and <a href="http://www.reactorframework.org/" title="Reactor Framework - Trac">Reactor</a> (or <a href="http://transfer.riaforge.org/" title="Transfer ORM">Transfer</a>) can really help your application development.

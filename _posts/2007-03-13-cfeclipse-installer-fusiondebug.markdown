@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse Installer: FusionDebug"
 uid:	"8A9A67D5-C02F-33CA-8309923C899B2AC1"
 date:   2007-03-13 11:08 AM +0000
-categories: coldfusion
+categories: fusiondebug,cfeclipse,coldfusion
 permalink: cfeclipse-installer-fusiondebug
 ---
 I posted about this before, but apart from the <a href="http://www.cfeclipse.org/download/">All-in-One</a> version of CFEclipse I am testing out, you can also get CFEclipse bundled with FusionDebug as an complete installer for Windows, Mac OS, Linux and even Solaris!

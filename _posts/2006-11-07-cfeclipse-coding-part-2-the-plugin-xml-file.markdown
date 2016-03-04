@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse coding Part 2: The Plugin.xml file"
 uid:	"8A98F6C7-94B3-6FD4-D513612E0B2B46C9"
 date:   2006-11-07 11:06 AM +0000
-categories: reference
+categories: cfeclipse,reference
 permalink: cfeclipse-coding-part-2-the-plugin-xml-file
 ---
 The plugin.xml file is the basis of your Eclipse plug-in. If you open this file using the Plug-in Manifest Editor you will get a nice graphic interface to the underlying files. This is definitely much easier than editing by hand.

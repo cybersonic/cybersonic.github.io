@@ -3,7 +3,7 @@ layout: post
 title:  "CFLOOP Rant."
 uid:	"FC4D23B7-6939-42B0-BD0CF9C202EB3DF3"
 date:   2011-08-04 07:19 AM +0000
-categories: coldfusion
+categories: railo,coldfusion
 permalink: cfloop-rant
 ---
 <strong>&lt;rant&gt;</strong>

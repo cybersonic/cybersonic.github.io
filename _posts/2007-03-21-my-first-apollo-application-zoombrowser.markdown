@@ -3,7 +3,7 @@ layout: post
 title:  "My first Apollo Application: zoomBrowser"
 uid:	"8A9A6AE2-98E4-59B0-B5FE055774DC47CE"
 date:   2007-03-21 11:08 AM +0000
-categories: air
+categories: flex,air
 permalink: my-first-apollo-application-zoombrowser
 ---
 I had a little play this morning with Apollo and Flex, and I apologize to all you Flexers out there, I haven't as yet had the time to REALLY get into Flex, so all of this is really obvious to you all. 

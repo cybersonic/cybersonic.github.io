@@ -3,7 +3,7 @@ layout: post
 title:  "After a long time... Back on the scene!"
 uid:	"8A9AD2D1-F611-372C-F5414B8A09533C48"
 date:   2007-09-14 11:08 AM +0000
-categories: cfconferences
+categories: cfeclipse,personal,max,coldspring,cfconferences
 permalink: after-a-long-time-back-on-the-scene
 ---
 Hello, yes, I am back, from outer space, well, not exactly. I have taken a month or so away from development of CFEclipse and my other projects (including this blog!) which has been great. Of course one of the reasons for this has been that I have been very busy at work, and that kind of takes it out of you. This is normal for me, but the work has been rather oppressive rather than creative so my brain needed a bit of space.

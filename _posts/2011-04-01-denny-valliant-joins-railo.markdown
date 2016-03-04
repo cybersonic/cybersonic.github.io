@@ -3,7 +3,7 @@ layout: post
 title:  "Denny Valliant Joins Railo!"
 uid:	"9803C824-4C66-4F51-B43DDC1F66DCE6D3"
 date:   2011-04-01 01:13 PM +0000
-categories: getrailo
+categories: railo,cfeclipse,getrailo
 permalink: denny-valliant-joins-railo
 ---
 <p>

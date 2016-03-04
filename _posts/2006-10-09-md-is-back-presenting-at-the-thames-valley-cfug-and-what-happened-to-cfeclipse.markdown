@@ -3,7 +3,7 @@ layout: post
 title:  "MD is BACK, Presenting at the Thames Valley CFUG and What happened to CFEclipse?"
 uid:	"8A98EA16-A50B-E6A7-2BA7019354908A53"
 date:   2006-10-09 11:06 AM +0000
-categories: ukcfug
+categories: cfeclipse,ukcfug
 permalink: md-is-back-presenting-at-the-thames-valley-cfug-and-what-happened-to-cfeclipse
 ---
 Oh yes, after a couple of months developing some rather interesting applications (from my point of view at any rate) I am back! You remember CFEclipse dont you? I have been beavering away at a few things and doing some admin bits, such as getting all the issues that were stored in the old Issue Tracker in tigris.org over to <a href="http://trac.cfeclipse.org">http://trac.cfeclipse.org</a>. You might notice that the Beta 2 of CFEclipse 1.3 seems to have a lot of tickets to it? Well that is just a bad import (no, I am not going to put THAT many features in it!... yet)

@@ -3,7 +3,7 @@ layout: post
 title:  "Railo 3: Beginner's Guide out now!"
 uid:	"BDFFFF9D-881A-4462-AC984467688F00AB"
 date:   2012-01-03 06:36 AM +0000
-categories: coldfusion
+categories: book,railo,coldfusion
 permalink: railo-3-beginner-s-guide-out-now
 ---
 <p>

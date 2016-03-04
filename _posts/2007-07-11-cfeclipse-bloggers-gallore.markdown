@@ -3,7 +3,7 @@ layout: post
 title:  "CFEclipse Bloggers Gallore!"
 uid:	"8A9AAB83-D477-DF6B-77291D628F88EA06"
 date:   2007-07-11 11:08 AM +0000
-categories: coldfusion
+categories: cfeclipse,coldfusion
 permalink: cfeclipse-bloggers-gallore
 ---
 Charlie Arehart has posted a <a href="http://carehart.org/blog/client/index.cfm/2007/7/10/come_read_70_CFEclipse_bloggers">couple</a> of great <a href="http://carehart.org/blog/client/index.cfm/2007/7/10/come_read_70_CFEclipse_bloggers_part2">lists</a> of CFEclipse bloggers out there. I am amazed at the number of people blogging about it to be honest.

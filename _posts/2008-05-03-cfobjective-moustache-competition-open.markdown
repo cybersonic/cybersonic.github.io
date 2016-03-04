@@ -3,7 +3,7 @@ layout: post
 title:  "cfObjective Moustache competition open!"
 uid:	"8A9BFC67-B5F1-9809-B7256EC57B1FB65C"
 date:   2008-05-03 11:09 AM +0000
-categories: coldfusion
+categories: cfobjective,personal,coldfusion
 permalink: cfobjective-moustache-competition-open
 ---
 At cfObjective? Got a Tash? Want to win a Flex 2 Book? Then head over and post your photo over at <a href="http://www.markdrew.co.uk/tashr/" title="Tashr">TashR</a>! Or if you dont have a 'tash, head over there anyway and vote for your favourite!

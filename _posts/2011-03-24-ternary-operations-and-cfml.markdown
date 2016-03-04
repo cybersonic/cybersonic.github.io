@@ -3,7 +3,7 @@ layout: post
 title:  "Ternary Operations and CFML"
 uid:	"53D9FC97-4540-42A2-9A01446166958F46"
 date:   2011-03-24 06:25 AM +0000
-categories: cfml
+categories: railo,coldfusion,cfml
 permalink: ternary-operations-and-cfml
 ---
 <p>
