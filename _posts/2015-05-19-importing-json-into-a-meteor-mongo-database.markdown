@@ -5,6 +5,7 @@ uid:	"3AFA2740-A485-405E-868BD859A24830C6"
 date:   2015-05-19 12:55 PM +0000
 categories: meteor,mongodb
 permalink: importing-json-into-a-meteor-mongo-database
+header-img: img/meteor-csv-import.png
 ---
 <p><a href="http://meteor.com/">Meteor</a> is a great way to develop fast real-time appliations using JavaScript on both the client and server side. When you are developing these applications it&#39;s easy to create new collections of information by adding items doing the following script either in the client or server:</p>
 
