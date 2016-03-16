@@ -14,7 +14,7 @@ description: "a compendium of cfml and web technology"
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }} <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a> </p>
 </div>
 <hr>
 {% endfor %}
