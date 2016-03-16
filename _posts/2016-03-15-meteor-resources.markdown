@@ -25,6 +25,7 @@ Instead of just putting up the presentation, I thought I would share some of the
 4. Since most code in the world seems to be developed via Stack Overflow answers, you can also check you all the stuff marked ["meteor"](http://stackoverflow.com/questions/tagged/meteor "Newest &#39;meteor&#39; Questions - Stack Overflow") there
 5. If you want to keep up to date with all the news that is happening around Meteor and JavaScript a great site to check out is the [Crater.io](https://crater.io/ "Crater") which spawned the awesome [Creater Conf](http://conf.crater.io/ "Crater Remote Conference")
 6. A big mention should go to Josh Owens, (who runs crater.io) as he blogs a great deal and has some great podcasts on the subject. Find him at [http://joshowens.me/](http://joshowens.me/ "Josh Owens")
+7. [Mup](https://github.com/arunoda/meteor-up "GitHub - arunoda/meteor-up: Production Quality Meteor Deployments") and [Mupx](https://github.com/kadirahq/meteor-up "GitHub - kadirahq/meteor-up: Production Quality Meteor Deployment to Anywhere"): At some point (really soon) you will start wanting to do proper deployments of Meteor onto various hosts. One way I love doing it using mup (now called mupx). Check out the project as it's as easy as doing `mup deploy`
 
 I have also published some topics on this blog and also made a couple of videos such as:
 
