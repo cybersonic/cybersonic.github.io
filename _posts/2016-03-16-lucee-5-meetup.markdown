@@ -4,6 +4,7 @@ layout: post
 categories: lucee,meetup
 header-img: img/post-bg-04.jpg
 permalink: lucee-5-meetup
+subtitle: Meet Michael Hnat and check out the new features of the upcoming Lucee 5
 ---
 After a long period of silence, it looks like Lucee 5 is coming down the line nicely! The team have been working on getting [everything ready](https://groups.google.com/d/msg/lucee/7ly86ividGQ/xEdmmGIHBwAJ "Google Groups") for release "very soon"!
 
