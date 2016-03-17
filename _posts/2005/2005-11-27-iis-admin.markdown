@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "IIS Admin"
+uid:	"8A97A141-EBBC-B3A4-55E9CBD259184444"
+date:   2005-11-27 11:05 AM +0000
+categories: cfeclipse,coldfusion,webdev
+permalink: iis-admin
+---
+As many of us have experienced, running multiple sites under IIS if you are not using a server version of windows is a pain since all you have at your disposal is virtual directories. A little tool I spotted allows you to have multiple instances set up of IIS that you can switch between. So you can have your Coldfusion 6.1 and Coldfusion 7 sites setup with a nice domain such as dev.markdrew.co.uk or cf5.markdrew.co.uk that you can test your different sites at. 
+
+Check it out
+<a href="http://www.firstserved.net/services/iisadmin.php">http://www.firstserved.net/services/iisadmin.php</a>
+
+On a related note also to a post by <a href="http://www.spike.org.uk/blog/index.cfm?mode=entry&entry=B8E47B41-D565-E33F-3C6AB9D5F56B8219">Spike</a> about providing support for CFEclipse, I saw that First Served put:
+<blockquote>
+Since IIS admin comes totally free, we offer no support. IIS admin is provided 'as is'. 
+</blockquote>
+Makes me think how much support we provide for CFEclipse, and how we should channel that. Maybe its something to add to the site, with question and answers rather than treating everything as a bug. Especially when we get comments like "if you cant fix this, I cant use CFEclipse"

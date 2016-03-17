@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Hold on..."
-uid:	"8A99A36F-C0C4-A8A8-4CFE79E66687505F"
-date:   2007-01-22 11:07 AM +0000
-categories: 
-permalink: hold-on
----
-<img src="http://www.markdrew.co.uk/blog/images//md_banner_h.gif">

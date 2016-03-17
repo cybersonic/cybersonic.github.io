@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "cf_teachers (sung to Daft Punk's Teachers)"
+uid:	"8A988737-CD84-2E20-B1F1561D3A55F79F"
+date:   2006-05-18 11:06 AM +0000
+categories: model-glue,cfeclipse,personal,coldfusion,fusebox,flex,webdev,reactor,adobe
+permalink: cf-teachers-sung-to-daft-punk-s-teachers
+---
+<a href="http://www.forta.com/">Ben Forta</a>, <a href="http://www.corfield.org/">Sean Corfield</a>, <a href="http://ray.camdenfamily.com/">Ray Camden</a>, <a href="http://www.spike.org.uk/">Spike Milligan</a> in the house. <a href="http://clearsoftware.net/">Joe Rinehart</a>, <a href="http://doughughes.net/">Doug Hughes</a>, <a href="http://www.simb.net/">Simeon Bateman</a>, <a href="http://www.robrohan.com/">Rob Rohan</a>, <a href="http://www.dts-workshop.com/blog/">Ollie Tupman</a> in the house.<br /><a href="http://www.web-relevant.com/blogs/cfobjective/">Jared Rypka-Hauer</a>, <a href="http://www.dopefly.com/">Nathan Strutz</a>,&nbsp; <a href="http://www.mikenimer.com/">Mike Nimer</a>, <a href="http://www.buntel.com/">Tim Buntel</a> is out the house.&nbsp;<br /><br />Just a little sing song for all the people who have helped and taught me things about ColdFusion and <a href="http://www.cfeclipse.org/">CFEclipse</a> along the way.<br /><br />THANK YOU!<br />(Check out the song on <a href="http://click.linksynergy.com/fs-bin/stat?id=BvLBHSYIk4c&amp;offerid=78941&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fphobos.apple.com%252FWebObjects%252FMZStore.woa%252Fwa%252FviewAlbum%253Fi%253D17523620%2526id%253D17523648%2526s%253D143444%2526partnerId%253D30">   <img width="61" height="15" src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes61x15dark.gif" alt="Daft Punk - Homework - Teachers" /> </a>)

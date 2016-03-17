@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Introducing my new company: CMD "
+uid:	"9DE224E4-A211-41E5-B44F10917A322463"
+date:   2014-04-01 03:27 AM +0000
+categories: cmd,personal
+permalink: cmd
+---
+<p class="p1">Hello Internet!&nbsp;It gives me great pleasure to announce the start of my new company: <a href="http://charliemikedelta.com"><abbr title="Charlie Mike Delta">CMD</abbr></a></p>
+
+<p><img src="http://www.markdrew.co.uk/blog/enclosures/cmd_banner.png" /></p>
+
+<p>I have been thinking for a long time about the current consultancy market and a segments that I wanted to aim for in with this venture and I am proud to announce the opening of <a href="http://charliemikedelta.com"><abbr title="Charlie Mike Delta">CMD.</abbr></a></p>
+
+<p class="p1"><strong><a href="http://charliemikedelta.com"><abbr title="Charlie Mike Delta">CMD</abbr></a></strong> is a company that is focused in three areas:</p>
+
+<p class="p1"><strong>Develop &bull; Deploy &bull; Deliver</strong></p>
+
+<p class="p1"><a href="http://charliemikedelta.com"><abbr title="Charlie Mike Delta">CMD</abbr></a> helps businesses <em>develop</em> great web and mobile applications using the best of breed technologies. We also focus on the <em>deployment</em> of these applications, be it in the cloud, in locally hosted environments or in other hosting environments to enable the smooth <em>delivery</em> of services and great a great experience for your clients.</p>
+
+<p class="p1">The other side of the company is dedicated to developing some best of breed solutions for the developer market. As cryptic as that is at the moment; I hope in the next few months I can share with you some of the great things we are cooking up!</p>
+
+<p class="p1">If you would like to find out more, have an idea for a project in which we can help why not head over to&nbsp; <a href="http://charliemikedelta.com">http://charliemikedelta.com</a> and contact us?</p>

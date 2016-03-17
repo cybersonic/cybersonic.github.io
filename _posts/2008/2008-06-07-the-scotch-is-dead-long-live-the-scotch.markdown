@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "The Scotch is dead, Long live the Scotch!"
+uid:	"8A9C005E-CD7C-262F-0A17C1E6722883B3"
+date:   2008-06-07 11:09 AM +0000
+categories: scotch-on-the-rocks,coldfusion,presentations
+permalink: the-scotch-is-dead-long-live-the-scotch
+---
+Another year over at <a href="http://www.scotch-on-the-rocks.co.uk/" title="Scotch on the Rocks 2008 - The European ColdFusion Conference">Scotch on the Rocks</a> and what a hell of a conference it was!<a href="http://www.flickr.com/photos/markdrew/2558846279/" title="06062008233 by cybersonic, on Flickr"><img src="http://farm4.static.flickr.com/3084/2558846279_daba785059_t.jpg" width="75" height="100" alt="06062008233" /></a> A great line up of speakers, and lots of kudos to <a href="http://www.creative-restraint.co.uk/blog/index.cfm" title="Creative Restraint">Andy Allan</a> for sorting out the travel and accommodation for us speakers. He even managed to pull in speakers all the way from the US, such as <a href="http://www.boyzoid.com/blog/" title="Boyzoid's Blog">Scott Stroz</a>, 	<a href="http://www.firemoss.com/">Joe Rinehart</a>, <a href="http://www.alagad.com/" title="Alagad: Enterprise ColdFusion Consulting and Flex Consulting, Training and Products">Dough Hughes</a>, <a href="http://carehart.org/" title="Charlie Arehart ColdFusion Consulting Training Troubleshooting Tuning Configuration Support">Charlie Arehart</a>, <a href="http://corfield.org/blog/index.cfm?" title="An Architect's View - ColdFusion, Software Design, Frameworks and more...">Sean "The Real one" Corfield</a> and <a href="http://www.mattwoodward.com/blog/" title="Home | Matt Woodward's Blog">Matt Woodward</a>. Not to mention speakers from afar a field as Australia! What a turn up! 
+
+It has been a fantastic conference, with the great support of the Adobe ColdFusion team, and a bit thanks has to go to <a href="http://www.webbschofield.com" title="Kristen Schofield's Blog">Kristen Schofield</a> for upgrading the version of ColdFusion given away at the raffle from Standard to Enterprise! I could gush for hours about the Adobe team, and interestingly in the BOF a lot of feedback was given to the features that developers want in the "anticipated next version" of ColdFusion, this time, mainly about the language itself rather than other features of the server.
+
+<a href="http://www.flickr.com/photos/markdrew/2558845537/" title="05062008231 by cybersonic, on Flickr"><img src="http://farm4.static.flickr.com/3163/2558845537_80f72e085f_m.jpg" width="240" height="180" alt="05062008231" /></a>Of course, I should not fail to mention the great time I had hanging out with Gert Franz from <a href="http://www.railo-technologies.com/en/index.cfm" title="Railo 2.0: English">Railo</a>. His fantastic teaming up with Luc (sorry, didnt catch the last name!) from <a href="http://www.jboss.org/" title="jboss.org: community driven">Jboss.org</a> to announce the Open Sourcing and teaming up of Railo and Red Hat. Now *THAT* is the way to open source a project!
+
+I think everyone at the conference will join me in thanking the organizers for such a wonderful event!

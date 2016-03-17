@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "... 0 ..."
+uid:	"4B85BFC5-7090-4C08-BBCE75DFBC26230C"
+date:   2015-01-29 06:56 AM +0000
+categories: cfml
+permalink: zero
+---
+<p>So soon! You can almost hear it.</p>
+
+<p><a href="http://www.markdrew.co.uk/blog/assets/content/43590-lucy-lucy-wallpaper.jpg" target="_blank"><img alt="" src="http://www.markdrew.co.uk/blog/assets/content/43590-lucy-lucy-thumb.jpg" style="width: 500px; height: 281px;" /></a></p>
+
+<p>Are you ready?</p>
