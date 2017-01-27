@@ -4,6 +4,7 @@ layout: post
 permalink: converting-data-with-node-streams-and-pipes
 header-img: img/pipes.jpg
 subtitle: I had to import over 5Gb of data into MongoDB. This is how I did it.
+categories: mongo,node,pipes
 ---
 In a recent project, I had to import a lot of data into MongoDB. What is a lot of data? Well, how about the names and addresses of all the doctors and therapists in the USA? This is called [NPI data](http://download.cms.gov/nppes/NPI_Files.html "NPI Files") and the import CSV file can be over 5Gb by itself. 
 
