@@ -1,6 +1,7 @@
 ---
 title: Localhost Podcast
 layout: post
+header-img: img/localhostfm_background.jpg
 categories: podcasting,lucee,docker,localhostfm
 ---
 I want to introduce a new podcast that I am hosting with <a href="https://twitter.com/robdudley">Rob Dudley</a>; <a href="https://soundcloud.com/localhostfm">The Localhost Podcast</a>!
