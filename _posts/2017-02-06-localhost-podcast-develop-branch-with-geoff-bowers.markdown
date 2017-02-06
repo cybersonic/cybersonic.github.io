@@ -2,7 +2,7 @@
 title: Localhost Podcast: Develop Branch with Geoff Bowers!
 layout: post
 header-img: img/localhostfm_background.jpg
-categories: podcasting,lucee,docker,localhostfm
+categories: podcasting,lucee,docker,localhostfm, developbranch
 ---
 
 At the <a href="http://localhost.fm">Localhost Podcast</a> we are trying another format which we are calling the <code>Develop Branch</code> where we can do some experiments outside of the main show's format! 
