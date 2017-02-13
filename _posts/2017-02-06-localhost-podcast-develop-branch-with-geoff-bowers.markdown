@@ -2,7 +2,7 @@
 title: Localhost Podcast - Develop Branch with Geoff Bowers!
 layout: post
 header-img: img/localhostfm_background.jpg
-categories: podcasting,lucee,docker,localhostfm, developbranch
+categories: podcasting,lucee,docker,localhostfm,developbranch
 subtitle: A special episode in which we talk about docker with Geoff
 ---
 
