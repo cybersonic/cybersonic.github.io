@@ -1,7 +1,6 @@
 ---
 title: cfscript.me and Sublime text
 layout: post
-categories: cfml,lucee,cfscript
 subtitle: Get rid of those pesky tags for some smooth script
 ---
 
