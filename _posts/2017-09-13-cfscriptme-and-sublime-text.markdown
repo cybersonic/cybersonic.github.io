@@ -1,6 +1,8 @@
 ---
 title: cfscript.me and Sublime text
 layout: post
+categories: cfml,lucee,cfscript
+subtitle: Get rid of those pesky tags for some smooth script
 ---
 
 I am not sure how many people know about this but one of the things that come up in the issue tracker for the most awesome [CFML package](https://github.com/jcberquist/sublimetext-cfml/issues/73) for Sublime Text was the ability to convert tag based CFML documents to script automagically! 
