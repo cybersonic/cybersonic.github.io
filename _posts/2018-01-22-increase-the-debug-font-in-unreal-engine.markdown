@@ -27,4 +27,4 @@ You can now go and change the size in the detals panel (under Legacy Font Size).
 <img src="/img/UE4FontSettingsDetail.jpg"/>
 
 FINALLY I don't have a font for ants!
-<img src="/img/UE4BetterSizeFont.jpg"/>
+<img src="/img/Ue4BetterSizeFont.jpg"/>
