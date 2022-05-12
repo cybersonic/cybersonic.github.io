@@ -5,6 +5,7 @@ fields:
 - type: text
   name: title
   label: title
+  default: post
 - type: text
   name: layout
   label: layout
@@ -17,5 +18,3 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-pages:
-- _posts/debugging-bitbucket-pipelines.md
