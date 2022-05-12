@@ -17,3 +17,5 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
+pages:
+- _posts/debugging-bitbucket-pipelines-locally.md
