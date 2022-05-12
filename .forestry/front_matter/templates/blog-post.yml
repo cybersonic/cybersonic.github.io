@@ -18,4 +18,4 @@ fields:
   name: subtitle
   label: subtitle
 pages:
-- _posts/debugging-bitbucket-pipelines-locally.md
+- _posts/2022-05-12-debugging-bitbucket-pipelines-locally.md

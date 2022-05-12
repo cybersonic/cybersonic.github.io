@@ -2,7 +2,7 @@
 title: Debugging Bitbucket Pipelines locally
 layout: post
 categories: bitbucket pipelines devops docker
-header-img: ''
+header-img: "/img/pipelines.png"
 subtitle: Debugging your pipelines in bitbucket can be a pain, here is one simple
   trick that can ease it a bit!
 
