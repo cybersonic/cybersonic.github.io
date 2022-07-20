@@ -19,3 +19,4 @@ fields:
   label: subtitle
 pages:
 - _posts/2022-05-12-debugging-bitbucket-pipelines-locally.md
+- _posts/making-slimmer-lucee-docker-images.md
