@@ -8,6 +8,9 @@ fields:
 - type: text
   name: layout
   label: layout
+  config:
+    required: true
+  default: post
 - type: text
   name: categories
   label: categories
