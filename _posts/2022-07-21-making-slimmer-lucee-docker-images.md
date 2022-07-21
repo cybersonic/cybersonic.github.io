@@ -144,3 +144,5 @@ Let's try this build :
 Ok, the size has increased a little, which will be the addition of new files created by lucee. When we start up this image it now takes 1194 ms. Nice! 410 ms off our speed, nearly cut down by a third in this case!
 
 I realise there might be even more speed improvements for our light image (I would love to hear them!) but hopefully this post has shown you some ideas for your own images and adventures with Lucee!
+
+UPDATE: you can now check out the code from here: [https://github.com/cybersonic/super-slim-lucee-docker/tree/main](https://github.com/cybersonic/super-slim-lucee-docker/tree/main "https://github.com/cybersonic/super-slim-lucee-docker/tree/main")
