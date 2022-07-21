@@ -40,7 +40,7 @@ And that is it. So after building, we get the following when we run `docker imag
     REPOSITORY             TAG       IMAGE ID       CREATED         SIZE
     markdrew/lucee-light   latest    b7085aaed9a9   9 minutes ago   648MB
 
-Ok, 648MB... it's ok but not good enough really. A colleague ([Zac Spitzer]( https://dev.lucee.org/u/zackster/summary "Zac Spitzer")) mentioned that we don't actually need the full **JDK**, so we went to get just the **JRE**. This changed the line: `RUN apk add openjdk11` to `RUN apk add openjdk11-jre`
+Ok, 648MB... it's ok but not good enough really. A colleague ([Zac Spitzer](https://dev.lucee.org/u/zackster/summary "Zac Spitzer")) mentioned that we don't actually need the full **JDK**, so we went to get just the **JRE**. This changed the line: `RUN apk add openjdk11` to `RUN apk add openjdk11-jre`
 
 This gave a nice cut down:
 
@@ -75,9 +75,7 @@ Ok, not the greatest improvement. What is going on? I was expecting a lot less i
 There is a great tool to inspect docker images called [dive](https://github.com/wagoodman/dive "dive") that is perfect for this. It will look into our Docker image and tell us what is going on.
 
 Let's inspect our image:
-`dive markdrew/lucee-light`
-
-Image of dive:  
+`dive markdrew/lucee-light`  
 ![](img/screenshot-2022-07-20-at-22-25-44.png)
 
 If we look at the summary it says:
