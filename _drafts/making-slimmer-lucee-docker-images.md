@@ -22,7 +22,6 @@ Lucee Express is essentialy tomcat and lucee all ready to run on windows and osx
     COPY webroot /lucee/webapps/ROOT
     RUN apk add openjdk11
     ENTRYPOINT [ "/lucee/startup.sh" ]
-    
 
 To build the docker image above I do:
 `docker build -t markdrew/lucee-light .`
@@ -77,12 +76,13 @@ After building I get...
     markdrew/lucee-light   latest    ae4bfae156db   1 second ago   320MB
 
 Ok, not the greatest improvement. What is going on? I was expecting a lot less in there. Let's investigate!
-There is a great tool to inspect docker images called dive that is perfect for this. It will look into our Docker image and tell us what is going on.
+There is a great tool to inspect docker images called [dive](https://github.com/wagoodman/dive "dive") that is perfect for this. It will look into our Docker image and tell us what is going on.
 
 Let's inspect our image:
 `dive markdrew/lucee-light`
 
-Image of dive:
+Image of dive:  
+![](img/screenshot-2022-07-20-at-22-25-44.png)
 
 If we look at the summary it says:
 
@@ -91,7 +91,7 @@ If we look at the summary it says:
     Potential wasted space: 111 MB
     Image efficiency score: 65 %
 
-Where is that 111 Mb from? Well, despite deleting the zip files we dont need after expanding them they are still in the stack. They were added at the top. One way removing these is to create a multi-stage build script.
+Where is that 111 Mb from? Well, despite deleting the zip files we don't need after expanding them they are still defined in each layer. They were added at the top. One way to remove these is to create a [multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/) script.
 
 Here is the script with changes:
 
@@ -115,29 +115,31 @@ Here is the script with changes:
 
 The main changes are:
 
-1. `FROM alpine as base` we create a base image where we do the lucee installation
+1. `FROM alpine as base` we create a base image where we do the Lucee installation
 2. `FROM alpine` again. This is our next stack (or final image)
-3. `COPY --from=base /lucee /lucee` we now copy from our base image the lucee folder we prepared. This will be our final image. Forgetting all the previous steps, which were there just to build. They dont need to live on in our final image.
+3. `COPY --from=base /lucee /lucee` we now copy from our base image the Lucee folder we prepared. This will be our final image which ignores all the previous steps, which were there just to build the `/lucee` folder. Those steps don't need to live on in our final image.
 
 After building we get:
 
     REPOSITORY             TAG       IMAGE ID       CREATED        SIZE                 
     markdrew/lucee-light   latest    deac63b18892   1 second ago   210MB
 
-210 MB Vs 648MB. I will buy that for a dollar!
+210MB vs. 648MB. I will buy that for a dollar!
 
 Ok, let's start it up!
 `docker run --rm --name lucee-light markdrew/lucee-light`
 
 This takes: 1604 ms
 
-Not bad, but we could pre-warm our image when we build it. This would expand all the lucee admin files (that expand on startup) and let lucee do all the config. We dont need to do this everytime we start an image, so lets's add this before our entrypoint:
+Not bad, but we could pre-warm our image when we build it. This would expand all the lucee  files (that expand on startup) and let lucee do whatever config it needs to do at startup. We don't need to do this every time we start a container, so let's add it to our build! 
+
+We need to add the warmup before our `ENTRYPOINT`
 
     COPY --from=base /lucee /lucee
     RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
     ENTRYPOINT [ "/lucee/startup.sh" ]
 
-The command `RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh` sets an envirnment variable called `LUCEE_ENABLE_WARMUP` and then runs lucee. This will make lucee to start up and warmup and then shut down.
+The command `RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh` sets a_envrnment vriable called `LUCEE_ENABLE_WARMUP` and then runs lucee. This will make ucee start,_ warmup and then shut down.
 
 Let's try this build :
 
