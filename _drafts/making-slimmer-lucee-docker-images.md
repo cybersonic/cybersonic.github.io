@@ -131,7 +131,7 @@ Ok, let's start it up!
 
 This takes: 1604 ms
 
-Not bad, but we could pre-warm our image when we build it. This would expand all the lucee  files (that expand on startup) and let lucee do whatever config it needs to do at startup. We don't need to do this every time we start a container, so let's add it to our build! 
+Not bad, but we could pre-warm our image when we build it. This would expand all the lucee  files (that expand on startup) and let lucee do whatever config it needs to do at startup. We don't need to do this every time we start a container, so let's add it to our build!
 
 We need to add the warmup before our `ENTRYPOINT`
 
@@ -139,7 +139,7 @@ We need to add the warmup before our `ENTRYPOINT`
     RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
     ENTRYPOINT [ "/lucee/startup.sh" ]
 
-The command `RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh` sets a_envrnment vriable called `LUCEE_ENABLE_WARMUP` and then runs lucee. This will make ucee start,_ warmup and then shut down.
+The command `RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh` sets an environment variable called `LUCEE_ENABLE_WARMUP` and then runs lucee. This means Lucee will start, warmup and then shut down.
 
 Let's try this build :
 
