@@ -1,7 +1,7 @@
 ---
 title: Making slimmer Lucee Docker Images
 layout: post
-categories: lucee, docker, dive, microservices
+categories: lucee docker dive microservices
 header-img: img/img_0323.jpeg
 subtitle: How to make nice and slim Lucee Docker images for your fast microservices.
 
