@@ -2,13 +2,13 @@
 title: Making slimmer Lucee Docker Images
 layout: post
 categories: lucee, docker, dive, microservices
-header-img: ''
+header-img: img/img_0323.jpeg
 subtitle: How to make nice and slim Lucee Docker images for your fast microservices.
 
 ---
-In the last few years I have had some requirements to turn what are essentially command line programs into small services. Lucee is GREAT at making services, so to make these microservices I (lazyly) decided to take the most direct path, and use Lucee Express.
+In the last few years, I have had some requirements to turn what are essentially command line programs into small microservices. Lucee is GREAT at making services, so to make these microservices I (lazily) decided to take the most direct path, and use Lucee Express.
 
-Lucee Express is essentialy tomcat and lucee all ready to run on windows and osx/linux. Download unzip and run basically. This is perfect for this so the first thing I do is make a Docker image for this:
+[Lucee Express](https://download.lucee.org/) is essentially Tomcat and Lucee all ready to run on Windows, macOS and Linux. Download unzip and run basically. This is perfect for this so the first thing I do is make a Docker image for this:
 
     FROM alpine
     ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"
@@ -23,37 +23,33 @@ Lucee Express is essentialy tomcat and lucee all ready to run on windows and osx
     RUN apk add openjdk11
     ENTRYPOINT [ "/lucee/startup.sh" ]
 
-To build the docker image above I do:
-`docker build -t markdrew/lucee-light .`
+To build the docker image above I do: `docker build -t markdrew/lucee-light .`
 
 Let me run through it quickly:
 
-1. `FROM alpine`: Uses the alpine base image. This is a super tiny linux distro
-2. `ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"` this means when I build the image I can just change the version of lucee by passing `--build-arg LUCEE_VERSION=5.4` for example
+1. `FROM alpine`: Uses the alpine base image. This is a super tiny Linux distro
+2. `ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"` : this allows me to add the version when I build the image. I can just change the version of lucee by passing `--build-arg LUCEE_VERSION=5.4` for example
 3. `ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip` downloads the lucee version to lucee.zip
-4. The next `RUN` line is more complex, but basically unzips lucee.zip and makes the startup `.sh` files executable and then deletes the lucee.zip and extra MACOSX folder
+4. The next `RUN` line is more complex, but basically unzips lucee.zip and makes the startup `.sh` files executable and then deletes the lucee.zip and extra `__MACOSX` folder that was uncompressed from the zip.
 5. `COPY webroot /lucee/webapps/ROOT` we copy our code to the lucee web root. This is our app so we have to run it.
-6. `RUN apk add openjdk11` We install the jdk! Cant run lucee without a JDK
+6. `RUN apk add openjdk11` We install the JDK! Cant run lucee without a JDK
 7. `ENTRYPOINT [ "/lucee/startup.sh" ]` finally we set the entry point, the script we run when we start.
 
-And that is it. So after building we get the following when we run `docker images`
+And that is it. So after building, we get the following when we run `docker images`
 
     REPOSITORY             TAG       IMAGE ID       CREATED         SIZE
     markdrew/lucee-light   latest    b7085aaed9a9   9 minutes ago   648MB
 
-Ok, 648.Mb... it's ok but not good enough really. A colleague (Zac) mentioned that we dont actually need the full JDK, so we went to get just the JRE. This changed the line:
-`RUN apk add openjdk11`
-to
-`RUN apk add openjdk11-jre`
+Ok, 648MB... it's ok but not good enough really. A colleague ([Zac Spitzer]( https://dev.lucee.org/u/zackster/summary "Zac Spitzer")) mentioned that we don't actually need the full **JDK**, so we went to get just the **JRE**. This changed the line: `RUN apk add openjdk11` to `RUN apk add openjdk11-jre`
 
 This gave a nice cut down:
 
     REPOSITORY             TAG       IMAGE ID       CREATED       SIZE
     markdrew/lucee-light   latest    71e1b58415f3   2 hours ago   355MB
 
-355Mb! Thats a great improvement!
+355MB! That's a great improvement!
 
-Zac also reminded me that since I am basically not using any extensions such as database drivers or whatever, I can download a "light" version of Lucee , so I can now add the jar download for lucee-light after I download the express version:
+Zac also reminded me that since I am basically not using any extensions such as database drivers or whatever, I can download a "light" version of Lucee, so I can now add the jar download for lucee-light after I download the express version:
 
     ...
     ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
@@ -91,7 +87,7 @@ If we look at the summary it says:
     Potential wasted space: 111 MB
     Image efficiency score: 65 %
 
-Where is that 111 Mb from? Well, despite deleting the zip files we don't need after expanding them they are still defined in each layer. They were added at the top. One way to remove these is to create a [multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/) script.
+Where is that 111MB of wasted space coming from? Well, despite deleting the zip files we don't need they are still defined in each layer. They were added at the top of the previous one and are still loitering in our image. One way to remove these is to create a [multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/) script.
 
 Here is the script with changes:
 
@@ -126,12 +122,11 @@ After building we get:
 
 210MB vs. 648MB. I will buy that for a dollar!
 
-Ok, let's start it up!
-`docker run --rm --name lucee-light markdrew/lucee-light`
+Ok, let's start it up! `docker run --rm --name lucee-light markdrew/lucee-light`
 
 This takes: 1604 ms
 
-Not bad, but we could pre-warm our image when we build it. This would expand all the lucee  files (that expand on startup) and let lucee do whatever config it needs to do at startup. We don't need to do this every time we start a container, so let's add it to our build!
+Not bad, but we could pre-warm our image when we build it. This would expand all the required files that lucee needs and let lucee do whatever config it needs to do at startup. We don't need to do this every time we start a container, so let's add it to our build!
 
 We need to add the warmup before our `ENTRYPOINT`
 
@@ -146,6 +141,6 @@ Let's try this build :
     REPOSITORY             TAG       IMAGE ID       CREATED                  SIZE         
     markdrew/lucee-light   latest    3d97c6111b99   Less than a second ago   239MB
 
-Ok, size has increased, which will be the addition of new files created by lucee. When we start up this image it now takes:  1194 ms. Nice! 410 ms off our speed, nearly cut down by a third in this case!
+Ok, the size has increased a little, which will be the addition of new files created by lucee. When we start up this image it now takes 1194 ms. Nice! 410 ms off our speed, nearly cut down by a third in this case!
 
-I realise there might be even more speed improvements for our light image (would love to hear them!) but hopfully this post has shown you some ideas for your own images and adventures with Lucee!
+I realise there might be even more speed improvements for our light image (I would love to hear them!) but hopefully this post has shown you some ideas for your own images and adventures with Lucee!
