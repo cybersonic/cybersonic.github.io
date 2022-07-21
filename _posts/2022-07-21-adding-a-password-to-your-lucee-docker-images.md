@@ -9,11 +9,11 @@ subtitle: Lucee is locked by default. Let's add a password so we can get into th
 permalink: password-for-lucee-docker
 
 ---
-In the previous post I created a super slim image for Lucee in Docker. This image has a "lucee light" version which doesn't have the admin. Let's say we need the admin, so we are going to go back and build a "tubby" version of lucee.
+In the [previous post](https://markdrew.io/slimmer-lucee-docker-images) I created a super slim image for Lucee in Docker. This image has a "lucee light" version which doesn't have the admin. Let's say we need the admin, so we are going to go back and build a "tubby" version of lucee.
 
 So let's do that!
 
-Let's suppose we have the following docker file (I go over all the steps in my previous post):
+Let's suppose we have the following docker file (I go over all the steps in [my previous post](https://markdrew.io/slimmer-lucee-docker-images)):
 
     FROM alpine as base
     ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"
