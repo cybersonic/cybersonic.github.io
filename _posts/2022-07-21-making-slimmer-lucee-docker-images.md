@@ -5,6 +5,7 @@ categories: lucee docker dive microservices
 header-img: img/img_0323.jpeg
 subtitle: How to make nice and slim Lucee Docker images for your fast microservices.
 permalink: slimmer-lucee-docker-images
+author: Mark Drew
 
 ---
 In the last few years, I have had some requirements to turn what are essentially command line programs into small microservices. Lucee is GREAT at making services, so to make these microservices I (lazily) decided to take the most direct path, and use Lucee Express.
