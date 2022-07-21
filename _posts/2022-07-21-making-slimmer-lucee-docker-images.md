@@ -76,7 +76,7 @@ There is a great tool to inspect docker images called [dive](https://github.com/
 
 Let's inspect our image:
 `dive markdrew/lucee-light`  
-![](img/screenshot-2022-07-20-at-22-25-44.png)
+![](/img/screenshot-2022-07-20-at-22-25-44.png)
 
 If we look at the summary it says:
 
