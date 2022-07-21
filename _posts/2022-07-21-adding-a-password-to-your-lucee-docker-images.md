@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Mark Drew
-title: Adding a password to your Lucee Docker images
+title: Adding a password to your Lucee Docker Images
 categories: lucee docker password
 header-img: img/img_0102.jpeg
 subtitle: Lucee is locked by default. Let's add a password so we can get into the
@@ -78,8 +78,8 @@ If we now go to [http://localhost:8989/lucee/admin/server.cfm?action=overview ](
 
 And that is it! (or is it)
 
-This should get you most of the way but what we have done here is actually put a clear text password in our docker image. I don't like this personally. Lucee encrypts the password into the lucee-server.xml file which is much better.  
-  
+This should get you most of the way but what we have done here is actually put a _clear text password_ in our docker image. I don't like this personally. Lucee encrypts the password into the lucee-server.xml file which is much better.
+
 A possible solution (whilst keeping our system clean is to do a bit of a double install:
 
     FROM alpine as base
@@ -102,6 +102,6 @@ A possible solution (whilst keeping our system clean is to do a bit of a double 
     COPY --from=base /lucee /lucee
     ENTRYPOINT [ "/lucee/startup.sh" ]
 
-In the above code in line 4 we have: `RUN apk add openjdk11-jre` , this installs the JRE right at the start so in the `base` image we can create our password, and then warmup lucee, thus reading and removing the password.txt file (see `RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh` ) we then start a new build , install the JRE and copy our expanded folder into our finalised build. 
+In the above code in line 4 we have: `RUN apk add openjdk11-jre` , this installs the JRE right at the start so in the `base` image we can create our password, and then warmup lucee, thus reading and removing the password.txt file (see `RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh` ) we then start a new build , install the JRE and copy our expanded folder into our finalised build.
 
-There, no more clear text passwords. Begone you pesky haxx0rs! 
+There, no more clear text passwords. Begone you pesky haxx0rs!
