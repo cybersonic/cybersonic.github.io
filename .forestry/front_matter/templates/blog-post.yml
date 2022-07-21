@@ -37,3 +37,4 @@ fields:
 pages:
 - _posts/2022-05-12-debugging-bitbucket-pipelines-locally.md
 - _posts/2022-07-21-making-slimmer-lucee-docker-images.md
+- _posts/adding-a-password-to-your-lucee-docker-images.md
