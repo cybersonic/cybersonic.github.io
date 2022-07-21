@@ -17,6 +17,20 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  description: The name of the author of this post
+  default: Mark Drew
+- name: permalink
+  type: text
+  config:
+    required: true
+    min: 3
+  label: Permalink
+  description: The actual final url for this post
 pages:
 - _posts/2022-05-12-debugging-bitbucket-pipelines-locally.md
 - _posts/2022-07-21-making-slimmer-lucee-docker-images.md
