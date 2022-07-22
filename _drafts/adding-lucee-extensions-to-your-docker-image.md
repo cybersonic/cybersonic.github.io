@@ -12,7 +12,7 @@ In the [previous post](https://markdrew.io/password-for-lucee-docker), we added 
 
 So that we can keep the image size down AND add an administrator, we can install just the extension(s) we need. In this case, we will install the Lucee Administrator Extension, you can see it here: [https://download.lucee.org/#CED6227E-0F49-6367-A68D21AACA6B07E8](https://download.lucee.org/#CED6227E-0F49-6367-A68D21AACA6B07E8 "https://download.lucee.org/#CED6227E-0F49-6367-A68D21AACA6B07E8")
 
-In the previous posts, you have seen me use the ADD command in the Dockerfile. This is a  shortcut to adding any file from either your local machine or the internet. The command COPY is generally seen as the way to get files into your docker image but ADD is very useful when we want to, well, add a file via a URL. There are reasons NOT to use ADD since it adds a layer where you could do it all in one RUN command (see https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy) but since we are doing a multi-stage build it doesn't matter in this case.
+In the previous posts, you have seen me use the [ADD command](https://docs.docker.com/engine/reference/builder/#add) in the Dockerfile. This is a  shortcut to adding any file from either your local machine or the internet. The command `COPY` is generally seen as the way to get files into your docker image but `ADD` is very useful when we want to, well, add a file via a URL. There are reasons NOT to use `ADD` since it adds a layer where you could do it all in one RUN command (see [https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy)) but since we are doing a multi-stage build it doesn't matter in this case.
 
 Let's look at the changes in the Dockerfile
 
@@ -42,5 +42,11 @@ Let's look at the changes in the Dockerfile
     COPY --from=base /lucee /lucee
     ENTRYPOINT [ "/lucee/startup.sh" ]ok at the changes in the Dockerfile:
 
-We are still installing everything as usual , but the two additions are:  
-`mkdir -p /lucee/lucee-server/deploy/` where we setup the deployment directory (since lucee hasn't started up yet and created this folder.
+We are still installing everything as usual, but the two additions are:  
+`mkdir -p /lucee/lucee-server/deploy/` where we create the deployment directory (since lucee hasn't started up yet and had a chance to create the folder) 
+
+And our addition of the Lucee Admin extension via:   
+`ADD `[`https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex`](https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex "https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex")` /lucee/lucee-server/deploy/lucee.admin.extension-1.0.0.3.lex`
+
+Now when lucee starts up with `LUCEE_ENABLE_WARMUP=true` it will expand it's files AND extract the extension for us. 
+Once all this is done we move everything back into our final layer and we are ready to rock. And we are now back to a comfortable 239MB
