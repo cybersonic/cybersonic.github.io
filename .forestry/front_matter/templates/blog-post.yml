@@ -36,6 +36,5 @@ fields:
   description: The actual final url for this post
 pages:
 - _posts/2022-05-12-debugging-bitbucket-pipelines-locally.md
-- _posts/2022-07-21-adding-a-password-to-your-lucee-docker-images.md
 - _posts/2022-07-21-making-slimmer-lucee-docker-images.md
 - _posts/adding-lucee-extensions-to-your-docker-image.md
