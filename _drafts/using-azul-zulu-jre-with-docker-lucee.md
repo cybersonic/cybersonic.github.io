@@ -11,11 +11,11 @@ permalink: azul-zulu-lucee-docker
 ---
 In our previous posts about building a lucee docker image and adding a password we got our image down to a comfortable 239MB
 
-In the cfml slack Brad Wood mentioned that are other projects to bring down the size of Lucee, such as [Pete Freitag's Minibox]() which comes in at about 78 Mb! Great work!
+In the [cfml slack](https://app.slack.com/) [Brad Wood](https://twitter.com/bdw429s) mentioned that are other projects to bring down the size of Lucee, such as [Pete Freitag's Minibox]() which comes in at about 78 Mb! Great work!
 
 These series of posts are really not to compete with that. They are serving to document some practices and methods I use as well as to do some investigations that can fit in other development pipelines I am using.
 
-In that conversation, Brad also mentioned about [Azul Zulu JDK](https://www.azul.com/downloads/?package=jdk). Which turns out to be only about 40MB! Let's give THAT a spin and see if everything works as expected!
+In that conversation, Brad also mentioned [Azul Zulu JDK](https://www.azul.com/downloads/?package=jdk). Which turns out to be only about 40MB! Let's give THAT a spin and see if everything works as expected!
 
 As previously mentioned we only need the JRE so that is what I downloaded into our image:
 
