@@ -9,15 +9,15 @@ subtitle: Azul Zulu is a smaller JRE than the OPENJDK one so this is one way to 
 permalink: azul-zulu-lucee-docker
 
 ---
-In our previous posts about building a lucee docker image and adding a password we got our image down to a comfortable 239MB  
-  
-In the cfml slack Brad Wood mentioned that are other projects to bring down the size of Lucee, such as [Pete Freitag's Minibox]() which comes in at about 78 Mb! Great work! 
+In our previous posts about building a lucee docker image and adding a password we got our image down to a comfortable 239MB
+
+In the cfml slack Brad Wood mentioned that are other projects to bring down the size of Lucee, such as [Pete Freitag's Minibox]() which comes in at about 78 Mb! Great work!
 
 These series of posts are really not to compete with that. They are serving to document some practices and methods I use as well as to do some investigations that can fit in other development pipelines I am using.
 
 In that conversation, Brad also mentioned about [Azul Zulu JDK](https://www.azul.com/downloads/?package=jdk). Which turns out to be only about 40MB! Let's give THAT a spin and see if everything works as expected!
 
-As previously mentioned we only need the JRE so that is what I downloaded into our image: 
+As previously mentioned we only need the JRE so that is what I downloaded into our image:
 
     FROM alpine as base
     #Install zulu JRE
@@ -52,21 +52,19 @@ As previously mentioned we only need the JRE so that is what I downloaded into o
     ENV PATH=/zulu_jre/bin:$PATH
     ENTRYPOINT [ "/lucee/startup.sh" ]
 
-As usual we are using our alpine base, but now `ADD`ing the Azul zulu JRE and naming it `zulu_jre.tar.gz` . 
+As usual, we are using our alpine base, but now `ADD`ing the Azul Zulu JRE and naming it `zulu_jre.tar.gz` .
 
-We then unzup it and move it to folder called `zulu_jre`, finally we add it to the Path so we can just call `java` from anywhere via `ENV PATH=/zulu_jre/bin:$PATH`
+We then unzip it and move it to a folder called `zulu_jre`, finally, we add it to the Path so we can just call `java` from anywhere via `ENV PATH=/zulu_jre/bin:$PATH`
 
-Once done we can do the usual thing we are doing with lucee, and download lucee light, our admin extension and warm up the server by doing `  RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh`
+Once done we can do the usual thing we are doing with lucee, and download lucee light, our admin extension and warm up the server by doing `RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh`
 
-That is our jre and lucee prepared. Now we create our final image:
-` FROM alpine as final`
-Copy both the JRE and Lucee:
-```
-COPY --from=base /lucee /lucee
-COPY --from=base /zulu_jre /zulu_jre
-```
-And add the jre/bin path to the PATH variable via `ENV PATH=/zulu_jre/bin:$PATH`
+That is our JRE and lucee prepared. Now we create our final image: `FROM alpine as final` Copy both the JRE and Lucee:
 
-And that is it! Once we build this our image has gone down to 184MB! That gives us some room to breathe huh? 
+    COPY --from=base /lucee /lucee
+    COPY --from=base /zulu_jre /zulu_jre
 
-I will say I havent run a suite of tests on this JRE so I cant confirm (nor deny!) if it all works as intended but we shall see. It's always good to add monitoring and telemetry to your docker apps anyway (this will be for a future post)
+And add the `jre/bin` path to the PATH variable via `ENV PATH=/zulu_jre/bin:$PATH`
+
+And that is it! Once we build this our image has gone down to 184MB! That gives us some room to breathe huh?
+
+I will say I haven't run a suite of tests on this JRE so I can't confirm (nor deny!) if it all works as intended but we shall see. It's always good to add monitoring and telemetry to your docker apps anyway (this will be for a future post)
