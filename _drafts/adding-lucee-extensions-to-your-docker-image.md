@@ -3,7 +3,7 @@ layout: post
 author: Mark Drew
 title: Adding Lucee Extensions to your Docker Image
 categories: lucee extensions docker build
-header-img: ''
+header-img: img/img_0445.jpeg
 subtitle: How to add extensions to our Lucee Docker Images
 permalink: lucee-extensions-in-docker-images
 
@@ -43,10 +43,10 @@ Let's look at the changes in the Dockerfile
     ENTRYPOINT [ "/lucee/startup.sh" ]ok at the changes in the Dockerfile:
 
 We are still installing everything as usual, but the two additions are:  
-`mkdir -p /lucee/lucee-server/deploy/` where we create the deployment directory (since lucee hasn't started up yet and had a chance to create the folder) 
+`mkdir -p /lucee/lucee-server/deploy/` where we create the deployment directory (since lucee hasn't started up yet and had a chance to create the folder)
 
-And our addition of the Lucee Admin extension via:   
-`ADD `[`https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex`](https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex "https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex")` /lucee/lucee-server/deploy/lucee.admin.extension-1.0.0.3.lex`
+And our addition of the Lucee Admin extension via:  
+`ADD https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex /lucee/lucee-server/deploy/lucee.admin.extension-1.0.0.3.lex`
 
-Now when lucee starts up with `LUCEE_ENABLE_WARMUP=true` it will expand it's files AND extract the extension for us. 
-Once all this is done we move everything back into our final layer and we are ready to rock. And we are now back to a comfortable 239MB
+Now when lucee starts up with `LUCEE_ENABLE_WARMUP=true` it will expand it's files AND extract the extension for us.
+Once all this is done we move everything back into our final layer and we are ready to rock. And we are now back to a more comfortable 239MB
