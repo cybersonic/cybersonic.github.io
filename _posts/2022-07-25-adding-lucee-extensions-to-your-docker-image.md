@@ -48,5 +48,8 @@ We are still installing everything as usual, but the two additions are:
 And our addition of the Lucee Admin extension via:  
 `ADD https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex /lucee/lucee-server/deploy/lucee.admin.extension-1.0.0.3.lex`
 
-Now when lucee starts up with `LUCEE_ENABLE_WARMUP=true` it will expand it's files AND extract the extension for us.
-Once all this is done we move everything back into our final layer and we are ready to rock. And we are now back to a more comfortable 239MB
+Now when lucee starts up with `LUCEE_ENABLE_WARMUP=true` it will expand it's files AND extract the extension for us. Once all this is done we move everything back into our final layer and we are ready to rock. And we are now back to a more comfortable 239MB
+
+In this post, I explained how we can install an admin extension, but you can then add all the specific extensions you need for your specific build. You can see a list of useful extensions here: [https://download.lucee.org/](https://download.lucee.org/ "https://download.lucee.org/")
+
+NB: There is another way to add the extensions you need, and that is to have `LUCEE_EXTENSIONS` environment variable, but this would be a list of the UUIDs of each extension which works great but doesn't really show you the version information easily.
