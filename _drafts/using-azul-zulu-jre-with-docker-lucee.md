@@ -9,9 +9,9 @@ subtitle: Azul Zulu is a smaller JRE than the OPENJDK one so this is one way to 
 permalink: azul-zulu-lucee-docker
 
 ---
-In our previous posts about building a lucee docker image and adding a password we got our image down to a comfortable 239MB
+In our previous posts about [building a lucee docker image](https://markdrew.io/password-for-lucee-docker) and [adding a password](https://markdrew.io/password-for-lucee-docker) we got our image down to a comfortable 239MB
 
-In the [cfml slack](https://app.slack.com/) [Brad Wood](https://twitter.com/bdw429s) mentioned that are other projects to bring down the size of Lucee, such as [Pete Freitag's Minibox]() which comes in at about 78 Mb! Great work!
+In the [cfml slack](https://app.slack.com/), [Brad Wood](https://twitter.com/bdw429s) mentioned that are other projects to bring down the size of Lucee, such as [Pete Freitag's Minibox]() which comes in at about 78 Mb! Great work!
 
 These series of posts are really not to compete with that. They are serving to document some practices and methods I use as well as to do some investigations that can fit in other development pipelines I am using.
 
