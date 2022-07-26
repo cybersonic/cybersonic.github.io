@@ -67,4 +67,4 @@ And add the `jre/bin` path to the PATH variable via `ENV PATH=/zulu_jre/bin:$PAT
 
 And that is it! Once we build this our image has gone down to 184MB! That gives us some room to breathe huh?
 
-I will say I haven't run a suite of tests on this JRE so I can't confirm (nor deny!) if it all works as intended but we shall see. It's always good to add monitoring and telemetry to your docker apps anyway (this will be for a future post)
+I will say I haven't run a suite of tests on this JRE so I can't confirm (nor deny!) if it all works as intended but we shall see. It's always good to add monitoring and telemetry to your docker apps anyway (a topic for a future post I am sure). 
