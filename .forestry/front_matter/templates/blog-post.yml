@@ -39,3 +39,4 @@ pages:
 - _posts/2022-07-21-making-slimmer-lucee-docker-images.md
 - _posts/2022-07-25-adding-lucee-extensions-to-your-docker-image.md
 - _posts/2022-07-26-using-azul-zulu-jre-with-docker-lucee.md
+- _posts/server-sent-events-and-lucee.md
