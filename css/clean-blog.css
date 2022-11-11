@@ -9,6 +9,11 @@ body {
   font-size: 20px;
   color: #404040;
 }
+footer {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #404040;
+}
 p {
   line-height: 1.5;
   margin: 30px 0;
