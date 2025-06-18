@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="a compendium of cfml and web technology topics">
+
+    <title>CFCUnit Assertions - Mark Drew on code</title>
+
+
+    <meta content="Mark Drew on code" property="og:site_name">
+    
+    <meta content="CFCUnit Assertions" property="og:title">
+    
+    
+    <meta content="article" property="og:type">
+    
+    
+    <meta content="a compendium of cfml and web technology topics" property="og:description">
+    
+    
+    <meta content="http://markdrew.io/cfcunit-assertions" property="og:url">
+    
+    
+    <meta content="2006-07-26T12:06:00+01:00" property="article:published_time">
+    <meta content="http://markdrew.io/about/" property="article:author">
+    
+    
+    <meta content="http://markdrew.io/assets/img/logo-high-resolution.png" property="og:image">
+    
+    
+    
+    <meta content="coldfusion" property="article:section">
+    
+    
+    
+    
+    
+
+
+    <link rel="canonical" href="http://markdrew.io/cfcunit-assertions">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="application/atom+xml" rel="alternate" href="http://markdrew.io/feed.xml" title="Mark Drew on code" />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Mark Drew on code</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/subscribe/">Subscribe</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/header-home.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>CFCUnit Assertions</h1>
+                    
+                    <span class="meta">Posted by Mark Drew on code on July 26, 2006 
+                    
+                        <p>Tagged under 
+                        <span class="label label-default">coldfusion<span></p>
+                    
+                    </span>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>I am doing a big application that has a number of CFCs that connect to another application and also writing modifications to that application. You can imagine that things get a bit complicated after a while.</p>
+
+<p>Once one gets to this level of complication, you need to start unit testing. So, I got myself <a href="http://www.cfcunit.org/">CFCunit</a> downloaded, and then I was a bit stumped, yes there is some <a href="http://www.cfcunit.org/cfcunit/docs.cfm?event=WritingTests">documentation</a> on how to do a simple TestCase, but my TestCases are NOT going to be simple (init should return an object, that object should have a value and not be empty in one of the properties, a certain method should return a struct, another an array etc etc). I couldnt find after following the documentation what were the assertions I could use, so I did a bit of digging through the code and using Spike’s <a hgref="http://www.spike.org.uk/projects/cfcdoc/">CFC Documentation</a> tool I managed to get all the assertions you can use.I hope this list helps other people. Next, I shall be setting up John Ashenfelter’s CFCUnit ant task (which I built myself from source, but dont know the syntax… anyone?)</p>
+
+<blockquote>
+<p>assertArrayContainsNumber(array array, numeric value, [string failureMessage=&quot;&quot;])</p>
+<p>assertArrayContainsString(array array, string value, [string failureMessage=&quot;&quot;])</p>
+<p>assertComplexValue(any value, [string failureMessage=&quot;&quot;])</p>
+<p>assertComponent(any value, [string failureMessage=&quot;&quot;])</p>
+<p>assertContainsString(string string, string searchString, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that one string contains one or more instances of the specified searchString. If the seachString cannot be found, AssertionFailedError is thrown.</em></p>
+<p>assertEqualsArray(array expected, array actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two Array are equal. If they are not an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertEqualsBoolean(boolean expected, boolean actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two booleans are equal. If they are not an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertEqualsNumber(numeric expected, numeric actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two numbers are equal. If they are not an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertEqualsQuery(query expected, query actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two Queries are equal. If they are not an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertEqualsString(string expected, string actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two strings are equal. If they are not an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertEqualsStruct(struct expected, struct actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two Structs are equal (value comparision). If they are not an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertFalse(boolean condition, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that a condition is false. If it isn't it throws an AssertionFailedError with the given message.</em></p>
+<p>assertNotNull(any value, [string failureMessage=&quot;&quot;])</p>
+<p>assertNotNullComponent(component object, [string failureMessage=&quot;&quot;])</p>
+<p>assertNotRegexMatch(string regex, string string, [string failureMessage=&quot;&quot;])</p>
+<p>assertNotSameComponent(component expected, component actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two components do not refer to the same object. If they do an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertNotSameStruct(struct expected, struct actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two structs do not refer to the same struct. If they do an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertNull(any value, [string failureMessage=&quot;&quot;])</p>
+<p>assertNullComponent(component object, [string failureMessage=&quot;&quot;])</p>
+<p>assertObject(any value, [string failureMessage=&quot;&quot;])</p>
+<p>assertRegexMatch(string regex, string string, [string failureMessage=&quot;&quot;])</p>
+<p>assertSameComplex(any expected, any actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two complex variables refer to the same object. If they are not an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertSameComponent(component expected, component actual, [string failureMessage=&quot;&quot;])</p>
+<p>assertSameStruct(struct expected, struct actual, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that two structs refer to the same struct. If they are not an AssertionFailedError is thrown with the given message.</em></p>
+<p>assertSimpleValue(any value, [string failureMessage=&quot;&quot;])</p>
+<p>assertTrue(boolean condition, [string failureMessage=&quot;&quot;])<br />
+  <em>Asserts that a condition is true. If it isn't it throws an AssertionFailedError with the given message.</em></p>
+<p>fail([string message=&quot;&quot;])<br />
+  <em>Fails a test with the given message.</em><br />
+</p>
+
+</blockquote>
+
+                <hr>
+               <a href="https://twitter.com/share" class="twitter-share-button" data-text="CFCUnit Assertions: " data-via="markdrew" data-hashtags="coldfusion">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <hr>
+             <!-- Begin MailChimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="//charliemikedelta.us3.list-manage.com/subscribe/post?u=97af4d98b2b34ea232718d283&amp;id=3c12fb5c13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Subscribe to updates from the blog!</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97af4d98b2b34ea232718d283_3c12fb5c13" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+
+                <hr>
+                <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'markdrewblog'; // required: replace example with your forum shortname
+                var disqus_identifier = '8A98D5D3-EA6D-7B04-0BAC616164F5900A';
+                var disqus_title = 'CFCUnit Assertions';
+
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/blog-stats-and-achievements" data-toggle="tooltip" data-placement="top" title="Blog Stats and Achievements">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/horses-heads-and-un-refusable-offers" data-toggle="tooltip" data-placement="top" title="Horses heads and un-refusable offers">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+</article>
+
+<hr>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/cybersonic">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="mailto:mark.drew@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                  
+                    <li>
+                        <a rel="me" href="https://mastodon.social/@markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-mastodon fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Mark Drew 2022</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74704034-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script id="dsq-count-scr" src="//markdrewblog.disqus.com/count.js" async></script>
+<!-- <script id="dsq-count-scr" src="//cmdblog.disqus.com/count.js" async></script> -->
+</body>
+
+</html>

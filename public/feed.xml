@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://markdrew.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://markdrew.io/" rel="alternate" type="text/html" /><updated>2022-11-11T09:49:53+00:00</updated><id>http://markdrew.io/feed.xml</id><title type="html">Mark Drew on code</title><subtitle>a compendium of cfml and web technology topics</subtitle><entry><title type="html">Using Azul Zulu JRE with Docker Lucee</title><link href="http://markdrew.io/azul-zulu-lucee-docker" rel="alternate" type="text/html" title="Using Azul Zulu JRE with Docker Lucee" /><published>2022-07-26T00:00:00+01:00</published><updated>2022-07-26T00:00:00+01:00</updated><id>http://markdrew.io/using-azul-zulu-jre-with-docker-lucee</id><content type="html" xml:base="http://markdrew.io/azul-zulu-lucee-docker">&lt;p&gt;In our previous posts about &lt;a href=&quot;https://markdrew.io/password-for-lucee-docker&quot;&gt;building a lucee docker image&lt;/a&gt; and &lt;a href=&quot;https://markdrew.io/password-for-lucee-docker&quot;&gt;adding a password&lt;/a&gt; we got our image down to a comfortable 239MB&lt;/p&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;https://app.slack.com/&quot;&gt;cfml slack&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/bdw429s&quot;&gt;Brad Wood&lt;/a&gt; mentioned that are other projects to bring down the size of Lucee, such as &lt;a href=&quot;&quot;&gt;Pete Freitag’s Minibox&lt;/a&gt; which comes in at about 78 Mb! Great work!&lt;/p&gt;
+
+&lt;p&gt;These series of posts are really not to compete with that. They are serving to document some practices and methods I use as well as to do some investigations that can fit in other development pipelines I am using.&lt;/p&gt;
+
+&lt;p&gt;In that conversation, Brad also mentioned &lt;a href=&quot;https://www.azul.com/downloads/?package=jdk&quot;&gt;Azul Zulu JDK&lt;/a&gt;. Which turns out to be only about 40MB! Let’s give THAT a spin and see if everything works as expected!&lt;/p&gt;
+
+&lt;p&gt;As previously mentioned we only need the JRE so that is what I downloaded into our image:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM alpine as base
+#Install zulu JRE
+ADD https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jre18.0.2-linux_musl_aarch64.tar.gz zulu_jre.tar.gz
+RUN tar -xzvf zulu_jre.tar.gz
+RUN mv zulu18.32.11-ca-jre18.0.2-linux_musl_aarch64 zulu_jre
+ENV PATH=/zulu_jre/bin:$PATH
+#Set lucee version
+ARG LUCEE_VERSION=&quot;5.3.10.28-SNAPSHOT&quot;
+ARG LUCEE_PASSWORD=&quot;password&quot;
+# Download Lucee
+ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
+ADD https://cdn.lucee.org/lucee-light-${LUCEE_VERSION}.jar lucee-light.jar
+RUN mkdir /lucee &amp;amp;&amp;amp; \
+     unzip lucee.zip -d /lucee &amp;amp;&amp;amp; \
+     chmod +x /lucee/*.sh &amp;amp;&amp;amp; \
+     chmod +x /lucee/bin/*.sh &amp;amp;&amp;amp; \
+     rm -f lucee.zip &amp;amp;&amp;amp; \
+     rm -rf /lucee/__MACOSX &amp;amp;&amp;amp; \
+     mv lucee-light.jar /lucee/lib/ext/lucee.jar &amp;amp;&amp;amp; \
+     mkdir -p /lucee/lucee-server/context/ &amp;amp;&amp;amp; \
+     mkdir -p /lucee/lucee-server/deploy/
+RUN echo ${LUCEE_PASSWORD} &amp;gt; /lucee/lucee-server/context/password.txt 
+# Add the admin extension
+ADD https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex /lucee/lucee-server/deploy/lucee.admin.extension-1.0.0.3.lex
+COPY webroot /lucee/webapps/ROOT
+RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
+
+FROM alpine as final
+COPY --from=base /lucee /lucee
+COPY --from=base /zulu_jre /zulu_jre
+ENV PATH=/zulu_jre/bin:$PATH
+ENTRYPOINT [ &quot;/lucee/startup.sh&quot; ]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;As usual, we are using our alpine base, but now &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ADD&lt;/code&gt;ing the Azul Zulu JRE and naming it &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zulu_jre.tar.gz&lt;/code&gt; .&lt;/p&gt;
+
+&lt;p&gt;We then unzip it and move it to a folder called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zulu_jre&lt;/code&gt;, finally, we add it to the Path so we can just call &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;java&lt;/code&gt; from anywhere via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ENV PATH=/zulu_jre/bin:$PATH&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Once done we can do the usual thing we are doing with lucee, and download lucee light, our admin extension and warm up the server by doing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;That is our JRE and lucee prepared. Now we create our final image: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM alpine as final&lt;/code&gt; Copy both the JRE and Lucee:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;COPY --from=base /lucee /lucee
+COPY --from=base /zulu_jre /zulu_jre
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jre/bin&lt;/code&gt; path to the PATH variable via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ENV PATH=/zulu_jre/bin:$PATH&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And that is it! Once we build this our image has gone down to 184MB! That gives us some room to breathe huh?&lt;/p&gt;
+
+&lt;p&gt;I will say I haven’t run a suite of tests on this JRE so I can’t confirm (nor deny!) if it all works as intended but we shall see. It’s always good to add monitoring and telemetry to your docker apps anyway (a topic for a future post I am sure).&lt;/p&gt;</content><author><name>Mark Drew</name></author><category term="lucee" /><category term="jre" /><category term="azul" /><category term="zulu" /><category term="docker" /><summary type="html">In our previous posts about building a lucee docker image and adding a password we got our image down to a comfortable 239MB</summary></entry><entry><title type="html">Adding Lucee Extensions to your Docker Image</title><link href="http://markdrew.io/lucee-extensions-in-docker-images" rel="alternate" type="text/html" title="Adding Lucee Extensions to your Docker Image" /><published>2022-07-25T00:00:00+01:00</published><updated>2022-07-25T00:00:00+01:00</updated><id>http://markdrew.io/adding-lucee-extensions-to-your-docker-image</id><content type="html" xml:base="http://markdrew.io/lucee-extensions-in-docker-images">&lt;p&gt;In the &lt;a href=&quot;https://markdrew.io/password-for-lucee-docker&quot;&gt;previous post&lt;/a&gt;, we added a password for Lucee admin, but to do so we needed to backtrack our changes in using lucee-light, back to the full version of Lucee.&lt;/p&gt;
+
+&lt;p&gt;So that we can keep the image size down AND add an administrator, we can install just the extension(s) we need. In this case, we will install the Lucee Administrator Extension, you can see it here: &lt;a href=&quot;https://download.lucee.org/#CED6227E-0F49-6367-A68D21AACA6B07E8&quot; title=&quot;https://download.lucee.org/#CED6227E-0F49-6367-A68D21AACA6B07E8&quot;&gt;https://download.lucee.org/#CED6227E-0F49-6367-A68D21AACA6B07E8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In the previous posts, you have seen me use the &lt;a href=&quot;https://docs.docker.com/engine/reference/builder/#add&quot;&gt;ADD command&lt;/a&gt; in the Dockerfile. This is a  shortcut to adding any file from either your local machine or the internet. The command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;COPY&lt;/code&gt; is generally seen as the way to get files into your docker image but &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ADD&lt;/code&gt; is very useful when we want to, well, add a file via a URL. There are reasons NOT to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ADD&lt;/code&gt; since it adds a layer where you could do it all in one RUN command (see &lt;a href=&quot;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy&quot;&gt;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy&lt;/a&gt;) but since we are doing a multi-stage build it doesn’t matter in this case.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at the changes in the Dockerfile&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM alpine as base
+RUN apk add openjdk11-jre
+ARG LUCEE_VERSION=&quot;5.3.10.28-SNAPSHOT&quot;
+ARG LUCEE_PASSWORD=&quot;password&quot;
+ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
+ADD https://cdn.lucee.org/lucee-light-${LUCEE_VERSION}.jar lucee-light.jar
+RUN mkdir /lucee &amp;amp;&amp;amp; \
+     unzip lucee.zip -d /lucee &amp;amp;&amp;amp; \
+     chmod +x /lucee/*.sh &amp;amp;&amp;amp; \
+     chmod +x /lucee/bin/*.sh &amp;amp;&amp;amp; \
+     rm -f lucee.zip &amp;amp;&amp;amp; \
+     rm -rf /lucee/__MACOSX &amp;amp;&amp;amp; \
+     mv lucee-light.jar /lucee/lib/ext/lucee.jar &amp;amp;&amp;amp; \
+     mkdir -p /lucee/lucee-server/context/ &amp;amp;&amp;amp; \
+     mkdir -p /lucee/lucee-server/deploy/
+RUN echo ${LUCEE_PASSWORD} &amp;gt; /lucee/lucee-server/context/password.txt 
+# Add the admin extension
+ADD https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex /lucee/lucee-server/deploy/lucee.admin.extension-1.0.0.3.lex
+COPY webroot /lucee/webapps/ROOT
+RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
+
+FROM alpine
+RUN apk add openjdk11-jre
+COPY --from=base /lucee /lucee
+ENTRYPOINT [ &quot;/lucee/startup.sh&quot; ]ok at the changes in the Dockerfile:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We are still installing everything as usual, but the two additions are:&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir -p /lucee/lucee-server/deploy/&lt;/code&gt; where we create the deployment directory (since lucee hasn’t started up yet and had a chance to create the folder)&lt;/p&gt;
+
+&lt;p&gt;And our addition of the Lucee Admin extension via:&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ADD https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex /lucee/lucee-server/deploy/lucee.admin.extension-1.0.0.3.lex&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now when lucee starts up with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUCEE_ENABLE_WARMUP=true&lt;/code&gt; it will expand it’s files AND extract the extension for us. Once all this is done we move everything back into our final layer and we are ready to rock. And we are now back to a more comfortable 239MB&lt;/p&gt;
+
+&lt;p&gt;In this post, I explained how we can install an admin extension, but you can then add all the specific extensions you need for your specific build. You can see a list of useful extensions here: &lt;a href=&quot;https://download.lucee.org/&quot; title=&quot;https://download.lucee.org/&quot;&gt;https://download.lucee.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;NB: There is another way to add the extensions you need, and that is to have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUCEE_EXTENSIONS&lt;/code&gt; environment variable, but this would be a list of the UUIDs of each extension which works great but doesn’t really show you the version information easily.&lt;/p&gt;</content><author><name>Mark Drew</name></author><category term="lucee" /><category term="extensions" /><category term="docker" /><category term="build" /><summary type="html">In the previous post, we added a password for Lucee admin, but to do so we needed to backtrack our changes in using lucee-light, back to the full version of Lucee.</summary></entry><entry><title type="html">Adding a password to your Lucee Docker Images</title><link href="http://markdrew.io/password-for-lucee-docker" rel="alternate" type="text/html" title="Adding a password to your Lucee Docker Images" /><published>2022-07-22T00:00:00+01:00</published><updated>2022-07-22T00:00:00+01:00</updated><id>http://markdrew.io/adding-a-password-to-your-lucee-docker-images</id><content type="html" xml:base="http://markdrew.io/password-for-lucee-docker">&lt;p&gt;In the &lt;a href=&quot;https://markdrew.io/slimmer-lucee-docker-images&quot;&gt;previous post&lt;/a&gt; I created a super slim image for Lucee in Docker. This image has a “lucee light” version which doesn’t have the admin. Let’s say we need the admin, so we are going to go back and build a “tubby” version of lucee.&lt;/p&gt;
+
+&lt;p&gt;So let’s do that!&lt;/p&gt;
+
+&lt;p&gt;Let’s suppose we have the following docker file (I go over all the steps in &lt;a href=&quot;https://markdrew.io/slimmer-lucee-docker-images&quot;&gt;my previous post&lt;/a&gt;):&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM alpine as base
+ARG LUCEE_VERSION=&quot;5.3.10.28-SNAPSHOT&quot;
+ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
+RUN mkdir /lucee &amp;amp;&amp;amp; \
+     unzip lucee.zip -d /lucee &amp;amp;&amp;amp; \
+     chmod +x /lucee/*.sh &amp;amp;&amp;amp; \
+     chmod +x /lucee/bin/*.sh &amp;amp;&amp;amp; \
+     rm -f lucee.zip &amp;amp;&amp;amp; \
+     rm -rf /lucee/__MACOSX &amp;amp;&amp;amp; 
+COPY webroot /lucee/webapps/ROOT
+FROM alpine
+RUN apk add openjdk11-jre
+COPY --from=base /lucee /lucee
+RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
+ENTRYPOINT [ &quot;/lucee/startup.sh&quot; ]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The code above is enough to get our image running, so let’s build and start the image:&lt;/p&gt;
+
+&lt;p&gt;To build it: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker build -t markdrew/lucee-light .&lt;/code&gt;
+To run it: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker run --rm --name lucee-light -p 8989:8888 markdrew/lucee-light&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now when we head to &lt;a href=&quot;&quot;&gt;http://localhost:8989/lucee/admin/server.cfm?action=overview &lt;/a&gt;to view our admin we get:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/screenshot-2022-07-21-at-13-58-14.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Right, so we need to add a file called password.txt somewhere in our image, which looks like: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/lucee-server/context/password.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is easy enough and we can get some nice build time features. The updated Dockerfile now looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM alpine as base
+ARG LUCEE_VERSION=&quot;5.3.10.28-SNAPSHOT&quot;
+ARG LUCEE_PASSWORD=&quot;password&quot;
+ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
+RUN mkdir /lucee &amp;amp;&amp;amp; \
+     unzip lucee.zip -d /lucee &amp;amp;&amp;amp; \
+     chmod +x /lucee/*.sh &amp;amp;&amp;amp; \
+     chmod +x /lucee/bin/*.sh &amp;amp;&amp;amp; \
+     rm -f lucee.zip &amp;amp;&amp;amp; \
+     rm -rf /lucee/__MACOSX &amp;amp;&amp;amp; \
+     mkdir -p /lucee/lucee-server/context/
+RUN echo ${LUCEE_PASSWORD} &amp;gt; /lucee/lucee-server/context/password.txt 
+COPY webroot /lucee/webapps/ROOT
+FROM alpine
+RUN apk add openjdk11-jre
+COPY --from=base /lucee /lucee
+RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
+ENTRYPOINT [ &quot;/lucee/startup.sh&quot; ]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The line with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ARG LUCEE_PASSWORD=&quot;password&quot;&lt;/code&gt; is our default password, we can , and should, override this. This can be done at build time by doing:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker build ... --build-arg LUCEE_PASSWORD=mysecretpassword ...&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The next part is in the RUN command, where we add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir -p /lucee/lucee-server/context/&lt;/code&gt;. Since at this point we dont have the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lucee-server/context&lt;/code&gt; folder we wont be able to create it. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-p&lt;/code&gt; argument to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir&lt;/code&gt; allows to create the intermediate directories if they dont exist.&lt;/p&gt;
+
+&lt;p&gt;Finally we add the actual password! &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUN echo ${LUCEE_PASSWORD} &amp;gt; /lucee/lucee-server/context/password.txt&lt;/code&gt; this writes out our supersecretpassword to the password.txt folder.&lt;/p&gt;
+
+&lt;p&gt;When we warm up lucee in the next step it will read the password.txt file, set the password and delete the file.&lt;/p&gt;
+
+&lt;p&gt;If we now go to &lt;a href=&quot;&quot;&gt;http://localhost:8989/lucee/admin/server.cfm?action=overview &lt;/a&gt; we see our password is set:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/screenshot-2022-07-21-at-14-23-07.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And that is it! (or is it)&lt;/p&gt;
+
+&lt;p&gt;This should get you most of the way but what we have done here is actually put a &lt;em&gt;clear text password&lt;/em&gt; in our docker image. I don’t like this personally. Lucee encrypts the password into the lucee-server.xml file which is much better.&lt;/p&gt;
+
+&lt;p&gt;A possible solution (whilst keeping our system clean is to do a bit of a double install:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM alpine as base
+ARG LUCEE_VERSION=&quot;5.3.10.28-SNAPSHOT&quot;
+ARG LUCEE_PASSWORD=&quot;password&quot;
+RUN apk add openjdk11-jre
+ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
+RUN mkdir /lucee &amp;amp;&amp;amp; \
+     unzip lucee.zip -d /lucee &amp;amp;&amp;amp; \
+     chmod +x /lucee/*.sh &amp;amp;&amp;amp; \
+     chmod +x /lucee/bin/*.sh &amp;amp;&amp;amp; \
+     rm -f lucee.zip &amp;amp;&amp;amp; \
+     rm -rf /lucee/__MACOSX &amp;amp;&amp;amp; \
+     mkdir -p /lucee/lucee-server/context/
+RUN echo ${LUCEE_PASSWORD} &amp;gt; /lucee/lucee-server/context/password.txt 
+COPY webroot /lucee/webapps/ROOT
+RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
+FROM alpine
+RUN apk add openjdk11-jre
+COPY --from=base /lucee /lucee
+ENTRYPOINT [ &quot;/lucee/startup.sh&quot; ]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In the above code in line 4 we have: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUN apk add openjdk11-jre&lt;/code&gt; , this installs the JRE right at the start so in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;base&lt;/code&gt; image we can create our password, and then warmup lucee, thus reading and removing the password.txt file (see &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh&lt;/code&gt; ) we then start a new build , install the JRE and copy our expanded folder into our finalised build.&lt;/p&gt;
+
+&lt;p&gt;There, no more clear text passwords. Begone you pesky haxx0rs!&lt;/p&gt;</content><author><name>Mark Drew</name></author><category term="lucee" /><category term="docker" /><category term="password" /><summary type="html">In the previous post I created a super slim image for Lucee in Docker. This image has a “lucee light” version which doesn’t have the admin. Let’s say we need the admin, so we are going to go back and build a “tubby” version of lucee.</summary></entry><entry><title type="html">Making slimmer Lucee Docker Images</title><link href="http://markdrew.io/slimmer-lucee-docker-images" rel="alternate" type="text/html" title="Making slimmer Lucee Docker Images" /><published>2022-07-21T00:00:00+01:00</published><updated>2022-07-21T00:00:00+01:00</updated><id>http://markdrew.io/making-slimmer-lucee-docker-images</id><content type="html" xml:base="http://markdrew.io/slimmer-lucee-docker-images">&lt;p&gt;In the last few years, I have had some requirements to turn what are essentially command line programs into small microservices. Lucee is GREAT at making services, so to make these microservices I (lazily) decided to take the most direct path, and use Lucee Express.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://download.lucee.org/&quot;&gt;Lucee Express&lt;/a&gt; is essentially Tomcat and Lucee all ready to run on Windows, macOS and Linux. Download unzip and run basically. This is perfect for this so the first thing I do is make a Docker image for this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM alpine
+ARG LUCEE_VERSION=&quot;5.3.10.28-SNAPSHOT&quot;
+ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
+RUN mkdir /lucee &amp;amp;&amp;amp; \
+     unzip lucee.zip -d /lucee &amp;amp;&amp;amp; \
+     chmod +x /lucee/*.sh &amp;amp;&amp;amp; \
+     chmod +x /lucee/bin/*.sh &amp;amp;&amp;amp; \
+     rm -f lucee.zip &amp;amp;&amp;amp; \
+     rm -rf /lucee/__MACOSX
+COPY webroot /lucee/webapps/ROOT
+RUN apk add openjdk11
+ENTRYPOINT [ &quot;/lucee/startup.sh&quot; ]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To build the docker image above I do: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker build -t markdrew/lucee-light .&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Let me run through it quickly:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM alpine&lt;/code&gt;: Uses the alpine base image. This is a super tiny Linux distro&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ARG LUCEE_VERSION=&quot;5.3.10.28-SNAPSHOT&quot;&lt;/code&gt; : this allows me to add the version when I build the image. I can just change the version of lucee by passing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--build-arg LUCEE_VERSION=5.4&lt;/code&gt; for example&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip&lt;/code&gt; downloads the lucee version to lucee.zip&lt;/li&gt;
+  &lt;li&gt;The next &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUN&lt;/code&gt; line is more complex, but basically unzips lucee.zip and makes the startup &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.sh&lt;/code&gt; files executable and then deletes the lucee.zip and extra &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__MACOSX&lt;/code&gt; folder that was uncompressed from the zip.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;COPY webroot /lucee/webapps/ROOT&lt;/code&gt; we copy our code to the lucee web root. This is our app so we have to run it.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUN apk add openjdk11&lt;/code&gt; We install the JDK! Cant run lucee without a JDK&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ENTRYPOINT [ &quot;/lucee/startup.sh&quot; ]&lt;/code&gt; finally we set the entry point, the script we run when we start.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And that is it. So after building, we get the following when we run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker images&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;REPOSITORY             TAG       IMAGE ID       CREATED         SIZE
+markdrew/lucee-light   latest    b7085aaed9a9   9 minutes ago   648MB
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ok, 648MB… it’s ok but not good enough really. A colleague (&lt;a href=&quot;https://dev.lucee.org/u/zackster/summary&quot; title=&quot;Zac Spitzer&quot;&gt;Zac Spitzer&lt;/a&gt;) mentioned that we don’t actually need the full &lt;strong&gt;JDK&lt;/strong&gt;, so we went to get just the &lt;strong&gt;JRE&lt;/strong&gt;. This changed the line: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUN apk add openjdk11&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUN apk add openjdk11-jre&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This gave a nice cut down:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;REPOSITORY             TAG       IMAGE ID       CREATED       SIZE
+markdrew/lucee-light   latest    71e1b58415f3   2 hours ago   355MB
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;355MB! That’s a great improvement!&lt;/p&gt;
+
+&lt;p&gt;Zac also reminded me that since I am basically not using any extensions such as database drivers or whatever, I can download a “light” version of Lucee, so I can now add the jar download for lucee-light after I download the express version:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
+ADD https://cdn.lucee.org/lucee-light-${LUCEE_VERSION}.jar lucee-light.jar
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And in the RUN command where we expand Lucee, we can swap out the “fat” lucee.jar with the “light” one.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RUN mkdir /lucee &amp;amp;&amp;amp; \
+...
+    rm -f /lucee/lib/ext/lucee.jar &amp;amp;&amp;amp; \
+    mv lucee-light.jar /lucee/lib/ext/lucee.jar &amp;amp;&amp;amp; \
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ok! This should remove a big chunk of the filesize!&lt;/p&gt;
+
+&lt;p&gt;After building I get…&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;REPOSITORY             TAG       IMAGE ID       CREATED        SIZE                
+markdrew/lucee-light   latest    ae4bfae156db   1 second ago   320MB
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ok, not the greatest improvement. What is going on? I was expecting a lot less in there. Let’s investigate!
+There is a great tool to inspect docker images called &lt;a href=&quot;https://github.com/wagoodman/dive&quot; title=&quot;dive&quot;&gt;dive&lt;/a&gt; that is perfect for this. It will look into our Docker image and tell us what is going on.&lt;/p&gt;
+
+&lt;p&gt;Let’s inspect our image:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dive markdrew/lucee-light&lt;/code&gt;&lt;br /&gt;
+&lt;img src=&quot;/img/screenshot-2022-07-20-at-22-25-44.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If we look at the summary it says:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Image name: markdrew/lucee-light
+Total Image size: 320 MB
+Potential wasted space: 111 MB
+Image efficiency score: 65 %
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Where is that 111MB of wasted space coming from? Well, despite deleting the zip files we don’t need they are still defined in each layer. They were added at the top of the previous one and are still loitering in our image. One way to remove these is to create a &lt;a href=&quot;https://docs.docker.com/develop/develop-images/multistage-build/&quot;&gt;multi-stage build&lt;/a&gt; script.&lt;/p&gt;
+
+&lt;p&gt;Here is the script with changes:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM alpine as base
+ARG LUCEE_VERSION=&quot;5.3.10.28-SNAPSHOT&quot;
+ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
+ADD https://cdn.lucee.org/lucee-light-${LUCEE_VERSION}.jar lucee-light.jar
+RUN mkdir /lucee &amp;amp;&amp;amp; \
+     unzip lucee.zip -d /lucee &amp;amp;&amp;amp; \
+     chmod +x /lucee/*.sh &amp;amp;&amp;amp; \
+     chmod +x /lucee/bin/*.sh &amp;amp;&amp;amp; \
+     rm -f lucee.zip &amp;amp;&amp;amp; \
+     rm -f /lucee/lib/ext/lucee.jar &amp;amp;&amp;amp; \
+     mv lucee-light.jar /lucee/lib/ext/lucee.jar &amp;amp;&amp;amp; \
+     rm -rf /lucee/__MACOSX
+COPY webroot /lucee/webapps/ROOT
+FROM alpine
+RUN apk add openjdk11-jre
+COPY --from=base /lucee /lucee
+ENTRYPOINT [ &quot;/lucee/startup.sh&quot; ]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The main changes are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM alpine as base&lt;/code&gt; we create a base image where we do the Lucee installation&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM alpine&lt;/code&gt; again. This is our next stack (or final image)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;COPY --from=base /lucee /lucee&lt;/code&gt; we now copy from our base image the Lucee folder we prepared. This will be our final image which ignores all the previous steps, which were there just to build the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/lucee&lt;/code&gt; folder. Those steps don’t need to live on in our final image.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After building we get:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;REPOSITORY             TAG       IMAGE ID       CREATED        SIZE                 
+markdrew/lucee-light   latest    deac63b18892   1 second ago   210MB
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;210MB vs. 648MB. I will buy that for a dollar!&lt;/p&gt;
+
+&lt;p&gt;Ok, let’s start it up! &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker run --rm --name lucee-light markdrew/lucee-light&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This takes: 1604 ms&lt;/p&gt;
+
+&lt;p&gt;Not bad, but we could pre-warm our image when we build it. This would expand all the required files that lucee needs and let lucee do whatever config it needs to do at startup. We don’t need to do this every time we start a container, so let’s add it to our build!&lt;/p&gt;
+
+&lt;p&gt;We need to add the warmup before our &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ENTRYPOINT&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;COPY --from=base /lucee /lucee
+RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
+ENTRYPOINT [ &quot;/lucee/startup.sh&quot; ]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh&lt;/code&gt; sets an environment variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUCEE_ENABLE_WARMUP&lt;/code&gt; and then runs lucee. This means Lucee will start, warmup and then shut down.&lt;/p&gt;
+
+&lt;p&gt;Let’s try this build :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;REPOSITORY             TAG       IMAGE ID       CREATED                  SIZE         
+markdrew/lucee-light   latest    3d97c6111b99   Less than a second ago   239MB
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ok, the size has increased a little, which will be the addition of new files created by lucee. When we start up this image it now takes 1194 ms. Nice! 410 ms off our speed, nearly cut down by a third in this case!&lt;/p&gt;
+
+&lt;p&gt;I realise there might be even more speed improvements for our light image (I would love to hear them!) but hopefully this post has shown you some ideas for your own images and adventures with Lucee!&lt;/p&gt;
+
+&lt;p&gt;UPDATE: you can now check out the code from here: &lt;a href=&quot;https://github.com/cybersonic/super-slim-lucee-docker/tree/main&quot; title=&quot;https://github.com/cybersonic/super-slim-lucee-docker/tree/main&quot;&gt;https://github.com/cybersonic/super-slim-lucee-docker/tree/main&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Drew</name></author><category term="lucee" /><category term="docker" /><category term="dive" /><category term="microservices" /><summary type="html">In the last few years, I have had some requirements to turn what are essentially command line programs into small microservices. Lucee is GREAT at making services, so to make these microservices I (lazily) decided to take the most direct path, and use Lucee Express.</summary></entry><entry><title type="html">Debugging Bitbucket Pipelines locally</title><link href="http://markdrew.io/bitbucket/pipelines/devops/docker/2022/05/12/debugging-bitbucket-pipelines-locally/" rel="alternate" type="text/html" title="Debugging Bitbucket Pipelines locally" /><published>2022-05-12T00:00:00+01:00</published><updated>2022-05-12T00:00:00+01:00</updated><id>http://markdrew.io/bitbucket/pipelines/devops/docker/2022/05/12/debugging-bitbucket-pipelines-locally</id><content type="html" xml:base="http://markdrew.io/bitbucket/pipelines/devops/docker/2022/05/12/debugging-bitbucket-pipelines-locally/">&lt;p&gt;So debugging &lt;a href=&quot;https://bitbucket.org/product/features/pipelines&quot;&gt;Bitbucket Pipelines&lt;/a&gt; is a pain.&lt;/p&gt;
+
+&lt;p&gt;If you have ever developed complex pipelines sometimes the odd things catch you out, for example, recently the version of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jq&lt;/code&gt; (&lt;a href=&quot;https://stedolan.github.io/jq/&quot; title=&quot;https://stedolan.github.io/jq/&quot;&gt;https://stedolan.github.io/jq/&lt;/a&gt;) installed worked differently in the pipeline than on my local machine (because, of course, it would!)&lt;/p&gt;
+
+&lt;p&gt;The answer (after you know it) is somewhat obvious. Run the pipeline image locally!&lt;/p&gt;
+
+&lt;p&gt;If you look at the top of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bitbucket-pipelines.yml&lt;/code&gt; you will see the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  image: atlassian/default-image:2
+  options:
+   ...
+  definitions:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This means that the default image that is used to run most of your pipelines is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;atlassian/default-image:2&lt;/code&gt; !&lt;/p&gt;
+
+&lt;p&gt;Therefore we can run our code by running the image above:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; docker  run -it atlassian/default-image:2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And that’s it! Now you can pass environment variables as usual (with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-e&lt;/code&gt; ) or map a volume to your code to see what happens.&lt;/p&gt;
+
+&lt;p&gt;Hope that saves you some more minutes today!&lt;/p&gt;</content><author><name></name></author><category term="bitbucket" /><category term="pipelines" /><category term="devops" /><category term="docker" /><summary type="html">So debugging Bitbucket Pipelines is a pain.</summary></entry><entry><title type="html">Increase the Debug Font in Unreal Engine</title><link href="http://markdrew.io/ue4/unrealengine/gamedev/indiegamedev/2018/01/22/increase-the-debug-font-in-unreal-engine/" rel="alternate" type="text/html" title="Increase the Debug Font in Unreal Engine" /><published>2018-01-22T00:00:00+00:00</published><updated>2018-01-22T00:00:00+00:00</updated><id>http://markdrew.io/ue4/unrealengine/gamedev/indiegamedev/2018/01/22/increase-the-debug-font-in-unreal-engine</id><content type="html" xml:base="http://markdrew.io/ue4/unrealengine/gamedev/indiegamedev/2018/01/22/increase-the-debug-font-in-unreal-engine/">&lt;p&gt;Since I updated to Unreal Engine 4.18 for a project I am working on the debug font has been tiny! This is on my iMac at 5K and before you start giving me the old “Hur hur! It’s a Mac! You can’t do no game dev on that!” it’s also happening on my Dell Inspiron. It seems to stem from the fact that they are high DPI displays on both machines which somehow means that all the Print String statements one loves to use to see what is going on now become so tiny that I can barely make them out.&lt;/p&gt;
+
+&lt;p&gt;This has led to a quest on increasing this font so I can get back to the bad practice of putting debug out on screen.&lt;/p&gt;
+
+&lt;p&gt;This morning I finally found the answer, in part thanks to a clue by &lt;a href=&quot;https://twitter.com/d0oo0p&quot;&gt;@d0oo0p&lt;/a&gt; that mentioned that it was using the default size of Small Font.&lt;/p&gt;
+
+&lt;p&gt;So I looked in the Unreal Editor Preferences but no dice.&lt;/p&gt;
+
+&lt;p&gt;The next place I looked (wouldn’t be there surely?) was in the Project Settings and after a bit of noodling… I found it.&lt;/p&gt;
+
+&lt;p&gt;To change it go to: 
+1) You go to Edit-&amp;gt;Project Settings…
+2) Under Engine -&amp;gt; General settings you will see the fonts for your project!&lt;/p&gt;
+
+&lt;p&gt;Find the Small Font (this is the one used for debugging) and double click on the selected font. 
+&lt;img src=&quot;/img/UE4FontSettings.jpg&quot; /&gt;
+You can now go and change the size in the detals panel (under Legacy Font Size).
+&lt;img src=&quot;/img/UE4FontSettingsDetail.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;FINALLY I don’t have a font for ants!
+&lt;img src=&quot;/img/Ue4BetterSizeFont.jpg&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="ue4" /><category term="unrealengine" /><category term="gamedev" /><category term="indiegamedev" /><summary type="html">Since I updated to Unreal Engine 4.18 for a project I am working on the debug font has been tiny! This is on my iMac at 5K and before you start giving me the old “Hur hur! It’s a Mac! You can’t do no game dev on that!” it’s also happening on my Dell Inspiron. It seems to stem from the fact that they are high DPI displays on both machines which somehow means that all the Print String statements one loves to use to see what is going on now become so tiny that I can barely make them out.</summary></entry><entry><title type="html">cfscript.me and Sublime text</title><link href="http://markdrew.io/2017/09/13/cfscriptme-and-sublime-text/" rel="alternate" type="text/html" title="cfscript.me and Sublime text" /><published>2017-09-13T00:00:00+01:00</published><updated>2017-09-13T00:00:00+01:00</updated><id>http://markdrew.io/2017/09/13/cfscriptme-and-sublime-text</id><content type="html" xml:base="http://markdrew.io/2017/09/13/cfscriptme-and-sublime-text/">&lt;p&gt;I am not sure how many people know about this but one of the things that come up in the issue tracker for the most awesome &lt;a href=&quot;https://github.com/jcberquist/sublimetext-cfml/issues/73&quot;&gt;CFML package&lt;/a&gt; for Sublime Text was the ability to convert tag based CFML documents to script automagically!&lt;/p&gt;
+
+&lt;p&gt;The site, developed by &lt;a href=&quot;https://www.petefreitag.com/&quot;&gt;Peter Freitag&lt;/a&gt; is called &lt;a href=&quot;http://cfscript.me/&quot;&gt;cfscript.me&lt;/a&gt; (the title gave it away didn’t it?) and it’s pretty awesome!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cfscript_me.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now the site is great, but there is also a &lt;a href=&quot;https://www.ortussolutions.com/products/commandbox&quot;&gt;Commandbox&lt;/a&gt; (which is awesome by the way ) &lt;a href=&quot;https://www.forgebox.io/view/cfscriptme-command&quot;&gt;command over on Forgebox&lt;/a&gt;! This means you can automatically convert a file by simply doing:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;box cfscriptme Application.cfc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And your ugly tag based &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Application.cfc&lt;/code&gt; will look like a scripted beauty in a few seconds!&lt;/p&gt;
+
+&lt;p&gt;Now this is all fine, you can even do folders and what not, but how about doing this right in your editor? If you are using Sublime Text you can go to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Tools &amp;gt; Build System &amp;gt; New Build System ...&lt;/code&gt; and you can then create a new file as follows:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+	&quot;shell_cmd&quot;: &quot;box cfscriptme sourcePath=\&quot;$file_name\&quot; force=true&quot;,
+	&quot;selector&quot;: &quot;embedding.cfml&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now all you have to do is click &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmd + b&lt;/code&gt; and after a few seconds… magic! Why not give it a try?&lt;/p&gt;</content><author><name></name></author><summary type="html">I am not sure how many people know about this but one of the things that come up in the issue tracker for the most awesome CFML package for Sublime Text was the ability to convert tag based CFML documents to script automagically!</summary></entry><entry><title type="html">Localhost Podcast - Develop Branch with Mark Mandel!</title><link href="http://markdrew.io/podcasting,lucee,docker,localhostfm,developbranch/2017/02/13/localhost-podcast-develop-branch-with-mark-mandel/" rel="alternate" type="text/html" title="Localhost Podcast - Develop Branch with Mark Mandel!" /><published>2017-02-13T00:00:00+00:00</published><updated>2017-02-13T00:00:00+00:00</updated><id>http://markdrew.io/podcasting,lucee,docker,localhostfm,developbranch/2017/02/13/localhost-podcast-develop-branch-with-mark-mandel</id><content type="html" xml:base="http://markdrew.io/podcasting,lucee,docker,localhostfm,developbranch/2017/02/13/localhost-podcast-develop-branch-with-mark-mandel/">&lt;p&gt;In a shocking turn up for the books Rob and I managed to get Mark Mandel to come onto the Localhost Podcast and talk about Kubernetes, Docker, Containers and Game Development! Go and &lt;a href=&quot;https://soundcloud.com/localhostfm/localhost-podcast-episode-001-1&quot;&gt;Go Listen Now!&lt;/a&gt;. It was an awesome episode!&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307092980&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="podcasting,lucee,docker,localhostfm,developbranch" /><summary type="html">In a shocking turn up for the books Rob and I managed to get Mark Mandel to come onto the Localhost Podcast and talk about Kubernetes, Docker, Containers and Game Development! Go and Go Listen Now!. It was an awesome episode!</summary></entry><entry><title type="html">Localhost Podcast - Develop Branch with Geoff Bowers!</title><link href="http://markdrew.io/podcasting/lucee/docker/localhostfm/developbranch/2017/02/06/localhost-podcast-develop-branch-with-geoff-bowers/" rel="alternate" type="text/html" title="Localhost Podcast - Develop Branch with Geoff Bowers!" /><published>2017-02-06T00:00:00+00:00</published><updated>2017-02-06T00:00:00+00:00</updated><id>http://markdrew.io/podcasting/lucee/docker/localhostfm/developbranch/2017/02/06/localhost-podcast-develop-branch-with-geoff-bowers</id><content type="html" xml:base="http://markdrew.io/podcasting/lucee/docker/localhostfm/developbranch/2017/02/06/localhost-podcast-develop-branch-with-geoff-bowers/">&lt;p&gt;At the &lt;a href=&quot;http://localhost.fm&quot;&gt;Localhost Podcast&lt;/a&gt; we are trying another format which we are calling the &lt;code&gt;Develop Branch&lt;/code&gt; where we can do some experiments outside of the main show’s format!&lt;/p&gt;
+
+&lt;p&gt;We have a new episode ready, in which we talk with Geoff Bowers about docker! Super interesting talk with a very clever man! &lt;a href=&quot;https://soundcloud.com/localhostfm/localhost-podcast-episode-001-1&quot;&gt;Go Listen Now!&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306353727&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="podcasting" /><category term="lucee" /><category term="docker" /><category term="localhostfm" /><category term="developbranch" /><summary type="html">At the Localhost Podcast we are trying another format which we are calling the Develop Branch where we can do some experiments outside of the main show’s format!</summary></entry><entry><title type="html">Localhost Podcast</title><link href="http://markdrew.io/podcasting,lucee,docker,localhostfm/2017/01/27/localhost-podcast/" rel="alternate" type="text/html" title="Localhost Podcast" /><published>2017-01-27T00:00:00+00:00</published><updated>2017-01-27T00:00:00+00:00</updated><id>http://markdrew.io/podcasting,lucee,docker,localhostfm/2017/01/27/localhost-podcast</id><content type="html" xml:base="http://markdrew.io/podcasting,lucee,docker,localhostfm/2017/01/27/localhost-podcast/">&lt;p&gt;I want to introduce a new podcast that I am hosting with &lt;a href=&quot;https://twitter.com/robdudley&quot;&gt;Rob Dudley&lt;/a&gt;; &lt;a href=&quot;https://soundcloud.com/localhostfm&quot;&gt;The Localhost Podcast&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;The idea behind this podcast is that of a monthly chat between us about a topic in web development. To kick of the year we are talking about &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; and all things container. The way we do this is slightly different to a lot of podcasts as we need YOUR comments and questions as these are the fuel for our dicussions.&lt;/p&gt;
+
+&lt;p&gt;You can follow the podcast on twitter &lt;a href=&quot;https://twitter.com/localhostfm&quot;&gt;@localhostfm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyway, enjoy the first podcast:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/304816447&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="podcasting,lucee,docker,localhostfm" /><summary type="html">I want to introduce a new podcast that I am hosting with Rob Dudley; The Localhost Podcast!</summary></entry></feed>

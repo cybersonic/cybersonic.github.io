@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="a compendium of cfml and web technology topics">
+
+    <title>CFEclipse new feature under development part 2 - Mark Drew on code</title>
+
+
+    <meta content="Mark Drew on code" property="og:site_name">
+    
+    <meta content="CFEclipse new feature under development part 2" property="og:title">
+    
+    
+    <meta content="article" property="og:type">
+    
+    
+    <meta content="a compendium of cfml and web technology topics" property="og:description">
+    
+    
+    <meta content="http://markdrew.io/cfeclipse-new-feature-under-development-part-2" property="og:url">
+    
+    
+    <meta content="2006-05-17T12:06:00+01:00" property="article:published_time">
+    <meta content="http://markdrew.io/about/" property="article:author">
+    
+    
+    <meta content="http://markdrew.io/assets/img/logo-high-resolution.png" property="og:image">
+    
+    
+    
+    <meta content="cfeclipse" property="article:section">
+    
+    
+    
+    
+    
+
+
+    <link rel="canonical" href="http://markdrew.io/cfeclipse-new-feature-under-development-part-2">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="application/atom+xml" rel="alternate" href="http://markdrew.io/feed.xml" title="Mark Drew on code" />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Mark Drew on code</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/subscribe/">Subscribe</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/header-home.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>CFEclipse new feature under development part 2</h1>
+                    
+                    <span class="meta">Posted by Mark Drew on code on May 17, 2006 
+                    
+                        <p>Tagged under 
+                        <span class="label label-default">cfeclipse<span></p>
+                    
+                    </span>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>I have just checked in some new functionality to CFEclipse, again this is not complete, but it works for some things. I mentioned I had added Component insight <a href="http://www.markdrew.co.uk/blog/index.cfm/2006/5/7/Coming-Soon-Getting-CFEclipse-to-do-Component-Insight">previously</a>, well, that has been removed now, but just for the moment since I am adding generic variable insight.<br /><br />The variable insight is a way of parsing variables that you set in your document and giving you completion for those variables. It is a work in progress and so far I have added  completion for:<br /><br /></p>
+<ul>
+    <li>CFQUERY (name and result): including showing column names if they are in a SELECT statement</li>
+    <li>CFDIRECTORY</li>
+    <li>CFFTP (name and result)</li>
+    <li>CFSEARCH</li>
+    <li>CFCOLLECTION</li>
+</ul>
+<p>I have also added completion for CFPARAM so if you do something like:<br /></p>
+<div class="code"><font color="MAROON">&lt;cfparam default=<font color="BLUE">&quot;&quot;</font> name=<font color="BLUE">&quot;FORM.this&quot;</font> /&gt;</font><br /><font color="MAROON">&lt;cfparam default=<font color="BLUE">&quot;&quot;</font> name=<font color="BLUE">&quot;FORM.that&quot;</font> /&gt;</font>&nbsp;<font color="MAROON"></font></div>
+<p><br />then you will get content assist when you type "FORM." and the same for any variable scope.<br /><br />This works by having a VariableParser run that makes a list of variables in your document when you hit the ".". I need to extend this parser to handle the contents of &lt;cfset&gt;  and &lt;cfscript&gt;, once that is done, I shall be looking for components so that you can get insight into those too.  <br /><br />UPDATE:<br />Here are some screenshots of it in action: <br /> 1) CFQuery "name" completion:<br /> <a href="/UserFiles/Image/CFEassist/Picture 1.png" target="_blank"><img border="0" alt="" src="/UserFiles/Image/CFEassist/Picture 1_thmb.png" /></a><br /> 2) CFQuery "result" completion:<br /> <a href="/UserFiles/Image/CFEassist/Picture 2.png" target="_blank"><img border="0" alt="" src="/UserFiles/Image/CFEassist/Picture 2_thmb.png" /></a> <br />3) FORM variables:<br /> <a href="/UserFiles/Image/CFEassist/Picture 3.png" target="_blank"><img border="0" alt="" src="/UserFiles/Image/CFEassist/Picture 3_thmb.png" /></a> <br />4) SESSION variables:<br /> <a href="/UserFiles/Image/CFEassist/Picture 4.png" target="_blank"><img border="0" alt="" src="/UserFiles/Image/CFEassist/Picture 4_thmb.png" /></a> <br />5)I also added a way to view  ALL variables if you type a space and ctrl + &lt;space&gt;:<br /> <a href="/UserFiles/Image/CFEassist/Picture 5.png" target="_blank"><img border="0" alt="" src="/UserFiles/Image/CFEassist/Picture 5_thmb.png" /></a></p>
+
+                <hr>
+               <a href="https://twitter.com/share" class="twitter-share-button" data-text="CFEclipse new feature under development part 2: " data-via="markdrew" data-hashtags="cfeclipse">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <hr>
+             <!-- Begin MailChimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="//charliemikedelta.us3.list-manage.com/subscribe/post?u=97af4d98b2b34ea232718d283&amp;id=3c12fb5c13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Subscribe to updates from the blog!</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97af4d98b2b34ea232718d283_3c12fb5c13" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+
+                <hr>
+                <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'markdrewblog'; // required: replace example with your forum shortname
+                var disqus_identifier = '8A9885D0-D7FD-CC2E-BD96A21D3E238478';
+                var disqus_title = 'CFEclipse new feature under development part 2';
+
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/new-macbooks" data-toggle="tooltip" data-placement="top" title="New MacBooks">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/lost-experience-update" data-toggle="tooltip" data-placement="top" title="Lost Experience Update">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+</article>
+
+<hr>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/cybersonic">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="mailto:mark.drew@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                  
+                    <li>
+                        <a rel="me" href="https://mastodon.social/@markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-mastodon fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Mark Drew 2022</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74704034-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script id="dsq-count-scr" src="//markdrewblog.disqus.com/count.js" async></script>
+<!-- <script id="dsq-count-scr" src="//cmdblog.disqus.com/count.js" async></script> -->
+</body>
+
+</html>

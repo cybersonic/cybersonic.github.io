@@ -1,0 +1,57 @@
+---
+layout: base.njk
+title: All Posts Archive
+description: Browse through all blog posts by year - over 600+ posts spanning multiple years
+---
+
+<div class="posts-archive" id="top">
+    <h1>Posts Archive</h1>
+    <p class="archive-summary">{{ collections.posts.length }} posts spanning {{ collections.postsByYear | keys | length }} years</p>
+    
+    {% set years = collections.postsByYear | keys %}
+    
+    <!-- Year Navigation -->
+    <div class="year-navigation">
+        <h3>Jump to Year:</h3>
+        <div class="year-links">
+            {%- for year in years -%}
+            <a href="#year-{{ year }}" class="year-link">{{ year }}</a>
+            {%- endfor -%}
+        </div>
+    </div>
+    
+    <!-- Posts by Year -->
+    <div class="archive-content">
+        {%- for year in years -%}
+        {% set yearPosts = collections.postsByYear[year] %}
+        <section class="year-section" id="year-{{ year }}">
+            <h2 class="year-heading">{{ year }} ({{ yearPosts.length }} posts)</h2>
+            
+            <div class="posts-grid">
+                {%- for post in yearPosts -%}
+                <article class="archive-post-item">
+                    <h4 class="archive-post-title">
+                        <a href="{{ post.url }}">{{ post.data.title }}</a>
+                    </h4>
+                    {% if post.data.subtitle %}
+                    <p class="archive-post-subtitle">{{ post.data.subtitle }}</p>
+                    {% endif %}
+                    <div class="archive-post-meta">
+                        {{ post.date | dateDisplay }}
+                        {% if post.data.categories %}
+                        <span class="categories">in {{ post.data.categories }}</span>
+                        {% endif %}
+                    </div>
+                </article>
+                {%- endfor -%}
+            </div>
+        </section>
+        {%- endfor -%}
+    </div>
+    
+    <!-- Back to top -->
+    <div class="back-to-top">
+        <a href="#top">↑ Back to Top</a>
+    </div>
+</div>
+
