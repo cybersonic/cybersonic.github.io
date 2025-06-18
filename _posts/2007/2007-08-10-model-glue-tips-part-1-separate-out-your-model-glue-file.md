@@ -2,7 +2,7 @@
 layout: post
 title:  "Model Glue Tips Part 1: Separate out your Model-Glue file"
 uid:	"8A9ACC88-B9D5-8E9E-4B2155FD4B794A6B"
-date:   2007-08-10 11:08 AM +0000
+
 categories: model-glue
 permalink: model-glue-tips-part-1-separate-out-your-model-glue-file
 ---

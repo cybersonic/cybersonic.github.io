@@ -2,7 +2,7 @@
 layout: post
 title:  "SENSER! Thanks Charlie!"
 uid:	"8A9960E9-F72E-00B0-9A367BA3AFB03C3E"
-date:   2006-12-22 11:06 AM +0000
+
 categories: cfeclipse
 permalink: senser-thanks-charlie
 ---

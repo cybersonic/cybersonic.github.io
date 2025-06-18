@@ -2,7 +2,7 @@
 layout: post
 title:  "Scotch on the Rocks: Ticket prices announced"
 uid:	"8A9AE290-F535-7A61-C87FE2005CB4AD6A"
-date:   2007-11-02 11:08 AM +0000
+
 categories: scotch-on-the-rocks,coldfusion,cfconferences
 permalink: scotch-on-the-rocks-ticket-prices-announced
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "CF Frameworks"
 uid:	"8A97ABC0-E116-B769-1681490F88172D6B"
-date:   2006-02-01 11:05 AM +0000
+
 categories: cfeclipse,coldfusion,fusebox,webdev,blogging
 permalink: cf-frameworks
 ---

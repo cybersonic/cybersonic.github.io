@@ -2,7 +2,7 @@
 layout: post
 title:  "Follow me at Adobe MAX"
 uid:	"8A9ADEB8-AE35-7EBA-EF781CCBECCAAB4C"
-date:   2007-10-15 11:08 AM +0000
+
 categories: max
 permalink: follow-me-at-adobe-max
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Friday's joke"
 uid:	"8A97AA2A-D136-8285-8D76F882AC482CBD"
-date:   2006-01-13 11:05 AM +0000
+
 categories: personal
 permalink: friday-s-joke
 ---

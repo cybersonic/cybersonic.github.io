@@ -2,7 +2,7 @@
 layout: post
 title:  "Fed-Ex scamming?"
 uid:	"8A99A3EC-FBFE-3A9C-CE4E418C42CDC4F9"
-date:   2007-01-22 11:07 AM +0000
+
 categories: personal
 permalink: fed-ex-scamming
 ---

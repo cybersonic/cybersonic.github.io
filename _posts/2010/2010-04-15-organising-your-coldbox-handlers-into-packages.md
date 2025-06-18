@@ -2,7 +2,7 @@
 layout: post
 title:  "Organising your ColdBox Handlers into Packages"
 uid:	"40081980-702E-47AC-8C57F72AB9691886"
-date:   2010-04-15 11:16 AM +0000
+
 categories: 
 permalink: organising-your-coldbox-handlers-into-packages
 ---

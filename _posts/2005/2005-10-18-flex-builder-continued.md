@@ -2,7 +2,7 @@
 layout: post
 title:  "Flex Builder Continued...."
 uid:	"8A979CFB-F796-6890-84841441CDA13513"
-date:   2005-10-18 11:05 AM +0000
+
 categories: flex
 permalink: flex-builder-continued
 ---

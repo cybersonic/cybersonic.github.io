@@ -2,7 +2,7 @@
 layout: post
 title:  "Happy Christmas"
 uid:	"8A97A845-D06F-57D2-06DAE588CEF53ADD"
-date:   2005-12-23 11:05 AM +0000
+
 categories: personal
 permalink: happy-christmas
 ---

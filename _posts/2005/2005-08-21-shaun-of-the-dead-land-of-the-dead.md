@@ -2,7 +2,7 @@
 layout: post
 title:  "Shaun of the Dead/Land of the Dead"
 uid:	"8A97970F-921E-1C15-4F5DE19EEC9BE9B6"
-date:   2005-08-21 11:05 AM +0000
+
 categories: personal
 permalink: shaun-of-the-dead-land-of-the-dead
 ---

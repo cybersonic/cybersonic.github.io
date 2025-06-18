@@ -2,7 +2,7 @@
 layout: post
 title:  "Dont Attack my MacBook Pro"
 uid:	"8A98FD8E-A858-EBE6-92375FBE9676AF16"
-date:   2006-11-15 11:06 AM +0000
+
 categories: personal,apple
 permalink: dont-attack-my-macbook-pro
 ---

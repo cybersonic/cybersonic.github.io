@@ -2,7 +2,7 @@
 layout: post
 title:  "UKCFUG Presentation: Model Glue and Reactor"
 uid:	"8A987546-00CD-093C-E16F4790F4E36AD0"
-date:   2006-04-04 11:05 AM +0000
+
 categories: model-glue,personal,coldfusion,webdev,reactor
 permalink: ukcfug-presentation-model-glue-and-reactor
 ---

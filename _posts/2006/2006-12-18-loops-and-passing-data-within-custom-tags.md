@@ -2,7 +2,7 @@
 layout: post
 title:  "Loops and passing data within custom tags"
 uid:	"8A995C17-D3BB-4B72-F65A953E7BA771F4"
-date:   2006-12-18 11:06 AM +0000
+
 categories: coldfusion
 permalink: loops-and-passing-data-within-custom-tags
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "iPod Video and new iMac"
 uid:	"8A979C7E-DDA4-FF83-A604EAB4777D22F9"
-date:   2005-10-12 11:05 AM +0000
+
 categories: apple
 permalink: ipod-video-and-new-imac
 ---

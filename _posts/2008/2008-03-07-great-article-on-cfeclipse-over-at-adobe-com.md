@@ -2,7 +2,7 @@
 layout: post
 title:  "Great article on CFEclipse over at Adobe.com"
 uid:	"8A9B1E5F-D049-27BD-5F828893ACB2F94D"
-date:   2008-03-07 11:08 AM +0000
+
 categories: cfeclipse
 permalink: great-article-on-cfeclipse-over-at-adobe-com
 ---

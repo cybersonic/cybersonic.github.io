@@ -2,7 +2,7 @@
 layout: post
 title:  " Quick Tip on Railo Email Send Queues"
 uid:	"13163767-0D48-447A-AFBA9097188B4F53"
-date:   2010-07-22 09:54 AM +0000
+
 categories: railo,getrailo
 permalink: quick-tip-on-railo-email-send-queues
 ---

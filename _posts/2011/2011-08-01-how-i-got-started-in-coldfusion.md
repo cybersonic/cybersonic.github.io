@@ -2,7 +2,7 @@
 layout: post
 title:  "How I got started in ColdFusion"
 uid:	"5C21C4FA-5919-4203-83A324D9A9E926F8"
-date:   2011-08-01 08:23 AM +0000
+
 categories: coldfusion
 permalink: how-i-got-started-in-coldfusion
 ---

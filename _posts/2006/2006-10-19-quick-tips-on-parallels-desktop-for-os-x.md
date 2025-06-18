@@ -2,7 +2,7 @@
 layout: post
 title:  "Quick tips on Parallels Desktop for OS X"
 uid:	"8A98EE2C-0E73-664E-956074A66BFFFA67"
-date:   2006-10-19 11:06 AM +0000
+
 categories: apple
 permalink: quick-tips-on-parallels-desktop-for-os-x
 ---

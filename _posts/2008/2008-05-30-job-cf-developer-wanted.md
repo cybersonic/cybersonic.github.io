@@ -2,7 +2,7 @@
 layout: post
 title:  "Job: CF Developer wanted"
 uid:	"8A9BFDCE-0B78-1F21-FE8C908C9463944E"
-date:   2008-05-30 11:09 AM +0000
+
 categories: coldfusion,jobs
 permalink: job-cf-developer-wanted
 ---

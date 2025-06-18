@@ -2,7 +2,7 @@
 layout: post
 title:  "What would you pay for? Should CFEclipse still be free?"
 uid:	"8A9A7551-00AF-08F2-4287E22C7B139C7E"
-date:   2007-04-13 11:08 AM +0000
+
 categories: cfeclipse,coldfusion,eclipse,donations
 permalink: what-would-you-pay-for-should-cfeclipse-still-be-free
 ---

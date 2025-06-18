@@ -2,7 +2,7 @@
 layout: post
 title:  "Watchmen: The Movie?!"
 uid:	"8A9A6B6E-00C5-DE00-92A4954E510A2E4C"
-date:   2007-03-21 11:08 AM +0000
+
 categories: eclipse
 permalink: watchmen-the-movie
 ---

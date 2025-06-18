@@ -2,7 +2,7 @@
 layout: post
 title:  "Giving thanks on ThanksGiving, and Zombies."
 uid:	"8A9955ED-C50F-71CE-C9DC788BB6544F14"
-date:   2006-11-23 11:06 AM +0000
+
 categories: cfeclipse
 permalink: giving-thanks-on-thanksgiving-and-zombies
 ---

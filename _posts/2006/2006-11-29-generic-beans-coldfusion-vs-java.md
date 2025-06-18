@@ -2,7 +2,7 @@
 layout: post
 title:  "Generic Beans: Coldfusion VS Java"
 uid:	"8A9958FA-FF09-326D-60DF7699BA63260F"
-date:   2006-11-29 11:06 AM +0000
+
 categories: coldfusion
 permalink: generic-beans-coldfusion-vs-java
 ---

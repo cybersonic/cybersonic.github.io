@@ -2,7 +2,7 @@
 layout: post
 title:  "Macromedia Back CFEclipse: The cat is out of the bag"
 uid:	"8A979395-033A-56B1-A824F689BA25E746"
-date:   2005-06-29 11:05 AM +0000
+
 categories: cfeclipse
 permalink: macromedia-back-cfeclipse-the-cat-is-out-of-the-bag
 ---

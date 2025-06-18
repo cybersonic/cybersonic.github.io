@@ -2,7 +2,7 @@
 layout: post
 title:  "Strange but true..."
 uid:	"8A98D352-AC97-6E75-A8908190843EA062"
-date:   2006-07-19 11:06 AM +0000
+
 categories: ask-md,blogging
 permalink: strange-but-true
 ---

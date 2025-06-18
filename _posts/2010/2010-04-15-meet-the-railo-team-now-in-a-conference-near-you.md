@@ -2,7 +2,7 @@
 layout: post
 title:  "Meet the Railo Team: Now in a conference near you!"
 uid:	"5CA6DF4B-D160-42CD-ACFA0808C0B85F2E"
-date:   2010-04-15 07:21 AM +0000
+
 categories: railo,cfobjective,scotch-on-the-rocks,cfunited,getrailo
 permalink: meet-the-railo-team-now-in-a-conference-near-you
 ---

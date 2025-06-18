@@ -2,7 +2,7 @@
 layout: post
 title:  "An A.C.E. up my sleeve?"
 uid:	"8A9C26A2-D29F-C718-022FA5E8C7B4CF44"
-date:   2008-09-08 11:10 AM +0000
+
 categories: cfeclipse,coldfusion,adobe
 permalink: an-a-c-e-up-my-sleeve
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Going to Scotch on the Rocks? Get a Discount on ColdBox training! "
 uid:	"85FBB774-8F7A-4AD7-9EFEB14789D0A1E6"
-date:   2010-04-20 05:30 AM +0000
+
 categories: scotch-on-the-rocks
 permalink: going-to-scotch-on-the-rocks-get-a-discount-on-coldbox-training
 ---

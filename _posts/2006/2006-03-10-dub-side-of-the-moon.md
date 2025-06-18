@@ -2,7 +2,7 @@
 layout: post
 title:  "Dub Side of the Moon"
 uid:	"8A97B6CC-C96D-5ECF-24C3DBAFB65A97C8"
-date:   2006-03-10 11:05 AM +0000
+
 categories: personal
 permalink: dub-side-of-the-moon
 ---

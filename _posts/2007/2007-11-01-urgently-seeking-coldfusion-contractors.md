@@ -2,7 +2,7 @@
 layout: post
 title:  "Urgently Seeking ColdFusion Contractors"
 uid:	"8A9AE213-F763-C9F4-8E692F7B1163DBB7"
-date:   2007-11-01 11:08 AM +0000
+
 categories: model-glue,coldfusion,coldspring,jobs
 permalink: urgently-seeking-coldfusion-contractors
 ---

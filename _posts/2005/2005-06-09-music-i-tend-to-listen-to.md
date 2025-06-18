@@ -2,7 +2,7 @@
 layout: post
 title:  "Music I tend to listen to"
 uid:	"8A97922E-C9BB-26A5-268DDFF54E39021D"
-date:   2005-06-09 11:05 AM +0000
+
 categories: personal
 permalink: music-i-tend-to-listen-to
 ---

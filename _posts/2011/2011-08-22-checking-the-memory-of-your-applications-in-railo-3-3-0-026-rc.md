@@ -2,7 +2,7 @@
 layout: post
 title:  "Checking the memory of your applications in Railo 3.3.0.026 rc"
 uid:	"C48ABCCB-2392-42CD-8BEA0D59DB5F850D"
-date:   2011-08-22 05:48 PM +0000
+
 categories: railo,getrailo
 permalink: checking-the-memory-of-your-applications-in-railo-3-3-0-026-rc
 ---

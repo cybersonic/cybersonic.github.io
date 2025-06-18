@@ -2,7 +2,7 @@
 layout: post
 title:  "The UKCFUG is Back!"
 uid:	"51CE40A6-06A6-9C91-482744B762E45F5B"
-date:   2008-10-31 12:17 PM +0000
+
 categories: coldfusion,max,ukcfug,podcasting
 permalink: the-ukcfug-is-back
 ---

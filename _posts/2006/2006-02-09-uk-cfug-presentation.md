@@ -2,7 +2,7 @@
 layout: post
 title:  "UK CFUG Presentation!"
 uid:	"8A97ADD3-B27F-E8E3-2E8C798CFF8D6AB3"
-date:   2006-02-09 11:05 AM +0000
+
 categories: cfeclipse,personal,coldfusion,fusebox
 permalink: uk-cfug-presentation
 ---

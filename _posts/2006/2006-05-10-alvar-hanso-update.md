@@ -2,7 +2,7 @@
 layout: post
 title:  "Alvar Hanso, update!"
 uid:	"8A988265-F423-C7A3-D09DB0B3B3A9A6F1"
-date:   2006-05-10 10:43 AM +0000
+
 categories: lost
 permalink: alvar-hanso-update
 ---

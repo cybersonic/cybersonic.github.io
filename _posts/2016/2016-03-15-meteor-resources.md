@@ -1,10 +1,9 @@
 ---
 title: Meteor Resources
 layout: post
-categories: meteor
+categories: meteor,mongodb,node
 header-img: img/javacript_cambridge.jpg
 permalink: meteor-resources
-categories: mongodb,node
 ---
 
 At the end of my presentations on [Meteor](http://www.meteor.com) I have a slide with a bunch of resources, but I have come to realise that they are 

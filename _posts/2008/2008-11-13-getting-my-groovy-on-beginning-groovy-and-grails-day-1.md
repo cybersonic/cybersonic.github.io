@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting my Groovy on. Beginning Groovy and Grails: Day 1"
 uid:	"94E0D965-EBA1-548B-762E7338268456D3"
-date:   2008-11-13 03:04 AM +0000
+
 categories: frameworks
 permalink: getting-my-groovy-on-beginning-groovy-and-grails-day-1
 ---

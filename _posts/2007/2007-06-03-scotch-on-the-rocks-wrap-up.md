@@ -2,7 +2,7 @@
 layout: post
 title:  "Scotch on the Rocks Wrap up"
 uid:	"8A9A7CD3-A231-2658-DA71E883D4E2E692"
-date:   2007-06-03 11:08 AM +0000
+
 categories: scotch-on-the-rocks,cfeclipse,coldfusion,coldspring,cfconferences
 permalink: scotch-on-the-rocks-wrap-up
 ---

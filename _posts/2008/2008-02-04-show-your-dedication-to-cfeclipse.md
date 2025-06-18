@@ -2,7 +2,7 @@
 layout: post
 title:  "Show your dedication to CFEclipse"
 uid:	"8A9B1D27-0050-466B-CCC9E3FC1353D702"
-date:   2008-02-04 11:08 AM +0000
+
 categories: cfeclipse,personal,coldfusion
 permalink: show-your-dedication-to-cfeclipse
 ---

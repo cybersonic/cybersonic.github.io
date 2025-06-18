@@ -2,7 +2,7 @@
 layout: post
 title:  "CouchDB Cache Extension (Beta) for Railo "
 uid:	"FC538DF1-0956-465C-B8BE8E8A87A4D6D0"
-date:   2010-09-30 05:08 AM +0000
+
 categories: railo,couchdb,getrailo
 permalink: couchdb-cache-extension-beta-for-railo
 ---

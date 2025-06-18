@@ -2,7 +2,7 @@
 layout: post
 title:  "New UK Apple Ads!"
 uid:	"8A99AA74-C5E8-9BB9-718E38F9EECFC01D"
-date:   2007-01-29 11:07 AM +0000
+
 categories: apple
 permalink: new-uk-apple-ads
 ---

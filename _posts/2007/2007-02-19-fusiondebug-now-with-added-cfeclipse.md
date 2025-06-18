@@ -2,7 +2,7 @@
 layout: post
 title:  "FusionDebug: now with added CFEclipse!"
 uid:	"8A99D55B-F5B9-226F-1FA4E02E43446037"
-date:   2007-02-19 11:07 AM +0000
+
 categories: fusiondebug,cfeclipse,coldfusion
 permalink: fusiondebug-now-with-added-cfeclipse
 ---

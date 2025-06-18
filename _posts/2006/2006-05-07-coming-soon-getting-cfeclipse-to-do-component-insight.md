@@ -2,7 +2,7 @@
 layout: post
 title:  "Coming Soon: Getting CFEclipse to do Component Insight"
 uid:	"8A98818A-06DB-AF80-1CC267BE9BF75323"
-date:   2006-05-07 11:06 AM +0000
+
 categories: cfeclipse
 permalink: coming-soon-getting-cfeclipse-to-do-component-insight
 ---

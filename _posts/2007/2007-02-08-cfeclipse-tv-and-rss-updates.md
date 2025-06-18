@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse TV and RSS Updates"
 uid:	"8A99B205-A18D-D072-75681008FBAEBF5A"
-date:   2007-02-08 11:07 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: cfeclipse-tv-and-rss-updates
 ---

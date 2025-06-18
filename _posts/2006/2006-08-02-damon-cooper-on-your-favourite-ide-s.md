@@ -2,7 +2,7 @@
 layout: post
 title:  "Damon Cooper on your favourite IDE's"
 uid:	"8A98D8B1-B358-9DB9-CB49ED286BE24E7F"
-date:   2006-08-02 11:06 AM +0000
+
 categories: cfeclipse
 permalink: damon-cooper-on-your-favourite-ide-s
 ---

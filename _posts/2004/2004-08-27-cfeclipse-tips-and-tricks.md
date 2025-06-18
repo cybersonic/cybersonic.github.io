@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse tips and tricks"
 uid:	"8A978434-DC71-A29A-7B773A6D613F9FC6"
-date:   2004-08-27 11:04 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-tips-and-tricks
 ---

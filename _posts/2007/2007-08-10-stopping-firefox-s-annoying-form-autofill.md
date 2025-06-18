@@ -2,7 +2,7 @@
 layout: post
 title:  "Stopping Firefox's annoying form autofill"
 uid:	"8A9AB111-9858-487C-55FCE1FED0CBC222"
-date:   2007-08-10 11:08 AM +0000
+
 categories: webdev
 permalink: stopping-firefox-s-annoying-form-autofill
 ---

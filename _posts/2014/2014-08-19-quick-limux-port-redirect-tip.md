@@ -2,7 +2,7 @@
 layout: post
 title:  "Quick Linux Port Redirect Tip"
 uid:	"527EDAC7-46F3-498B-822D95973A7DF0F2"
-date:   2014-08-19 11:04 AM +0000
+
 categories: linux,railo,tomcat
 permalink: quick-limux-port-redirect-tip
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "OT: Book recomendation: World War Z"
 uid:	"8A98FACF-A9FD-A984-B8CA7387CE15521E"
-date:   2006-11-14 11:06 AM +0000
+
 categories: personal
 permalink: ot-book-recomendation-world-war-z
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Presentation: FreshAir @ Scotch on the Rocks 2008"
 uid:	"8A9C0187-0B25-BB45-819872457EC45C11"
-date:   2008-06-08 11:09 AM +0000
+
 categories: scotch-on-the-rocks,presentations,air
 permalink: presentation-freshair-scotch-on-the-rocks-2008
 ---

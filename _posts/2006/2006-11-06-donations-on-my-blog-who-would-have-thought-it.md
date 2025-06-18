@@ -2,7 +2,7 @@
 layout: post
 title:  "Donations? On my blog? Who would have thought it!"
 uid:	"8A98F408-D8F4-4F2B-DED23E1A43B4620A"
-date:   2006-11-06 11:06 AM +0000
+
 categories: personal
 permalink: donations-on-my-blog-who-would-have-thought-it
 ---

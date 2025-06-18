@@ -6,7 +6,7 @@ categories: lucee docker password
 header-img: img/img_0102.jpeg
 subtitle: Lucee is locked by default. Let's add a password so we can get into the
   admin!
-permalink: password-for-lucee-docker
+permalink: password-for-lucee-docker.html
 
 ---
 In the [previous post](https://markdrew.io/slimmer-lucee-docker-images) I created a super slim image for Lucee in Docker. This image has a "lucee light" version which doesn't have the admin. Let's say we need the admin, so we are going to go back and build a "tubby" version of lucee.

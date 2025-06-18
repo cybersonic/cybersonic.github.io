@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse and Tasks"
 uid:	"8A98E63D-080E-BA3A-295FEC685E10BF0C"
-date:   2006-08-12 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-and-tasks
 ---

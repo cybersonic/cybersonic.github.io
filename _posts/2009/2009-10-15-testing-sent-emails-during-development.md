@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing sent emails during development"
 uid:	"B7FA4ECB-F659-4493-ABE6922AA76A82C9"
-date:   2009-10-15 04:44 PM +0000
+
 categories: 
 permalink: testing-sent-emails-during-development
 ---

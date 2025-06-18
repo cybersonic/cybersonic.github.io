@@ -2,7 +2,7 @@
 layout: post
 title:  "CF_DRINKS welcome=\"all\""
 uid:	"8A9968A9-BE0D-4B3D-9CF406F979AC22FE"
-date:   2007-01-09 11:07 AM +0000
+
 categories: coldfusion,ukcfug
 permalink: cf-drinks-welcome-all
 ---

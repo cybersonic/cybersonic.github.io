@@ -2,7 +2,7 @@
 layout: post
 title:  "Model-Glue Updated!"
 uid:	"8A988562-E04B-295E-AA099D5858114D4A"
-date:   2006-05-16 11:06 AM +0000
+
 categories: model-glue,coldfusion
 permalink: model-glue-updated
 ---

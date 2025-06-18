@@ -2,7 +2,7 @@
 layout: post
 title:  "New Tattoo"
 uid:	"8A9BFA82-A4F3-F30C-2ED234D05CEA7FF8"
-date:   2008-04-29 11:09 AM +0000
+
 categories: personal
 permalink: new-tattoo
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Problems with the RDS plugin and myEclipse"
 uid:	"8A987229-C689-925C-45E984194F006703"
-date:   2006-03-21 11:05 AM +0000
+
 categories: cfeclipse,coldfusion,flex,adobe
 permalink: problems-with-the-rds-plugin-and-myeclipse
 ---

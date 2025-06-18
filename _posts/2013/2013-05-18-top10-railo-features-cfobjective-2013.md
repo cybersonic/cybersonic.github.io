@@ -2,7 +2,7 @@
 layout: post
 title:  "cf.Objective() 2013: Top 10 Railo Features Presentation"
 uid:	"3209D1C6-33ED-4D4B-862239523D789251"
-date:   2013-05-18 09:18 AM +0000
+
 categories: railo,cfobjective
 permalink: top10-railo-features-cfobjective-2013
 ---

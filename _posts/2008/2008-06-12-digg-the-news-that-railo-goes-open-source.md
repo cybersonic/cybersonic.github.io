@@ -2,7 +2,7 @@
 layout: post
 title:  "Digg the news that Railo goes Open Source!"
 uid:	"8A9C0281-AFA3-9730-D474C9F278FD89AB"
-date:   2008-06-12 11:09 AM +0000
+
 categories: railo,coldfusion
 permalink: digg-the-news-that-railo-goes-open-source
 ---

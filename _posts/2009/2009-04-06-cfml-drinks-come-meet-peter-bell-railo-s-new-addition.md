@@ -2,7 +2,7 @@
 layout: post
 title:  " CFML_DRINKS: Come meet Peter Bell, Railo's new addition"
 uid:	"E97CA86B-EA2E-467A-920F468AB6E525DA"
-date:   2009-04-06 03:27 PM +0000
+
 categories: 
 permalink: cfml-drinks-come-meet-peter-bell-railo-s-new-addition
 ---

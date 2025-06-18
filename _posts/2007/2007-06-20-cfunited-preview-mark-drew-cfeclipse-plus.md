@@ -2,7 +2,7 @@
 layout: post
 title:  "CFUnited Preview: Mark Drew, \"CFEclipse Plus!\""
 uid:	"8A9AA4EC-A6EF-574D-66E548B369F9975A"
-date:   2007-06-20 11:08 AM +0000
+
 categories: cfunited,cfeclipse,coldfusion,presentations,cfconferences
 permalink: cfunited-preview-mark-drew-cfeclipse-plus
 ---

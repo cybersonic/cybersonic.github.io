@@ -2,7 +2,7 @@
 layout: post
 title:  "IPOD gets 60Gb enlargement"
 uid:	"8A97739A-AF85-8B10-D915616A0A31442E"
-date:   2004-06-03 11:04 AM +0000
+
 categories: 
 permalink: ipod-gets-60gb-enlargement
 ---

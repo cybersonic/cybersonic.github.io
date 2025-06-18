@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse Podcasts"
 uid:	"8A98E766-FA8B-401C-6D9ACBF226C76A8E"
-date:   2006-08-12 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-podcasts
 ---

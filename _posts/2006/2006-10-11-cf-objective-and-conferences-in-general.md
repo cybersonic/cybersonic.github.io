@@ -2,7 +2,7 @@
 layout: post
 title:  "cf.Objective and Conferences in general"
 uid:	"8A98EB2F-C0E6-CE3F-B31D8A1B9C52C862"
-date:   2006-10-11 11:06 AM +0000
+
 categories: cfunited,cfeclipse,coldfusion,ukcfug
 permalink: cf-objective-and-conferences-in-general
 ---

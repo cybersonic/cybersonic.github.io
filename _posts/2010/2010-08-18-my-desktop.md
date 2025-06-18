@@ -2,7 +2,7 @@
 layout: post
 title:  "My Desktop"
 uid:	"C74721FE-E79C-4ED7-9F2E38439D9A13BE"
-date:   2010-08-18 04:49 AM +0000
+
 categories: 
 permalink: my-desktop
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Mach-ii for newbies - part1 Getting started)"
 uid:	"8A978F4F-EC14-8B04-D63FDE686A1625A0"
-date:   2005-01-21 11:05 AM +0000
+
 categories: coldfusion
 permalink: mach-ii-for-newbies-part1-getting-started
 ---

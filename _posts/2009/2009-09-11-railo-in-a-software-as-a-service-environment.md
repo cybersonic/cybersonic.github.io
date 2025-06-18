@@ -2,7 +2,7 @@
 layout: post
 title:  "Railo in  a Software as a Service environment"
 uid:	"48DFAD1C-3162-4594-9A3F5871B767C17A"
-date:   2009-09-11 04:54 AM +0000
+
 categories: railo,webdev,getrailo
 permalink: railo-in-a-software-as-a-service-environment
 ---

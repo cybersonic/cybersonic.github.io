@@ -2,7 +2,7 @@
 layout: post
 title:  "Ray's Friday Puzzler entry: RegExSp(r)y"
 uid:	"8A99004D-05EF-5460-DF5054895C875C2E"
-date:   2006-11-22 11:06 AM +0000
+
 categories: coldfusion
 permalink: ray-s-friday-puzzler-entry-regexsp-r-y
 ---

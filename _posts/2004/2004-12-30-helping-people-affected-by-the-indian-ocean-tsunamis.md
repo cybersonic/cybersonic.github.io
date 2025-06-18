@@ -2,7 +2,7 @@
 layout: post
 title:  "Helping people affected by the Indian Ocean Tsunamis"
 uid:	"8A978D0D-E3BF-BEA3-61FCA4E7657FFC4B"
-date:   2004-12-30 11:04 AM +0000
+
 categories: personal
 permalink: helping-people-affected-by-the-indian-ocean-tsunamis
 ---

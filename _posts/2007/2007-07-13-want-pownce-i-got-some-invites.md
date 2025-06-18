@@ -2,7 +2,7 @@
 layout: post
 title:  "Want Pownce? I got some invites..."
 uid:	"8A9AAC10-AE04-CFAB-B0D9048F69620B54"
-date:   2007-07-13 11:08 AM +0000
+
 categories: cfeclipse,coldfusion,webdev
 permalink: want-pownce-i-got-some-invites
 ---

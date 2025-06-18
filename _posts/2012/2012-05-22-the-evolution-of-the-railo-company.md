@@ -2,7 +2,7 @@
 layout: post
 title:  "The Evolution of the Railo Company"
 uid:	"86A0624E-3952-4640-915BABD24ACE84C0"
-date:   2012-05-22 06:59 AM +0000
+
 categories: railo
 permalink: the-evolution-of-the-railo-company
 ---

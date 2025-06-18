@@ -2,7 +2,7 @@
 layout: post
 title:  "Spammers are even stupider than I imagined!"
 uid:	"8A98D824-D140-AD4D-F873BC2D73447393"
-date:   2006-07-31 11:06 AM +0000
+
 categories: spam
 permalink: spammers-are-even-stupider-than-i-imagined
 ---

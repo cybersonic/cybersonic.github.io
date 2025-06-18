@@ -2,7 +2,7 @@
 layout: post
 title:  "Are BlogCFC users getting spammed?"
 uid:	"8A9ADC28-C147-11D3-0D7FBE6ECED2702F"
-date:   2007-09-17 11:08 AM +0000
+
 categories: spam
 permalink: are-blogcfc-users-getting-spammed
 ---

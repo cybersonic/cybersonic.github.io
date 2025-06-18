@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse customising the New File behaviour"
 uid:	"8A98E4E6-FF45-0698-670909C0D765FF1C"
-date:   2006-08-11 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-customising-the-new-file-behaviour
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "CFCUnit Assertions"
 uid:	"8A98D5D3-EA6D-7B04-0BAC616164F5900A"
-date:   2006-07-26 11:06 AM +0000
+
 categories: coldfusion
 permalink: cfcunit-assertions
 ---

@@ -1,0 +1,16 @@
+{
+  "title": "Mark Drew on Code",
+  "description": "A compendium of CFML and web technology topics",
+  "url": "http://markdrew.io",
+  "author": {
+    "name": "Mark Drew",
+    "email": "mark.drew@gmail.com",
+    "twitter": "markdrew",
+    "github": "cybersonic",
+    "instagram": "markdrew",
+    "bluesky": "markdrew.bsky.social",
+    "tiktok": "markdrew_on_tok"
+  },
+  "theme": "retro"
+}
+

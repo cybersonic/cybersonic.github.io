@@ -2,7 +2,7 @@
 layout: post
 title:  "Send me your CFEclipse Testimonials!"
 uid:	"8A98F1C6-9EB0-C190-2C28428A0575FC1B"
-date:   2006-11-01 11:06 AM +0000
+
 categories: cfeclipse
 permalink: send-me-your-cfeclipse-testimonials
 ---

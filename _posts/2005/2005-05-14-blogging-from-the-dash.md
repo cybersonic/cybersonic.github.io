@@ -2,7 +2,7 @@
 layout: post
 title:  "Blogging from the Dash"
 uid:	"8A979134-FC78-ED85-D3BEB15BB1B396C8"
-date:   2005-05-14 11:05 AM +0000
+
 categories: apple,webdev
 permalink: blogging-from-the-dash
 ---

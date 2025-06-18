@@ -2,7 +2,7 @@
 layout: post
 title:  "Missed CFEclipse at MAX?"
 uid:	"8A9ADFA2-C200-04D1-F24DA0879D343380"
-date:   2007-10-20 11:08 AM +0000
+
 categories: coldfusion,eclipse,max,presentations,adobe,cfconferences
 permalink: missed-cfeclipse-at-max
 ---

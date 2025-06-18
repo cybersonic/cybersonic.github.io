@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse: enhancements Part 1"
 uid:	"8A98DB41-ED45-9110-5EB02B808C13CEDC"
-date:   2006-08-02 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-enhancements-part-1
 ---

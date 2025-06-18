@@ -2,7 +2,7 @@
 layout: post
 title:  "Patterns Everywhere"
 uid:	"8A97A1BE-9A61-6366-527D51FF69709834"
-date:   2005-11-27 11:05 AM +0000
+
 categories: webdev,ajax
 permalink: patterns-everywhere
 ---

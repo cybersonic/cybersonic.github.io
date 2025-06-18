@@ -2,7 +2,7 @@
 layout: post
 title:  "MAX in Las Vegas!"
 uid:	"8A98CEFD-A9CC-098D-B12CEDC34D431648"
-date:   2006-07-12 11:06 AM +0000
+
 categories: max
 permalink: max-in-las-vegas
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Jobs @ CFEclipse: FAQ"
 uid:	"8A995793-E43C-D586-BF45EED8B14EE078"
-date:   2006-11-24 11:06 AM +0000
+
 categories: cfeclipse
 permalink: jobs-cfeclipse-faq
 ---

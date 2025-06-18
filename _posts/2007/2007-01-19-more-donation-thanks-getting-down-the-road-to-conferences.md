@@ -2,7 +2,7 @@
 layout: post
 title:  "More Donation thanks! Getting down the road to conferences!"
 uid:	"8A99A275-E5C1-6473-0D6770D96AC2FF4D"
-date:   2007-01-19 11:07 AM +0000
+
 categories: cfunited,cfeclipse
 permalink: more-donation-thanks-getting-down-the-road-to-conferences
 ---

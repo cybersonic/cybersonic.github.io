@@ -2,7 +2,7 @@
 layout: post
 title:  "iTunes Podcast -  Damn they are quick!"
 uid:	"8A987E7D-FA71-2B8E-AE4B6D0688FCC91F"
-date:   2006-05-02 11:06 AM +0000
+
 categories: personal,podcasting
 permalink: itunes-podcast-damn-they-are-quick
 ---

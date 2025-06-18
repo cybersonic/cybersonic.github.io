@@ -2,7 +2,7 @@
 layout: post
 title:  "cf_drinks location=\"London\" date=\"Tuesday 3rd April 2007\""
 uid:	"8A9A7041-F0D2-7200-D3471F028E3A9EE2"
-date:   2007-03-29 11:08 AM +0000
+
 categories: scotch-on-the-rocks,coldfusion,ukcfug
 permalink: cf-drinks-location-london-date-tuesday-3rd-april-2007
 ---

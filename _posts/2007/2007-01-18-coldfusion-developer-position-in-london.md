@@ -2,7 +2,7 @@
 layout: post
 title:  "Coldfusion Developer position in London"
 uid:	"8A99A0DF-DF7A-EDF8-3FB1D1AE5B367497"
-date:   2007-01-18 11:07 AM +0000
+
 categories: coldfusion
 permalink: coldfusion-developer-position-in-london
 ---

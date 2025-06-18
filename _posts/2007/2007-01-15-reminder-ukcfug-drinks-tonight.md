@@ -2,7 +2,7 @@
 layout: post
 title:  "Reminder: UKCFUG drinks tonight!"
 uid:	"8A997164-F652-579E-CF0A08F1A96E0FD3"
-date:   2007-01-15 11:07 AM +0000
+
 categories: 
 permalink: reminder-ukcfug-drinks-tonight
 ---

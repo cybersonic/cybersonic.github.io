@@ -2,7 +2,7 @@
 layout: post
 title:  "Firefox More Popular that IE"
 uid:	"8A978C13-CC0C-A451-9448C8A1297296C9"
-date:   2004-12-24 11:04 AM +0000
+
 categories: personal,webdev
 permalink: firefox-more-popular-that-ie
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "From the \"Crazy Auctions on eBay\" Dept."
 uid:	"8A97A651-C6A8-5A2E-C9C78B257E3A274C"
-date:   2005-12-07 11:05 AM +0000
+
 categories: personal
 permalink: from-the-crazy-auctions-on-ebay-dept
 ---

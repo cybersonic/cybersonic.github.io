@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse 1.3.1.5, now for Eclipse 3.3"
 uid:	"8A9AA876-C3C0-8851-07447D57B3A02A74"
-date:   2007-07-04 11:08 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: cfeclipse-1-3-1-5-now-for-eclipse-3-3
 ---

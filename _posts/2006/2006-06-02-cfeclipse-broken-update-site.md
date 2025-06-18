@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse: Broken update site"
 uid:	"8A98A9A3-9F27-112B-F7E339DD88661127"
-date:   2006-06-02 11:06 AM +0000
+
 categories: cfeclipse,ask-md
 permalink: cfeclipse-broken-update-site
 ---

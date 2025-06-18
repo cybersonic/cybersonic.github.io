@@ -2,7 +2,7 @@
 layout: post
 title:  "Fun with mappings and resources: Part 2 RAM Resources"
 uid:	"706CF149-BBF4-43A1-8BBC7BEFEDCFA228"
-date:   2009-04-03 03:35 AM +0000
+
 categories: railo,coldfusion
 permalink: fun-with-mappings-and-resources-part-2-ram-resources
 ---

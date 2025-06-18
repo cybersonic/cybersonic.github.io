@@ -2,7 +2,7 @@
 layout: post
 title:  "No Posts for a while... I have a MacBook Pro to play with!"
 uid:	"8A9872A6-BCF6-8C7C-2D424323367DAB66"
-date:   2006-03-23 11:05 AM +0000
+
 categories: cfeclipse,personal,apple
 permalink: no-posts-for-a-while-i-have-a-macbook-pro-to-play-with
 ---

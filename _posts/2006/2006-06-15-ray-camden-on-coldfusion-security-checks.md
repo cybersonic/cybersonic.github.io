@@ -2,7 +2,7 @@
 layout: post
 title:  "Ray Camden on ColdFusion Security Checks"
 uid:	"8A98B0D7-ABB2-91D0-3497199AE8688331"
-date:   2006-06-15 11:06 AM +0000
+
 categories: coldfusion
 permalink: ray-camden-on-coldfusion-security-checks
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Lost Experience: D I 9 F F T R 7 3 1"
 uid:	"8A988831-D6E1-DD90-F4E173AE3AAD8022"
-date:   2006-05-20 03:55 PM +0000
+
 categories: lost
 permalink: lost-experience-d-i-9-f-f-t-r-7-3-1
 ---

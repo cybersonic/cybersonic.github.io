@@ -2,7 +2,7 @@
 layout: post
 title:  "CFCamp 2011! Be there or be a Pretzel!"
 uid:	"DF505619-6FCF-4B53-85BF77FA50A777B6"
-date:   2011-09-26 10:40 AM +0000
+
 categories: railo,cfconferences,getrailo
 permalink: cfcamp-2011-be-there-or-be-a-pretzel
 ---

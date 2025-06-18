@@ -2,7 +2,7 @@
 layout: post
 title:  "The power of the ColdFusion community"
 uid:	"8A995F43-C801-C880-D38A52448479E42A"
-date:   2006-12-21 11:06 AM +0000
+
 categories: cfeclipse
 permalink: the-power-of-the-coldfusion-community
 ---

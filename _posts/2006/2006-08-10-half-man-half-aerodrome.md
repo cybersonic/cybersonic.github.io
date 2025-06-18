@@ -2,7 +2,7 @@
 layout: post
 title:  "half-man/half-aerodrome"
 uid:	"8A98E34F-B4F1-EF42-4AA085120EAF2C42"
-date:   2006-08-10 11:06 AM +0000
+
 categories: 
 permalink: half-man-half-aerodrome
 ---

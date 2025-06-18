@@ -2,7 +2,7 @@
 layout: post
 title:  "CFObjective, CodeWars and Velociraptors"
 uid:	"1FFD113B-014B-40EE-BC5E6F3958A978BF"
-date:   2010-11-17 10:17 PM +0000
+
 categories: html5,railo,cfobjective,codewar
 permalink: velociraptor-code-war
 ---

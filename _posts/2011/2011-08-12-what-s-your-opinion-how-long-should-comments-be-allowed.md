@@ -2,7 +2,7 @@
 layout: post
 title:  "What's your opinion? How long should comments be allowed?"
 uid:	"FBC584DD-3F7A-4AD3-B65FB43BF18A1B9E"
-date:   2011-08-12 05:43 AM +0000
+
 categories: blogging
 permalink: what-s-your-opinion-how-long-should-comments-be-allowed
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse Presentation to the Auckland CFUG"
 uid:	"8A9A7486-9764-95BA-86620D4C201F1D27"
-date:   2007-04-12 11:08 AM +0000
+
 categories: cfeclipse,coldspring
 permalink: cfeclipse-presentation-to-the-auckland-cfug
 ---

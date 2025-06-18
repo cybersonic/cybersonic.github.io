@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Talk"
 uid:	"8A97977D-A6EB-2381-137FFE8D4A286B23"
-date:   2005-08-24 11:05 AM +0000
+
 categories: google
 permalink: google-talk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "A time machine lands in London"
 uid:	"8A9880A0-B64D-05BE-DE0E4E2F72AFAA09"
-date:   2006-05-04 11:06 AM +0000
+
 categories: personal
 permalink: a-time-machine-lands-in-london
 ---

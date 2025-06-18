@@ -2,7 +2,7 @@
 layout: post
 title:  "Structures vs Components, an unfair challenge?"
 uid:	"8A99566A-93EC-D300-310CFB4902307DB9"
-date:   2006-11-23 11:06 AM +0000
+
 categories: coldfusion
 permalink: structures-vs-components-an-unfair-challenge
 ---

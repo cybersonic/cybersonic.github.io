@@ -2,7 +2,7 @@
 layout: post
 title:  "MSN for OS X updated"
 uid:	"8A98F938-CE36-60AB-DB0BB580B5EA5DF1"
-date:   2006-11-10 11:06 AM +0000
+
 categories: apple,microsoft
 permalink: msn-for-os-x-updated
 ---

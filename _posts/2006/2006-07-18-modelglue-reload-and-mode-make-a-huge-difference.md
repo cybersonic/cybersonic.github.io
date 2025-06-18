@@ -2,7 +2,7 @@
 layout: post
 title:  "ModelGlue: Reload and Mode make a huge difference"
 uid:	"8A98D229-9A67-576F-540AFCFB17DB5CC8"
-date:   2006-07-18 11:06 AM +0000
+
 categories: model-glue,coldfusion
 permalink: modelglue-reload-and-mode-make-a-huge-difference
 ---

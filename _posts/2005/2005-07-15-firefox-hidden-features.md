@@ -2,7 +2,7 @@
 layout: post
 title:  "Firefox hidden Features"
 uid:	"8A979606-9C36-EDB9-C6D2FE314257B500"
-date:   2005-07-15 11:05 AM +0000
+
 categories: webdev
 permalink: firefox-hidden-features
 ---

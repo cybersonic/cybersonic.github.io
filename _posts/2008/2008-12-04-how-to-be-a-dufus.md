@@ -2,7 +2,7 @@
 layout: post
 title:  "How to be a dufus..."
 uid:	"03BE5824-C603-9309-55927EBD568ACE5F"
-date:   2008-12-04 03:44 PM +0000
+
 categories: coldfusion,blogging
 permalink: how-to-be-a-dufus
 ---

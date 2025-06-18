@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse SWAG, its here!"
 uid:	"8A98AD5C-ADF5-4BF8-8B63579B8B993429"
-date:   2006-06-07 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-swag-its-here
 ---

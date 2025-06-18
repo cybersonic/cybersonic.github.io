@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse: enhancements Part 2"
 uid:	"8A98DC0C-DC5A-C357-5C12BD96F9F33377"
-date:   2006-08-03 11:06 AM +0000
+
 categories: model-glue,cfeclipse,coldfusion
 permalink: cfeclipse-enhancements-part-2
 ---

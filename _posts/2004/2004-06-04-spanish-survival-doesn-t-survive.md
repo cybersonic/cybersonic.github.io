@@ -2,7 +2,7 @@
 layout: post
 title:  "*Spanish Survival doesn't survive?"
 uid:	"8A977909-B637-021E-78ECF600667DB40D"
-date:   2004-06-04 11:04 AM +0000
+
 categories: 
 permalink: spanish-survival-doesn-t-survive
 ---

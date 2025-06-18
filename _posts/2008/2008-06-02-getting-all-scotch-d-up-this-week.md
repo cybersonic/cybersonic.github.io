@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting all Scotch'd up this week!"
 uid:	"8A9BFE7A-A293-D003-2D35F5E49F93A69A"
-date:   2008-06-02 11:09 AM +0000
+
 categories: scotch-on-the-rocks,coldfusion,coldspring,cfconferences,air
 permalink: getting-all-scotch-d-up-this-week
 ---

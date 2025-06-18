@@ -2,7 +2,7 @@
 layout: post
 title:  "Human Spammers.. damn them all to hell..."
 uid:	"8A98AC52-A5C7-51CF-21545F4C27A686E6"
-date:   2006-06-04 11:06 AM +0000
+
 categories: blogging
 permalink: human-spammers-damn-them-all-to-hell
 ---

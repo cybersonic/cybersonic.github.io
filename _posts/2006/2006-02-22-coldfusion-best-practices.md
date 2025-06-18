@@ -2,7 +2,7 @@
 layout: post
 title:  "coldfusion best practices"
 uid:	"8A97B565-C511-7B44-A816A656F664AA27"
-date:   2006-02-22 11:05 AM +0000
+
 categories: coldfusion,webdev
 permalink: coldfusion-best-practices
 ---

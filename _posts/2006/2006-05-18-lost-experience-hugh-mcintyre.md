@@ -2,7 +2,7 @@
 layout: post
 title:  "Lost Experience: Hugh McIntyre"
 uid:	"8A9886CA-9F5F-353F-719A5C9ECE09279C"
-date:   2006-05-18 11:06 AM +0000
+
 categories: lost
 permalink: lost-experience-hugh-mcintyre
 ---

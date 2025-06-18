@@ -2,7 +2,7 @@
 layout: post
 title:  "Why CFMX wont run nicely on my MacBook ... yet"
 uid:	"8A98791E-A0CA-A3BD-3AA66461AD5DD841"
-date:   2006-04-13 11:06 AM +0000
+
 categories: coldfusion,apple,adobe
 permalink: why-cfmx-wont-run-nicely-on-my-macbook-yet
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to annoy customers"
 uid:	"8A97A2A8-C510-3F8C-85E8B779FF4CAA8A"
-date:   2005-11-29 11:05 AM +0000
+
 categories: personal,ajax
 permalink: how-to-annoy-customers
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "More on the new CFEclipse Toolbars"
 uid:	"8A97A74B-0315-5CD3-5432FEC60458D382"
-date:   2005-12-19 11:05 AM +0000
+
 categories: cfeclipse
 permalink: more-on-the-new-cfeclipse-toolbars
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "The Railo Crew invade New York, May the CFML be with you."
 uid:	"0646C651-7C82-4294-9FF58337460E4A7E"
-date:   2009-04-27 09:17 AM +0000
+
 categories: railo,cfobjective
 permalink: the-railo-crew-invade-new-york-may-the-cfml-be-with-you
 ---

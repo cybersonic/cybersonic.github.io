@@ -2,7 +2,7 @@
 layout: post
 title:  "A big Integral thanks to the FusionRactor and FusionDebug Teams!"
 uid:	"8A995FD0-D316-3412-AA2816152B6B4AB9"
-date:   2006-12-21 11:06 AM +0000
+
 categories: personal
 permalink: a-big-integral-thanks-to-the-fusionractor-and-fusiondebug-teams
 ---

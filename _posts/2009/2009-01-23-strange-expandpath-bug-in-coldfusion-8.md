@@ -2,7 +2,7 @@
 layout: post
 title:  "Strange expandPath bug in ColdFusion 8"
 uid:	"04821AFF-C797-ED0B-62543B59B2AD74EE"
-date:   2009-01-23 12:22 PM +0000
+
 categories: coldfusion
 permalink: strange-expandpath-bug-in-coldfusion-8
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Run Windows XP on MacBook natively.. thanks to Apple!!!"
 uid:	"8A9875E2-F09B-B6D1-A9982465E30504F2"
-date:   2006-04-05 11:05 AM +0000
+
 categories: apple
 permalink: run-windows-xp-on-macbook-natively-thanks-to-apple
 ---

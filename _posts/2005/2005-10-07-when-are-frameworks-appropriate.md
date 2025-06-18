@@ -2,7 +2,7 @@
 layout: post
 title:  "When are frameworks appropriate?"
 uid:	"8A979B65-E10C-31CB-B20C992D5C3A6C69"
-date:   2005-10-07 11:05 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: when-are-frameworks-appropriate
 ---

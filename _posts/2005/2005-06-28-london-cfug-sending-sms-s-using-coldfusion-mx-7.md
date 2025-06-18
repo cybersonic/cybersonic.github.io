@@ -2,7 +2,7 @@
 layout: post
 title:  "London CFUG: Sending SMS's using Coldfusion MX 7"
 uid:	"8A979328-CC5D-30A0-E048FB7469C3D280"
-date:   2005-06-28 11:05 AM +0000
+
 categories: coldfusion
 permalink: london-cfug-sending-sms-s-using-coldfusion-mx-7
 ---

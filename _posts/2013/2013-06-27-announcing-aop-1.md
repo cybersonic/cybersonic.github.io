@@ -2,7 +2,7 @@
 layout: post
 title:  "Announcing AOP/1 "
 uid:	"DD5288D3-3D2B-4D8D-90EC94F23FF33F0B"
-date:   2013-06-27 11:08 AM +0000
+
 categories: 
 permalink: announcing-aop-1
 ---
@@ -21,9 +21,7 @@ I am happy to announce that today I got the AOP/1 framework to Alpha state (Vers
 
 <p>All pretty simple so far! Let's go and get it a full example of using it:</p>
 
-
 	<script src="https://gist.github.com/cybersonic/5877212.js"></script>
-
 
 <p>This would output:</p>
 

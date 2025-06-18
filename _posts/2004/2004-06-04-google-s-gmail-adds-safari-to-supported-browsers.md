@@ -2,7 +2,7 @@
 layout: post
 title:  "Google's Gmail adds Safari to supported browsers"
 uid:	"8A977A22-F5C5-DCD5-B8EDFC99E3DCD8BC"
-date:   2004-06-04 11:04 AM +0000
+
 categories: 
 permalink: google-s-gmail-adds-safari-to-supported-browsers
 ---

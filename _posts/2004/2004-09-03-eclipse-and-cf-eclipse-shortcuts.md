@@ -2,7 +2,7 @@
 layout: post
 title:  "Eclipse and CF Eclipse Shortcuts"
 uid:	"8A978702-D73B-BF3C-99BA09D9F8249D1F"
-date:   2004-09-03 11:04 AM +0000
+
 categories: cfeclipse
 permalink: eclipse-and-cf-eclipse-shortcuts
 ---

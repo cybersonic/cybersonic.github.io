@@ -2,7 +2,7 @@
 layout: post
 title:  "Overwriting HTML tags using cfimport"
 uid:	"8A9A73EA-F99A-BF2F-60A92B68F484E0BB"
-date:   2007-04-11 11:08 AM +0000
+
 categories: coldfusion,webdev
 permalink: overwriting-html-tags-using-cfimport
 ---

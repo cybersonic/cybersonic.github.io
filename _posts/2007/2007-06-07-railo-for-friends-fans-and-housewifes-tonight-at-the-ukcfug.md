@@ -2,7 +2,7 @@
 layout: post
 title:  "\"Railo for friends, fans and housewifes\", tonight at the UKCFUG"
 uid:	"8A9AA029-ABBF-3032-53D28C785407FF64"
-date:   2007-06-07 11:08 AM +0000
+
 categories: railo,coldfusion,ukcfug
 permalink: railo-for-friends-fans-and-housewifes-tonight-at-the-ukcfug
 ---

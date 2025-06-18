@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Madness"
 uid:	"8A97AD27-EE26-ECA7-BE43CD5EA2C36E1C"
-date:   2006-02-01 11:05 AM +0000
+
 categories: personal,google
 permalink: google-madness
 ---

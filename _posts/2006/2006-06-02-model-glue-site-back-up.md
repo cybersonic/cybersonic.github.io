@@ -2,7 +2,7 @@
 layout: post
 title:  "Model-Glue site back up"
 uid:	"8A98A926-D789-7FEA-36D3A085D19B046C"
-date:   2006-06-02 11:06 AM +0000
+
 categories: model-glue
 permalink: model-glue-site-back-up
 ---

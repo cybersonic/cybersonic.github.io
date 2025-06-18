@@ -2,7 +2,7 @@
 layout: post
 title:  "MDC, easy as 1-2-3. Say hello to Mark Drew Consulting"
 uid:	"B3163B70-A3C9-B01B-0B978FA3911F7E3D"
-date:   2009-02-26 07:47 AM +0000
+
 categories: railo,personal,coldfusion
 permalink: mdc-easy-as-1-2-3-say-hello-to-mark-drew-consulting
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Rob Rohan Interview"
 uid:	"8A978964-0C39-0C3D-110C47347E99316D"
-date:   2004-09-22 11:04 AM +0000
+
 categories: cfeclipse,webdev
 permalink: rob-rohan-interview
 ---

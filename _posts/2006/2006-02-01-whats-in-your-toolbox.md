@@ -2,7 +2,7 @@
 layout: post
 title:  "Whats in your Toolbox?"
 uid:	"8A97AC2D-AECD-F7E3-D828E6C5D94603CB"
-date:   2006-02-01 05:38 AM +0000
+
 categories: webdev,ajax
 permalink: whats-in-your-toolbox
 ---

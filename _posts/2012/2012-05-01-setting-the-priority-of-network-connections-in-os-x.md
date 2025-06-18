@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting the priority of network connections in OS X"
 uid:	"DEFDC41C-1EF7-4722-825FF5EADC02A85A"
-date:   2012-05-01 04:28 AM +0000
+
 categories: osx,apple
 permalink: setting-the-priority-of-network-connections-in-os-x
 ---

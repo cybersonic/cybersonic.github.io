@@ -2,7 +2,7 @@
 layout: post
 title:  "CFDevCon: Last day for online tickets!"
 uid:	"8A98EFD2-C8B6-59E5-59FE108E6CFC7ACB"
-date:   2006-10-31 11:06 AM +0000
+
 categories: cfeclipse,cfdevcon
 permalink: cfdevcon-last-day-for-online-tickets
 ---

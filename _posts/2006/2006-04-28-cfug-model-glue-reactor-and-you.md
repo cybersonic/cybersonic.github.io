@@ -2,7 +2,7 @@
 layout: post
 title:  "CFUG: Model Glue, Reactor and you"
 uid:	"8A987C2B-B62B-51CE-5E2209C341AEEEAD"
-date:   2006-04-28 11:06 AM +0000
+
 categories: model-glue,personal,coldfusion,reactor
 permalink: cfug-model-glue-reactor-and-you
 ---

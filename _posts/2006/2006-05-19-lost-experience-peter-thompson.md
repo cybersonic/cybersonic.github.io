@@ -2,7 +2,7 @@
 layout: post
 title:  "Lost Experience: Peter Thompson"
 uid:	"8A9887A5-09B3-7C23-586FFF52A8144173"
-date:   2006-05-19 11:06 AM +0000
+
 categories: lost
 permalink: lost-experience-peter-thompson
 ---

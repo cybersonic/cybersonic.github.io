@@ -2,7 +2,7 @@
 layout: post
 title:  "Updated ASK MD Pod"
 uid:	"8A98AA4F-0830-62D8-DBDF5A5F60C0A3B0"
-date:   2006-06-03 11:06 AM +0000
+
 categories: blogging
 permalink: updated-ask-md-pod
 ---

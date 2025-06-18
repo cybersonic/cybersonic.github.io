@@ -2,7 +2,7 @@
 layout: post
 title:  "Stopping Spam with AKistmet"
 uid:	"8A98DE5E-EB09-7076-37CFD97AD28E7A78"
-date:   2006-08-06 11:06 AM +0000
+
 categories: coldfusion,blogging
 permalink: stopping-spam-with-akistmet
 ---

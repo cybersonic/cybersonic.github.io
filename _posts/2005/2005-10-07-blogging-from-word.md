@@ -2,7 +2,7 @@
 layout: post
 title:  "Blogging From Word"
 uid:	"8A9799FD-D864-699F-1022EC1C19B73868"
-date:   2005-10-07 11:05 AM +0000
+
 categories: blogging
 permalink: blogging-from-word
 ---

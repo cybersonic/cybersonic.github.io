@@ -2,7 +2,7 @@
 layout: post
 title:  "Time Machine Continued..."
 uid:	"8A98810D-F40D-40DB-533E3FB71FAA29AA"
-date:   2006-05-06 11:06 AM +0000
+
 categories: personal
 permalink: time-machine-continued
 ---

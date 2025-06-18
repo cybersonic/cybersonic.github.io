@@ -2,7 +2,7 @@
 layout: post
 title:  "Eclipse Ganymede: Colaborative development with Cola"
 uid:	"8A9C249F-F0BD-C05A-6CAEF47E1E7BDBA7"
-date:   2008-06-25 11:10 AM +0000
+
 categories: eclipse
 permalink: eclipse-ganymede-colaborative-development-with-cola
 ---
