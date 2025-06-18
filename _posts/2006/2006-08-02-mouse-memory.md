@@ -2,7 +2,7 @@
 layout: post
 title:  "Mouse Memory"
 uid:	"8A98D94D-F78E-C49D-335F0A396F4D916B"
-date:   2006-08-02 11:06 AM +0000
+
 categories: personal,apple
 permalink: mouse-memory
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse desktop wallpaper"
 uid:	"8A9A71F6-D580-AFBD-2132174F84C20192"
-date:   2007-04-02 11:08 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: cfeclipse-desktop-wallpaper
 ---

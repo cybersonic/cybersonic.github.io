@@ -2,7 +2,7 @@
 layout: post
 title:  "Fun with mappings and resources: Part 1 ZIP and FTP"
 uid:	"948F3BAA-5F67-4925-A4CC9B0A10D022B0"
-date:   2009-04-02 11:52 AM +0000
+
 categories: railo
 permalink: fun-with-mappings-and-resources-part-1-zip-and-ftp
 ---

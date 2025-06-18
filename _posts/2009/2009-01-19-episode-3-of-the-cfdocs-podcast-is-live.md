@@ -2,7 +2,7 @@
 layout: post
 title:  "Episode 3 of the CFDocs podcast is live!"
 uid:	"EE83A386-E8ED-0941-E7247AFF60785648"
-date:   2009-01-19 05:50 AM +0000
+
 categories: podcast,railo,coldfusion,ukcfug
 permalink: episode-3-of-the-cfdocs-podcast-is-live
 ---

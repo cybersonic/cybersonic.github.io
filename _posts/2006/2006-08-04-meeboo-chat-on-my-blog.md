@@ -2,7 +2,7 @@
 layout: post
 title:  "Meeboo Chat on my Blog"
 uid:	"8A98DCF7-D098-5299-9F36C2805F8843E4"
-date:   2006-08-04 08:44 AM +0000
+
 categories: personal,blogging
 permalink: meeboo-chat-on-my-blog
 ---

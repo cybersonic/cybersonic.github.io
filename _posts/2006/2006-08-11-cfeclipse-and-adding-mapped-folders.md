@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse and adding mapped folders"
 uid:	"8A98E572-F965-CBB7-03526946327A34CA"
-date:   2006-08-11 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-and-adding-mapped-folders
 ---

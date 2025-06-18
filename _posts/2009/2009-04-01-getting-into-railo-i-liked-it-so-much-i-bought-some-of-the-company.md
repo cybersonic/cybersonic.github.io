@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting into Railo: I liked it so much I bought (some of) the company"
 uid:	"4B21C9B1-3055-4388-875C987570C8577A"
-date:   2009-04-01 07:23 AM +0000
+
 categories: railo,coldfusion
 permalink: getting-into-railo-i-liked-it-so-much-i-bought-some-of-the-company
 ---

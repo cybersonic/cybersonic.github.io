@@ -2,7 +2,7 @@
 layout: post
 title:  "Fancy Table Layouts in Coldfusion"
 uid:	"8A978FCC-AA67-9082-F2143B869A6C238E"
-date:   2005-01-22 11:05 AM +0000
+
 categories: coldfusion
 permalink: fancy-table-layouts-in-coldfusion
 ---

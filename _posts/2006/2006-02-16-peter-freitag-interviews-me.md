@@ -2,7 +2,7 @@
 layout: post
 title:  "Peter Freitag interviews me!"
 uid:	"8A97B10F-DA04-8173-2E3F5873607FA629"
-date:   2006-02-16 11:05 AM +0000
+
 categories: cfeclipse,personal,coldfusion,webdev,blogging
 permalink: peter-freitag-interviews-me
 ---

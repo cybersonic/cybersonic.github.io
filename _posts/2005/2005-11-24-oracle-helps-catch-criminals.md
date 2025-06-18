@@ -2,7 +2,7 @@
 layout: post
 title:  "Oracle helps catch criminals...."
 uid:	"8A97A047-9237-D504-0377C33F500B2436"
-date:   2005-11-24 11:05 AM +0000
+
 categories: webdev
 permalink: oracle-helps-catch-criminals
 ---

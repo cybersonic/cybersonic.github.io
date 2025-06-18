@@ -2,7 +2,7 @@
 layout: post
 title:  "End of the holidays"
 uid:	"8A978676-A378-B266-17266EFA1C8233AB"
-date:   2004-09-01 11:04 AM +0000
+
 categories: personal
 permalink: end-of-the-holidays
 ---

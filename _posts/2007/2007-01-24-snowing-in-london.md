@@ -2,7 +2,7 @@
 layout: post
 title:  "Snowing in London"
 uid:	"8A99A5D1-AA77-6021-AF78B8DF9A97E5DC"
-date:   2007-01-24 11:07 AM +0000
+
 categories: personal
 permalink: snowing-in-london
 ---

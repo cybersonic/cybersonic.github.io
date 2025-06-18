@@ -2,7 +2,7 @@
 layout: post
 title:  "My first Apollo Application: zoomBrowser"
 uid:	"8A9A6AE2-98E4-59B0-B5FE055774DC47CE"
-date:   2007-03-21 11:08 AM +0000
+
 categories: flex,air
 permalink: my-first-apollo-application-zoombrowser
 ---

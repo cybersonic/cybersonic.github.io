@@ -2,7 +2,7 @@
 layout: post
 title:  "Lost: The Hanzo Foundation"
 uid:	"8A987EFA-085A-573E-5625C6949E18282D"
-date:   2006-05-04 11:06 AM +0000
+
 categories: personal
 permalink: lost-the-hanzo-foundation
 ---

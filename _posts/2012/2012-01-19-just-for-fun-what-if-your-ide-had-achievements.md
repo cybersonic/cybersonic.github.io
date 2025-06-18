@@ -2,7 +2,7 @@
 layout: post
 title:  "Just for fun: What if your IDE had Achievements?"
 uid:	"4741CD63-1FE6-4E2E-936814498E26AC75"
-date:   2012-01-19 09:30 AM +0000
+
 categories: cfeclipse,coldfusion,cfml
 permalink: just-for-fun-what-if-your-ide-had-achievements
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Happy Birthday Eclipse!"
 uid:	"8A98F263-9723-706A-D11A40D93ED464F6"
-date:   2006-11-03 11:06 AM +0000
+
 categories: cfeclipse
 permalink: happy-birthday-eclipse
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Running MongoDB from Sublime Text 2"
 uid:	"C5CAE5AF-8757-457E-8FE89D54DF4D332B"
-date:   2013-11-08 11:10 AM +0000
+
 categories: 
 permalink: running-mongodb-from-sublime-text-2
 ---

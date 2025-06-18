@@ -2,7 +2,7 @@
 layout: post
 title:  "Exploring Railo's ImageFilter Functionality"
 uid:	"8F8B39CE-AB53-45B3-8FEFEC07DA18917A"
-date:   2011-03-21 05:19 AM +0000
+
 categories: railo
 permalink: exploring-railo-s-imagefilter-functionality
 ---

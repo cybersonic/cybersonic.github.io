@@ -2,7 +2,7 @@
 layout: post
 title:  "Accessing complex web services with Railo"
 uid:	"7403B627-35AD-4ABE-AAD9914E21AB25BD"
-date:   2011-11-14 01:26 PM +0000
+
 categories: 
 permalink: accessing-complex-web-services-with-railo
 ---

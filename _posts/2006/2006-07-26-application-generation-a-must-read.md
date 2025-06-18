@@ -2,7 +2,7 @@
 layout: post
 title:  "Application Generation... a must read"
 uid:	"8A98D546-9713-573A-9C6730AE8795F432"
-date:   2006-07-26 11:06 AM +0000
+
 categories: model-glue,coldfusion,blogging
 permalink: application-generation-a-must-read
 ---

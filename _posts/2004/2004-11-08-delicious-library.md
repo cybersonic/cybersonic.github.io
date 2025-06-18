@@ -2,7 +2,7 @@
 layout: post
 title:  "Delicious Library"
 uid:	"8A9789E1-FF7B-08B8-E7C227FE6C3D5272"
-date:   2004-11-08 11:04 AM +0000
+
 categories: apple
 permalink: delicious-library
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Adding application variables to ModelGlue.xml"
 uid:	"8A99681D-B786-9B5A-001D4DA3B3AEB4A3"
-date:   2007-01-08 11:07 AM +0000
+
 categories: model-glue,coldfusion
 permalink: adding-application-variables-to-modelglue-xml
 ---

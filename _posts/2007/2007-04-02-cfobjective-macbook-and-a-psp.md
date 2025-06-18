@@ -2,7 +2,7 @@
 layout: post
 title:  "cfObjective, MacBook and a PSP!"
 uid:	"8A9A716A-9112-FB35-A9093033B6BAB4A0"
-date:   2007-04-02 11:08 AM +0000
+
 categories: cfeclipse,coldfusion,donations,presentations,cfconferences
 permalink: cfobjective-macbook-and-a-psp
 ---

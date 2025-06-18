@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Git with CFML"
 uid:	"B37D5DAF-A381-49D4-AF6295F033E4C642"
-date:   2009-11-27 01:08 AM +0000
+
 categories: webdev,cfml
 permalink: using-git-with-cfml
 ---

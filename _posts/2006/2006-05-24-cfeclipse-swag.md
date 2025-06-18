@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse SWAG"
 uid:	"8A9889A8-CEF2-3B38-DBDB034B27851203"
-date:   2006-05-24 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-swag
 ---

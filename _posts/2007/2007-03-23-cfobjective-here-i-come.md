@@ -2,7 +2,7 @@
 layout: post
 title:  "cfObjective - here I come!"
 uid:	"8A9A6CB6-FAE8-D189-D8159D35E8B807C1"
-date:   2007-03-23 11:08 AM +0000
+
 categories: cfobjective,frameworks,cfeclipse,coldfusion
 permalink: cfobjective-here-i-come
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Online UML editing with GModeller"
 uid:	"8A97A3A2-A896-9D90-E3F292458ED1BEDD"
-date:   2005-11-29 11:05 AM +0000
+
 categories: webdev
 permalink: online-uml-editing-with-gmodeller
 ---

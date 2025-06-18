@@ -2,7 +2,7 @@
 layout: post
 title:  "Mental Note No. 4974: Use XMLFormat() when doing Ajax"
 uid:	"8A99AC39-E895-EFA0-6491EE8DE3192BAD"
-date:   2007-02-01 11:07 AM +0000
+
 categories: personal,coldfusion
 permalink: mental-note-no-4974-use-xmlformat-when-doing-ajax
 ---

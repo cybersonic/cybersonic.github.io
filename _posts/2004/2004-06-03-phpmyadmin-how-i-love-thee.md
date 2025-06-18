@@ -2,7 +2,7 @@
 layout: post
 title:  "phpMyAdmin, how I love thee..."
 uid:	"8A977484-D36D-16AD-875E0AA731DC0F24"
-date:   2004-06-03 11:04 AM +0000
+
 categories: 
 permalink: phpmyadmin-how-i-love-thee
 ---

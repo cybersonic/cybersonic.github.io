@@ -2,7 +2,7 @@
 layout: post
 title:  "Mark to the MAX!"
 uid:	"8A9ADE3B-09F8-03D1-5F468581A5605213"
-date:   2007-10-12 11:08 AM +0000
+
 categories: cfeclipse,coldfusion,max,presentations,adobe,ajax,cfconferences
 permalink: mark-to-the-max
 ---

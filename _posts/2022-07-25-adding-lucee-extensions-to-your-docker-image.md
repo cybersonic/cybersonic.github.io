@@ -5,7 +5,7 @@ title: Adding Lucee Extensions to your Docker Image
 categories: lucee extensions docker build
 header-img: img/img_0445.jpeg
 subtitle: How to add extensions to our Lucee Docker Images
-permalink: lucee-extensions-in-docker-images
+permalink: lucee-extensions-in-docker-images.html
 
 ---
 In the [previous post](https://markdrew.io/password-for-lucee-docker), we added a password for Lucee admin, but to do so we needed to backtrack our changes in using lucee-light, back to the full version of Lucee.

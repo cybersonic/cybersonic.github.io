@@ -1,36 +1,39 @@
 ---
-layout: page
-description: "a compendium of cfml and web technology"
+layout: base.njk
+title: Home
+description: A compendium of CFML and web technology topics
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }} <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a> </p>
-</div>
-<hr>
-{% endfor %}
+<div class="home">
+    <div class="intro">
+        <h2>Welcome to my blog!</h2>
+        <p>Here you will find posts about various topics including ColdFusion, Railo/Lucee, MongoDB, Node, Meteor, CFML, Apple hardware and software, and web development.</p>
+        <p>I strive to keep the content original and informative.</p>
+    </div>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+    <h2>Latest Posts</h2>
+    <div class="post-list">
+        {%- for post in collections.posts | slice(0, 5) -%}
+        <article class="post-item">
+            <h3 class="post-title">
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+            </h3>
+            {% if post.data.subtitle %}
+            <p class="post-subtitle">{{ post.data.subtitle }}</p>
+            {% endif %}
+            <div class="post-meta">
+                Posted on {{ post.date | dateDisplay }}
+                {% if post.data.author %} by {{ post.data.author }}{% endif %}
+                {% if post.data.categories %}
+                in {{ post.data.categories }}
+                {% endif %}
+            </div>
+            <a href="{{ post.url }}" class="read-more">Read more →</a>
+        </article>
+        {%- endfor -%}
+    </div>
+    
+    <div class="all-posts">
+        <a href="/posts/" class="view-all-posts">View All Posts →</a>
+    </div>
+</div>

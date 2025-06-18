@@ -2,7 +2,7 @@
 layout: post
 title:  "CFunited 2007, here I come!"
 uid:	"8A9AA402-CF52-79AE-47EC33C5C9780D31"
-date:   2007-06-14 11:08 AM +0000
+
 categories: cfunited,cfeclipse,coldfusion,cfconferences
 permalink: cfunited-2007-here-i-come
 ---

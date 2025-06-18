@@ -2,7 +2,7 @@
 layout: post
 title:  "And we're off! First day of business at Mark Drew Consulting"
 uid:	"05E78B9B-0E9F-4596-8B521FC9FD827D7B"
-date:   2009-03-09 01:38 PM +0000
+
 categories: 
 permalink: and-we-re-off-first-day-of-business-at-mark-drew-consulting
 ---

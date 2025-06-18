@@ -2,7 +2,7 @@
 layout: post
 title:  "My CFUnited presentations available on Adobe Connect"
 uid:	"8A9C2422-C15D-F25D-05B7F98582144F91"
-date:   2008-06-24 11:10 AM +0000
+
 categories: cfunited,cfeclipse,coldfusion,coldspring,presentations,adobe,cfconferences
 permalink: my-cfunited-presentations-available-on-adobe-connect
 ---

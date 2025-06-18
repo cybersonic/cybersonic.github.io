@@ -2,7 +2,7 @@
 layout: post
 title:  "Adobe Round Table tonight..."
 uid:	"8A98892B-0C22-94FC-E0D005B2624D7F40"
-date:   2006-05-24 11:06 AM +0000
+
 categories: ukcfug,adobe
 permalink: adobe-round-table-tonight
 ---

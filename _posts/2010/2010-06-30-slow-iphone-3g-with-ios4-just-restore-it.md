@@ -2,7 +2,7 @@
 layout: post
 title:  "Slow iPhone 3G with iOS4? Just restore it!"
 uid:	"65131C3D-FA9E-47C1-8104C127F445BE64"
-date:   2010-06-30 04:16 PM +0000
+
 categories: iphone,apple
 permalink: slow-iphone-3g-with-ios4-just-restore-it
 ---

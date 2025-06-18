@@ -2,7 +2,7 @@
 layout: post
 title:  "CF Frameworks Explorer presentation to cfframeworks.com Tonight!"
 uid:	"8A9A7AB0-9F37-9667-F32B9BB9B5D37E8F"
-date:   2007-05-17 11:08 AM +0000
+
 categories: scotch-on-the-rocks,frameworks,cfeclipse,donations,presentations
 permalink: cf-frameworks-explorer-presentation-to-cfframeworks-com-tonight
 ---

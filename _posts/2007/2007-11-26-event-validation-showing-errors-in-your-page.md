@@ -2,7 +2,7 @@
 layout: post
 title:  "Event Validation: Showing errors in your page"
 uid:	"8A9AE7FF-0D78-C7D4-78B3AB24C56B8B11"
-date:   2007-11-26 11:08 AM +0000
+
 categories: coldfusion,coldspring,eventvalidation
 permalink: event-validation-showing-errors-in-your-page
 ---

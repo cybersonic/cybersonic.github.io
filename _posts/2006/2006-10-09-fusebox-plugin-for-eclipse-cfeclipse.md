@@ -2,7 +2,7 @@
 layout: post
 title:  "Fusebox Plugin for Eclipse/CFEclipse"
 uid:	"8A98EAA2-92FB-F0E9-7418BB7CA0B12FCE"
-date:   2006-10-09 11:06 AM +0000
+
 categories: cfeclipse,fusebox
 permalink: fusebox-plugin-for-eclipse-cfeclipse
 ---

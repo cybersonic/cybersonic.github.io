@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse's CFUnit Features, a quick guide."
 uid:	"8A9984DC-05AD-EF0D-82700CDB42F7A0D8"
-date:   2007-01-15 11:07 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-s-cfunit-features-a-quick-guide
 ---

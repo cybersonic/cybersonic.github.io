@@ -2,7 +2,7 @@
 layout: post
 title:  "Want me to present at your CFUG or meeting?"
 uid:	"8A9AAE14-DBE2-80FB-9114FF3089D72F9E"
-date:   2007-07-23 11:08 AM +0000
+
 categories: frameworks,model-glue,cfeclipse,coldfusion,ukcfug,coldspring,presentations,ajax
 permalink: want-me-to-present-at-your-cfug-or-meeting
 ---

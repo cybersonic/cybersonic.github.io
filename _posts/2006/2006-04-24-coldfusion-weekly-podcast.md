@@ -2,7 +2,7 @@
 layout: post
 title:  "Coldfusion Weekly Podcast"
 uid:	"8A987AB4-AF76-C676-98B8A755CD0F8AAA"
-date:   2006-04-24 11:06 AM +0000
+
 categories: cfeclipse,personal,coldfusion,blogging
 permalink: coldfusion-weekly-podcast
 ---

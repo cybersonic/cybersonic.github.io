@@ -2,7 +2,7 @@
 layout: post
 title:  "CFLOOP Rant."
 uid:	"FC4D23B7-6939-42B0-BD0CF9C202EB3DF3"
-date:   2011-08-04 07:19 AM +0000
+
 categories: railo,coldfusion
 permalink: cfloop-rant
 ---
@@ -25,7 +25,6 @@ I have to get this off my chest: the tag cfloop *REALLY* annoys me.
 	When the array attribute was introduced, I really think the developers had a brain fart.<br>
 	 They could have so easily used another attribute,  maybe one that is already there. The attribute of "item" for example! I mean, it was there loitering in the tag lib, being used for collections, such as:
 </p>
-
 
 <code>
 	<cfloop array="#MyArray#" item="a">

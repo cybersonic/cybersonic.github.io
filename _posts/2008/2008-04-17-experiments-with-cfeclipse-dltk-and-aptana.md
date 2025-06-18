@@ -2,7 +2,7 @@
 layout: post
 title:  "Experiments with CFEclipse, DLTK and Aptana"
 uid:	"8A9BF8AE-D7CE-2368-812FB37A5F056C51"
-date:   2008-04-17 11:09 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: experiments-with-cfeclipse-dltk-and-aptana
 ---

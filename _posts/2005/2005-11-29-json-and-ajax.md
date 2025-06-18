@@ -2,7 +2,7 @@
 layout: post
 title:  "JSON and Ajax"
 uid:	"8A97A325-C265-26E9-2BDC00C028925B8F"
-date:   2005-11-29 11:05 AM +0000
+
 categories: coldfusion,webdev,ajax
 permalink: json-and-ajax
 ---

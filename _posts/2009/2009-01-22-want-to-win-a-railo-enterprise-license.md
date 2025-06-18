@@ -2,7 +2,7 @@
 layout: post
 title:  "Want to win a Railo Enterprise License? "
 uid:	"FE0799BA-ECDE-382E-A660D87CA3138260"
-date:   2009-01-22 06:09 AM +0000
+
 categories: podcast,railo,coldfusion,ukcfug
 permalink: want-to-win-a-railo-enterprise-license
 ---

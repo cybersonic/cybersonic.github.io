@@ -2,7 +2,7 @@
 layout: post
 title:  "Like Model-Glue? Then get trained!"
 uid:	"8A9AE31D-0AB6-8005-0B7E987BC01D5923"
-date:   2007-11-06 11:08 AM +0000
+
 categories: frameworks,model-glue,coldfusion,reactor,coldspring
 permalink: like-model-glue-then-get-trained
 ---

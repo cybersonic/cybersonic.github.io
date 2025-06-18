@@ -2,7 +2,7 @@
 layout: post
 title:  "Re-Starting CFEclipse development"
 uid:	"8A9B1900-9ED6-FDB7-D661854067DAF6E7"
-date:   2008-01-09 11:08 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: re-starting-cfeclipse-development
 ---

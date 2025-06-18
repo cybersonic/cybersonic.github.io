@@ -2,7 +2,7 @@
 layout: post
 title:  "UKCFUG: Last night's Coldspring and MG 2 Presentation report"
 uid:	"8A98B2F9-07C3-C10B-99FD9C1DE4B1D7FF"
-date:   2006-06-23 11:06 AM +0000
+
 categories: model-glue,reactor,ukcfug
 permalink: ukcfug-last-night-s-coldspring-and-mg-2-presentation-report
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "I resign the dragon..."
 uid:	"8A9BFFC2-FED6-C689-06F8C22E446A1D2E"
-date:   2008-06-06 11:09 AM +0000
+
 categories: railo,coldfusion,open-bluedragon
 permalink: i-resign-the-dragon
 ---

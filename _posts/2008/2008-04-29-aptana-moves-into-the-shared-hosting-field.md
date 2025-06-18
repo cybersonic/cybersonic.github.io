@@ -2,7 +2,7 @@
 layout: post
 title:  "Aptana moves into the shared hosting field"
 uid:	"8A9BFA05-F113-1AE8-773A82F2FD316481"
-date:   2008-04-29 11:09 AM +0000
+
 categories: webdev
 permalink: aptana-moves-into-the-shared-hosting-field
 ---

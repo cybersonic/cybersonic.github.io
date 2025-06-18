@@ -2,7 +2,7 @@
 layout: post
 title:  "Coldfusion handling Java  null's"
 uid:	"8A98CFF7-FA3E-ECBD-2AE5F349812FEEFC"
-date:   2006-07-12 11:06 AM +0000
+
 categories: coldfusion,webdev,reference
 permalink: coldfusion-handling-java-null-s
 ---

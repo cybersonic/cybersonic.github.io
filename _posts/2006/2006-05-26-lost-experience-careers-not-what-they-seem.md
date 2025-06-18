@@ -2,7 +2,7 @@
 layout: post
 title:  "Lost Experience: Careers not what they seem?"
 uid:	"8A988B0F-CD91-EBE6-3378AEBB49325109"
-date:   2006-05-26 11:06 AM +0000
+
 categories: lost
 permalink: lost-experience-careers-not-what-they-seem
 ---

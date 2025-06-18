@@ -2,7 +2,7 @@
 layout: post
 title:  "How to get CFEclipse (finally!)"
 uid:	"8A996936-A4DE-6E14-DADDC730E01E4D17"
-date:   2007-01-09 11:07 AM +0000
+
 categories: cfeclipse
 permalink: how-to-get-cfeclipse-finally
 ---
@@ -17,7 +17,6 @@ To use this, do the following:
 	<li>Click on New Remote site</li>
 	<li>Enter <em>CFEclipse</em> as the Name and either of the addresses below for which update site you wish to use</li>
 </ol>
-
 
 The two addresses that you can use for the update sites are:
 

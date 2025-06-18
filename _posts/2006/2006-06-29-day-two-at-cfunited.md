@@ -2,7 +2,7 @@
 layout: post
 title:  "Day two at CFUnited"
 uid:	"8A98B77E-0AD7-942F-E802FBE8C6F6F79E"
-date:   2006-06-29 11:06 AM +0000
+
 categories: cfunited
 permalink: day-two-at-cfunited
 ---

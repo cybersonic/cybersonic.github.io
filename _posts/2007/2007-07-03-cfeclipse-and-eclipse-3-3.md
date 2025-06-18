@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse and Eclipse 3.3"
 uid:	"8A9AA6E0-D39C-FBEC-59FB64572BF26E71"
-date:   2007-07-03 11:08 AM +0000
+
 categories: cfunited,cfeclipse,coldfusion,eclipse,presentations
 permalink: cfeclipse-and-eclipse-3-3
 ---

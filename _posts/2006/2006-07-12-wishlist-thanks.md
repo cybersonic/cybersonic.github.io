@@ -2,7 +2,7 @@
 layout: post
 title:  "Wishlist thanks!"
 uid:	"8A98CF7A-ECD0-234E-D2EF4A94BF6DE940"
-date:   2006-07-12 11:06 AM +0000
+
 categories: cfeclipse,personal,ukcfug
 permalink: wishlist-thanks
 ---

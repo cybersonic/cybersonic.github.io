@@ -2,7 +2,7 @@
 layout: post
 title:  "dbdesigner4"
 uid:	"8A978AFA-D69D-AE20-5500A2CF5692AF6C"
-date:   2004-11-15 11:04 AM +0000
+
 categories: webdev
 permalink: dbdesigner4
 ---

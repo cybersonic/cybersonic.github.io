@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse 1.3 Beta updated for Eclipse 3.1"
 uid:	"8A99704A-0A4A-E08F-32A05F98DFD6ECE0"
-date:   2007-01-13 11:07 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-1-3-beta-updated-for-eclipse-3-1
 ---

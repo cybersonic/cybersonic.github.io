@@ -2,7 +2,7 @@
 layout: post
 title:  "Want to learn to build Eclipse plugins?"
 uid:	"8A979683-B005-71FA-120BB9E09BDEAC40"
-date:   2005-07-25 11:05 AM +0000
+
 categories: cfeclipse
 permalink: want-to-learn-to-build-eclipse-plugins
 ---

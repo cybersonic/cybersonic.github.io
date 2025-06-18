@@ -2,7 +2,7 @@
 layout: post
 title:  "Top 10 Must-buy OS X Applications"
 uid:	"8A9AA5E6-E2E5-E8A3-B7534D72E68E07EE"
-date:   2007-06-22 11:08 AM +0000
+
 categories: personal,apple,webdev,ask-md,adobe
 permalink: top-10-must-buy-os-x-applications
 ---

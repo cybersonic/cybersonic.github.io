@@ -2,7 +2,7 @@
 layout: post
 title:  "Passing events back to your view in Eclipse"
 uid:	"DF392B5B-3150-4493-870E993596FB1F40"
-date:   2012-10-24 12:48 PM +0000
+
 categories: java,eclipse
 permalink: passing-events-back-to-your-view-in-eclipse
 ---

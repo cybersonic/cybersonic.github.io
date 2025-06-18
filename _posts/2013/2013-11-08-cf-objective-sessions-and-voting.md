@@ -2,7 +2,7 @@
 layout: post
 title:  "cf.Objective() Sessions and voting"
 uid:	"076BAB04-2718-4125-AED6473283F8AB30"
-date:   2013-11-08 06:59 AM +0000
+
 categories: presentations,cfconferences
 permalink: cf-objective-sessions-and-voting
 ---

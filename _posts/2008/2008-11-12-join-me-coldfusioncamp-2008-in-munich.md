@@ -2,7 +2,7 @@
 layout: post
 title:  "Join me @ ColdFusionCamp 2008 in Munich"
 uid:	"8FC76C10-EE8D-3F2B-F6005F644264D14E"
-date:   2008-11-12 03:18 AM +0000
+
 categories: cfconferences
 permalink: join-me-coldfusioncamp-2008-in-munich
 ---

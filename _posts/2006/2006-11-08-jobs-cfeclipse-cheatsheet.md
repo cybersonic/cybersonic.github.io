@@ -2,7 +2,7 @@
 layout: post
 title:  "Jobs @ CFEclipse: CheatSheet"
 uid:	"8A98F744-BE5D-7CC5-FF21B88E4D229F69"
-date:   2006-11-08 11:06 AM +0000
+
 categories: cfeclipse
 permalink: jobs-cfeclipse-cheatsheet
 ---

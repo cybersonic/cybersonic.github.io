@@ -2,7 +2,7 @@
 layout: post
 title:  "Presenting at the Dallas CFUG Tonight!"
 uid:	"8A9AA26B-08F3-15D3-FFFC22C35560C74F"
-date:   2007-06-12 11:08 AM +0000
+
 categories: cfeclipse,coldfusion,presentations
 permalink: presenting-at-the-dallas-cfug-tonight
 ---

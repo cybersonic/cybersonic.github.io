@@ -2,7 +2,7 @@
 layout: post
 title:  "Tonight's CFUG Postponed"
 uid:	"8A988EC8-FBE5-83AA-4514CB41D9794A5B"
-date:   2006-06-01 11:06 AM +0000
+
 categories: ukcfug
 permalink: tonight-s-cfug-postponed
 ---

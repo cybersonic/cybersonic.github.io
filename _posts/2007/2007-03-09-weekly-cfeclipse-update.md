@@ -2,7 +2,7 @@
 layout: post
 title:  "Weekly CFEclipse update"
 uid:	"8A9A644A-EB32-DD7D-8810DCDE944FB7B3"
-date:   2007-03-09 11:08 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: weekly-cfeclipse-update
 ---

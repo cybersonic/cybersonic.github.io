@@ -2,7 +2,7 @@
 layout: post
 title:  "Sean Corfield on CFEclipse"
 uid:	"8A979DF5-9E71-E417-1E2AB89426956FA6"
-date:   2005-10-21 11:05 AM +0000
+
 categories: cfeclipse
 permalink: sean-corfield-on-cfeclipse
 ---

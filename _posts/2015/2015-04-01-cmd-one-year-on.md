@@ -2,7 +2,7 @@
 layout: post
 title:  "CMD: One year on"
 uid:	"16A7438F-ED45-4D31-BC0D964A1FD11C22"
-date:   2015-04-01 09:01 AM +0000
+
 categories: cmd
 permalink: cmd-one-year-on
 ---

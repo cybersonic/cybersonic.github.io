@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse: Gear advert!"
 uid:	"8A988D80-B078-6A1A-67CC5B4FDEF3F8E7"
-date:   2006-05-31 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-gear-advert
 ---

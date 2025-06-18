@@ -6,7 +6,7 @@ categories: 'lucee jre azul zulu docker '
 header-img: img/img_0474.jpeg
 subtitle: Azul Zulu is a smaller JRE than the OPENJDK one so this is one way to reduce
   our docker file size
-permalink: azul-zulu-lucee-docker
+permalink: azul-zulu-lucee-docker.html
 
 ---
 In our previous posts about [building a lucee docker image](https://markdrew.io/password-for-lucee-docker) and [adding a password](https://markdrew.io/password-for-lucee-docker) we got our image down to a comfortable 239MB

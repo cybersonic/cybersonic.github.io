@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse Bloggers Gallore!"
 uid:	"8A9AAB83-D477-DF6B-77291D628F88EA06"
-date:   2007-07-11 11:08 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: cfeclipse-bloggers-gallore
 ---

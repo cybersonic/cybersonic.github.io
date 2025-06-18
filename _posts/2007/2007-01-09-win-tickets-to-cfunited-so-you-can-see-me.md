@@ -2,7 +2,7 @@
 layout: post
 title:  "Win tickets to CFUnited so you can see me!"
 uid:	"8A9969C3-E4CF-6C03-C693EBEF844862CA"
-date:   2007-01-09 11:07 AM +0000
+
 categories: cfunited,cfeclipse,podcasting
 permalink: win-tickets-to-cfunited-so-you-can-see-me
 ---

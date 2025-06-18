@@ -2,7 +2,7 @@
 layout: post
 title:  "Every OS X shortcut for you new Mac owners!"
 uid:	"8A98E17B-059E-35E5-CEEC283BD9675C2B"
-date:   2006-08-09 11:06 AM +0000
+
 categories: apple
 permalink: every-os-x-shortcut-for-you-new-mac-owners
 ---

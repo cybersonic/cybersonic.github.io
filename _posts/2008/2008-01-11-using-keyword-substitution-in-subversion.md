@@ -2,7 +2,7 @@
 layout: post
 title:  "Using keyword substitution in Subversion"
 uid:	"8A9B1A0A-E308-A193-1CAC337B5011856A"
-date:   2008-01-11 11:08 AM +0000
+
 categories: webdev,eclipse
 permalink: using-keyword-substitution-in-subversion
 ---

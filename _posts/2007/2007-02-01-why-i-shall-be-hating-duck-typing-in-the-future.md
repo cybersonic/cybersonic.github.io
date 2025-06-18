@@ -2,7 +2,7 @@
 layout: post
 title:  "Why I shall be hating Duck Typing in the future"
 uid:	"8A99AD52-0510-1DDC-F807C3C22C679227"
-date:   2007-02-01 11:07 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: why-i-shall-be-hating-duck-typing-in-the-future
 ---

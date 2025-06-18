@@ -2,7 +2,7 @@
 layout: post
 title:  "Want $45 Million?"
 uid:	"8A987FF4-C982-F306-DF7A52F9F2B6105A"
-date:   2006-05-04 06:14 PM +0000
+
 categories: personal,blogging
 permalink: want-45-million
 ---

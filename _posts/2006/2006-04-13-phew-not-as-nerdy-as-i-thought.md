@@ -2,7 +2,7 @@
 layout: post
 title:  "Phew! Not as Nerdy as I thought!"
 uid:	"8A987891-9BE7-B5D6-5944FEC6674071E9"
-date:   2006-04-13 11:06 AM +0000
+
 categories: personal
 permalink: phew-not-as-nerdy-as-i-thought
 ---

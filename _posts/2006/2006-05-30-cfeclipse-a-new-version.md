@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse: A new version?"
 uid:	"8A988B8C-025D-BFC4-9F46716B04321643"
-date:   2006-05-30 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-a-new-version
 ---

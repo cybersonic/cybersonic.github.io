@@ -2,7 +2,7 @@
 layout: post
 title:  "Mark Drew has left the building... and is heading to Morocco!"
 uid:	"8A99B3BB-9829-F4B2-2B840D50EE3E9C57"
-date:   2007-02-13 11:07 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: mark-drew-has-left-the-building-and-is-heading-to-morocco
 ---

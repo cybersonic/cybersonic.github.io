@@ -2,7 +2,7 @@
 layout: post
 title:  "CFUnited! What a busy conference!"
 uid:	"8A9C01F5-92D0-4EA8-E9E7E77A09A8EF63"
-date:   2008-06-11 11:09 AM +0000
+
 categories: railo,frameworks,cfunited,cfeclipse,coldfusion,coldspring,cfconferences,air
 permalink: cfunited-what-a-busy-conference
 ---

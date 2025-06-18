@@ -2,7 +2,7 @@
 layout: post
 title:  "CFonWheels 0.5 Released"
 uid:	"8A98B069-FC2E-36A2-A1FD280D87AADA5B"
-date:   2006-06-15 11:06 AM +0000
+
 categories: frameworks,coldfusion,ask-md
 permalink: cfonwheels-0-5-released
 ---

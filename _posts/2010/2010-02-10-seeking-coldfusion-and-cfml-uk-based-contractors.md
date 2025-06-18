@@ -2,7 +2,7 @@
 layout: post
 title:  "Seeking ColdFusion and CFML UK based contractors"
 uid:	"86230477-28DA-4AF8-BA6F1D6880DA4ECA"
-date:   2010-02-10 11:59 AM +0000
+
 categories: railo,coldfusion,jobs,getrailo
 permalink: seeking-coldfusion-and-cfml-uk-based-contractors
 ---

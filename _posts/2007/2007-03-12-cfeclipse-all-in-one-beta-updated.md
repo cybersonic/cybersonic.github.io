@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse All-in-One (BETA) updated"
 uid:	"8A9A6748-97E4-4439-A26123FDF1ED9A5B"
-date:   2007-03-12 11:08 AM +0000
+
 categories: cfeclipse,coldfusion
 permalink: cfeclipse-all-in-one-beta-updated
 ---

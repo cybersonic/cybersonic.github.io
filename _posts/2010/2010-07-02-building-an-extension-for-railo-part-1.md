@@ -2,7 +2,7 @@
 layout: post
 title:  "Building an Extension for Railo: Part 1"
 uid:	"CC591F3D-9197-48DE-BC8F77B42174F8CA"
-date:   2010-07-02 09:12 AM +0000
+
 categories: extensions,railo,getrailo
 permalink: building-an-extension-for-railo-part-1
 ---

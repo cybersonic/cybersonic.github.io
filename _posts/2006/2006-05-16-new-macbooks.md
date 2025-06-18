@@ -2,7 +2,7 @@
 layout: post
 title:  "New MacBooks"
 uid:	"8A9884E5-B15F-ED65-2DBA5D718A18D64E"
-date:   2006-05-16 11:06 AM +0000
+
 categories: apple
 permalink: new-macbooks
 ---

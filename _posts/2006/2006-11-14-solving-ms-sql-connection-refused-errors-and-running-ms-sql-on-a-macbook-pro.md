@@ -2,7 +2,7 @@
 layout: post
 title:  "Solving MS SQL \"connection refused\" Errors and running MS SQL on a MacBook Pro"
 uid:	"8A98FA52-95CB-311E-B7E222C0187AF59F"
-date:   2006-11-14 11:06 AM +0000
+
 categories: coldfusion,apple,reference,microsoft
 permalink: solving-ms-sql-connection-refused-errors-and-running-ms-sql-on-a-macbook-pro
 ---

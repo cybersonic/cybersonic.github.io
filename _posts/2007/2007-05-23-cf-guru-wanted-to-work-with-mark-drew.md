@@ -2,7 +2,7 @@
 layout: post
 title:  "CF Guru wanted to work with Mark Drew"
 uid:	"8A9A7B2D-BEE4-59D7-923BB6A5887C242B"
-date:   2007-05-23 11:08 AM +0000
+
 categories: frameworks,model-glue,personal,coldfusion,reactor,coldspring,jobs
 permalink: cf-guru-wanted-to-work-with-mark-drew
 ---

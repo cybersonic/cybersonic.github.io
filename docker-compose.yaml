@@ -1,7 +1,10 @@
-jekyll:
-    image: jekyll/jekyll:pages
-    command: jekyll serve --drafts --incremental
+services:
+  eleventy:
+    image: node:18-alpine
+    working_dir: /app
+    command: sh -c "npm install && npm run serve"
     ports:
-        - 4000:4000
+      - 3001:8080
     volumes:
-        - .:/srv/jekyll
+      - .:/app
+      - /app/node_modules

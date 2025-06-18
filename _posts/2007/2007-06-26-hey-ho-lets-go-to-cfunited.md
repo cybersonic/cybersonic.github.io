@@ -2,7 +2,7 @@
 layout: post
 title:  "Hey... Ho... Lets Go!!! (To CFUnited)"
 uid:	"8A9AA663-B83D-B411-EC25AD9949E93A69"
-date:   2007-06-26 11:08 AM +0000
+
 categories: cfunited,cfeclipse,coldfusion,cfconferences
 permalink: hey-ho-lets-go-to-cfunited
 ---

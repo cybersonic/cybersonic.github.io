@@ -2,7 +2,7 @@
 layout: post
 title:  "Comments back online. Redesign?"
 uid:	"8A999E7E-C921-382E-87BC611CEF9CC9C6"
-date:   2007-01-17 11:07 AM +0000
+
 categories: personal
 permalink: comments-back-online-redesign
 ---

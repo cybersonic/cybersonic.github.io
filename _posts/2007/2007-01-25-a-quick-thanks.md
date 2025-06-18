@@ -2,7 +2,7 @@
 layout: post
 title:  "A Quick Thanks!"
 uid:	"8A99A65D-A85C-FAB4-07F3AA3B04011CD2"
-date:   2007-01-25 11:07 AM +0000
+
 categories: cfeclipse
 permalink: a-quick-thanks
 ---

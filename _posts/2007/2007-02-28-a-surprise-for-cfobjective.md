@@ -2,7 +2,7 @@
 layout: post
 title:  "A surprise for cfObjective"
 uid:	"8A9A6072-B5F3-97F6-81AB722899C4C04D"
-date:   2007-02-28 11:08 AM +0000
+
 categories: cfobjective,scotch-on-the-rocks,cfunited,cfeclipse,coldfusion,cfconferences
 permalink: a-surprise-for-cfobjective
 ---

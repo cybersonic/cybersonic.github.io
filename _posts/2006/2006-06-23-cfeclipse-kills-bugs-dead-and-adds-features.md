@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse: Kills Bugs Dead and adds Features."
 uid:	"8A98B432-A326-AEC3-3BDF7610578F2401"
-date:   2006-06-23 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-kills-bugs-dead-and-adds-features
 ---

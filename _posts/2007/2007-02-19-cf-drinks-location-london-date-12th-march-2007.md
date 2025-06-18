@@ -2,7 +2,7 @@
 layout: post
 title:  "cf_drinks location=\"London\" date=\"12th March 2007\""
 uid:	"8A9A5EFB-C4D7-FAC1-A8B4B9F3305CBB01"
-date:   2007-02-19 11:08 AM +0000
+
 categories: coldfusion,ukcfug
 permalink: cf-drinks-location-london-date-12th-march-2007
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Relational Circles at Live Plasma"
 uid:	"8A97A5E4-D769-0272-9B59D9FF956915B8"
-date:   2005-12-05 11:05 AM +0000
+
 categories: webdev
 permalink: relational-circles-at-live-plasma
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Alagad is Hiring!"
 uid:	"8A9A62F3-D27B-7915-07719161C9019531"
-date:   2007-03-06 11:08 AM +0000
+
 categories: coldfusion,reactor,jobs
 permalink: alagad-is-hiring
 ---

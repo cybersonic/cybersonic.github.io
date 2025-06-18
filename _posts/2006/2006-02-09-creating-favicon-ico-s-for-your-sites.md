@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating favicon.ico's for your sites"
 uid:	"8A97AE9E-08CD-32D3-C716830191A23391"
-date:   2006-02-09 11:05 AM +0000
+
 categories: personal,webdev
 permalink: creating-favicon-ico-s-for-your-sites
 ---

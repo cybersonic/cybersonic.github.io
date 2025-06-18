@@ -2,7 +2,7 @@
 layout: post
 title:  "MacBook Pros get speed increase"
 uid:	"8A97AFA8-CD5E-2484-472C4DFC9D558060"
-date:   2006-02-15 11:05 AM +0000
+
 categories: personal,apple
 permalink: macbook-pros-get-speed-increase
 ---

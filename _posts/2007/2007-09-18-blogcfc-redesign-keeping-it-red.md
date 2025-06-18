@@ -2,7 +2,7 @@
 layout: post
 title:  "BlogCFC Redesign, Keeping it Red"
 uid:	"8A9ADCB4-0DD3-703F-2B303747790CA9B2"
-date:   2007-09-18 11:08 AM +0000
+
 categories: personal,coldfusion
 permalink: blogcfc-redesign-keeping-it-red
 ---

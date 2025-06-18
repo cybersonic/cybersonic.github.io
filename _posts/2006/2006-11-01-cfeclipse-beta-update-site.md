@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse Beta update site"
 uid:	"8A98F10B-BDA0-220B-8C05E5191801B918"
-date:   2006-11-01 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-beta-update-site
 ---

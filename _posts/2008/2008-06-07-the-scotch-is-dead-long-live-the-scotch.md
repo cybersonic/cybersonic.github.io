@@ -2,7 +2,7 @@
 layout: post
 title:  "The Scotch is dead, Long live the Scotch!"
 uid:	"8A9C005E-CD7C-262F-0A17C1E6722883B3"
-date:   2008-06-07 11:09 AM +0000
+
 categories: scotch-on-the-rocks,coldfusion,presentations
 permalink: the-scotch-is-dead-long-live-the-scotch
 ---

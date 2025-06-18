@@ -2,7 +2,7 @@
 layout: post
 title:  "A Hellblazin' Wishlist Thanks!"
 uid:	"8A98E3EC-F095-A9AD-7A4655C86B0E45AD"
-date:   2006-08-11 11:06 AM +0000
+
 categories: cfeclipse,personal
 permalink: a-hellblazin-wishlist-thanks
 ---

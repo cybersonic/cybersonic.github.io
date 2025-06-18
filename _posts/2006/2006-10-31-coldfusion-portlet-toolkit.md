@@ -2,7 +2,7 @@
 layout: post
 title:  "ColdFusion Portlet Toolkit"
 uid:	"8A98EF36-DFDF-93AE-9EBC42FA027F3C8E"
-date:   2006-10-31 11:06 AM +0000
+
 categories: coldfusion
 permalink: coldfusion-portlet-toolkit
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Pool party madness"
 uid:	"8A977C83-0E87-040B-8FBBF4040E704AAB"
-date:   2004-06-05 11:04 AM +0000
+
 categories: 
 permalink: pool-party-madness
 ---

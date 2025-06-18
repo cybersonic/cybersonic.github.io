@@ -2,7 +2,7 @@
 layout: post
 title:  "cf.Objective() 2011 Call for Speakers!"
 uid:	"542F5A17-75E2-41C8-ACD9E7BA64C0C619"
-date:   2010-12-08 02:07 PM +0000
+
 categories: railo,cfobjective
 permalink: cf-objective-2011-call-for-speakers
 ---

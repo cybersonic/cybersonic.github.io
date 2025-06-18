@@ -2,7 +2,7 @@
 layout: post
 title:  "Mobile Gaming Developer Position in London"
 uid:	"413ACB4C-564D-4322-AF611DA5919821EA"
-date:   2009-06-11 04:45 PM +0000
+
 categories: jobs
 permalink: mobile-gaming-developer-position-in-london
 ---

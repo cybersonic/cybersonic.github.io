@@ -2,7 +2,7 @@
 layout: post
 title:  "Get on the ColdFusion 8 beta!"
 uid:	"8A99A45A-9EDF-95FC-5FE9B9870993B838"
-date:   2007-01-23 11:07 AM +0000
+
 categories: coldfusion
 permalink: get-on-the-coldfusion-8-beta
 ---

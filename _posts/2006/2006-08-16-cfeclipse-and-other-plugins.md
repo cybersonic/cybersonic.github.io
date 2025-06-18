@@ -2,7 +2,7 @@
 layout: post
 title:  "CFEclipse and other  plugins"
 uid:	"8A98E7F3-A1FB-1730-07546A3C3B585B2C"
-date:   2006-08-16 11:06 AM +0000
+
 categories: cfeclipse
 permalink: cfeclipse-and-other-plugins
 ---

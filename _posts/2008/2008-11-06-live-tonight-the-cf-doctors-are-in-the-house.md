@@ -2,7 +2,7 @@
 layout: post
 title:  "Live Tonight! The CF Doctors are in the house!"
 uid:	"71F527EC-DE3A-DB30-05913A1297BE0051"
-date:   2008-11-06 08:19 AM +0000
+
 categories: coldfusion,ukcfug
 permalink: live-tonight-the-cf-doctors-are-in-the-house
 ---

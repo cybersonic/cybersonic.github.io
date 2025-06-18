@@ -2,7 +2,7 @@
 layout: post
 title:  "Out of the bag, RDS Plugin for (CF)Eclipse"
 uid:	"8A9870B2-91A5-2DB1-B4EE327B1A7E7922"
-date:   2006-03-21 11:05 AM +0000
+
 categories: cfeclipse,coldfusion,flex,adobe
 permalink: out-of-the-bag-rds-plugin-for-cf-eclipse
 ---
