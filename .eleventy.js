@@ -56,19 +56,23 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("posts", function(collectionApi) {
     const posts = collectionApi.getFilteredByGlob("_posts/**/*.{md,markdown,html}");
     console.log(`DEBUG: Found ${posts.length} total posts`);
-    if (posts.length > 0) {
-      console.log(`DEBUG: First 3 posts:`);
-      posts.slice(0, 3).forEach((post, i) => {
+    
+    // Sort by date (newest first)
+    const sortedPosts = posts.sort((a, b) => b.date - a.date);
+    
+    if (sortedPosts.length > 0) {
+      console.log(`DEBUG: First 3 posts after sorting:`);
+      sortedPosts.slice(0, 3).forEach((post, i) => {
         console.log(`  ${i}: ${post.inputPath} - ${post.date}`);
       });
     }
-    return posts.reverse();
+    return sortedPosts;
   });
   
   // Create paginated collection for the home page
   eleventyConfig.addCollection("postsPaginated", function(collectionApi) {
-    const posts = collectionApi.getFilteredByGlob("_posts/**/*.{md,markdown,html}").reverse();
-    return posts;
+    const posts = collectionApi.getFilteredByGlob("_posts/**/*.{md,markdown,html}");
+    return posts.sort((a, b) => b.date - a.date);
   });
   
   // Group posts by year

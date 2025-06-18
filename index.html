@@ -12,8 +12,12 @@ description: A compendium of CFML and web technology topics
     </div>
 
     <h2>Latest Posts</h2>
+    <!-- DEBUG: Total posts: {{ collections.posts.length }} -->
     <div class="post-list">
-        {%- for post in collections.posts | slice(0, 5) -%}
+        <!-- DEBUG: Total posts available: {{ collections.posts.length }} -->
+        {%- for post in collections.posts -%}
+        {%- if loop.index <= 5 -%}
+        <!-- DEBUG: Processing post {{ loop.index }}: {{ post.data.title }} -->
         <article class="post-item">
             <h3 class="post-title">
                 <a href="{{ post.url }}">{{ post.data.title }}</a>
@@ -30,6 +34,7 @@ description: A compendium of CFML and web technology topics
             </div>
             <a href="{{ post.url }}" class="read-more">Read more →</a>
         </article>
+        {%- endif -%}
         {%- endfor -%}
     </div>
     
