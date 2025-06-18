@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="a compendium of cfml and web technology topics">
+
+    <title>CFEclipse: enhancements Part 1 - Mark Drew on code</title>
+
+
+    <meta content="Mark Drew on code" property="og:site_name">
+    
+    <meta content="CFEclipse: enhancements Part 1" property="og:title">
+    
+    
+    <meta content="article" property="og:type">
+    
+    
+    <meta content="a compendium of cfml and web technology topics" property="og:description">
+    
+    
+    <meta content="http://markdrew.io/cfeclipse-enhancements-part-1" property="og:url">
+    
+    
+    <meta content="2006-08-02T12:06:00+01:00" property="article:published_time">
+    <meta content="http://markdrew.io/about/" property="article:author">
+    
+    
+    <meta content="http://markdrew.io/assets/img/logo-high-resolution.png" property="og:image">
+    
+    
+    
+    <meta content="cfeclipse" property="article:section">
+    
+    
+    
+    
+    
+
+
+    <link rel="canonical" href="http://markdrew.io/cfeclipse-enhancements-part-1">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="application/atom+xml" rel="alternate" href="http://markdrew.io/feed.xml" title="Mark Drew on code" />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Mark Drew on code</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/subscribe/">Subscribe</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/header-home.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>CFEclipse: enhancements Part 1</h1>
+                    
+                    <span class="meta">Posted by Mark Drew on code on August 2, 2006 
+                    
+                        <p>Tagged under 
+                        <span class="label label-default">cfeclipse<span></p>
+                    
+                    </span>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>In response to the features that the community has been suggesting over at Damon Cooper’s blog post on IDE’s I thought I would comment on some of the features and the obstacles and issues surrounding them as well as the status of some of the features.</p>
+
+<p><strong>Debugging support</strong><br />
+* There is a good plugin for Eclipse (and CFEclipse of course) that allows you to do this. It was shown at CFUnited by Michael Dinowitz and it allows you to put breakpoints in your code and step through, and into, your code.</p>
+<p>Check it out at: <a href="http://www.fusion-reactor.com/fusiondebug/">http://www.fusion-reactor.com/fusiondebug/</a><br />
+</p>
+<p><strong>Defining a &quot;site&quot; with remote and local version</strong><br />
+* The idea of sites is a very good metaphor, this is something that I am definitely going to add, its already there in some forms but I am going to tidy it up as well as defining the default external browser you want to use.</p>
+<p>If you press F12 (when using Windows) you will be asked to to create a cfeclipse.properties file which defines the project path, the path on the server that maps to the project and the location of a browser you want to use. </p>
+<p>The next step is to tidy all these settings up.<br />
+</p>
+<p><strong>EVERYTHING that is in HomeSite+</strong><br />
+Right. Of course. Even the millions of toolbars? I think we have a chance to create something better, more intelligent. I dont think its fair to be held back by mimicking HomeSite+ to the hilt.</p>
+<p><strong>BOM for Unicode pages</strong><br />
+* File encoding is usually handled by Eclipse itself as part of the platform.</p>
+<p>I believe it is not part of the requirement for UTF-8 but I dont know enough about this personally. There is a <a href="http://www.sustainablegis.com/blog/cfg11n/index.cfm?mode=entry&amp;entry=8B5D7DCB-20ED-7DEE-2AC2AD8DB7123EDE">post here</a> explainging more about this:</p>
+<p>You can see the bugs related to this issue over at the eclipse <a href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;field0-0-0=product&amp;type0-0-0=substring&amp;value0-0-0=BOM&amp;field0-0-1=component&amp;type0-0-1=substring&amp;value0-0-1=BOM&amp;field0-0-2=short_desc&amp;type0-0-2=substring&amp;value0-0-2=BOM&amp;field0-0-3=status_whiteboard&amp;type0-0-3=substring&amp;value0-0-3=BOM">bugs site</a><br />
+</p>
+<p><strong>Variable insight within a CFC (and I presume CFM page) from Queries</strong><br />
+  * This is already in the works, it already parses the contents of CFQUERY and will try and guess columns for you, without needing to do a round trip to the server. It needs more work to make it a little tighter and work how you think they should do. <br />
+</p>
+<p><strong>Right Click to deploy to multiple RDS/FTP servers</strong><br />
+  * I shall be working on this soon, as part of defining your site, you will also be able to define a remote site (maybe a number of them). The problem (or obstacle more like it) is getting RDS and sFTP working fine. I have done some tests with using different sFTP libraries and have already worked on a Factory so that you can just plug different file systems (i.e. I can then plugin different connection methods)<br />
+</p>
+<p><strong>Create a file without actually creating a new file on the file system</strong><br />
+* A tough one, but something we are kind of already doing for RDS and FTP to work, but this works by (internally) eclipse saving your file to a project that is hidden. We could follow this methodology and just say that if you click save, you need to save it in your project. The problem with this might come in later if you start writing a CFC and sorting out component paths and function insight.</p>
+
+<p>I shall be posting answers to the rest over the next few days</p>
+
+                <hr>
+               <a href="https://twitter.com/share" class="twitter-share-button" data-text="CFEclipse: enhancements Part 1: " data-via="markdrew" data-hashtags="cfeclipse">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <hr>
+             <!-- Begin MailChimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="//charliemikedelta.us3.list-manage.com/subscribe/post?u=97af4d98b2b34ea232718d283&amp;id=3c12fb5c13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Subscribe to updates from the blog!</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97af4d98b2b34ea232718d283_3c12fb5c13" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+
+                <hr>
+                <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'markdrewblog'; // required: replace example with your forum shortname
+                var disqus_identifier = '8A98DB41-ED45-9110-5EB02B808C13CEDC';
+                var disqus_title = 'CFEclipse: enhancements Part 1';
+
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/spammers-are-even-stupider-than-i-imagined" data-toggle="tooltip" data-placement="top" title="Spammers are even stupider than I imagined!">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/damon-cooper-on-your-favourite-ide-s" data-toggle="tooltip" data-placement="top" title="Damon Cooper on your favourite IDE's">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+</article>
+
+<hr>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/cybersonic">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="mailto:mark.drew@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                  
+                    <li>
+                        <a rel="me" href="https://mastodon.social/@markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-mastodon fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Mark Drew 2022</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74704034-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script id="dsq-count-scr" src="//markdrewblog.disqus.com/count.js" async></script>
+<!-- <script id="dsq-count-scr" src="//cmdblog.disqus.com/count.js" async></script> -->
+</body>
+
+</html>

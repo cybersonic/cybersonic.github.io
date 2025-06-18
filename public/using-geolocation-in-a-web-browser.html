@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="a compendium of cfml and web technology topics">
+
+    <title>Using GeoLocation in a Web Browser - Mark Drew on code</title>
+
+
+    <meta content="Mark Drew on code" property="og:site_name">
+    
+    <meta content="Using GeoLocation in a Web Browser" property="og:title">
+    
+    
+    <meta content="article" property="og:type">
+    
+    
+    <meta content="a compendium of cfml and web technology topics" property="og:description">
+    
+    
+    <meta content="http://markdrew.io/using-geolocation-in-a-web-browser" property="og:url">
+    
+    
+    <meta content="2011-04-17T09:10:00+01:00" property="article:published_time">
+    <meta content="http://markdrew.io/about/" property="article:author">
+    
+    
+    <meta content="http://markdrew.io/assets/img/logo-high-resolution.png" property="og:image">
+    
+    
+    
+    <meta content="mobile" property="article:section">
+    
+    
+    
+    
+    
+
+
+    <link rel="canonical" href="http://markdrew.io/using-geolocation-in-a-web-browser">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="application/atom+xml" rel="alternate" href="http://markdrew.io/feed.xml" title="Mark Drew on code" />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Mark Drew on code</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/subscribe/">Subscribe</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/header-home.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Using GeoLocation in a Web Browser</h1>
+                    
+                    <span class="meta">Posted by Mark Drew on code on April 17, 2011 
+                    
+                        <p>Tagged under 
+                        <span class="label label-default">mobile<span></p>
+                    
+                    </span>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>
+Having had an awesome time at WebDU, a couple of sessions had information about <a href="http://docs.phonegap.com/" title="PhoneGap API Documentation">PhoneGap</a>, <a href="http://jquerymobile.com/" title="jQuery Mobile | jQuery Mobile">JQuery Mobile</a> and more importantly geolocation available in HTML 5 applications. 
+</p>
+<p>
+	Some of the confusion arose from what the difference is between PhoneGap and JQuery Mobile provide. 
+	<br />
+	Essentially, PhoneGap provides a common interface into the <a href="http://docs.phonegap.com/" title="PhoneGap API Documentation">various API's</a> provided on different movile devices. API's such as the Accelerometer, Camera, Compass, Geolocation, Contacts, Media and Notificaiton. 
+	
+	<br />
+	<a href="http://jquerymobile.com/" title="jQuery Mobile | jQuery Mobile">JQuery Mobile</a> provides an API to develop a common UI that works across different devices as well as common ways for re-skinning and handling events within that UI.  
+</p>
+
+<p>
+	A question come up about how to do GeoLocation within these devices and I pointed out that you can indeed do geolocation, and not only within a mobile device, but you can also do it using the HTML5 API's on desktop browsers. <br />
+	This is actually really easy with the navigator.geolocation object in JavaScript. <br />
+	
+	To check whether you can actually use it all you have to do is check if this object exists in the DOM, with code like:
+	<p>
+	<code>
+		if (navigator.geolocation) \{
+		 	navigator.geolocation.getCurrentPosition(success, error);	
+		}
+	</code>
+	</p>
+	Now, if you run this code from some function, you will need to pass in two functions that will recieve the current position, or throw an error if there has been some problem getting the current location. The expanded code is shown below:
+	
+	<p>
+		<code>
+			
+			function getLocation()\{
+				if (navigator.geolocation) \{
+				  navigator.geolocation.getCurrentPosition(success, error);
+				} else \{
+					document.getElementById("output").innerHTML = "Your browser doesn't handle the  GeoLocation API. Use Safari, Firefox 4 or Chrome";
+				}
+			}
+
+
+			function success(loc)\{
+				strout = "";
+				for(l in loc.coords)\{
+					strout += l +" = " +loc.coords[l] + "<br />";
+				}
+				strout += '<img src="http://maps.google.com/maps/api/staticmap?center='+loc.coords.latitude+','+ loc.coords.longitude +'&amp;zoom=15&amp;size=400x400&amp;sensor=false" />';
+				document.getElementById("output").innerHTML = strout;
+			}
+
+			function error(err)\{
+				document.getElementById("output").innerHTML = err.message;
+			}
+		
+		</code>
+	</p>
+	And that is it. No external libraries or PhoneGap API's. Just a standard browser call. 
+	
+	<br />
+	
+	The navigator.geolocation.getCurrentPosotion() function will call the success(loc) function passing in a GeoPosition object that you can get the coordinates from. It also includes a few other handy properties such as longitude, lattitude, accuracy and heading if you are moving. 
+	<br />
+	
+	<a href="http://www.markdrew.co.uk/loc/" title="Location Data">Check out a demo of the above code</a>. There are no other libraries or includes so you can just view the source to see how it works. 
+	
+</p>
+
+                <hr>
+               <a href="https://twitter.com/share" class="twitter-share-button" data-text="Using GeoLocation in a Web Browser: " data-via="markdrew" data-hashtags="mobile">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <hr>
+             <!-- Begin MailChimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="//charliemikedelta.us3.list-manage.com/subscribe/post?u=97af4d98b2b34ea232718d283&amp;id=3c12fb5c13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Subscribe to updates from the blog!</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97af4d98b2b34ea232718d283_3c12fb5c13" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+
+                <hr>
+                <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'markdrewblog'; // required: replace example with your forum shortname
+                var disqus_identifier = '0448E433-3BD5-4FF3-951B70C61CC33FC6';
+                var disqus_title = 'Using GeoLocation in a Web Browser';
+
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/denny-valliant-joins-railo" data-toggle="tooltip" data-placement="top" title="Denny Valliant Joins Railo!">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/my-webdu-2011-review-and-all-that-jazz" data-toggle="tooltip" data-placement="top" title="My WebDU 2011 review and all that jazz!">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+</article>
+
+<hr>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/cybersonic">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="mailto:mark.drew@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                  
+                    <li>
+                        <a rel="me" href="https://mastodon.social/@markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-mastodon fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Mark Drew 2022</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74704034-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script id="dsq-count-scr" src="//markdrewblog.disqus.com/count.js" async></script>
+<!-- <script id="dsq-count-scr" src="//cmdblog.disqus.com/count.js" async></script> -->
+</body>
+
+</html>

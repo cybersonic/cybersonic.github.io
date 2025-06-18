@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <link rel="icon" href="/favicon.ico">
+    
+    <!-- Water.css Theme -->
+    {% if site.theme == "light" %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+    {% elif site.theme == "auto" %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    {% else %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    {% endif %}
+    
+    <!-- Custom additions for blog functionality -->
+    <style>
+        /* Blog-specific enhancements */
+        .site-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .site-title {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        .site-description {
+            margin: 0.5rem 0 0 0;
+            opacity: 0.8;
+        }
+        
+        .site-nav {
+            margin: 1rem 0;
+        }
+        
+        .site-nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            display: inline-block;
+        }
+        
+        .site-nav a:hover {
+            background-color: var(--background-alt);
+        }
+        
+        .post-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .post-item {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        
+        .post-title {
+            margin: 0 0 0.5rem 0;
+        }
+        
+        .post-title a {
+            text-decoration: none;
+            color: var(--links);
+        }
+        
+        .post-meta {
+            opacity: 0.7;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .post-subtitle {
+            opacity: 0.8;
+            font-style: italic;
+            margin: 0.5rem 0;
+        }
+        
+        .read-more {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .site-footer {
+            margin-top: 3rem;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        
+        .social-links a {
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+        
+        /* Post content styling */
+        .post-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+        
+        .post-header {
+            margin-bottom: 2rem;
+        }
+        
+        .post-navigation {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+        }
+        
+        .back-to-home {
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+        
+        .back-to-home:hover {
+            background-color: var(--background-alt);
+        }
+        
+        /* Theme switcher */
+        .theme-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        .theme-switcher select {
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            background-color: var(--background);
+            color: var(--text-main);
+        }
+        
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            
+            .theme-switcher {
+                position: static;
+                text-align: center;
+                margin: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Theme Switcher -->
+    <div class="theme-switcher">
+        <select id="theme-selector" onchange="switchTheme()">
+            <option value="dark" {% if site.theme == "dark" %}selected{% endif %}>Dark</option>
+            <option value="light" {% if site.theme == "light" %}selected{% endif %}>Light</option>
+            <option value="auto" {% if site.theme == "auto" %}selected{% endif %}>Auto</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <header class="site-header">
+            <h1 class="site-title">{{ site.title }}</h1>
+            <p class="site-description">{{ site.description }}</p>
+            <nav class="site-nav">
+                <a href="/">Home</a>
+                <a href="/posts.html">All Posts</a>
+                <a href="/about.html">About</a>
+            </nav>
+        </header>
+
+        <main>
+            {{ content | safe }}
+        </main>
+
+        <footer class="site-footer">
+            <div class="social-links">
+                <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">Twitter</a>
+                <a href="https://github.com/{{ site.author.github }}" target="_blank">GitHub</a>
+                <a href="mailto:{{ site.author.email }}">Email</a>
+            </div>
+            <p>&copy; 2024 {{ site.author.name }}. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function switchTheme() {
+            const selector = document.getElementById('theme-selector');
+            const theme = selector.value;
+            
+            // Remove existing water.css links
+            const existingLinks = document.querySelectorAll('link[href*="water.css"]');
+            existingLinks.forEach(link => link.remove());
+            
+            // Add new theme
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            
+            if (theme === 'light') {
+                link.href = 'https://cdn.jsdelivr.net/npm/water.css@2/out/light.css';
+            } else if (theme === 'auto') {
+                link.href = 'https://cdn.jsdelivr.net/npm/water.css@2/out/water.css';
+            } else {
+                link.href = 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css';
+            }
+            
+            document.head.appendChild(link);
+            
+            // Store preference
+            localStorage.setItem('preferred-theme', theme);
+        }
+        
+        // Load saved theme preference
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('preferred-theme');
+            if (savedTheme) {
+                document.getElementById('theme-selector').value = savedTheme;
+                switchTheme();
+            }
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="a compendium of cfml and web technology topics">
+
+    <title>Getting my Groovy on. Beginning Groovy and Grails: Day 1 - Mark Drew on code</title>
+
+
+    <meta content="Mark Drew on code" property="og:site_name">
+    
+    <meta content="Getting my Groovy on. Beginning Groovy and Grails: Day 1" property="og:title">
+    
+    
+    <meta content="article" property="og:type">
+    
+    
+    <meta content="a compendium of cfml and web technology topics" property="og:description">
+    
+    
+    <meta content="http://markdrew.io/getting-my-groovy-on-beginning-groovy-and-grails-day-1" property="og:url">
+    
+    
+    <meta content="2008-11-13T03:04:00+00:00" property="article:published_time">
+    <meta content="http://markdrew.io/about/" property="article:author">
+    
+    
+    <meta content="http://markdrew.io/assets/img/logo-high-resolution.png" property="og:image">
+    
+    
+    
+    <meta content="frameworks" property="article:section">
+    
+    
+    
+    
+    
+
+
+    <link rel="canonical" href="http://markdrew.io/getting-my-groovy-on-beginning-groovy-and-grails-day-1">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="application/atom+xml" rel="alternate" href="http://markdrew.io/feed.xml" title="Mark Drew on code" />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Mark Drew on code</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/subscribe/">Subscribe</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/header-home.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Getting my Groovy on. Beginning Groovy and Grails: Day 1</h1>
+                    
+                    <span class="meta">Posted by Mark Drew on code on November 13, 2008 
+                    
+                        <p>Tagged under 
+                        <span class="label label-default">frameworks<span></p>
+                    
+                    </span>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>I decided that since it's now hit winter, and the nights close in so early, that I should spend one hour each evening learning about something. Since <a title="ArgumentCollection - Broadchoice Engineering: Plain Text and HTML Emails via Spring" href="http://blog.broadchoice.com/index.cfm/2008/11/10/Plain-Text-and-HTML-Emails-via-Spring">Ray seems to be getting into Groovy</a> I thought to myself that I might be good with CF and ok with Java, I really needed to learn some other technologies. This helps me get my thinking hat on even when I am coding in CF. Revitalize the old noodle so to speak.
+</p>
+<p>
+Now, if have heard of Groovy you might say "But it's just like Java". Well, yes and no. I think <a title="Groovy - Home" href="http://groovy.codehaus.org/">Groovy</a> is closer to ColdFusion in its dynamic/runtime approach than it is on Java. I do think that sometimes we are looking too much at the Java world and copying a lot of the OO ideas without thinking about how a dynamic language might solve that. Hence this little foray into learning a new language!</p>
+<p>
+Just so you know, I am working from the book "<a title="Amazon.co.uk: Beginning Groovy &amp; Grails: From Novice to Professional (Expert's Voice in Open Source): C et al Judd: Books" href="http://amazon.co.uk/dp/1430210451">Beginnning Groovy and Grails</a>" by Judd, Nusariat and Shingler.
+</p>
+<p>
+So, what is Groovy? well from reading the book it seems that the Java Developers of the world were jealous of the productivity gained from the dynamic language developers (such as Ruby and PHP) and wanted a way to join those kids whilst maintaining backwards compatibility. Sure, there is more in the book, but go buy it and read it yourselves ;) so along was developed Groovy. The language sits on top of the JVM the same way that java does and in fact, I learned that you can copy and paste your complete Java code into a .groovy file and it will run with no problems! </p>
+<p> The syntax is much cleaner too, compared to java, compare the following examples (to just get a class created):
+</p>
+<p>
+Java:</p>
+<p>
+<code>
+package uk.co.markdrew.testings;
+public class Todo\{
+	private String name;
+	private String note;
+	
+	public Todo()\{}
+	
+	public Todo(String name, String note)\{
+		this.name = name;
+		this.note = note;
+	}
+	
+	//imagine the getters and setters, another 12 lines of code which I cant be bothered to write
+}</code></p>
+<p><code>
+</code>
+Groovy:
+<code>
+public class Todo\{
+	String name;
+	String note;
+}	</code></p>
+<p><code>
+</code>
+Right... that is about it... the groovy class already has a constructor, and the variables can be accessed either directly or through what seems to be auto generated getters and setters. YAY for less code!
+</p>
+<p>
+So, how I got started? Well I downloaded the <a href="http://dist.groovy.codehaus.org/distributions/installers/cross-platform/groovy-1.5.7-cross-platform-installer.jar">cross platform installer</a> from the <a title="Groovy - Download" href="http://groovy.codehaus.org/Download">Groovy website</a>
+</p>
+<p>
+Running through that it then asks you to add GROOVY to your environment variables and GROOVY/bin to your PATH variable, if you are on OS X you can do it as detailed <a title="OS X: Change your PATH environment variable | Mac system administration | Tech-Recipes" href="http://www.tech-recipes.com/rx/2621/os_x_change_path_environment_variable/">here</a></p>
+<p><a title="OS X: Change your PATH environment variable | Mac system administration | Tech-Recipes" href="http://www.tech-recipes.com/rx/2621/os_x_change_path_environment_variable/"></a>
+Once I did that, I was able to go to the terminal and type "groovy" and it picked it up and everything was super duper cool!</p>
+<p>
+Then I went to get the <a title="Groovy - TextMate" href="http://groovy.codehaus.org/TextMate">TextMate bundles</a> since I prefer learning a new language as simply as possible without needing to drop down into an IDE (learn the basics then you need the power of an IDE)</p>
+<p>My first program was to make a Todos.groovy file with the following:</p>
+<p>
+<code>
+	public class Todo \{
+		String name
+		String note
+	}
+	def todos = [
+		new	Todo(name:"1", note:"one"),
+		new Todo(name:"2", note:"two"),
+		new Todo(name:"3", note:"three")
+	]
+	todos.each \{ 
+		println	"$\{it.name} $\{it.note}"
+	}
+</code></p>
+<p><code></code>
+That's nice right? nice and neat!
+I then learned about loops, Sets, Maps, Lists and string concatenation which you can see in the line (println	"$\{it.name} $\{it.note}") above.
+Well, that is it so far, I am continuing to read the book and will move onto regular expressions (the bane of my life) tonight!</p>
+
+                <hr>
+               <a href="https://twitter.com/share" class="twitter-share-button" data-text="Getting my Groovy on. Beginning Groovy and Grails: Day 1: " data-via="markdrew" data-hashtags="frameworks">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <hr>
+             <!-- Begin MailChimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="//charliemikedelta.us3.list-manage.com/subscribe/post?u=97af4d98b2b34ea232718d283&amp;id=3c12fb5c13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Subscribe to updates from the blog!</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97af4d98b2b34ea232718d283_3c12fb5c13" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+
+                <hr>
+                <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'markdrewblog'; // required: replace example with your forum shortname
+                var disqus_identifier = '94E0D965-EBA1-548B-762E7338268456D3';
+                var disqus_title = 'Getting my Groovy on. Beginning Groovy and Grails: Day 1';
+
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/join-me-coldfusioncamp-2008-in-munich" data-toggle="tooltip" data-placement="top" title="Join me @ ColdFusionCamp 2008 in Munich">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/is-cfeclipse-dead" data-toggle="tooltip" data-placement="top" title="Is CFEclipse Dead?">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+</article>
+
+<hr>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/cybersonic">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="mailto:mark.drew@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                  
+                    <li>
+                        <a rel="me" href="https://mastodon.social/@markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-mastodon fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Mark Drew 2022</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74704034-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script id="dsq-count-scr" src="//markdrewblog.disqus.com/count.js" async></script>
+<!-- <script id="dsq-count-scr" src="//cmdblog.disqus.com/count.js" async></script> -->
+</body>
+
+</html>

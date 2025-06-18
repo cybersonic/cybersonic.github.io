@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="a compendium of cfml and web technology topics">
+
+    <title>Fancy Table Layouts in Coldfusion - Mark Drew on code</title>
+
+
+    <meta content="Mark Drew on code" property="og:site_name">
+    
+    <meta content="Fancy Table Layouts in Coldfusion" property="og:title">
+    
+    
+    <meta content="article" property="og:type">
+    
+    
+    <meta content="a compendium of cfml and web technology topics" property="og:description">
+    
+    
+    <meta content="http://markdrew.io/fancy-table-layouts-in-coldfusion" property="og:url">
+    
+    
+    <meta content="2005-01-22T11:05:00+00:00" property="article:published_time">
+    <meta content="http://markdrew.io/about/" property="article:author">
+    
+    
+    <meta content="http://markdrew.io/assets/img/logo-high-resolution.png" property="og:image">
+    
+    
+    
+    <meta content="coldfusion" property="article:section">
+    
+    
+    
+    
+    
+
+
+    <link rel="canonical" href="http://markdrew.io/fancy-table-layouts-in-coldfusion">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="application/atom+xml" rel="alternate" href="http://markdrew.io/feed.xml" title="Mark Drew on code" />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Mark Drew on code</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/subscribe/">Subscribe</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/header-home.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Fancy Table Layouts in Coldfusion</h1>
+                    
+                    <span class="meta">Posted by Mark Drew on code on January 22, 2005 
+                    
+                        <p>Tagged under 
+                        <span class="label label-default">coldfusion<span></p>
+                    
+                    </span>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>Am interesting question come up in the cf-talk mailing list:
+<i>I have a query with x number of records. I want to dynamically create a table on my display that displays five records per row, ie (qf = queryfield):</i></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>qf</td>
+      <td>spacer</td>
+      <td>qf</td>
+      <td>spacer</td>
+      <td>qf</td>
+      <td>spacer</td>
+      <td>qf</td>
+      <td>spacer</td>
+      <td>qf</td>
+    </tr>
+    <tr>
+      <td>qf</td>
+      <td>spacer</td>
+      <td>qf</td>
+      <td>spacer</td>
+      <td>qf</td>
+      <td>spacer</td>
+      <td>qf</td>
+      <td>spacer</td>
+      <td>qf</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>and so on…</p>
+
+<p>Also need to know how to fill in empty cells on the last row if my recordcount isn’t divisible by 5. Can anyone point me to an article/tutorial/code snippet which could show me how to do this efficiently?
+&lt;/i&gt;</p>
+
+<p>My response is below, I am using a list just for demonstration but you can change it yourself to loop through a query with the basics in place.</p>
+<div class="code">
+<span class="codecomment">//We set a list of words we are going to loop over</span>
+
+<span class="codecftag">&lt;cfset </span>lWords = <span class="codecfvar">"eine, meine, miney, mo, catch, developers, by, their, toe"</span><span class="codecftag">&gt;</span>
+
+<span class="codecftag">&lt;cfset </span>nLength = <span class="codecfvar">ListLen(</span>lWords<span class="codecfvar">)</span><span class="codecftag">&gt;</span>
+<span class="codecomment">//The number of columns we want (this is a word and spacer)</span>
+<span class="codecftag">&lt;cfset </span>columns = <span class="codecfint">5</span><span class="codecftag">&gt;</span>
+<span class="codecomment">
+//Now, we check how many rows there would be , I do a ceiling function
+so that I get the upper integer e.g.</span>
+<span class="codecomment">//if we have 9 items, and we have 4 columns, we shall have 3 rows, the last row having one item and 3 blanks</span>
+<span class="codecftag">&lt;cfset</span> rows = <span class="codecfvar">Evaluate(ceiling(</span>nLength<wbr />
+<p>/columns<span class="codecfvar">))</span><span class="codecftag">&gt;</span>
+<span class="codecomment">//the ideal number of records that we shall have in TOTAL (including empty ones) in the table</span>
+<span class="codecftag">&lt;cfset </span>idealrecords = <span class="codecfvar">Evaluate(</span>rows * columns<span class="codecfvar">)</span><span class="codecftag">&gt;</span>
+<span class="codecftag">&lt;cfoutput&gt;</span>
+Number of items = #nLength#&lt;br /&gt;
+Number of columns = #columns# &lt;br /&gt;
+Number of Rows = #rows#&lt;br /&gt;
+Ideal Number of Columns = #idealcols#&lt;br /&gt;
+<span class="codehtmltag">&lt;table</span> <span class="codehtmlattr">border="</span>1<span class="codehtmlattr">" width="</span>80%<span class="codehtmlattr">"</span><span class="codehtmltag">&gt;</span>
+ <span class="codehtmltag">&lt;tr&gt;</span>
+
+  <span class="codecomment">//Loop from 1 to the ideal total number of items (never mind rows)</span>
+
+  <span class="codecftag">&lt;cfloop</span> <span class="codecftag">from="</span>1<span class="codecftag">" to="</span>#idealcols#<span class="codecftag">" index="</span>i<span class="codecftag">"&gt;</span>
+
+  <span class="codecomment">//We set if this column needs a row</span>
+
+       <span class="codecftag">&lt;cfset</span> colCounter = i <span class="codecfvar">MOD</span> columns<span class="codecftag">&gt;</span>
+
+      <span class="codecomment"> //make sure that we dont need an empty space</span>
+
+       <span class="codecftag">&lt;cfif</span> i <span class="codecfvar">LTE ListLen(</span>lWords<span class="codecfvar">)</span><span class="codecftag">&gt;</span>
+
+               <span class="codehtmltag">&lt;td&gt;</span>#<span class="codecfvar">ListGetAt(</span>lWords, i<span class="codecfvar">)</span>#<span class="codehtmltag">&lt;/td&gt;</span>
+
+       <span class="codecftag">&lt;cfelse&gt;</span>
+
+               <span class="codehtmltag">&lt;td&gt;</span> <span class="codehtmltag">&lt;/td&gt;</span>
+
+       <span class="codecftag">&lt;/cfif&gt;</span>
+
+       <span class="codecomment">//Insert a row if required</span>
+
+       <span class="codecftag">&lt;cfif</span> colCounter <span class="codecfvar">EQ</span> <span class="codecfint">0</span><span class="codecftag">&gt;</span>
+
+         <span class="codecomment">//Unless we are at the end of the list (we already have a TR</span>
+
+             <span class="codecftag">&lt;cfif</span> i LT idealcols<span class="codecftag">&gt;</span>
+
+                 <span class="codehtmltag">&lt;/tr&gt;
+                 &lt;tr&gt;</span>
+              <span class="codecftag">&lt;/cfif&gt;</span>
+         <span class="codecftag">&lt;cfelse&gt;</span>
+         <span class="codehtmltag">&lt;td&gt;</span> <span class="codehtmltag">&lt;/td&gt;</span>
+         <span class="codecftag">&lt;/cfif&gt;</span>
+  <span class="codecftag">&lt;/cfloop&gt;</span>
+  <span class="codehtmltag">&lt;/tr&gt;
+&lt;/table&gt;</span>
+  <span class="codecftag">&lt;/cfoutput&gt;</span>
+</p>
+</div>
+<p>What this gives you is:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>eine</td>
+      <td>spacer</td>
+      <td>meine</td>
+      <td>spacer</td>
+      <td>miney</td>
+      <td>spacer</td>
+      <td>mo</td>
+      <td>spacer</td>
+      <td>catch</td>
+    </tr>
+    <tr>
+      <td>developers</td>
+      <td>spacer</td>
+      <td>by</td>
+      <td>spacer</td>
+      <td>their</td>
+      <td>spacer</td>
+      <td>toe</td>
+      <td>spacer</td>
+      <td>blank cell</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>you can change the <span class="codecftag">&lt;cfset </span>columns = <span class="codecfint">5</span><span class="codecftag">&gt; </span> to change the number of columns and the code should still work</p>
+<p>Let me know if this helpful to you! </p>
+
+                <hr>
+               <a href="https://twitter.com/share" class="twitter-share-button" data-text="Fancy Table Layouts in Coldfusion: " data-via="markdrew" data-hashtags="coldfusion">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <hr>
+             <!-- Begin MailChimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="//charliemikedelta.us3.list-manage.com/subscribe/post?u=97af4d98b2b34ea232718d283&amp;id=3c12fb5c13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Subscribe to updates from the blog!</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97af4d98b2b34ea232718d283_3c12fb5c13" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+
+                <hr>
+                <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'markdrewblog'; // required: replace example with your forum shortname
+                var disqus_identifier = '8A978FCC-AA67-9082-F2143B869A6C238E';
+                var disqus_title = 'Fancy Table Layouts in Coldfusion';
+
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/mach-ii-for-newbies-part1-getting-started" data-toggle="tooltip" data-placement="top" title="Mach-ii for newbies - part1 Getting started)">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/gmail-50-invites" data-toggle="tooltip" data-placement="top" title="Gmail  50 Invites!">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+</article>
+
+<hr>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/cybersonic">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="mailto:mark.drew@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                  
+                    <li>
+                        <a rel="me" href="https://mastodon.social/@markdrew">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-mastodon fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Mark Drew 2022</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74704034-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script id="dsq-count-scr" src="//markdrewblog.disqus.com/count.js" async></script>
+<!-- <script id="dsq-count-scr" src="//cmdblog.disqus.com/count.js" async></script> -->
+</body>
+
+</html>
