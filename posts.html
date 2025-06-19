@@ -8,7 +8,7 @@ description: Browse through all blog posts by year - over 600+ posts spanning mu
     <h1>Posts Archive</h1>
     <p class="archive-summary">{{ collections.posts.length }} posts spanning {{ collections.postsByYear | keys | length }} years</p>
     
-    {% set years = collections.postsByYear | keys %}
+    {% set years = collections.postsByYear | keys | sort | reverse %}
     
     <!-- Year Navigation -->
     <div class="year-navigation">

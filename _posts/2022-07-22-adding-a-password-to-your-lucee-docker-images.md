@@ -14,7 +14,7 @@ In the [previous post](https://markdrew.io/slimmer-lucee-docker-images) I create
 So let's do that!
 
 Let's suppose we have the following docker file (I go over all the steps in [my previous post](https://markdrew.io/slimmer-lucee-docker-images)):
-
+```
     FROM alpine as base
     ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"
     ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
@@ -30,7 +30,7 @@ Let's suppose we have the following docker file (I go over all the steps in [my 
     COPY --from=base /lucee /lucee
     RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
     ENTRYPOINT [ "/lucee/startup.sh" ]
-
+```
 The code above is enough to get our image running, so let's build and start the image:
 
 To build it: `docker build -t markdrew/lucee-light .`
@@ -43,7 +43,7 @@ Now when we head to [http://localhost:8989/lucee/admin/server.cfm?action=overvie
 Right, so we need to add a file called password.txt somewhere in our image, which looks like: `/lucee-server/context/password.txt`
 
 This is easy enough and we can get some nice build time features. The updated Dockerfile now looks like this:
-
+```
     FROM alpine as base
     ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"
     ARG LUCEE_PASSWORD="password"
@@ -62,7 +62,7 @@ This is easy enough and we can get some nice build time features. The updated Do
     COPY --from=base /lucee /lucee
     RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
     ENTRYPOINT [ "/lucee/startup.sh" ]
-
+```
 The line with `ARG LUCEE_PASSWORD="password"` is our default password, we can , and should, override this. This can be done at build time by doing:
 `docker build ... --build-arg LUCEE_PASSWORD=mysecretpassword ...`
 
@@ -81,7 +81,7 @@ And that is it! (or is it)
 This should get you most of the way but what we have done here is actually put a _clear text password_ in our docker image. I don't like this personally. Lucee encrypts the password into the lucee-server.xml file which is much better.
 
 A possible solution (whilst keeping our system clean is to do a bit of a double install:
-
+```
     FROM alpine as base
     ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"
     ARG LUCEE_PASSWORD="password"
@@ -101,7 +101,7 @@ A possible solution (whilst keeping our system clean is to do a bit of a double 
     RUN apk add openjdk11-jre
     COPY --from=base /lucee /lucee
     ENTRYPOINT [ "/lucee/startup.sh" ]
-
+```
 In the above code in line 4 we have: `RUN apk add openjdk11-jre` , this installs the JRE right at the start so in the `base` image we can create our password, and then warmup lucee, thus reading and removing the password.txt file (see `RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh` ) we then start a new build , install the JRE and copy our expanded folder into our finalised build.
 
 There, no more clear text passwords. Begone you pesky haxx0rs!

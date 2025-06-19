@@ -123,6 +123,23 @@
             overflow-x: auto;
             border: 1px solid var(--border-color);
         }
+        
+        pre code {
+            background: none;
+            padding: 0;
+            border-radius: 0;
+            font-size: inherit;
+        }
+        
+        /* Fix extra whitespace in code blocks */
+        pre {
+            white-space: pre;
+        }
+        
+        pre code {
+            display: block;
+            white-space: pre;
+        }
 
         blockquote {
             border-left: 4px solid var(--accent-color);
@@ -442,14 +459,15 @@
 
         <footer>
             <div class="social-links">
-                <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">Twitter</a>
                 <a href="https://github.com/{{ site.author.github }}" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">Twitter</a>
                 <a href="https://instagram.com/{{ site.author.instagram }}" target="_blank">Instagram</a>
+                <a href="https://x.com/{{ site.author.twitter }}" target="_blank">X</a>
                 <a href="https://bsky.app/profile/{{ site.author.bluesky }}" target="_blank">BlueSky</a>
                 <a href="https://tiktok.com/@{{ site.author.tiktok }}" target="_blank">TikTok</a>
                 <a href="mailto:{{ site.author.email }}">Email</a>
             </div>
-            <p>&copy; 2024 {{ site.author.name }}. All rights reserved.</p>
+            <p>&copy; 2025 {{ site.author.name }}. All rights reserved.</p>
         </footer>
     </div>
 </body>

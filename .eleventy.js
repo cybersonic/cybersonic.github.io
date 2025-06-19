@@ -3,7 +3,10 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = function(eleventyConfig) {
   
   // Add syntax highlighting
-  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(syntaxHighlight, {
+    trim: true,
+    lineSeparator: "\n"
+  });
   
   // Layout aliases for Jekyll compatibility
   eleventyConfig.addLayoutAlias('post', 'post.njk');

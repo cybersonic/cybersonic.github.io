@@ -19,38 +19,40 @@ In that conversation, Brad also mentioned [Azul Zulu JDK](https://www.azul.com/d
 
 As previously mentioned we only need the JRE so that is what I downloaded into our image:
 
-    FROM alpine as base
-    #Install zulu JRE
-    ADD https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jre18.0.2-linux_musl_aarch64.tar.gz zulu_jre.tar.gz
-    RUN tar -xzvf zulu_jre.tar.gz
-    RUN mv zulu18.32.11-ca-jre18.0.2-linux_musl_aarch64 zulu_jre
-    ENV PATH=/zulu_jre/bin:$PATH
-    #Set lucee version
-    ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"
-    ARG LUCEE_PASSWORD="password"
-    # Download Lucee
-    ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
-    ADD https://cdn.lucee.org/lucee-light-${LUCEE_VERSION}.jar lucee-light.jar
-    RUN mkdir /lucee && \
-         unzip lucee.zip -d /lucee && \
-         chmod +x /lucee/*.sh && \
-         chmod +x /lucee/bin/*.sh && \
-         rm -f lucee.zip && \
-         rm -rf /lucee/__MACOSX && \
-         mv lucee-light.jar /lucee/lib/ext/lucee.jar && \
-         mkdir -p /lucee/lucee-server/context/ && \
-         mkdir -p /lucee/lucee-server/deploy/
-    RUN echo ${LUCEE_PASSWORD} > /lucee/lucee-server/context/password.txt 
-    # Add the admin extension
-    ADD https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex /lucee/lucee-server/deploy/lucee.admin.extension-1.0.0.3.lex
-    COPY webroot /lucee/webapps/ROOT
-    RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
-    
-    FROM alpine as final
-    COPY --from=base /lucee /lucee
-    COPY --from=base /zulu_jre /zulu_jre
-    ENV PATH=/zulu_jre/bin:$PATH
-    ENTRYPOINT [ "/lucee/startup.sh" ]
+```
+FROM alpine as base
+#Install zulu JRE
+ADD https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jre18.0.2-linux_musl_aarch64.tar.gz zulu_jre.tar.gz
+RUN tar -xzvf zulu_jre.tar.gz
+RUN mv zulu18.32.11-ca-jre18.0.2-linux_musl_aarch64 zulu_jre
+ENV PATH=/zulu_jre/bin:$PATH
+#Set lucee version
+ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"
+ARG LUCEE_PASSWORD="password"
+# Download Lucee
+ADD https://cdn.lucee.org/lucee-express-${LUCEE_VERSION}.zip lucee.zip
+ADD https://cdn.lucee.org/lucee-light-${LUCEE_VERSION}.jar lucee-light.jar
+RUN mkdir /lucee && \
+      unzip lucee.zip -d /lucee && \
+      chmod +x /lucee/*.sh && \
+      chmod +x /lucee/bin/*.sh && \
+      rm -f lucee.zip && \
+      rm -rf /lucee/__MACOSX && \
+      mv lucee-light.jar /lucee/lib/ext/lucee.jar && \
+      mkdir -p /lucee/lucee-server/context/ && \
+      mkdir -p /lucee/lucee-server/deploy/
+RUN echo ${LUCEE_PASSWORD} > /lucee/lucee-server/context/password.txt 
+# Add the admin extension
+ADD https://ext.lucee.org/lucee.admin.extension-1.0.0.3.lex /lucee/lucee-server/deploy/lucee.admin.extension-1.0.0.3.lex
+COPY webroot /lucee/webapps/ROOT
+RUN LUCEE_ENABLE_WARMUP=true /lucee/startup.sh
+
+FROM alpine as final
+COPY --from=base /lucee /lucee
+COPY --from=base /zulu_jre /zulu_jre
+ENV PATH=/zulu_jre/bin:$PATH
+ENTRYPOINT [ "/lucee/startup.sh" ]
+```
 
 As usual, we are using our alpine base, but now `ADD`ing the Azul Zulu JRE and naming it `zulu_jre.tar.gz` .
 
@@ -60,9 +62,10 @@ Once done we can do the usual thing we are doing with lucee, and download lucee 
 
 That is our JRE and lucee prepared. Now we create our final image: `FROM alpine as final` Copy both the JRE and Lucee:
 
-    COPY --from=base /lucee /lucee
-    COPY --from=base /zulu_jre /zulu_jre
-
+```
+COPY --from=base /lucee /lucee
+COPY --from=base /zulu_jre /zulu_jre
+```
 And add the `jre/bin` path to the PATH variable via `ENV PATH=/zulu_jre/bin:$PATH`
 
 And that is it! Once we build this our image has gone down to 184MB! That gives us some room to breathe huh?

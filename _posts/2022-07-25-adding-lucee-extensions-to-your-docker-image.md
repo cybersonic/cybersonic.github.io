@@ -15,7 +15,7 @@ So that we can keep the image size down AND add an administrator, we can install
 In the previous posts, you have seen me use the [ADD command](https://docs.docker.com/engine/reference/builder/#add) in the Dockerfile. This is a  shortcut to adding any file from either your local machine or the internet. The command `COPY` is generally seen as the way to get files into your docker image but `ADD` is very useful when we want to, well, add a file via a URL. There are reasons NOT to use `ADD` since it adds a layer where you could do it all in one RUN command (see [https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy)) but since we are doing a multi-stage build it doesn't matter in this case.
 
 Let's look at the changes in the Dockerfile
-
+```
     FROM alpine as base
     RUN apk add openjdk11-jre
     ARG LUCEE_VERSION="5.3.10.28-SNAPSHOT"
@@ -41,6 +41,7 @@ Let's look at the changes in the Dockerfile
     RUN apk add openjdk11-jre
     COPY --from=base /lucee /lucee
     ENTRYPOINT [ "/lucee/startup.sh" ]ok at the changes in the Dockerfile:
+```
 
 We are still installing everything as usual, but the two additions are:  
 `mkdir -p /lucee/lucee-server/deploy/` where we create the deployment directory (since lucee hasn't started up yet and had a chance to create the folder)
