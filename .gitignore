@@ -1,6 +1,6 @@
 # Eleventy output
 _site/
-
+public/
 # Dependencies
 node_modules/
 
