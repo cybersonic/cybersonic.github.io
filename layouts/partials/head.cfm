@@ -21,6 +21,9 @@
     <meta property="og:title" content="#encodeForHtml(title)#">
     <meta property="og:description" content="#encodeForHtml(description)#">
     <meta property="og:url" content="#canonical#">
+    <meta property="og:image" content="/img/about-bg.jpg" />
+    <meta property="og:logo" content="/img/blog-header-og.jpg" />
+
 
     <cfif structKeyExists(post, "header_img") and len(trim(post.header_img))>
     <meta property="og:image" content="#globals.baseUrl#/#post.header_img#">
