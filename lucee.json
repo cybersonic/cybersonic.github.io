@@ -1,0 +1,12 @@
+{
+  "name" : "cybersonic.github.io",
+  "version" : "6.2.2.91",
+  "port" : 8001,
+  "shutdownPort" : 9001,
+  "webroot" : "./public",
+
+  "enableLucee" : false,
+
+  "openBrowser" : true
+
+}

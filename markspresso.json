@@ -1,0 +1,35 @@
+{
+  "build": {
+    "prettyUrls": false,
+    "defaultLayout": "page",
+    "includeDrafts": false
+  },
+  "collections": {
+    "posts": {
+      "permalink": "/posts/:slug/",
+      "path": "posts",
+      "layout": "post"
+    }
+  },
+  "name": "Mark Drew on Code",
+  "baseUrl": "https://markdrew.io",
+  "paths": {
+    "content": "content",
+    "output": "public",
+    "layouts": "layouts",
+    "assets": "assets"
+  },
+  "globals": {
+    "blogName": "Mark Drew on Code",
+    "blogDescription": "A compendium of CFML and web technology topics"
+  },
+  "author": {
+    "name": "Mark Drew",
+    "email": "mark.drew@gmail.com",
+    "twitter": "markdrew",
+    "github": "cybersonic",
+    "instagram": "markdrew",
+    "bluesky": "markdrew.bsky.social",
+    "tiktok": "markdrew_on_tok"
+  },
+}
