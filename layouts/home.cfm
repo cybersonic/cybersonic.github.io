@@ -76,8 +76,5 @@
     </cfoutput>
   </div>
   <cfinclude template="partials/footer.cfm" >
-
-  <cfdump var="#latestPost#">
- 
 </body>
 </html>
