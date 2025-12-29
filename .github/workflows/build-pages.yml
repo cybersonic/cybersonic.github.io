@@ -22,8 +22,8 @@ jobs:
     # Run all steps inside your LuCLI Docker image
     container:
       image: markdrew/lucli:latest   # TODO: change to your image
-      # env:
-      #   LUCEE_SERVER_HOME: /opt/lucee    # TODO: add any Lucee/LuCLI env here
+      env:
+        LUCEE_EXTENSIONS: 37C61C0A-5D7E-4256-8572639BE0CF5838
 
     steps:
       - name: Check out repository
