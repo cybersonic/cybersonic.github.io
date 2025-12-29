@@ -6,7 +6,7 @@ categories: lucee cli development tools
 header_img: img/img_0323.jpeg
 subtitle: A modern, feature-rich command line interface that brings the power of Lucee to your terminal
 permalink: introducing-lucli.html
-draft: true
+draft: false
 ---
 
 Over the years I've built a lot of CFML applications, and one thing that always bothered me was the lack of a proper command-line tool specifically for Lucee. Sure, we have CommandBox (which is excellent!), but I wanted something laser-focused on Lucee, something that felt like a native CLI tool you'd reach for every day.
@@ -64,11 +64,38 @@ java -jar lucli.jar --help
 
 That's it! No installation, no complex setup. Download and run.
 
+We also have some nice binary packages that you can add to your path (for example):
+
+```bash
+# Download the binary
+curl -L -o lucli https://github.com/cybersonic/LuCLI/releases/download/v0.1.231/lucli-0.1.231-macos
+# Copy it to the bin folder
+cp lucli ~/bin
+
+#Profit! 
+lucli --version
+
+
+ _           ____ _     ___ 
+| |   _   _ / ___| |   |_ _|
+| |  | | | | |   | |    | | 
+| |__| |_| | |___| |___ | | 
+|_____\__,_|\____|_____|___|
+
+Version: 0.1.232-SNAPSHOT
+Lucee Version: 7.0.1.93-SNAPSHOT
+
+Copyright (c) Mark Drew https://github.com/cybersonic
+Repository: https://github.com/cybersonic/lucli
+```
+
+
+
 ## The Numbers
 
 Let me show you some stats that convinced me this was worth building:
 
-- **JAR Size**: ~30MB (includes full Lucee 7 engine)
+- **JAR Size**: ~40B (includes full Lucee 7 engine)
 - **Server Startup**: ~2 seconds for a warm server
 - **Memory Footprint**: Starts at ~256MB, configurable up to whatever you need
 - **Test Suite**: 52+ tests covering all major features
@@ -83,7 +110,7 @@ Everything is optimized for Lucee. The configuration format (`lucee.json`), the 
 ### 2. Interactive Terminal
 LuCLI gives you a Lucee-backed terminal session where you can run CFML scripts and components, explore your project, and keep state between commands. It's like a REPL but for your entire Lucee environment.
 
-### 3. Embedded Dev Server
+### 3. Embedded  Server
 Spin up a Lucee server for the current directory with a single command. Framework-style URL routing is built-in and ready for ColdBox, FW/1, ContentBox, or whatever framework you're using.
 
 ```bash
@@ -107,20 +134,17 @@ lucli data-processor --input=data.json
 Here's a quick workflow I use daily:
 
 ```bash
-# Start LuCLI
-java -jar lucli.jar terminal
-
 # Navigate to my project
-lucli> cd ~/projects/myapp
+cd ~/projects/myapp
 
 # Start the server with a specific Lucee version
-lucli> server start --version 7.0.0.123 --port 8080
+lucli server start --version 7.0.0.123 --port 8080
 
 # Run my data migration script
-lucli> run migrations/001-initial-schema.cfm
+lucli run migrations/001-initial-schema.cfm
 
 # Monitor server performance
-lucli> server monitor
+lucli server monitor
 ```
 
 All of this without leaving my terminal. No GUI, no clicking around - just fast, efficient development.
@@ -136,6 +160,4 @@ Check it out:
 - **Documentation**: Full docs in github
 - **Issues**: Found a bug? Open an issue!
 
-In the next post, I'll dive into extending LuCLI with modules
-
-Stay tuned!
+Would love to hear what you think. 
