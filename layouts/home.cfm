@@ -36,7 +36,7 @@
           <cfif latestPost.subtitle.len()>
             <p class="post-subtitle">#latestPost.subtitle#</p>
           </cfif>
-          
+          <cfparam name="latestPost.header_img" default="">
           <cfif latestPost.header_img.len()>
             <div class="post-hero">
                 <img width="100%" src="/#latestPost.header_img#" alt="# latestPost.title #">

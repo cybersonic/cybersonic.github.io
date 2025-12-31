@@ -16,6 +16,9 @@
     <meta name="robots" content="index,follow">
     <link rel="alternate" type="application/rss+xml" title="#encodeForHtml(globals.blogName)#" href="#globals.baseUrl#/feed.xml">
 
+
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
     <!--- Open Graph --->
     <meta property="og:type" content="article">
     <meta property="og:title" content="#encodeForHtml(title)#">

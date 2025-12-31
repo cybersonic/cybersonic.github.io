@@ -15,7 +15,7 @@ body {
 /* Light/dark theme base */
 html[data-theme="dark"] body {
     background: #020617;
-    color: #e5e7eb;
+    color: #ffffff;
 }
 
 .container {
@@ -48,6 +48,15 @@ header p {
     font-size: 1.1rem;
 }
 
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+li {
+    margin-left: 20px;
+}
 .stats {
     background: white;
     padding: 1.5rem;
@@ -122,6 +131,11 @@ header p {
     color: #555;
     line-height: 1.8;
     margin-bottom: 1rem;
+}
+
+html[data-theme="dark"] .post-content  {
+    
+    color: #ffffff;
 }
 
 .post-footer {
@@ -281,6 +295,15 @@ footer {
     width: 100%;
     height: auto;
 }
+
+
+/* Ensure hero images stay within the post width */
+.post-subtitle {
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-bottom: 16px;
+}
+
 
 /* Code block styling */
 pre, code {
